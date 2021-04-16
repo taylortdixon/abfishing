@@ -1,0 +1,8 @@
+.waterbody_details__dialog_title {
+  align-items: center;
+  display: flex;
+}
+
+.waterbody_details__dialog_title__text {
+  padding-right: 4px;
+}

@@ -1,19 +1,29 @@
-import { blue, green } from "@material-ui/core/colors";
-import { DataGrid, GridColumns, GridRowData } from "@material-ui/data-grid";
-import {
-  CheckCircleOutline,
-  NotInterested,
-  RadioButtonUnchecked,
-} from "@material-ui/icons";
+import { Typography } from "@material-ui/core";
+import { DataGrid, GridColumns, GridRowParams } from "@material-ui/data-grid";
+import { useState } from "react";
+import { Waterbody } from "../../types/waterbody.type";
+import { BaitAllowedIcon } from "../bait-allowed-icon/bait-allowed-icon";
+import { WaterbodyDetailsModal } from "../waterbody-details-modal/waterbody-details-modal";
+import "./fishing-regulation-table.css";
 
 const columns: GridColumns = [
-  { field: "waterbody", flex: 0.1, headerName: "Waterbody" },
   {
-    field: "waterbody_detail",
-    flex: 0.25,
-    headerName: "Waterbody Detail",
-    filterable: false,
-    sortable: false,
+    field: "waterbody",
+    flex: 0.3,
+    headerName: "Waterbody",
+    renderCell: (params) => {
+      const row = params.row as Waterbody;
+      return (
+        <div className="fishing_regulation_table__name_cell">
+          <Typography variant="body1" gutterBottom>
+            {row.waterbody}
+          </Typography>
+          <Typography variant="body2" noWrap>
+            {row.waterbody_detail}
+          </Typography>
+        </div>
+      );
+    },
   },
   { field: "season", flex: 0.1, headerName: "Season" },
   {
@@ -21,19 +31,16 @@ const columns: GridColumns = [
     flex: 0.1,
     headerName: "Bait Allowed",
     renderCell: (params) => {
-      if (params.value === "yes") {
-        return <CheckCircleOutline style={{ color: green[500] }} />;
-      }
-      if (params.value === "partially") {
-        return <RadioButtonUnchecked style={{ color: blue[500] }} />;
-      }
-
-      return <NotInterested color="error" />;
+      return (
+        <BaitAllowedIcon
+          bait_allowed={params.value as Waterbody["bait_allowed"]}
+        />
+      );
     },
   },
 ];
 
-const data: GridRowData[] = [
+const data: Waterbody[] = [
   {
     id: 3,
     waterbody: "Ghost Reservoir",
@@ -44,7 +51,12 @@ const data: GridRowData[] = [
   {
     id: 2,
     waterbody: "Chester Lake",
-    waterbody_detail: "26-21-10-W5; Includes tributaries and outlet",
+    waterbody_detail: `35-19-9-W5; northwest bay-the
+    portion north of a line drawn from the
+    southernmost tip of the peninsula in
+    NE 11-20-9-W5 due west to the point
+    where the line intersects the shoreline
+    of the lake (the northwest bay)`,
     season: "Open All Year",
     bait_allowed: "partially",
   },
@@ -58,5 +70,19 @@ const data: GridRowData[] = [
 ];
 
 export const FishingRegulationTable = () => {
-  return <DataGrid columns={columns} rows={data} />;
+  const [selectedWaterbody, setSelectedWaterbody] = useState<
+    Waterbody | undefined
+  >(undefined);
+
+  const onRowClick = (params: GridRowParams) =>
+    setSelectedWaterbody(params.row as Waterbody);
+  return (
+    <>
+      <DataGrid columns={columns} rows={data} onRowClick={onRowClick} />
+      <WaterbodyDetailsModal
+        selectedWaterbody={selectedWaterbody}
+        handleClose={() => setSelectedWaterbody(undefined)}
+      />
+    </>
+  );
 };
