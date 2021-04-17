@@ -44,21 +44,19 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
               />
             </ListItem>
             <Divider />
-            <ListItem>
-              <ListItemText
-                primary="Trout Total"
-                secondary={"Other trout limit 1 under 35 cm"}
-              />
-            </ListItem>
-            <ListItem>
-              <ListItemText primary="Lake Trout" secondary={"3 fish"} />
-            </ListItem>
-            <ListItem>
-              <ListItemText
-                primary="Mountain Whitefish"
-                secondary={"5 over 30cm"}
-              />
-            </ListItem>
+            {Object.entries(selectedWaterbody.fish_limits || {}).map(
+              ([limitName, limit]) => {
+                if (!limit) {
+                  return null;
+                }
+
+                return (
+                  <ListItem>
+                    <ListItemText primary={limitName} secondary={limit} />
+                  </ListItem>
+                );
+              }
+            )}
           </List>
         </>
       )}

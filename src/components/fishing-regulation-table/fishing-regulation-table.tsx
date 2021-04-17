@@ -1,6 +1,7 @@
 import { Typography } from "@material-ui/core";
 import { DataGrid, GridColumns, GridRowParams } from "@material-ui/data-grid";
 import { useState } from "react";
+import { regulations } from "../../fishing-regulations";
 import { Waterbody } from "../../types/waterbody.type";
 import { BaitAllowedIcon } from "../bait-allowed-icon/bait-allowed-icon";
 import { WaterbodyDetailsModal } from "../waterbody-details-modal/waterbody-details-modal";
@@ -40,35 +41,6 @@ const columns: GridColumns = [
   },
 ];
 
-const data: Waterbody[] = [
-  {
-    id: 3,
-    waterbody: "Ghost Reservoir",
-    waterbody_detail: "",
-    season: "Open All Year",
-    bait_allowed: "yes",
-  },
-  {
-    id: 2,
-    waterbody: "Chester Lake",
-    waterbody_detail: `35-19-9-W5; northwest bay-the
-    portion north of a line drawn from the
-    southernmost tip of the peninsula in
-    NE 11-20-9-W5 due west to the point
-    where the line intersects the shoreline
-    of the lake (the northwest bay)`,
-    season: "Open All Year",
-    bait_allowed: "partially",
-  },
-  {
-    id: 1,
-    waterbody: "Carnarvon Lake",
-    waterbody_detail: "30-16-6-W5",
-    season: "Open All Year",
-    bait_allowed: "no",
-  },
-];
-
 export const FishingRegulationTable = () => {
   const [selectedWaterbody, setSelectedWaterbody] = useState<
     Waterbody | undefined
@@ -78,7 +50,7 @@ export const FishingRegulationTable = () => {
     setSelectedWaterbody(params.row as Waterbody);
   return (
     <>
-      <DataGrid columns={columns} rows={data} onRowClick={onRowClick} />
+      <DataGrid columns={columns} rows={regulations} onRowClick={onRowClick} />
       <WaterbodyDetailsModal
         selectedWaterbody={selectedWaterbody}
         handleClose={() => setSelectedWaterbody(undefined)}
