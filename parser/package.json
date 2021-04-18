@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "parse": "tsc parse.ts && node parse.js"
+    "parse": "tsc index.ts && node index.js"
   },
   "author": "",
   "license": "ISC",
