@@ -1,10 +1,10 @@
 import { readdirSync, writeFileSync } from "fs";
 import { RegulationsFileParser } from "./src/parse";
 
-const REGULATIONS_FOLDER = "./regulations";
+const REGULATIONS_FOLDER = "./parser/regulations";
 
 const parseRegulations = async () => {
-  const fileNames = readdirSync(`./${REGULATIONS_FOLDER}`);
+  const fileNames = readdirSync(`${REGULATIONS_FOLDER}`);
 
   const mappedRegulations = await Promise.all(
     fileNames.map((fileName) =>
@@ -18,7 +18,7 @@ const parseRegulations = async () => {
   }, []);
 
   writeFileSync(
-    "../src/fishing-regulations.ts",
+    "./src/fishing-regulations.ts",
     `export const regulations = ${JSON.stringify(regulations)};`
   );
 };

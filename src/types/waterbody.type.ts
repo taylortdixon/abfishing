@@ -11,6 +11,7 @@ type FishLimit =
   | "dolly_varden";
 
 export type Waterbody = {
+  fish_management_zone: string;
   id: string;
   waterbody: string;
   waterbody_detail: string;

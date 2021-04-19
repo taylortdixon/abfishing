@@ -12,47 +12,6 @@ type ExtractorResponse = {
   }>;
 };
 
-const mapWaterbody = (
-  rowHeader: string[],
-  waterbodyRow: string[],
-  index: string,
-  previousWaterbodyName: string
-): Waterbody => {
-  const waterbody = _.zipObject(rowHeader, waterbodyRow);
-
-  const mapBaitAllowed = (baitAllowed: string): Waterbody["bait_allowed"] => {
-    switch (baitAllowed) {
-      case "Bait and bait \nfish allowed":
-        return "yes";
-      case "l":
-        return "partially";
-      default:
-        return "no";
-    }
-  };
-
-  return {
-    bait_allowed: mapBaitAllowed(waterbody[SPECIAL_BAIT_KEY]),
-    id: index,
-    season: waterbody.Season,
-    waterbody: waterbody.Waterbody
-      ? waterbody.Waterbody
-      : previousWaterbodyName,
-    waterbody_detail: waterbody["Waterbody Detail"],
-    fish_limits: {
-      walleye: waterbody.WALL,
-      northern_pike: waterbody.NRPK,
-      yellow_perch: waterbody.YLPR,
-      lake_trout: waterbody.LKTR,
-      mountain_whitefish: waterbody.MNWH,
-      cutthroat_trout: waterbody.CTTR,
-      brook_trout: waterbody.BKTR,
-      dolly_varden: waterbody.DLVR,
-      trout_total: waterbody[SPECIAL_TROUT_KEY],
-    },
-  };
-};
-
 export class RegulationsFileParser {
   private regulationsId: string;
 
@@ -62,7 +21,7 @@ export class RegulationsFileParser {
       throw new Error("Unable to parse regulations ID from filepath");
     }
 
-    this.regulationsId = matches[0].toUpperCase();
+    this.regulationsId = matches[0];
   }
 
   public parse = async (): Promise<Waterbody[]> => {
@@ -86,7 +45,7 @@ export class RegulationsFileParser {
         previousWaterbodyName = waterbody[0]
           ? waterbody[0]
           : previousWaterbodyName;
-        return mapWaterbody(
+        return this.parseWaterbody(
           rowHeader,
           waterbody,
           `${this.regulationsId}-${page.page}-${i}`,
@@ -102,5 +61,47 @@ export class RegulationsFileParser {
 
   private parseFailure = (err) => {
     console.error(`File: ${this.regulationsFilePath} - Error: ` + err);
+  };
+
+  private parseWaterbody = (
+    rowHeader: string[],
+    waterbodyRow: string[],
+    index: string,
+    previousWaterbodyName: string
+  ): Waterbody => {
+    const waterbody = _.zipObject(rowHeader, waterbodyRow);
+
+    const mapBaitAllowed = (baitAllowed: string): Waterbody["bait_allowed"] => {
+      switch (baitAllowed) {
+        case "Bait and bait \nfish allowed":
+          return "yes";
+        case "l":
+          return "partially";
+        default:
+          return "no";
+      }
+    };
+
+    return {
+      bait_allowed: mapBaitAllowed(waterbody[SPECIAL_BAIT_KEY]),
+      fish_management_zone: this.regulationsId,
+      id: index,
+      season: waterbody.Season,
+      waterbody: waterbody.Waterbody
+        ? waterbody.Waterbody
+        : previousWaterbodyName,
+      waterbody_detail: waterbody["Waterbody Detail"],
+      fish_limits: {
+        walleye: waterbody.WALL,
+        northern_pike: waterbody.NRPK,
+        yellow_perch: waterbody.YLPR,
+        lake_trout: waterbody.LKTR,
+        mountain_whitefish: waterbody.MNWH,
+        cutthroat_trout: waterbody.CTTR,
+        brook_trout: waterbody.BKTR,
+        dolly_varden: waterbody.DLVR,
+        trout_total: waterbody[SPECIAL_TROUT_KEY],
+      },
+    };
   };
 }

@@ -8,7 +8,6 @@ import {
 import { useState } from "react";
 import { regulations } from "../../fishing-regulations";
 import { Waterbody } from "../../types/waterbody.type";
-import { BaitAllowedIcon } from "../bait-allowed-icon/bait-allowed-icon";
 import { WaterbodyDetailsModal } from "../waterbody-details-modal/waterbody-details-modal";
 import { FilterPanel } from "./filter-panel/filter-panel";
 import "./fishing-regulation-table.css";
@@ -34,16 +33,10 @@ const columns: GridColumns = [
   },
   { field: "season", flex: 0.1, headerName: "Season" },
   {
-    field: "bait_allowed",
+    field: "fish_management_zone",
     flex: 0.1,
-    headerName: "Bait Allowed",
-    renderCell: (params) => {
-      return (
-        <BaitAllowedIcon
-          bait_allowed={params.value as Waterbody["bait_allowed"]}
-        />
-      );
-    },
+    headerName: "Zone",
+    valueFormatter: (params) => (params.value as string).replace(/-/, " "),
   },
 ];
 
@@ -58,7 +51,11 @@ export const FishingRegulationTable = () => {
     setSelectedWaterbody(params.row as Waterbody);
   return (
     <>
-      <FilterPanel filters={filters} onFiltersChange={setFilters} />
+      <FilterPanel
+        filters={filters}
+        onFiltersChange={setFilters}
+        regulations={regulations as Waterbody[]}
+      />
       <DataGrid
         columns={columns}
         rows={regulations}
@@ -72,7 +69,6 @@ export const FishingRegulationTable = () => {
         filterModel={{
           items: filters,
         }}
-        hideFooter
       />
       <WaterbodyDetailsModal
         selectedWaterbody={selectedWaterbody}
