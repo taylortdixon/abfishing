@@ -6,8 +6,12 @@ import { FishingRegulationTable } from "./components/fishing-regulation-table/fi
 function App() {
   return (
     <Container className="Container">
-      <Typography variant="h2" component="h1" gutterBottom>
+      <Typography variant="h3" component="h2" gutterBottom>
         Search for Fishing Regulations
+      </Typography>
+      <Typography variant="body1">
+        Look up the fishing regulations for the lakes, rivers, streams,
+        resevoirs and tributaries in Alberta.
       </Typography>
       <FishingRegulationTable />
     </Container>

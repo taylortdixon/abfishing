@@ -1,10 +1,16 @@
 import { Typography } from "@material-ui/core";
-import { DataGrid, GridColumns, GridRowParams } from "@material-ui/data-grid";
+import {
+  DataGrid,
+  GridColumns,
+  GridFilterItem,
+  GridRowParams,
+} from "@material-ui/data-grid";
 import { useState } from "react";
 import { regulations } from "../../fishing-regulations";
 import { Waterbody } from "../../types/waterbody.type";
 import { BaitAllowedIcon } from "../bait-allowed-icon/bait-allowed-icon";
 import { WaterbodyDetailsModal } from "../waterbody-details-modal/waterbody-details-modal";
+import { FilterPanel } from "./filter-panel/filter-panel";
 import "./fishing-regulation-table.css";
 
 const columns: GridColumns = [
@@ -46,11 +52,28 @@ export const FishingRegulationTable = () => {
     Waterbody | undefined
   >(undefined);
 
+  const [filters, setFilters] = useState<GridFilterItem[]>([]);
+
   const onRowClick = (params: GridRowParams) =>
     setSelectedWaterbody(params.row as Waterbody);
   return (
     <>
-      <DataGrid columns={columns} rows={regulations} onRowClick={onRowClick} />
+      <FilterPanel filters={filters} onFiltersChange={setFilters} />
+      <DataGrid
+        columns={columns}
+        rows={regulations}
+        onRowClick={onRowClick}
+        sortModel={[
+          {
+            field: "waterbody",
+            sort: "asc",
+          },
+        ]}
+        filterModel={{
+          items: filters,
+        }}
+        hideFooter
+      />
       <WaterbodyDetailsModal
         selectedWaterbody={selectedWaterbody}
         handleClose={() => setSelectedWaterbody(undefined)}

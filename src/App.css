@@ -9,6 +9,7 @@
 
 .Container {
   height: 100%;
+  padding-top: 24px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
