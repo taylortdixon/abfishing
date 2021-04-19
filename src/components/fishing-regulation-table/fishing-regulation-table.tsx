@@ -67,6 +67,14 @@ export const FishingRegulationTable = () => {
             sort: "asc",
           },
         ]}
+        // This fixes an annoying issue where the grid re-steals focus on rerendering.
+        state={{
+          keyboard: {
+            cell: null,
+            columnHeader: null,
+            isMultipleKeyPressed: false,
+          },
+        }}
       />
       <WaterbodyDetailsModal
         selectedWaterbody={selectedWaterbody}
