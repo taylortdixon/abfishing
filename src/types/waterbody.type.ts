@@ -8,7 +8,11 @@ type FishLimit =
   | "brook_trout"
   | "rainbow_trout"
   | "trout_total"
-  | "dolly_varden";
+  | "dolly_varden"
+  | "walleye_sauger"
+  | "burbot"
+  | "goldeye"
+  | "cisco";
 
 export type Waterbody = {
   fish_management_zone: string;

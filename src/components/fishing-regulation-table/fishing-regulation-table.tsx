@@ -11,6 +11,7 @@ import { Waterbody } from "../../types/waterbody.type";
 import { WaterbodyDetailsModal } from "../waterbody-details-modal/waterbody-details-modal";
 import { FilterPanel } from "./filter-panel/filter-panel";
 import "./fishing-regulation-table.css";
+import { filterRegulations } from "./fishing-regulation-table.utils";
 
 const columns: GridColumns = [
   {
@@ -58,7 +59,7 @@ export const FishingRegulationTable = () => {
       />
       <DataGrid
         columns={columns}
-        rows={regulations}
+        rows={filterRegulations(regulations as Waterbody[], filters)}
         onRowClick={onRowClick}
         sortModel={[
           {
@@ -66,9 +67,6 @@ export const FishingRegulationTable = () => {
             sort: "asc",
           },
         ]}
-        filterModel={{
-          items: filters,
-        }}
       />
       <WaterbodyDetailsModal
         selectedWaterbody={selectedWaterbody}

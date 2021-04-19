@@ -58,14 +58,16 @@ export const FilterPanel: React.VFC<FilterPanelProps> = ({
       <FormControl>
         <InputLabel>Zone</InputLabel>
         <Select
+          defaultValue=""
           onChange={(event) =>
             handleFilterChange({
               columnField: "fish_management_zone",
-              operatorValue: "contains",
+              operatorValue: "startsWith",
               value: event.target.value as string,
             })
           }
         >
+          <MenuItem value="">All</MenuItem>
           {managementZones.map((zone) => (
             <MenuItem key={zone} value={zone}>
               {zone}

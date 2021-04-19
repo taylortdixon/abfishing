@@ -51,7 +51,7 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
                 }
 
                 return (
-                  <ListItem>
+                  <ListItem key={limitName}>
                     <ListItemText primary={limitName} secondary={limit} />
                   </ListItem>
                 );

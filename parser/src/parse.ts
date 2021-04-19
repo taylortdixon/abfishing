@@ -1,9 +1,10 @@
-import { _ } from "lodash";
+import { zipObject } from "lodash";
 import { Waterbody } from "../../src/types/waterbody.type";
 import * as pdf_table_extractor from "pdf-table-extractor";
 
 const SPECIAL_BAIT_KEY = "Bait \nl = Bait \nexcept bait \nfish allowed";
 const SPECIAL_TROUT_KEY = "Trout\nTotal";
+const SPECIAL_WALLEYE_SAUGER_KEY = "WALL + SAUG";
 
 type ExtractorResponse = {
   pageTables: Array<{
@@ -69,7 +70,10 @@ export class RegulationsFileParser {
     index: string,
     previousWaterbodyName: string
   ): Waterbody => {
-    const waterbody = _.zipObject(rowHeader, waterbodyRow);
+    const waterbody = zipObject(
+      rowHeader,
+      waterbodyRow.map((value) => value.replace(/\n/g, ""))
+    );
 
     const mapBaitAllowed = (baitAllowed: string): Waterbody["bait_allowed"] => {
       switch (baitAllowed) {
@@ -100,6 +104,11 @@ export class RegulationsFileParser {
         cutthroat_trout: waterbody.CTTR,
         brook_trout: waterbody.BKTR,
         dolly_varden: waterbody.DLVR,
+        burbot: waterbody.BURB,
+        cisco: waterbody.CISC,
+        goldeye: waterbody.GOLD,
+        rainbow_trout: waterbody.RNTR,
+        walleye_sauger: waterbody[SPECIAL_WALLEYE_SAUGER_KEY],
         trout_total: waterbody[SPECIAL_TROUT_KEY],
       },
     };

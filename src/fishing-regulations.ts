@@ -15,6 +15,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -34,6 +35,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "1 trout over 40 cm",
     },
   },
@@ -53,6 +55,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "",
     },
   },
@@ -72,7 +75,8 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
-      trout_total: "1 trout over 30 cm; \n0 ARGR",
+      rainbow_trout: "",
+      trout_total: "1 trout over 30 cm; 0 ARGR",
     },
   },
   {
@@ -87,11 +91,12 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "3 fish",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
-      trout_total: "Other trout limit 1 \nunder 35 cm",
+      rainbow_trout: "",
+      trout_total: "Other trout limit 1 under 35 cm",
     },
   },
   {
@@ -110,7 +115,8 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
-      trout_total: "1 trout over 30 cm; \n0 ARGR ",
+      rainbow_trout: "",
+      trout_total: "1 trout over 30 cm; 0 ARGR ",
     },
   },
   {
@@ -129,6 +135,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -148,6 +155,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -167,6 +175,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "",
     },
   },
@@ -186,6 +195,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -195,16 +205,17 @@ export const regulations = [
     id: "ES1-Lakes-1-10",
     season: "OPEN JULY 1 TO OCT. 31",
     waterbody: "Chester Lake",
-    waterbody_detail: "26-21-10-W5; Includes tributaries \nand outlet",
+    waterbody_detail: "26-21-10-W5; Includes tributaries and outlet",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
       mountain_whitefish: "",
-      cutthroat_trout: "2 fish \nunder 30 \ncm",
+      cutthroat_trout: "2 fish under 30 cm",
       brook_trout: "",
       dolly_varden: "2 fish",
+      rainbow_trout: "",
       trout_total: "",
     },
   },
@@ -224,6 +235,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -239,10 +251,11 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "3 fish",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "5 trout",
     },
   },
@@ -258,10 +271,11 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "2 fish",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "Other trout 0",
     },
   },
@@ -281,6 +295,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "0 trout",
     },
   },
@@ -300,6 +315,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -319,6 +335,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -338,6 +355,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -353,10 +371,11 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "2 fish",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "Other trout 0",
     },
   },
@@ -372,10 +391,11 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "5 trout; 0 CTTR",
     },
   },
@@ -389,12 +409,13 @@ export const regulations = [
     fish_limits: {
       walleye: "",
       northern_pike: "3 fish",
-      yellow_perch: "15 \nfish",
+      yellow_perch: "15 fish",
       lake_trout: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "5 trout",
     },
   },
@@ -414,6 +435,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -433,6 +455,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "1 trout over 40 cm",
     },
   },
@@ -452,6 +475,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -471,6 +495,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "0 trout",
     },
   },
@@ -490,6 +515,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -509,6 +535,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -528,6 +555,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -538,7 +566,7 @@ export const regulations = [
     season: "CLOSED ALL YEAR",
     waterbody: "Lower Kananaskis Lake",
     waterbody_detail:
-      "35-19-9-W5; northwest bay-the \nportion north of a line drawn from the \nsouthernmost tip of the peninsula in \nNE 11-20-9-W5 due west to the point \nwhere the line intersects the shoreline \nof the lake (the northwest bay)",
+      "35-19-9-W5; northwest bay-the portion north of a line drawn from the southernmost tip of the peninsula in NE 11-20-9-W5 due west to the point where the line intersects the shoreline of the lake (the northwest bay)",
     fish_limits: {
       walleye: "",
       northern_pike: "",
@@ -548,6 +576,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "",
     },
   },
@@ -557,16 +586,17 @@ export const regulations = [
     id: "ES1-Lakes-2-1",
     season: "OPEN ALL YEAR",
     waterbody: "Lower Kananaskis Lake",
-    waterbody_detail: "35-19-9-W5; the remainder of the \nlake",
+    waterbody_detail: "35-19-9-W5; the remainder of the lake",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
       mountain_whitefish: "",
-      cutthroat_trout: "over 50 \ncm",
+      cutthroat_trout: "over 50 cm",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "over 50 cm",
       trout_total: "1 trout",
     },
   },
@@ -586,6 +616,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -605,6 +636,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -624,6 +656,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -643,6 +676,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -662,6 +696,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -681,6 +716,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -691,16 +727,17 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "Oldman Reservoir",
     waterbody_detail:
-      "The Crowsnest River downstream \nof the Cowley Bridge, the Castle \nRiver downstream of Hwy. 3, and the \nOldman River downstream of Sec. \nRd. 510. The boundaries are fixed \nregardless of water level fluctuations.",
+      "The Crowsnest River downstream of the Cowley Bridge, the Castle River downstream of Hwy. 3, and the Oldman River downstream of Sec. Rd. 510. The boundaries are fixed regardless of water level fluctuations.",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "5 trout",
     },
   },
@@ -720,6 +757,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -739,11 +777,12 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "0 trout",
     },
   },
   {
-    bait_allowed: "yes",
+    bait_allowed: "no",
     fish_management_zone: "ES1-Lakes",
     id: "ES1-Lakes-2-11",
     season: "OPEN ALL YEAR",
@@ -758,6 +797,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "5 trout",
     },
   },
@@ -777,7 +817,8 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
-      trout_total: "1 trout over 50 cm; \n0 ARGR",
+      rainbow_trout: "",
+      trout_total: "1 trout over 50 cm; 0 ARGR",
     },
   },
   {
@@ -796,6 +837,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "1 trout over 40 cm",
     },
   },
@@ -815,6 +857,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "",
     },
   },
@@ -824,7 +867,7 @@ export const regulations = [
     id: "ES1-Lakes-2-15",
     season: "OPEN JULY 16 TO OCT. 31",
     waterbody: "Rawson Lake",
-    waterbody_detail: "11-19-9-W5; Includes tributaries and \noutlet",
+    waterbody_detail: "11-19-9-W5; Includes tributaries and outlet",
     fish_limits: {
       walleye: "",
       northern_pike: "",
@@ -834,6 +877,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "0 trout",
     },
   },
@@ -853,6 +897,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -862,7 +907,7 @@ export const regulations = [
     id: "ES1-Lakes-2-17",
     season: "OPEN JULY 1 TO OCT. 31",
     waterbody: "Rummel Lake",
-    waterbody_detail: "3-22-10-W5; Includes tributaries and \noutlet",
+    waterbody_detail: "3-22-10-W5; Includes tributaries and outlet",
     fish_limits: {
       walleye: "",
       northern_pike: "",
@@ -872,6 +917,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "1 trout over 40 cm",
     },
   },
@@ -891,6 +937,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 under 30 cm",
     },
   },
@@ -910,6 +957,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -919,7 +967,7 @@ export const regulations = [
     id: "ES1-Lakes-2-20",
     season: "OPEN ALL YEAR",
     waterbody: "Smuts Lakes",
-    waterbody_detail: "24-21-11-W5; Includes tributaries \nand outlet",
+    waterbody_detail: "24-21-11-W5; Includes tributaries and outlet",
     fish_limits: {
       walleye: "",
       northern_pike: "",
@@ -929,6 +977,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "1 trout over 40 cm",
     },
   },
@@ -948,6 +997,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "1 trout over 40 cm",
     },
   },
@@ -967,6 +1017,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "",
     },
   },
@@ -976,7 +1027,7 @@ export const regulations = [
     id: "ES1-Lakes-2-23",
     season: "OPEN JULY 1 TO OCT. 31",
     waterbody: "Sparrow's Egg Lake",
-    waterbody_detail: "6-20-8-W5; Includes tributaries and \noutlet",
+    waterbody_detail: "6-20-8-W5; Includes tributaries and outlet",
     fish_limits: {
       walleye: "",
       northern_pike: "",
@@ -986,6 +1037,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "1 trout over 50 cm",
     },
   },
@@ -1001,11 +1053,12 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "3 fish",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
-      trout_total: "5 trout (includes 3 \nLKTR)",
+      rainbow_trout: "",
+      trout_total: "5 trout (includes 3 LKTR)",
     },
   },
   {
@@ -1020,10 +1073,11 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
-      mountain_whitefish: "5 over \n30 cm",
-      cutthroat_trout: "over 35 \ncm",
+      mountain_whitefish: "5 over 30 cm",
+      cutthroat_trout: "over 35 cm",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "over 35 cm",
       trout_total: "2 trout",
     },
   },
@@ -1043,6 +1097,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "0 trout",
     },
   },
@@ -1052,7 +1107,7 @@ export const regulations = [
     id: "ES1-Lakes-3-3",
     season: "OPEN ALL YEAR",
     waterbody: "Stenton Lake",
-    waterbody_detail: "35-25-10-W5; Includes tributaries \nand outlet",
+    waterbody_detail: "35-25-10-W5; Includes tributaries and outlet",
     fish_limits: {
       walleye: "",
       northern_pike: "",
@@ -1062,6 +1117,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "1 trout over 40 cm",
     },
   },
@@ -1081,6 +1137,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "1 trout over 40 cm",
     },
   },
@@ -1100,6 +1157,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -1119,6 +1177,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -1138,6 +1197,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -1146,7 +1206,7 @@ export const regulations = [
     fish_management_zone: "ES1-Lakes",
     id: "ES1-Lakes-3-8",
     season: "CLOSED ALL YEAR",
-    waterbody: "Unnamed (Blairmore \nWater Supply Reservoir)",
+    waterbody: "Unnamed (Blairmore Water Supply Reservoir)",
     waterbody_detail: "34-7-4-W5",
     fish_limits: {
       walleye: "",
@@ -1157,6 +1217,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "",
     },
   },
@@ -1167,16 +1228,17 @@ export const regulations = [
     season: "OPEN JULY 16 TO MAY 31",
     waterbody: "Upper Kananaskis Lake",
     waterbody_detail:
-      "The portion of the lake within 100m of \nRawson Creek inlet",
+      "The portion of the lake within 100m of Rawson Creek inlet",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
       mountain_whitefish: "",
-      cutthroat_trout: "over 50 \ncm",
+      cutthroat_trout: "over 50 cm",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "over 50 cm",
       trout_total: "1 trout",
     },
   },
@@ -1193,9 +1255,10 @@ export const regulations = [
       yellow_perch: "",
       lake_trout: "",
       mountain_whitefish: "",
-      cutthroat_trout: "over 50 \ncm",
+      cutthroat_trout: "over 50 cm",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "over 50 cm",
       trout_total: "1 trout",
     },
   },
@@ -1205,7 +1268,7 @@ export const regulations = [
     id: "ES1-Lakes-3-11",
     season: "OPEN JULY 1 TO OCT. 31",
     waterbody: "Watridge Lake",
-    waterbody_detail: "11-22-11-W5; Includes tributaries and \noutlet",
+    waterbody_detail: "11-22-11-W5; Includes tributaries and outlet",
     fish_limits: {
       walleye: "",
       northern_pike: "",
@@ -1215,6 +1278,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "0 trout",
     },
   },
@@ -1234,7 +1298,8 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
-      trout_total: "1 trout over 50 cm; \n0 ARGR",
+      rainbow_trout: "",
+      trout_total: "1 trout over 50 cm; 0 ARGR",
     },
   },
   {
@@ -1253,6 +1318,7 @@ export const regulations = [
       cutthroat_trout: "",
       brook_trout: "",
       dolly_varden: "",
+      rainbow_trout: "",
       trout_total: "2 trout",
     },
   },
@@ -1269,6 +1335,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1284,6 +1352,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1292,13 +1362,15 @@ export const regulations = [
     id: "ES1-Rivers-1-2",
     season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "Belly River",
-    waterbody_detail: "Mainstem upstream of Sec. Rd. 800 and \ntributaries",
+    waterbody_detail: "Mainstem upstream of Sec. Rd. 800 and tributaries",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1314,6 +1386,8 @@ export const regulations = [
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1322,13 +1396,15 @@ export const regulations = [
     id: "ES1-Rivers-1-4",
     season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "Belly River",
-    waterbody_detail: "Mainstem and tributaries; downstream of Sec. \nRd. 800",
+    waterbody_detail: "Mainstem and tributaries; downstream of Sec. Rd. 800",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "over 35 cm",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "over 35 cm",
     },
   },
   {
@@ -1344,6 +1420,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1359,6 +1437,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1368,13 +1448,15 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "Bow River",
     waterbody_detail:
-      "Banff National Park downstream to Bassano Dam \nincluding Reservoir",
+      "Banff National Park downstream to Bassano Dam including Reservoir",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "0 fish",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "0 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -1390,6 +1472,8 @@ export const regulations = [
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "2 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1405,6 +1489,8 @@ export const regulations = [
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1420,6 +1506,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1435,6 +1523,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1444,13 +1534,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "Castle River",
     waterbody_detail:
-      "Mainstem from Hwy. 3 to West Castle River and \nincludes tributaries except Mill, Beaver Mines, \nand Screwdriver creeks and Carbondale River",
+      "Mainstem from Hwy. 3 to West Castle River and includes tributaries except Mill, Beaver Mines, and Screwdriver creeks and Carbondale River",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "over 35 cm",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "over 35 cm",
     },
   },
   {
@@ -1466,6 +1558,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1475,13 +1569,15 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "Crowsnest River",
     waterbody_detail:
-      "Mainstem from outlet of Crowsnest Lake \ndownstream to the Cowley Bridge",
+      "Mainstem from outlet of Crowsnest Lake downstream to the Cowley Bridge",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "0 fish",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "0 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -1490,13 +1586,15 @@ export const regulations = [
     id: "ES1-Rivers-1-15",
     season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "Crowsnest River",
-    waterbody_detail: "All tributaries of Crowsnest River except Gold \nCreek",
+    waterbody_detail: "All tributaries of Crowsnest River except Gold Creek",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
-      brook_trout: "1 or 2 \nfish",
+      brook_trout: "1 or 2 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1505,13 +1603,15 @@ export const regulations = [
     id: "ES1-Rivers-1-16",
     season: "OPEN SEPT. 1 to OCT. 31",
     waterbody: "Crowsnest River",
-    waterbody_detail: "All tributaries of Crowsnest River except Gold \nCreek",
+    waterbody_detail: "All tributaries of Crowsnest River except Gold Creek",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "0 fish",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "0 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -1521,13 +1621,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to OCT. 31",
     waterbody: "Elbow River",
     waterbody_detail:
-      "Headwater downstream to Elbow Falls and \ntributaries except Quirk Creek",
+      "Headwater downstream to Elbow Falls and tributaries except Quirk Creek",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "2 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1536,13 +1638,15 @@ export const regulations = [
     id: "ES1-Rivers-1-18",
     season: "CLOSED ALL YEAR",
     waterbody: "Elbow River",
-    waterbody_detail: "Mainstem, Elbow Falls downstream to Canyon \nCreek",
+    waterbody_detail: "Mainstem, Elbow Falls downstream to Canyon Creek",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1558,6 +1662,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1567,13 +1673,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to OCT. 31",
     waterbody: "Elbow River",
     waterbody_detail:
-      "Mainstem, Hwy. 22 downstream to Glenmore \nReservoir and tributaries",
+      "Mainstem, Hwy. 22 downstream to Glenmore Reservoir and tributaries",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "over 35 cm",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "over 35 cm",
     },
   },
   {
@@ -1583,13 +1691,15 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "Elbow River",
     waterbody_detail:
-      "Mainstem, from Glenmore Reservoir downstream \nto Bow River",
+      "Mainstem, from Glenmore Reservoir downstream to Bow River",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "0 fish",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "0 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -1598,13 +1708,15 @@ export const regulations = [
     id: "ES1-Rivers-2-0",
     season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "Ghost River",
-    waterbody_detail: "Mainstem including tributaries except Waiparous \nCreek",
+    waterbody_detail: "Mainstem including tributaries except Waiparous Creek",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1620,6 +1732,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1627,7 +1741,7 @@ export const regulations = [
     fish_management_zone: "ES1-Rivers",
     id: "ES1-Rivers-2-2",
     season: "CLOSED ALL YEAR",
-    waterbody: "Ghost River Wilderness \nArea",
+    waterbody: "Ghost River Wilderness Area",
     waterbody_detail: "All water within the Wilderness Area",
     fish_limits: {
       walleye: "",
@@ -1635,6 +1749,8 @@ export const regulations = [
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1650,6 +1766,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "2 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1665,6 +1783,8 @@ export const regulations = [
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1680,6 +1800,8 @@ export const regulations = [
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1695,6 +1817,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1704,13 +1828,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "Highwood River",
     waterbody_detail:
-      "Headwater originating at Storm Ck and Mist Ck \nconfluence downstream to Kananaskis Country \nboundary; Includes tributaries except Storm \nCreek",
+      "Headwater originating at Storm Ck and Mist Ck confluence downstream to Kananaskis Country boundary; Includes tributaries except Storm Creek",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "2 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1726,6 +1852,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1735,13 +1863,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to OCT. 31",
     waterbody: "Highwood River",
     waterbody_detail:
-      "Mainstem from K-Country boundary downstream \nto 500m above the mouth & tributaries except \nSheep R",
+      "Mainstem from K-Country boundary downstream to 500m above the mouth & tributaries except Sheep R",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1750,13 +1880,15 @@ export const regulations = [
     id: "ES1-Rivers-2-10",
     season: "OPEN ALL YEAR",
     waterbody: "Highwood River",
-    waterbody_detail: "Mainstem within 500m of Bow River (see Bow \nRiver)",
+    waterbody_detail: "Mainstem within 500m of Bow River (see Bow River)",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "0 fish",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "0 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -1772,6 +1904,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "2 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1787,6 +1921,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "2 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1796,13 +1932,15 @@ export const regulations = [
     season: "OPEN APR. 1 to JUNE 15",
     waterbody: "Kananaskis River",
     waterbody_detail:
-      "Headwater downstream to Hwy. 1 including \ntributaries except Smith-Dorrien Creek",
+      "Headwater downstream to Hwy. 1 including tributaries except Smith-Dorrien Creek",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "2 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1818,6 +1956,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "0 fish",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -1827,13 +1967,15 @@ export const regulations = [
     season: "OPEN SEPT. 1 to OCT. 31",
     waterbody: "Kananaskis River",
     waterbody_detail:
-      "Headwater downstream to Hwy. 1 including \ntributaries except Smith-Dorrien Creek",
+      "Headwater downstream to Hwy. 1 including tributaries except Smith-Dorrien Creek",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "2 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1849,6 +1991,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "2 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1864,6 +2008,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1879,6 +2025,8 @@ export const regulations = [
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1888,13 +2036,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "Mill Creek",
     waterbody_detail:
-      "Includes tributaries including Gladstone and \nWhitney creeks",
+      "Includes tributaries including Gladstone and Whitney creeks",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "2 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1904,13 +2054,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "Oldman River",
     waterbody_detail:
-      "Tributaries of Oldman River from headwater \ndownstream to Sec. Rd. 510 excluding \nLivingstone River and Hidden Creek",
+      "Tributaries of Oldman River from headwater downstream to Sec. Rd. 510 excluding Livingstone River and Hidden Creek",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1926,6 +2078,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1934,13 +2088,15 @@ export const regulations = [
     id: "ES1-Rivers-3-2",
     season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "Oldman River",
-    waterbody_detail: "Mainstem - headwater downstream to Racehorse \nCreek",
+    waterbody_detail: "Mainstem - headwater downstream to Racehorse Creek",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1956,6 +2112,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1964,13 +2122,15 @@ export const regulations = [
     id: "ES1-Rivers-3-4",
     season: "OPEN JUNE 16 to OCT. 31",
     waterbody: "Oldman River",
-    waterbody_detail: "Mainstem - Racehorse Creek downstream to \nHwy. 22",
+    waterbody_detail: "Mainstem - Racehorse Creek downstream to Hwy. 22",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -1986,6 +2146,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2001,6 +2163,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "over 35 cm",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "over 35 cm",
     },
   },
   {
@@ -2016,6 +2180,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2025,13 +2191,15 @@ export const regulations = [
     season: "",
     waterbody: "Oldman River",
     waterbody_detail:
-      "Mainstem downstream from Sec. Rd. 510 - see \nOldman Reservoir",
+      "Mainstem downstream from Sec. Rd. 510 - see Oldman Reservoir",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2040,13 +2208,15 @@ export const regulations = [
     id: "ES1-Rivers-3-9",
     season: "OPEN APR. 1 to JUNE 15",
     waterbody: "Oldman River",
-    waterbody_detail: "Oldman Reservoir dam downstream to Sec. Rd. \n509",
+    waterbody_detail: "Oldman Reservoir dam downstream to Sec. Rd. 509",
     fish_limits: {
       walleye: "",
       northern_pike: "3 fish",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2062,6 +2232,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "over 35 cm",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "over 35 cm",
     },
   },
   {
@@ -2077,6 +2249,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2092,6 +2266,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2107,6 +2283,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2122,6 +2300,8 @@ export const regulations = [
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "2 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2137,6 +2317,8 @@ export const regulations = [
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2146,13 +2328,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to OCT. 31",
     waterbody: "Sheep River",
     waterbody_detail:
-      "Includes tributaries; Headwater downstream to \nthe bridge at Indian Oils Day-use Site",
+      "Includes tributaries; Headwater downstream to the bridge at Indian Oils Day-use Site",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2162,13 +2346,15 @@ export const regulations = [
     season: "CLOSED ALL YEAR",
     waterbody: "Sheep River",
     waterbody_detail:
-      "Bridge at Indian Oils Day-use Site downstream \nto Gorge Creek and tributaries (except Gorge \nCreek)",
+      "Bridge at Indian Oils Day-use Site downstream to Gorge Creek and tributaries (except Gorge Creek)",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2177,13 +2363,15 @@ export const regulations = [
     id: "ES1-Rivers-3-18",
     season: "OPEN JUNE 16  to AUG. 31",
     waterbody: "Sheep River",
-    waterbody_detail: "Mainstem - Gorge Creek downstream to \nHighwood River",
+    waterbody_detail: "Mainstem - Gorge Creek downstream to Highwood River",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "over 35 cm",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "over 35 cm",
     },
   },
   {
@@ -2199,6 +2387,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2214,6 +2404,8 @@ export const regulations = [
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2229,6 +2421,8 @@ export const regulations = [
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2244,6 +2438,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2259,6 +2455,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2274,6 +2472,8 @@ export const regulations = [
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2283,13 +2483,15 @@ export const regulations = [
     season: "CLOSED ALL YEAR",
     waterbody: "Unnamed",
     waterbody_detail:
-      "INGLEWOOD BIRD SANCTUARY; SE 12-24-1-\nW5; All water within sanctuary except the Bow \nRiver main channel",
+      "INGLEWOOD BIRD SANCTUARY; SE 12-24-1-W5; All water within sanctuary except the Bow River main channel",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2305,6 +2507,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "2 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2320,6 +2524,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "2 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2329,13 +2535,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "Waterton River",
     waterbody_detail:
-      "Tributaries upstream of Waterton Reservoir \nincluding Drywood Creek",
+      "Tributaries upstream of Waterton Reservoir including Drywood Creek",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "0 fish",
-      brook_trout: "1 or 2 \nfish",
+      brook_trout: "1 or 2 fish",
+      burbot: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -2351,6 +2559,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2365,7 +2575,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "0 fish",
-      brook_trout: "1 or 2 \nfish",
+      brook_trout: "1 or 2 fish",
+      burbot: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -2381,6 +2593,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2390,13 +2604,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "Waterton River",
     waterbody_detail:
-      "Mainstem and tributaries - downstream of \nWaterton Reservoir",
+      "Mainstem and tributaries - downstream of Waterton Reservoir",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "5 over 30 cm",
-      cutthroat_trout: "1 or 2, over \n35 cm",
+      cutthroat_trout: "1 or 2, over 35 cm",
       brook_trout: "0 fish",
+      burbot: "",
+      rainbow_trout: "1 or 2, over 35 cm",
     },
   },
   {
@@ -2412,6 +2628,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2427,6 +2645,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2442,6 +2662,8 @@ export const regulations = [
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "0 fish",
       brook_trout: "2 fish",
+      burbot: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -2451,13 +2673,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to OCT. 31",
     waterbody: "Willow Creek",
     waterbody_detail:
-      "Mainstem and tributaries from Hwy. 532 \ndownstream to Pine Coulee Reservoir Diversion \nHeadpond",
+      "Mainstem and tributaries from Hwy. 532 downstream to Pine Coulee Reservoir Diversion Headpond",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "0 fish",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -2467,13 +2691,15 @@ export const regulations = [
     season: "OPEN MAY 8 to OCT. 31",
     waterbody: "Willow Creek",
     waterbody_detail:
-      "Mainstem only downstream of Pine Coulee \nReservoir Diversion Headpond",
+      "Mainstem only downstream of Pine Coulee Reservoir Diversion Headpond",
     fish_limits: {
       walleye: "",
       northern_pike: "3 fish",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "over 30 cm",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "over 30 cm",
     },
   },
   {
@@ -2489,6 +2715,8 @@ export const regulations = [
       mountain_whitefish: "0 fish",
       cutthroat_trout: "0 fish",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -2498,13 +2726,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to OCT. 31",
     waterbody: "Willow Creek",
     waterbody_detail:
-      "Tributaries downstream of Pine Coulee Reservoir \nDiversion Headpond",
+      "Tributaries downstream of Pine Coulee Reservoir Diversion Headpond",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
       brook_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2514,14 +2744,16 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "Abraham Lake",
     waterbody_detail:
-      "36-37-18-W5; all waters within the area of the \nlake’s high water level; includes downstream of \nHighway 11 (Cline River) bridge and downstream \nof 2-18-36-17-W5 on the North Saskatchewan \nRiver",
+      "36-37-18-W5; all waters within the area of the lake’s high water level; includes downstream of Highway 11 (Cline River) bridge and downstream of 2-18-36-17-W5 on the North Saskatchewan River",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "3 fish",
-      mountain_whitefish: "5 over \n30 cm",
-      cutthroat_trout: "over 30 \ncm",
+      mountain_whitefish: "5 over 30 cm",
+      cutthroat_trout: "over 30 cm",
+      burbot: "",
+      rainbow_trout: "over 30 cm",
     },
   },
   {
@@ -2538,6 +2770,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2554,6 +2788,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2570,6 +2806,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "1 fish",
     },
   },
   {
@@ -2586,6 +2824,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2600,8 +2840,10 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "",
       lake_trout: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2610,14 +2852,16 @@ export const regulations = [
     id: "ES2-Lakes-1-6",
     season: "OPEN MAY 15 TO MAR. 31",
     waterbody: "Burnstick Lake",
-    waterbody_detail: "12-35-7-W5; Includes tributaries for 1 km \nupstream",
+    waterbody_detail: "12-35-7-W5; Includes tributaries for 1 km upstream",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "5 fish",
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2634,6 +2878,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2650,6 +2896,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2666,6 +2914,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "5 fish any size",
     },
   },
   {
@@ -2682,6 +2932,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2698,6 +2950,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2714,6 +2968,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2730,6 +2986,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2746,6 +3004,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2760,8 +3020,10 @@ export const regulations = [
       northern_pike: "1 fish",
       yellow_perch: "",
       lake_trout: "",
-      mountain_whitefish: "3 over \n30 cm",
+      mountain_whitefish: "3 over 30 cm",
       cutthroat_trout: "",
+      burbot: "10 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -2778,6 +3040,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2794,6 +3058,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2803,7 +3069,7 @@ export const regulations = [
     season: "OPEN MAY 15 TO MAR. 31",
     waterbody: "Jackfish Lake",
     waterbody_detail:
-      "6-41-11-W5; Includes tributaries and outlet for 1 \nkm downstream",
+      "6-41-11-W5; Includes tributaries and outlet for 1 km downstream",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "0 fish",
@@ -2811,6 +3077,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2820,7 +3088,7 @@ export const regulations = [
     season: "CLOSED ALL YEAR",
     waterbody: "Job (Wilson or Blue) Lake",
     waterbody_detail:
-      "20-39-20-W5; Includes tributaries and outlet for \n1.5 km downstream",
+      "20-39-20-W5; Includes tributaries and outlet for 1.5 km downstream",
     fish_limits: {
       walleye: "",
       northern_pike: "",
@@ -2828,6 +3096,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2844,6 +3114,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2860,6 +3132,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "2 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2876,6 +3150,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "2 fish ",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2892,6 +3168,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2908,6 +3186,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2915,7 +3195,7 @@ export const regulations = [
     fish_management_zone: "ES2-Lakes",
     id: "ES2-Lakes-2-2",
     season: "OPEN AUG. 1 TO OCT. 31",
-    waterbody: "Michele (Upper And Lower) \nLakes ",
+    waterbody: "Michele (Upper And Lower) Lakes ",
     waterbody_detail: "2,11-36-20-W5",
     fish_limits: {
       walleye: "",
@@ -2924,6 +3204,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2940,6 +3222,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2955,7 +3239,9 @@ export const regulations = [
       yellow_perch: "",
       lake_trout: "",
       mountain_whitefish: "",
-      cutthroat_trout: "1 fish \nover 40 \ncm",
+      cutthroat_trout: "1 fish over 40 cm",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2972,6 +3258,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -2981,7 +3269,7 @@ export const regulations = [
     season: "CLOSED ALL YEAR",
     waterbody: "Pinto Lake",
     waterbody_detail:
-      "25-36-21-W5; Includes tributaries and outlet for \n1.5 km downstream",
+      "25-36-21-W5; Includes tributaries and outlet for 1.5 km downstream",
     fish_limits: {
       walleye: "",
       northern_pike: "",
@@ -2989,6 +3277,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3005,6 +3295,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3021,6 +3313,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "0 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3037,13 +3331,15 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
     bait_allowed: "no",
     fish_management_zone: "ES2-Lakes",
     id: "ES2-Lakes-2-10",
-    season: "OPEN JUNE 16 TO SEPT. \n15",
+    season: "OPEN JUNE 16 TO SEPT. 15",
     waterbody: "Swan Lake",
     waterbody_detail: "26-36-9-W5; for outlet regs see Swan Creek",
     fish_limits: {
@@ -3053,6 +3349,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3069,6 +3367,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3076,7 +3376,7 @@ export const regulations = [
     fish_management_zone: "ES2-Lakes",
     id: "ES2-Lakes-2-12",
     season: "CLOSED ALL YEAR",
-    waterbody: "White Goat Wilderness \nArea",
+    waterbody: "White Goat Wilderness Area",
     waterbody_detail: "All water within the Wilderness Area",
     fish_limits: {
       walleye: "",
@@ -3085,6 +3385,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3092,9 +3394,9 @@ export const regulations = [
     fish_management_zone: "ES2-Lakes",
     id: "ES2-Lakes-2-13",
     season: "CLOSED ALL YEAR",
-    waterbody: "Unnamed (Jumping Fish) \nLake",
+    waterbody: "Unnamed (Jumping Fish) Lake",
     waterbody_detail:
-      "And inlets, outlet and tributaries to outlet in NE 30 \n& SE 31-44-17-W5 (tributary to Brown Creek) ",
+      "And inlets, outlet and tributaries to outlet in NE 30 & SE 31-44-17-W5 (tributary to Brown Creek) ",
     fish_limits: {
       walleye: "",
       northern_pike: "",
@@ -3102,6 +3404,8 @@ export const regulations = [
       lake_trout: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3114,8 +3418,11 @@ export const regulations = [
     fish_limits: {
       walleye: "",
       northern_pike: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3130,6 +3437,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3140,10 +3450,13 @@ export const regulations = [
     waterbody: "Baptiste River",
     waterbody_detail: "Mainstem only",
     fish_limits: {
-      walleye: "3 over \n50 cm",
+      walleye: "3 over 50 cm",
       northern_pike: "3 fish",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3152,12 +3465,15 @@ export const regulations = [
     id: "ES2-Rivers-1-3",
     season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "Bighorn River",
-    waterbody_detail: "Mainstem and tributaries upstream of Crescent \nFalls",
+    waterbody_detail: "Mainstem and tributaries upstream of Crescent Falls",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
-      cutthroat_trout: "over 30 \ncm",
+      cutthroat_trout: "over 30 cm",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3172,6 +3488,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3180,12 +3499,15 @@ export const regulations = [
     id: "ES2-Rivers-1-5",
     season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "Bighorn River",
-    waterbody_detail: "Mainstem and tributaries downstream of Crescent \nFalls",
+    waterbody_detail: "Mainstem and tributaries downstream of Crescent Falls",
     fish_limits: {
       walleye: "",
       northern_pike: "",
-      mountain_whitefish: "5 over \n30 cm",
-      cutthroat_trout: "over 35 \ncm",
+      mountain_whitefish: "5 over 30 cm",
+      cutthroat_trout: "over 35 cm",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3200,6 +3522,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3209,12 +3534,15 @@ export const regulations = [
     season: "CLOSED ALL YEAR",
     waterbody: "Blackstone River",
     waterbody_detail:
-      "Mainstem and tributaries upstream of Mons Creek \nincluding Mons Creek",
+      "Mainstem and tributaries upstream of Mons Creek including Mons Creek",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3224,12 +3552,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to OCT. 31",
     waterbody: "Blackstone River",
     waterbody_detail:
-      "Mainstem downstream of Mons Creek and \ntributaries (except Rundell Creek)",
+      "Mainstem downstream of Mons Creek and tributaries (except Rundell Creek)",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "0 fish",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3239,12 +3570,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "Brazeau River",
     waterbody_detail:
-      "Mainstem upstream of Forestry Trunk Road (bridge \nat 6-16-45-18-W5) and tributaries (except Cardinal \nRiver), outside of Jasper National Park",
+      "Mainstem upstream of Forestry Trunk Road (bridge at 6-16-45-18-W5) and tributaries (except Cardinal River), outside of Jasper National Park",
     fish_limits: {
       walleye: "",
       northern_pike: "",
-      mountain_whitefish: "5 over \n30 cm",
-      cutthroat_trout: "over 30 \ncm",
+      mountain_whitefish: "5 over 30 cm",
+      cutthroat_trout: "over 30 cm",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3259,6 +3593,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3268,12 +3605,15 @@ export const regulations = [
     season: "OPEN APR. 1 to OCT. 31",
     waterbody: "Brazeau River",
     waterbody_detail:
-      "Mainstem downstream of the Forestry Trunk \nRoad (bridge at 6-16-45-18-W5) to the Brazeau \nReservoir",
+      "Mainstem downstream of the Forestry Trunk Road (bridge at 6-16-45-18-W5) to the Brazeau Reservoir",
     fish_limits: {
-      walleye: "3 over \n50 cm",
-      northern_pike: "3 over \n63 cm",
-      mountain_whitefish: "5 over \n30 cm",
-      cutthroat_trout: "over 35 \ncm",
+      walleye: "3 over 50 cm",
+      northern_pike: "3 over 63 cm",
+      mountain_whitefish: "5 over 30 cm",
+      cutthroat_trout: "over 35 cm",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3288,6 +3628,9 @@ export const regulations = [
       northern_pike: "0 fish",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "0 fish",
+      goldeye: "0 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -3300,8 +3643,11 @@ export const regulations = [
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "3 fish",
-      mountain_whitefish: "3 over \n30 cm",
+      mountain_whitefish: "3 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3316,6 +3662,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3328,8 +3677,11 @@ export const regulations = [
     fish_limits: {
       walleye: "",
       northern_pike: "3 fish",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3344,6 +3696,9 @@ export const regulations = [
       northern_pike: "3 fish",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3353,12 +3708,15 @@ export const regulations = [
     season: "OPEN APR. 1 to AUG. 31",
     waterbody: "Clearwater River",
     waterbody_detail:
-      "Mainstem from the Banff National Park boundary \ndownstream to Timber Creek",
+      "Mainstem from the Banff National Park boundary downstream to Timber Creek",
     fish_limits: {
       walleye: "",
       northern_pike: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3373,6 +3731,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3382,12 +3743,15 @@ export const regulations = [
     season: "CLOSED ALL YEAR",
     waterbody: "Clearwater River",
     waterbody_detail:
-      "Tributaries from the Banff National Park boundary \ndownstream to and including Timber Creek",
+      "Tributaries from the Banff National Park boundary downstream to and including Timber Creek",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3397,12 +3761,15 @@ export const regulations = [
     season: "OPEN APR. 1 to AUG. 31",
     waterbody: "Clearwater River",
     waterbody_detail:
-      "Mainstem from Timber Creek downstream to the \nForestry Trunk Road (bridge at 5-35-09-W5) and \ntributaries (except Elk Creek)",
+      "Mainstem from Timber Creek downstream to the Forestry Trunk Road (bridge at 5-35-09-W5) and tributaries (except Elk Creek)",
     fish_limits: {
       walleye: "",
       northern_pike: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3417,6 +3784,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3426,12 +3796,15 @@ export const regulations = [
     season: "OPEN APR. 1 to OCT. 31",
     waterbody: "Clearwater River",
     waterbody_detail:
-      "Mainstem from Forestry Trunk Road (bridge \nat 5-35-09-W5) downstream to the North \nSaskatchewan River",
+      "Mainstem from Forestry Trunk Road (bridge at 5-35-09-W5) downstream to the North Saskatchewan River",
     fish_limits: {
-      walleye: "3 over \n50 cm",
+      walleye: "3 over 50 cm",
       northern_pike: "3 fish",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
+      burbot: "10 fish",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3441,12 +3814,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "Cline River",
     waterbody_detail:
-      "Mainstem and tributaries downstream to the \nHighway 11 (Cline River) bridge except tributaries \nto Coral Lake, Pinto Lake, all water within the \nWhite Goat Wilderness Area and the outlet of Pinto \nLake for 1.5 km downstream.",
+      "Mainstem and tributaries downstream to the Highway 11 (Cline River) bridge except tributaries to Coral Lake, Pinto Lake, all water within the White Goat Wilderness Area and the outlet of Pinto Lake for 1.5 km downstream.",
     fish_limits: {
       walleye: "",
       northern_pike: "",
-      mountain_whitefish: "5 over \n30 cm",
-      cutthroat_trout: "over 30 \ncm",
+      mountain_whitefish: "5 over 30 cm",
+      cutthroat_trout: "over 30 cm",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3461,6 +3837,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "0 fish",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3475,6 +3854,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3487,8 +3869,11 @@ export const regulations = [
     fish_limits: {
       walleye: "",
       northern_pike: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3503,6 +3888,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3517,6 +3905,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3526,12 +3917,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to OCT. 31",
     waterbody: "Fall Creek",
     waterbody_detail:
-      "Mainstem and tribuatries; Upstream of the falls at \n11-31-37-11-W5",
+      "Mainstem and tribuatries; Upstream of the falls at 11-31-37-11-W5",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3541,12 +3935,15 @@ export const regulations = [
     season: "CLOSED ALL YEAR",
     waterbody: "Fall Creek",
     waterbody_detail:
-      "Mainstem and tributaries downstream of the falls at \n11-31-37-11-W5",
+      "Mainstem and tributaries downstream of the falls at 11-31-37-11-W5",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3559,8 +3956,11 @@ export const regulations = [
     fish_limits: {
       walleye: "",
       northern_pike: "",
-      mountain_whitefish: "3 over \n30 cm",
+      mountain_whitefish: "3 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3573,8 +3973,11 @@ export const regulations = [
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "3 fish",
-      mountain_whitefish: "3 over \n30 cm",
+      mountain_whitefish: "3 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3584,12 +3987,15 @@ export const regulations = [
     season: "OPEN APR. 1 to OCT. 31",
     waterbody: "Little Red Deer River",
     waterbody_detail:
-      "Headwater downstream to Twp. Rd. 352 \n(Cottonwood Road) and tributaries except \nDogpound Creek. See PP2 for Little Red Deer \nRiver downstream of Twp. Rd. 352.",
+      "Headwater downstream to Twp. Rd. 352 (Cottonwood Road) and tributaries except Dogpound Creek. See PP2 for Little Red Deer River downstream of Twp. Rd. 352.",
     fish_limits: {
       walleye: "",
       northern_pike: "3 fish",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3604,6 +4010,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3618,6 +4027,9 @@ export const regulations = [
       northern_pike: "0 fish",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "0 fish",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3632,6 +4044,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3646,6 +4061,9 @@ export const regulations = [
       northern_pike: "3 fish",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3653,14 +4071,17 @@ export const regulations = [
     fish_management_zone: "ES2-Rivers",
     id: "ES2-Rivers-2-15",
     season: "OPEN APR. 1 to AUG. 31",
-    waterbody: "North Saskatchewan \nRiver",
+    waterbody: "North Saskatchewan River",
     waterbody_detail:
-      "Mainstem and tributaries from Banff National Park \nboundary downstream to Abraham Lake (2-18-\n36-17-W5) and tributaries including tributaries to \nAbraham Lake, except Cline River and Siffleur River",
+      "Mainstem and tributaries from Banff National Park boundary downstream to Abraham Lake (2-18-36-17-W5) and tributaries including tributaries to Abraham Lake, except Cline River and Siffleur River",
     fish_limits: {
       walleye: "",
       northern_pike: "",
-      mountain_whitefish: "5 over \n30 cm",
-      cutthroat_trout: "Over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      cutthroat_trout: "Over 30 cm",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "Over 30 cm",
     },
   },
   {
@@ -3675,6 +4096,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3683,12 +4107,15 @@ export const regulations = [
     id: "ES2-Rivers-2-17",
     season: "APR. 1 to OCT. 31",
     waterbody: "North Saskatchewan \nRiver",
-    waterbody_detail: "Mainstem from Bighorn Dam downstream to Hwy \n22/39",
+    waterbody_detail: "Mainstem from Bighorn Dam downstream to Hwy 22/39",
     fish_limits: {
-      walleye: "3 over \n50 cm",
+      walleye: "3 over 50 cm",
       northern_pike: "3 fish",
-      mountain_whitefish: "5 over \n30 cm",
-      cutthroat_trout: "Over \n35 cm",
+      mountain_whitefish: "5 over 30 cm",
+      cutthroat_trout: "Over 35 cm",
+      burbot: "10 fish",
+      goldeye: "10 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -3698,12 +4125,15 @@ export const regulations = [
     season: "OPEN APR. 1 to AUG. 31",
     waterbody: "North Saskatchewan \nRiver",
     waterbody_detail:
-      "Tributaries from Bighorn Dam downstream to \nHwy 22/39 (except Baptiste River, Bighorn River, \nBrazeau River, Clearwater River, Ram River, Wolf \nCreek and Washout Creek)",
+      "Tributaries from Bighorn Dam downstream to Hwy 22/39 (except Baptiste River, Bighorn River, Brazeau River, Clearwater River, Ram River, Wolf Creek and Washout Creek)",
     fish_limits: {
-      walleye: "3 over \n50 cm",
+      walleye: "3 over 50 cm",
       northern_pike: "3 fish",
-      mountain_whitefish: "5 over \n30 cm",
-      cutthroat_trout: "Over \n35 cm",
+      mountain_whitefish: "5 over 30 cm",
+      cutthroat_trout: "Over 35 cm",
+      burbot: "10 fish",
+      goldeye: "10 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -3714,10 +4144,13 @@ export const regulations = [
     waterbody: "North Saskatchewan \nRiver",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "3 over \n50 cm",
+      walleye: "3 over 50 cm",
       northern_pike: "3 fish",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "10 fish",
+      goldeye: "10 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -3727,12 +4160,15 @@ export const regulations = [
     season: "CLOSED ALL YEAR",
     waterbody: "Pinto Creek",
     waterbody_detail:
-      "35-29-10-W5; Tributary to North Burnt Timber \nCreek; Mainstem and tributaries ",
+      "35-29-10-W5; Tributary to North Burnt Timber Creek; Mainstem and tributaries ",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3742,12 +4178,15 @@ export const regulations = [
     season: "OPEN APR. 1 to AUG. 31",
     waterbody: "Prairie Creek",
     waterbody_detail:
-      "Mainstem upstream of the North Fork Road and \nall tributaries (except Swan Creek and tributaries \nbetween Vetch and Swan Creek)",
+      "Mainstem upstream of the North Fork Road and all tributaries (except Swan Creek and tributaries between Vetch and Swan Creek)",
     fish_limits: {
       walleye: "",
       northern_pike: "3 fish",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3762,6 +4201,9 @@ export const regulations = [
       northern_pike: "3 fish",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3771,12 +4213,15 @@ export const regulations = [
     season: "OPEN APR. 1 to AUG. 31",
     waterbody: "Prairie Creek",
     waterbody_detail:
-      "The portion of the mainstem and tributaries \nbetween Vetch and Swan Creeks",
+      "The portion of the mainstem and tributaries between Vetch and Swan Creeks",
     fish_limits: {
       walleye: "",
       northern_pike: "3 fish",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3786,12 +4231,15 @@ export const regulations = [
     season: "OPEN APR. 1 to OCT. 31",
     waterbody: "Prairie Creek",
     waterbody_detail:
-      "The remainder of the mainstem downstream of \nthe North Fork Road (except the portion between \nVetch and Swan Creeks)",
+      "The remainder of the mainstem downstream of the North Fork Road (except the portion between Vetch and Swan Creeks)",
     fish_limits: {
-      walleye: "3 over \n50 cm",
+      walleye: "3 over 50 cm",
       northern_pike: "3 fish",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3801,12 +4249,15 @@ export const regulations = [
     season: "OPEN JUNE 16 to OCT. 31",
     waterbody: "Ram River",
     waterbody_detail:
-      "Also known as South Ram River; Mainstem and \ntributaries (except Fall Creek)",
+      "Also known as South Ram River; Mainstem and tributaries (except Fall Creek)",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3814,13 +4265,16 @@ export const regulations = [
     fish_management_zone: "ES2-Rivers",
     id: "ES2-Rivers-3-0",
     season: "CLOSED ALL YEAR",
-    waterbody: "Raven Brood Trout \nStation",
+    waterbody: "Raven Brood Trout Station",
     waterbody_detail: "SW-5-36-5-W5; All water within",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3830,12 +4284,15 @@ export const regulations = [
     season: "OPEN APR. 1 to OCT. 31",
     waterbody: "Raven River",
     waterbody_detail:
-      "Mainstem and tributaries except North Raven \nRiver (Stauffer Creek)",
+      "Mainstem and tributaries except North Raven River (Stauffer Creek)",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "3 fish",
-      mountain_whitefish: "3 over \n30 cm",
+      mountain_whitefish: "3 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3845,12 +4302,15 @@ export const regulations = [
     season: "OPEN APR. 1 to OCT. 31",
     waterbody: "Red Deer River",
     waterbody_detail:
-      "Mainstem and tributaries from Banff National Park \nboundary downstream to the Forestry Trunk Road \n(13-31-10-W5)",
+      "Mainstem and tributaries from Banff National Park boundary downstream to the Forestry Trunk Road (13-31-10-W5)",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "0 fish",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3860,12 +4320,15 @@ export const regulations = [
     season: "OPEN APR. 1 to OCT. 31",
     waterbody: "Red Deer River",
     waterbody_detail:
-      "Mainstem from Forestry Trunk Road downstream \nto Gleniffer (Reservoir) Lake and tributaries \n(except Fallentimber Creek, Raven River, North \nRaven River and Pinto Creek)",
+      "Mainstem from Forestry Trunk Road downstream to Gleniffer (Reservoir) Lake and tributaries (except Fallentimber Creek, Raven River, North Raven River and Pinto Creek)",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "3 fish",
-      mountain_whitefish: "3 over \n30 cm",
+      mountain_whitefish: "3 over 30 cm",
       cutthroat_trout: "",
+      burbot: "10 fish",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3880,6 +4343,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3889,12 +4355,15 @@ export const regulations = [
     season: "CLOSED ALL YEAR",
     waterbody: "Siffleur River",
     waterbody_detail:
-      "Mainstem and tributaries downstream from Banff \nNational Park boundary ",
+      "Mainstem and tributaries downstream from Banff National Park boundary ",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3902,13 +4371,16 @@ export const regulations = [
     fish_management_zone: "ES2-Rivers",
     id: "ES2-Rivers-3-6",
     season: "CLOSED ALL YEAR",
-    waterbody: "Siffleur Wilderness \nArea",
+    waterbody: "Siffleur Wilderness Area",
     waterbody_detail: "All water within the Wilderness Area",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3918,12 +4390,15 @@ export const regulations = [
     season: "OPEN APR. 1 to AUG. 31",
     waterbody: "Swan Creek",
     waterbody_detail:
-      "Mainstem and tributaries; Downstream for 2 km \nbelow Swan Lake",
+      "Mainstem and tributaries; Downstream for 2 km below Swan Lake",
     fish_limits: {
       walleye: "",
       northern_pike: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3936,8 +4411,11 @@ export const regulations = [
     fish_limits: {
       walleye: "",
       northern_pike: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3952,6 +4430,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3964,8 +4445,11 @@ export const regulations = [
     fish_limits: {
       walleye: "",
       northern_pike: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3973,13 +4457,16 @@ export const regulations = [
     fish_management_zone: "ES2-Rivers",
     id: "ES2-Rivers-3-11",
     season: "CLOSED ALL YEAR",
-    waterbody: "Unnamed (Devil's \nFork) Creek",
+    waterbody: "Unnamed (Devil's Fork) Creek",
     waterbody_detail: "4-45-16-W5; Tributary to Brazeau River",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -3992,8 +4479,11 @@ export const regulations = [
     fish_limits: {
       walleye: "",
       northern_pike: "3 fish",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4001,13 +4491,16 @@ export const regulations = [
     fish_management_zone: "ES2-Rivers",
     id: "ES2-Rivers-3-13",
     season: "CLOSED ALL YEAR",
-    waterbody: "White Goat Wilderness \nArea",
+    waterbody: "White Goat Wilderness Area",
     waterbody_detail: "All water within the Wilderness Area",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4020,8 +4513,11 @@ export const regulations = [
     fish_limits: {
       walleye: "",
       northern_pike: "3 fish",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4036,6 +4532,8 @@ export const regulations = [
       northern_pike: "1 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4050,6 +4548,8 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4064,6 +4564,8 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4078,6 +4580,8 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4092,6 +4596,8 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "2 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -4106,6 +4612,8 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4120,6 +4628,8 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4134,6 +4644,8 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4148,6 +4660,8 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4162,6 +4676,8 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4176,6 +4692,8 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4190,6 +4708,8 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4204,6 +4724,8 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4218,6 +4740,8 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4232,6 +4756,8 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4246,6 +4772,8 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4260,6 +4788,8 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4274,6 +4804,8 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4288,6 +4820,8 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4302,6 +4836,8 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4316,6 +4852,8 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4330,6 +4868,8 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4344,6 +4884,8 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4358,6 +4900,8 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "",
       lake_trout: "3 over 50 cm",
+      burbot: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -4372,6 +4916,8 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "5 fish",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4386,6 +4932,8 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "5 fish",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -4400,6 +4948,8 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4414,6 +4964,8 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4428,6 +4980,8 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4442,6 +4996,8 @@ export const regulations = [
       northern_pike: "1 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4456,6 +5012,8 @@ export const regulations = [
       northern_pike: "1 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4465,12 +5023,15 @@ export const regulations = [
     season: "OPEN APR. 1 to AUG. 31",
     waterbody: "Athabasca River",
     waterbody_detail:
-      "Upstream of Sec. Rd. 658 (near Whitecourt) to Jasper National Park \nBoundary mainstem river only (including Brule Lake)",
+      "Upstream of Sec. Rd. 658 (near Whitecourt) to Jasper National Park Boundary mainstem river only (including Brule Lake)",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "0 fish",
       mountain_whitefish: "5 over 30 cm",
       brook_trout: "2 fish",
+      burbot: "0 fish",
+      goldeye: "0 fish",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -4480,12 +5041,15 @@ export const regulations = [
     season: "OPEN SEPT. 1 to OCT. 31",
     waterbody: "Athabasca River",
     waterbody_detail:
-      "Upstream of Sec. Rd. 658 (near Whitecourt) to Jasper National Park \nBoundary mainstem river only (including Brule Lake)",
+      "Upstream of Sec. Rd. 658 (near Whitecourt) to Jasper National Park Boundary mainstem river only (including Brule Lake)",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "0 fish",
       mountain_whitefish: "5 over 30 cm",
       brook_trout: "0 fish",
+      burbot: "0 fish",
+      goldeye: "0 fish",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -4496,10 +5060,13 @@ export const regulations = [
     waterbody: "Berland River",
     waterbody_detail: "Mainstem only - downstream of Hwy 40",
     fish_limits: {
-      walleye: "3 over \n50 cm",
-      northern_pike: "3 over \n63 cm",
+      walleye: "3 over 50 cm",
+      northern_pike: "3 over 63 cm",
       mountain_whitefish: "5 over 30 cm",
       brook_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -4514,6 +5081,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       brook_trout: "0 fish",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4528,6 +5098,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "",
       brook_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4542,6 +5115,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "",
       brook_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4556,6 +5132,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       brook_trout: "0 fish",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -4570,6 +5149,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "",
       brook_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4584,6 +5166,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       brook_trout: "0 fish",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -4599,6 +5184,9 @@ export const regulations = [
       northern_pike: "3 fish",
       mountain_whitefish: "",
       brook_trout: "",
+      burbot: "2 fish",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4609,10 +5197,13 @@ export const regulations = [
     waterbody: "Lobstick River",
     waterbody_detail: "Portion downstream from Chip Lake to the Pembina River",
     fish_limits: {
-      walleye: "3 over \n50 cm",
-      northern_pike: "3 over \n63 cm",
+      walleye: "3 over 50 cm",
+      northern_pike: "3 over 63 cm",
       mountain_whitefish: "5 over 30 cm",
       brook_trout: "",
+      burbot: "10 fish",
+      goldeye: "10 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -4627,6 +5218,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "",
       brook_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4641,6 +5235,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "",
       brook_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4651,10 +5248,13 @@ export const regulations = [
     waterbody: "Mcleod River",
     waterbody_detail: "Mainstem only; Headwater downstream to Hwy 47",
     fish_limits: {
-      walleye: "3 over \n50 cm ",
-      northern_pike: "3 over \n63 cm",
+      walleye: "3 over 50 cm ",
+      northern_pike: "3 over 63 cm",
       mountain_whitefish: "5 over 30 cm",
       brook_trout: "2 fish",
+      burbot: "10 fish",
+      goldeye: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -4665,10 +5265,13 @@ export const regulations = [
     waterbody: "Mcleod River",
     waterbody_detail: "Mainstem only; Headwater downstream to Hwy 47",
     fish_limits: {
-      walleye: "3 over \n50 cm ",
-      northern_pike: "3 over \n63 cm",
+      walleye: "3 over 50 cm ",
+      northern_pike: "3 over 63 cm",
       mountain_whitefish: "5 over 30 cm",
       brook_trout: "0 fish",
+      burbot: "10 fish",
+      goldeye: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -4679,10 +5282,13 @@ export const regulations = [
     waterbody: "Mcleod River",
     waterbody_detail: "Mainstem only; Hwy 47 downstream to the Athabasca River",
     fish_limits: {
-      walleye: "3 over \n50 cm ",
-      northern_pike: "3 over \n63 cm",
+      walleye: "3 over 50 cm ",
+      northern_pike: "3 over 63 cm",
       mountain_whitefish: "5 over 30 cm",
       brook_trout: "2 fish",
+      burbot: "10 fish",
+      goldeye: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -4692,12 +5298,15 @@ export const regulations = [
     season: "CLOSED ALL YEAR",
     waterbody: "Pembina River",
     waterbody_detail:
-      "Headwater downstream to Sec. Rd. 753 near Lodgepole, includes \nDismal and Rat creeks and tributaries",
+      "Headwater downstream to Sec. Rd. 753 near Lodgepole, includes Dismal and Rat creeks and tributaries",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "",
       brook_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4707,12 +5316,15 @@ export const regulations = [
     season: "OPEN JUNE 1 to OCT. 31",
     waterbody: "Pembina River",
     waterbody_detail:
-      "Mainstem only - downstream from Sec. Rd. 753 (near Lodgepole) to \nHwy. 43 (near Sangudo)",
+      "Mainstem only - downstream from Sec. Rd. 753 (near Lodgepole) to Hwy. 43 (near Sangudo)",
     fish_limits: {
-      walleye: "3 over \n50 cm",
-      northern_pike: "3 over \n63 cm",
+      walleye: "3 over 50 cm",
+      northern_pike: "3 over 63 cm",
       mountain_whitefish: "5 over 30 cm",
       brook_trout: "",
+      burbot: "10 fish",
+      goldeye: "10 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -4727,6 +5339,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       brook_trout: "0 fish",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -4741,6 +5356,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "",
       brook_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4755,6 +5373,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "",
       brook_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4769,6 +5390,9 @@ export const regulations = [
       northern_pike: "0 fish",
       mountain_whitefish: "0 fish",
       brook_trout: "0 fish",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -4783,6 +5407,9 @@ export const regulations = [
       northern_pike: "",
       mountain_whitefish: "0 fish",
       brook_trout: "0 fish",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "0 fish",
     },
   },
   {
@@ -4792,7 +5419,13 @@ export const regulations = [
     season: "OPEN JUNE 1 TO AUG. 31",
     waterbody: "A La Peche Lake",
     waterbody_detail: "55-6-W5",
-    fish_limits: { walleye: "", northern_pike: "", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      yellow_perch: "",
+      burbot: "",
+      rainbow_trout: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -4805,6 +5438,8 @@ export const regulations = [
       walleye: "",
       northern_pike: "1 fish",
       yellow_perch: "10 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4818,6 +5453,8 @@ export const regulations = [
       walleye: "",
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4828,9 +5465,11 @@ export const regulations = [
     waterbody: "Iosegun Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 fish 45-\n50 cm",
+      walleye: "1 fish 45-50 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -4841,9 +5480,11 @@ export const regulations = [
     waterbody: "Iosegun Lake",
     waterbody_detail: "Tributaries",
     fish_limits: {
-      walleye: "1 fish 45-\n50 cm",
+      walleye: "1 fish 45-50 cm",
       northern_pike: "0 fish",
       yellow_perch: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4857,6 +5498,8 @@ export const regulations = [
       walleye: "",
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4868,8 +5511,10 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over 63 \ncm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4879,7 +5524,13 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "Pierre Greys Lakes",
     waterbody_detail: "Lower or MacDonald Lake; 7-57-4-W6",
-    fish_limits: { walleye: "", northern_pike: "", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      yellow_perch: "",
+      burbot: "",
+      rainbow_trout: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -4890,8 +5541,10 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over 63 \ncm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4905,6 +5558,8 @@ export const regulations = [
       walleye: "0 fish",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -4918,6 +5573,8 @@ export const regulations = [
       walleye: "0 fish",
       northern_pike: "0 fish",
       yellow_perch: "",
+      burbot: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -4928,9 +5585,11 @@ export const regulations = [
     waterbody: "Snipe Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 over 50 \ncm",
+      walleye: "1 over 50 cm",
       northern_pike: "0 fish",
       yellow_perch: "5 fish",
+      burbot: "10 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -4941,35 +5600,41 @@ export const regulations = [
     waterbody: "Snipe Lake",
     waterbody_detail: "Tributaries and outlet 1 km downstream ",
     fish_limits: {
-      walleye: "1 over 50 \ncm",
+      walleye: "1 over 50 cm",
       northern_pike: "0 fish",
       yellow_perch: "5 fish",
+      burbot: "10 fish",
+      rainbow_trout: "",
     },
   },
   {
     bait_allowed: "no",
     fish_management_zone: "ES4-Lakes",
     id: "ES4-Lakes-1-13",
-    season: "OPEN APR. 1 TO SEPT. 30 \nAND JAN. 16 TO MAR. 31",
+    season: "OPEN APR. 1 TO SEPT. 30 AND JAN. 16 TO MAR. 31",
     waterbody: "Sturgeon Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 fish 45-\n50 cm",
+      walleye: "1 fish 45-50 cm",
       northern_pike: "0 fish",
       yellow_perch: "5 fish",
+      burbot: "10 fish",
+      rainbow_trout: "",
     },
   },
   {
     bait_allowed: "no",
     fish_management_zone: "ES4-Lakes",
     id: "ES4-Lakes-1-14",
-    season: "OPEN OCT. 1 TO JAN. 15 \nBETWEEN SUNRISE AND \nSUNSET",
+    season: "OPEN OCT. 1 TO JAN. 15 BETWEEN SUNRISE AND SUNSET",
     waterbody: "Sturgeon Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 fish 45-\n50 cm",
+      walleye: "1 fish 45-50 cm",
       northern_pike: "0 fish",
       yellow_perch: "5 fish",
+      burbot: "10 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -4980,9 +5645,11 @@ export const regulations = [
     waterbody: "Sturgeon Lake",
     waterbody_detail: "Goose Creek tributary",
     fish_limits: {
-      walleye: "1 fish 45-\n50 cm",
+      walleye: "1 fish 45-50 cm",
       northern_pike: "0 fish",
       yellow_perch: "5 fish",
+      burbot: "10 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -4995,7 +5662,8 @@ export const regulations = [
     fish_limits: {
       walleye: "",
       northern_pike: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "",
     },
   },
   {
@@ -5009,6 +5677,7 @@ export const regulations = [
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "0 fish",
+      burbot: "",
     },
   },
   {
@@ -5018,7 +5687,12 @@ export const regulations = [
     season: "CLOSED ALL YEAR",
     waterbody: "Grizzly Creek",
     waterbody_detail: "Tributary to Kakwa River",
-    fish_limits: { walleye: "", northern_pike: "", mountain_whitefish: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      mountain_whitefish: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -5031,6 +5705,7 @@ export const regulations = [
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "0 fish",
+      burbot: "",
     },
   },
   {
@@ -5043,7 +5718,8 @@ export const regulations = [
     fish_limits: {
       walleye: "",
       northern_pike: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "",
     },
   },
   {
@@ -5057,6 +5733,7 @@ export const regulations = [
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "0 fish",
+      burbot: "",
     },
   },
   {
@@ -5069,7 +5746,8 @@ export const regulations = [
     fish_limits: {
       walleye: "3 over 50 cm",
       northern_pike: "3 over 63 cm",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "",
     },
   },
   {
@@ -5079,7 +5757,12 @@ export const regulations = [
     season: "CLOSED ALL YEAR",
     waterbody: "Lynx Creek",
     waterbody_detail: "Tributary to Kakwa River",
-    fish_limits: { walleye: "", northern_pike: "", mountain_whitefish: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      mountain_whitefish: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -5088,7 +5771,12 @@ export const regulations = [
     season: "OPEN JUNE 1 to AUG. 31",
     waterbody: "Muskeg River",
     waterbody_detail: "Mainstem including tributaries",
-    fish_limits: { walleye: "", northern_pike: "", mountain_whitefish: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      mountain_whitefish: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -5100,7 +5788,8 @@ export const regulations = [
     fish_limits: {
       walleye: "3 over 50 cm",
       northern_pike: "3 over 63 cm",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "",
     },
   },
   {
@@ -5114,6 +5803,7 @@ export const regulations = [
       walleye: "3 over 50 cm",
       northern_pike: "3 over 63 cm",
       mountain_whitefish: "0 fish",
+      burbot: "",
     },
   },
   {
@@ -5123,11 +5813,12 @@ export const regulations = [
     season: "OPEN JUNE 1 to AUG. 31",
     waterbody: "Smoky River",
     waterbody_detail:
-      "Headwater downstream to Hwy. 43 and tributaries except Kakwa, \nMuskeg, Simonette rivers",
+      "Headwater downstream to Hwy. 43 and tributaries except Kakwa, Muskeg, Simonette rivers",
     fish_limits: {
       walleye: "3 over 50 cm",
       northern_pike: "3 over 63 cm",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "",
     },
   },
   {
@@ -5141,6 +5832,7 @@ export const regulations = [
       walleye: "3 over 50 cm",
       northern_pike: "3 over 63 cm",
       mountain_whitefish: "0 fish",
+      burbot: "",
     },
   },
   {
@@ -5154,6 +5846,7 @@ export const regulations = [
       walleye: "3 over 50 cm",
       northern_pike: "3 over 63 cm",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -5167,6 +5860,7 @@ export const regulations = [
       walleye: "",
       northern_pike: "",
       mountain_whitefish: "0 fish",
+      burbot: "",
     },
   },
   {
@@ -5179,7 +5873,8 @@ export const regulations = [
     fish_limits: {
       walleye: "3 over 50 cm",
       northern_pike: "3 over 63 cm",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "",
     },
   },
   {
@@ -5193,6 +5888,7 @@ export const regulations = [
       walleye: "3 over 50 cm",
       northern_pike: "3 over 63 cm",
       mountain_whitefish: "0 fish",
+      burbot: "",
     },
   },
   {
@@ -5207,6 +5903,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5221,6 +5918,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5232,9 +5930,10 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5249,6 +5948,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5263,6 +5963,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5277,6 +5978,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5291,6 +5993,7 @@ export const regulations = [
       northern_pike: "1 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5302,9 +6005,10 @@ export const regulations = [
     waterbody_detail: "58-8-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5319,6 +6023,7 @@ export const regulations = [
       northern_pike: "1 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5333,6 +6038,7 @@ export const regulations = [
       northern_pike: "1 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5344,9 +6050,10 @@ export const regulations = [
     waterbody_detail: "58-4-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n70 cm ",
+      northern_pike: "1 over 70 cm ",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5358,9 +6065,10 @@ export const regulations = [
     waterbody_detail: "RED LAKE; 60-13-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5371,10 +6079,11 @@ export const regulations = [
     waterbody: "Bourque Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 fish 50-55 \ncm",
+      walleye: "1 fish 50-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5386,9 +6095,10 @@ export const regulations = [
     waterbody_detail: "61-12-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5403,6 +6113,7 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5414,9 +6125,10 @@ export const regulations = [
     waterbody_detail: "59-12-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5427,10 +6139,11 @@ export const regulations = [
     waterbody: "Calling Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 fish 45-55 \ncm",
+      walleye: "1 fish 45-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5441,10 +6154,11 @@ export const regulations = [
     waterbody: "Calling Lake",
     waterbody_detail: "Includes tributaries and outlet for 1 km",
     fish_limits: {
-      walleye: "1 fish 45-55 \ncm",
+      walleye: "1 fish 45-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5459,6 +6173,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5473,6 +6188,7 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5484,10 +6200,11 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "3 over 50 cm",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout:
-        "1 fish over 75 cm \nfrom May 15-Sept. \n14 and Nov. 16-\nMar. 31; 0 from \nSept. 15-Nov. 15",
+        "1 fish over 75 cm from May 15-Sept. 14 and Nov. 16-Mar. 31; 0 from Sept. 15-Nov. 15",
+      burbot: "10 fish",
     },
   },
   {
@@ -5502,6 +6219,7 @@ export const regulations = [
       northern_pike: "1 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5516,6 +6234,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5530,6 +6249,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5544,6 +6264,7 @@ export const regulations = [
       northern_pike: "1 fish",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5554,10 +6275,11 @@ export const regulations = [
     waterbody: "Elinor Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 fish 45-50 \ncm",
-      northern_pike: "1 fish \n63-70 \ncm",
+      walleye: "1 fish 45-50 cm",
+      northern_pike: "1 fish 63-70 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5569,9 +6291,10 @@ export const regulations = [
     waterbody_detail: "Includes tributaries and outlet for 1 km ",
     fish_limits: {
       walleye: "0 or SHL tags",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5583,9 +6306,10 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5600,6 +6324,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5614,6 +6339,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5625,9 +6351,10 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 fish \n55-63 \ncm",
+      northern_pike: "1 fish 55-63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5642,6 +6369,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5653,9 +6381,10 @@ export const regulations = [
     waterbody_detail: "57-3-W4",
     fish_limits: {
       walleye: "3 over 50 cm",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5666,10 +6395,11 @@ export const regulations = [
     waterbody: "Garner Lake",
     waterbody_detail: "60-12-W4",
     fish_limits: {
-      walleye: "1 fish 45-50 \ncm",
+      walleye: "1 fish 45-50 cm",
       northern_pike: "0 fish",
       yellow_perch: "5 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5681,9 +6411,10 @@ export const regulations = [
     waterbody_detail: "58-4-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n70 cm",
+      northern_pike: "1 over 70 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5698,6 +6429,7 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5712,6 +6444,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5723,9 +6456,10 @@ export const regulations = [
     waterbody_detail: "60-11-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5740,6 +6474,7 @@ export const regulations = [
       northern_pike: "2 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5754,6 +6489,7 @@ export const regulations = [
       northern_pike: "2 fish",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5768,6 +6504,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5779,9 +6516,10 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "0 or SHL tags",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5793,9 +6531,10 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5806,10 +6545,11 @@ export const regulations = [
     waterbody: "Ironwood Lake",
     waterbody_detail: "65-11-W4",
     fish_limits: {
-      walleye: "1 fish 50-55 \ncm",
+      walleye: "1 fish 50-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5821,9 +6561,10 @@ export const regulations = [
     waterbody_detail: "62-17-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n55 cm",
+      northern_pike: "1 over 55 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5835,9 +6576,10 @@ export const regulations = [
     waterbody_detail: "60-15-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5852,6 +6594,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5862,10 +6605,11 @@ export const regulations = [
     waterbody: "Lac Bellevue",
     waterbody_detail: "56-9-W4",
     fish_limits: {
-      walleye: "1 fish 45-50 \ncm",
+      walleye: "1 fish 45-50 cm",
       northern_pike: "0 fish",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5876,10 +6620,11 @@ export const regulations = [
     waterbody: "Lac La Biche",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 fish 50-55 \ncm",
+      walleye: "1 fish 50-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5889,12 +6634,13 @@ export const regulations = [
     season: "CLOSED ALL YEAR",
     waterbody: "Lac La Biche",
     waterbody_detail:
-      "Tributaries and outlet; see La Biche River and Owl \nRiver",
+      "Tributaries and outlet; see La Biche River and Owl River",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5909,6 +6655,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5920,9 +6667,10 @@ export const regulations = [
     waterbody_detail: "57-9-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5934,9 +6682,10 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5948,9 +6697,10 @@ export const regulations = [
     waterbody_detail: "Includes outlet ",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5960,12 +6710,13 @@ export const regulations = [
     season: "OPEN MAY 15 TO MAR. 31",
     waterbody: "Lakeland Provincial Park",
     waterbody_detail:
-      "All lakes including Blackett, Dabbs, Helena, Jackson, \nKinnaird, McGuffin, Shaw and Snake; Species limits \nare combined for all water",
+      "All lakes including Blackett, Dabbs, Helena, Jackson, Kinnaird, McGuffin, Shaw and Snake; Species limits are combined for all water",
     fish_limits: {
-      walleye: "1 fish 45-50 \ncm",
-      northern_pike: "1 fish \n63-70 \ncm",
+      walleye: "1 fish 45-50 cm",
+      northern_pike: "1 fish 63-70 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -5977,9 +6728,10 @@ export const regulations = [
     waterbody_detail: "56-4-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -5994,6 +6746,7 @@ export const regulations = [
       northern_pike: "1 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6008,6 +6761,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6022,6 +6776,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6033,9 +6788,10 @@ export const regulations = [
     waterbody_detail: "63-14-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6047,9 +6803,10 @@ export const regulations = [
     waterbody_detail: "56-1-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6064,6 +6821,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6078,6 +6836,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6089,9 +6848,10 @@ export const regulations = [
     waterbody_detail: "58-11-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6103,9 +6863,10 @@ export const regulations = [
     waterbody_detail: "60-10-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6120,6 +6881,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6130,10 +6892,11 @@ export const regulations = [
     waterbody: "Marie Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 fish 50-55 \ncm",
+      walleye: "1 fish 50-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6144,10 +6907,11 @@ export const regulations = [
     waterbody: "May Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 fish 50-55 \ncm",
+      walleye: "1 fish 50-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6162,6 +6926,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6173,9 +6938,10 @@ export const regulations = [
     waterbody_detail: "60-16-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6187,9 +6953,10 @@ export const regulations = [
     waterbody_detail: "58-1-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6199,12 +6966,13 @@ export const regulations = [
     season: "OPEN JUNE 1 TO MAR. 1",
     waterbody: "Moose Lake",
     waterbody_detail:
-      "Portion south of a line from the easternmost \npoint of land in NW2-61-7-W4 (Pelican Point) to \nthe southernmost point of land in E2-61-7-W4 \n(Deadman's Point) and southeast to the northernmost \npoint of land in SW31-60-6-W4 (Ferbey Subdivision)",
+      "Portion south of a line from the easternmost point of land in NW2-61-7-W4 (Pelican Point) to the southernmost point of land in E2-61-7-W4 (Deadman's Point) and southeast to the northernmost point of land in SW31-60-6-W4 (Ferbey Subdivision)",
     fish_limits: {
       walleye: "0 or SHL tags",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6214,12 +6982,13 @@ export const regulations = [
     season: "OPEN JUNE 1 TO MAR. 31",
     waterbody: "Moose Lake",
     waterbody_detail:
-      "Remainder of the lake and tributaries for 1 km \nupstream and outlets for 1 km downstream",
+      "Remainder of the lake and tributaries for 1 km upstream and outlets for 1 km downstream",
     fish_limits: {
       walleye: "0 or SHL tags",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6231,9 +7000,10 @@ export const regulations = [
     waterbody_detail: "57-6-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6248,6 +7018,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "0 fish",
       lake_trout: "",
+      burbot: "0 fish",
     },
   },
   {
@@ -6259,9 +7030,10 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6273,9 +7045,10 @@ export const regulations = [
     waterbody_detail: "Includes outlet for 1 km",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6290,6 +7063,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6299,12 +7073,13 @@ export const regulations = [
     season: "CLOSED ALL YEAR",
     waterbody: "Pinehurst Lake",
     waterbody_detail:
-      "Portion north of a line drawn from the easternmost \npoint of land in NW19-65-09-W4 easterly to the \nwesternmost point of land in NE19-65-09-W4 locally \nknown as Snug Cove (Mud Bay)",
+      "Portion north of a line drawn from the easternmost point of land in NW19-65-09-W4 easterly to the westernmost point of land in NE19-65-09-W4 locally known as Snug Cove (Mud Bay)",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6319,6 +7094,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6333,6 +7109,7 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6344,9 +7121,10 @@ export const regulations = [
     waterbody_detail: "61-12-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6361,6 +7139,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6375,6 +7154,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6386,9 +7166,10 @@ export const regulations = [
     waterbody_detail: "56-4-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6400,9 +7181,10 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "3 over 50 cm",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6417,6 +7199,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6428,9 +7211,10 @@ export const regulations = [
     waterbody_detail: "23-65-5-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n70 cm",
+      northern_pike: "1 over 70 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6441,10 +7225,11 @@ export const regulations = [
     waterbody: "Skeleton Lake",
     waterbody_detail: "65-18-W4",
     fish_limits: {
-      walleye: "1 fish 50-55 \ncm",
-      northern_pike: "1 fish \n63-70 \ncm",
+      walleye: "1 fish 50-55 cm",
+      northern_pike: "1 fish 63-70 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6456,9 +7241,10 @@ export const regulations = [
     waterbody_detail: "59-1-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n70 cm",
+      northern_pike: "1 over 70 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6466,15 +7252,16 @@ export const regulations = [
     fish_management_zone: "NB1-Lakes",
     id: "NB1-Lakes-4-12",
     season:
-      "OPEN MAY 15 TO MAR. 31 \nFROM 1700H FRIDAY TO \n1/2H AFTER SUNSET THE \nFOLLOWING SUNDAY",
+      "OPEN MAY 15 TO MAR. 31 FROM 1700H FRIDAY TO 1/2H AFTER SUNSET THE FOLLOWING SUNDAY",
     waterbody: "Spencer Lake",
     waterbody_detail:
-      "NOTE: Spencer Lake is located in the Cold Lake Air \nWeapons Range and live ammunition is used in the \narea. Use of the lake by anglers is dependent on \nthe approval of the Canadian Forces at the Base. If \nnecessary for Base operations, access to Spencer \nLake may be closed during some of the open periods \nlisted above. Due to safety concerns, the Canadian \nForces does not permit overland access to Spencer \nLake on any trails that are inside the Bombing Range \nboundary, including the trail between Seibert and \nSpencer lakes. Spencer Lake may only be accessed \nfrom the west tip of Spencer Lake and it is unlawful to \ngo ashore inside the bombing range boundary.",
+      "NOTE: Spencer Lake is located in the Cold Lake Air Weapons Range and live ammunition is used in the area. Use of the lake by anglers is dependent on the approval of the Canadian Forces at the Base. If necessary for Base operations, access to Spencer Lake may be closed during some of the open periods listed above. Due to safety concerns, the Canadian Forces does not permit overland access to Spencer Lake on any trails that are inside the Bombing Range boundary, including the trail between Seibert and Spencer lakes. Spencer Lake may only be accessed from the west tip of Spencer Lake and it is unlawful to go ashore inside the bombing range boundary.",
     fish_limits: {
-      walleye: "2 fish 45-50 \ncm",
-      northern_pike: "1 over \n75 cm",
+      walleye: "2 fish 45-50 cm",
+      northern_pike: "1 over 75 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6482,14 +7269,15 @@ export const regulations = [
     fish_management_zone: "NB1-Lakes",
     id: "NB1-Lakes-4-13",
     season:
-      "OPEN MAY 15 TO MAR. 31 \nLONG WEEKENDS WITH \nTHE HOLIDAY FRIDAY; \n1700H THURSDAY TO \n1/2H AFTER SUNSET THE \nFOLLOWING SUNDAY",
+      "OPEN MAY 15 TO MAR. 31 LONG WEEKENDS WITH THE HOLIDAY FRIDAY; 1700H THURSDAY TO 1/2H AFTER SUNSET THE FOLLOWING SUNDAY",
     waterbody: "Spencer Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "2 fish 45-50 \ncm",
-      northern_pike: "1 over \n75 cm",
+      walleye: "2 fish 45-50 cm",
+      northern_pike: "1 over 75 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6497,28 +7285,30 @@ export const regulations = [
     fish_management_zone: "NB1-Lakes",
     id: "NB1-Lakes-4-14",
     season:
-      "OPEN MAY 15 TO MAR. 31 \nLONG WEEKENDS WITH \nTHE HOLIDAY MONDAY; \n1700H FRIDAY TO 1/2H \nAFTER SUNSET THE \nFOLLOWING MONDAY",
+      "OPEN MAY 15 TO MAR. 31 LONG WEEKENDS WITH THE HOLIDAY MONDAY; 1700H FRIDAY TO 1/2H AFTER SUNSET THE FOLLOWING MONDAY",
     waterbody: "Spencer Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "2 fish 45-50 \ncm",
-      northern_pike: "1 over \n75 cm",
+      walleye: "2 fish 45-50 cm",
+      northern_pike: "1 over 75 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
     bait_allowed: "no",
     fish_management_zone: "NB1-Lakes",
     id: "NB1-Lakes-4-15",
-    season: "OPEN DEC. 24 1700H TO \n1/2H AFTER SUNSET ON \nJAN. 1",
+    season: "OPEN DEC. 24 1700H TO 1/2H AFTER SUNSET ON JAN. 1",
     waterbody: "Spencer Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "2 fish 45-50 \ncm",
-      northern_pike: "1 over \n75 cm",
+      walleye: "2 fish 45-50 cm",
+      northern_pike: "1 over 75 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6530,9 +7320,10 @@ export const regulations = [
     waterbody_detail: "56-8-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "0 fish",
     },
   },
   {
@@ -6547,6 +7338,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6561,6 +7353,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6572,9 +7365,10 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "2 fish \n63-70 \ncm",
+      northern_pike: "2 fish 63-70 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6586,9 +7380,10 @@ export const regulations = [
     waterbody_detail: "60-17-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6600,9 +7395,10 @@ export const regulations = [
     waterbody_detail: "57-1-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6614,9 +7410,10 @@ export const regulations = [
     waterbody_detail: "56-9-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6631,6 +7428,7 @@ export const regulations = [
       northern_pike: "2 fish",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6645,6 +7443,7 @@ export const regulations = [
       northern_pike: "2 fish",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6656,9 +7455,10 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6670,9 +7470,10 @@ export const regulations = [
     waterbody_detail: "Includes tributaries",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6684,9 +7485,10 @@ export const regulations = [
     waterbody_detail: "63-14-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6698,9 +7500,10 @@ export const regulations = [
     waterbody_detail: "61-13-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6715,6 +7518,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6726,9 +7530,10 @@ export const regulations = [
     waterbody_detail: "56-4-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -6743,6 +7548,7 @@ export const regulations = [
       northern_pike: "1 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6752,12 +7558,13 @@ export const regulations = [
     season: "OPEN JUNE 1 TO MAR. 31",
     waterbody: "Wolf Lake Complex",
     waterbody_detail:
-      "Includes all lakes within TWP 66, RNG 6 and 7, W4M; \nIncludes Wolf, Sapphire, Magician, Corner, Lane lks; \nSpecies limits are combined for all water",
+      "Includes all lakes within TWP 66, RNG 6 and 7, W4M; Includes Wolf, Sapphire, Magician, Corner, Lane lks; Species limits are combined for all water",
     fish_limits: {
       walleye: "0 or SHL tags",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6772,6 +7579,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -6781,13 +7589,16 @@ export const regulations = [
     season: "OPEN JUNE 1 to OCT. 31",
     waterbody: "Athabasca River",
     waterbody_detail:
-      "Mainstem from Sec. Rd. 813 (near Athabasca) and the \nnorth boundary of Township 78 (near Pelican River)",
+      "Mainstem from Sec. Rd. 813 (near Athabasca) and the north boundary of Township 78 (near Pelican River)",
     fish_limits: {
       walleye: "3 over 50 cm",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "10 fish",
+      goldeye: "10 fish",
+      rainbow_trout: "",
     },
   },
   {
@@ -6799,10 +7610,13 @@ export const regulations = [
     waterbody_detail: "Mainstem including tributaries",
     fish_limits: {
       walleye: "1 over 50 cm",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -6818,6 +7632,9 @@ export const regulations = [
       yellow_perch: "",
       lake_trout: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -6827,13 +7644,16 @@ export const regulations = [
     season: "OPEN JUNE 1 to OCT. 31",
     waterbody: "Lakeland Provincial Park",
     waterbody_detail:
-      "All water within the Provincial Park; Species limits are \ncombined for all water",
+      "All water within the Provincial Park; Species limits are combined for all water",
     fish_limits: {
-      walleye: "1 fish 45-50 \ncm",
-      northern_pike: "1 fish \n63-70 \ncm",
+      walleye: "1 fish 45-50 cm",
+      northern_pike: "1 fish 63-70 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
       mountain_whitefish: "",
+      burbot: "10 fish",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -6845,10 +7665,13 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "3 over 50 cm",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "",
       lake_trout: "0 fish",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -6860,10 +7683,13 @@ export const regulations = [
     waterbody_detail: "11-62-2-W4",
     fish_limits: {
       walleye: "3 over 50 cm",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "",
       lake_trout: "0 fish",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "5 fish",
     },
   },
   {
@@ -6879,6 +7705,9 @@ export const regulations = [
       yellow_perch: "",
       lake_trout: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -6887,14 +7716,16 @@ export const regulations = [
     id: "NB1-Rivers-1-7",
     season: "OPEN JUNE 1 to OCT. 31",
     waterbody: "Owl River",
-    waterbody_detail:
-      "From confluence with Piche River upstream to \nheadwater",
+    waterbody_detail: "From confluence with Piche River upstream to headwater",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -6906,10 +7737,13 @@ export const regulations = [
     waterbody_detail: "Includes tributaries",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -6925,6 +7759,9 @@ export const regulations = [
       yellow_perch: "",
       lake_trout: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -6935,12 +7772,14 @@ export const regulations = [
     waterbody: "Redwater River",
     waterbody_detail: "",
     fish_limits: {
-      walleye:
-        "0 within 500 \nm of the \nconfluence \nwith the North \nSask. River",
-      northern_pike: "3 over \n63 cm",
+      walleye: "0 within 500 m of the confluence with the North Sask. River",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
       mountain_whitefish: "",
+      burbot: "10 fish",
+      goldeye: "",
+      rainbow_trout: "",
     },
   },
   {
@@ -6951,9 +7790,10 @@ export const regulations = [
     waterbody: "Baptiste Lake",
     waterbody_detail: "66-24-W4",
     fish_limits: {
-      walleye: "0 or SHL \ntags",
+      walleye: "0 or SHL tags",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -6963,7 +7803,12 @@ export const regulations = [
     season: "OPEN MAY 15 TO MAR. 31",
     waterbody: "Blue Lake",
     waterbody_detail: "13-69-17-W5",
-    fish_limits: { walleye: "", northern_pike: "", yellow_perch: "0 fish" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      yellow_perch: "0 fish",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -6976,6 +7821,7 @@ export const regulations = [
       walleye: "",
       northern_pike: "2 fish",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -6985,7 +7831,12 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "Chain (Lower) Lake",
     waterbody_detail: "69-23-W4",
-    fish_limits: { walleye: "", northern_pike: "", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      yellow_perch: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -6998,6 +7849,7 @@ export const regulations = [
       walleye: "",
       northern_pike: "2 fish",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -7007,7 +7859,12 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "Dolberg Lake",
     waterbody_detail: "8-1-60-8-W5",
-    fish_limits: { walleye: "", northern_pike: "", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      yellow_perch: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -7017,9 +7874,10 @@ export const regulations = [
     waterbody: "Fawcett Lake",
     waterbody_detail: "Remainder of the lake",
     fish_limits: {
-      walleye: "0 or SHL \ntags",
+      walleye: "0 or SHL tags",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7029,11 +7887,12 @@ export const regulations = [
     season: "OPEN JULY 1 TO MAR. 1",
     waterbody: "Fawcett Lake",
     waterbody_detail:
-      "Portion north and east of a line drawn from the MD boat launch \nin SE12-73-26-W4 to the point of land in SE11-73-26-W4 \nincluding the Mink River, Fawcett (Howard) River, and the areas \nlocally known as the narrows and east basin",
+      "Portion north and east of a line drawn from the MD boat launch in SE12-73-26-W4 to the point of land in SE11-73-26-W4 including the Mink River, Fawcett (Howard) River, and the areas locally known as the narrows and east basin",
     fish_limits: {
-      walleye: "0 or SHL \ntags",
+      walleye: "0 or SHL tags",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7044,9 +7903,10 @@ export const regulations = [
     waterbody: "Fawcett Lake",
     waterbody_detail: "Includes tributaries and outlet for 1 km",
     fish_limits: {
-      walleye: "0 or SHL \ntags",
+      walleye: "0 or SHL tags",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7060,6 +7920,7 @@ export const regulations = [
       walleye: "",
       northern_pike: "2 fish",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -7069,7 +7930,12 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "Freeman Lake",
     waterbody_detail: "",
-    fish_limits: { walleye: "", northern_pike: "3 fish", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "3 fish",
+      yellow_perch: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -7078,7 +7944,12 @@ export const regulations = [
     season: "OPEN JUNE 16 TO OCT. 31",
     waterbody: "Freeman Lake",
     waterbody_detail: "Tributaries",
-    fish_limits: { walleye: "", northern_pike: "3 fish", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "3 fish",
+      yellow_perch: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -7091,6 +7962,7 @@ export const regulations = [
       walleye: "",
       northern_pike: "2 fish",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -7100,7 +7972,12 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "Gilroy Lake",
     waterbody_detail: "",
-    fish_limits: { walleye: "", northern_pike: "3 fish", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "3 fish",
+      yellow_perch: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -7111,8 +7988,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over 63 \ncm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -7124,8 +8002,9 @@ export const regulations = [
     waterbody_detail: "Tributaries and outlet",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over 63 \ncm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -7136,9 +8015,10 @@ export const regulations = [
     waterbody: "Island Lake",
     waterbody_detail: "67-24-W4",
     fish_limits: {
-      walleye: "1 fish 45-50 \ncm",
-      northern_pike: "1 fish 63-\n70 cm",
+      walleye: "1 fish 45-50 cm",
+      northern_pike: "1 fish 63-70 cm",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7149,9 +8029,10 @@ export const regulations = [
     waterbody: "Island Lake",
     waterbody_detail: "Includes tributaries and outlet ",
     fish_limits: {
-      walleye: "1 fish 45-50 \ncm",
-      northern_pike: "1 fish 63-\n70 cm",
+      walleye: "1 fish 45-50 cm",
+      northern_pike: "1 fish 63-70 cm",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7165,6 +8046,7 @@ export const regulations = [
       walleye: "0 fish",
       northern_pike: "2 fish",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7178,6 +8060,7 @@ export const regulations = [
       walleye: "0 fish",
       northern_pike: "2 fish",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7189,8 +8072,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "1 over 63 \ncm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "2 fish; but limit is 0 from Feb. 1 to Mar. 31",
     },
   },
   {
@@ -7204,6 +8088,7 @@ export const regulations = [
       walleye: "",
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7213,11 +8098,12 @@ export const regulations = [
     season: "OPEN JUNE 16 TO OCT. 31",
     waterbody: "Lesser Slave Lake",
     waterbody_detail:
-      "Portion west of a line drawn from Shaw Point to the point of land \nin 26-74-14-W5 known as Little Grassy Point, including Buffalo \nBay and the Grouard Channel, and their tributaries (except East \nPrairie River, South Heart River and Traverse Creek)",
+      "Portion west of a line drawn from Shaw Point to the point of land in 26-74-14-W5 known as Little Grassy Point, including Buffalo Bay and the Grouard Channel, and their tributaries (except East Prairie River, South Heart River and Traverse Creek)",
     fish_limits: {
       walleye: "1 over 43 cm",
-      northern_pike: "3 over 55 \ncm",
+      northern_pike: "3 over 55 cm",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7229,8 +8115,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "2 over 43 cm",
-      northern_pike: "3 over 55 \ncm",
+      northern_pike: "3 over 55 cm",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7240,11 +8127,12 @@ export const regulations = [
     season: "OPEN MAY 15 TO OCT. 31",
     waterbody: "Lesser Slave Lake",
     waterbody_detail:
-      "Remainder of the lake and outlet (Lesser Slave River) \ndownstream to the weir below Hwy. 88",
+      "Remainder of the lake and outlet (Lesser Slave River) downstream to the weir below Hwy. 88",
     fish_limits: {
       walleye: "1 over 43 cm",
-      northern_pike: "3 over 55 \ncm",
+      northern_pike: "3 over 55 cm",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7256,8 +8144,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "2 over 43 cm",
-      northern_pike: "3 over 55 \ncm",
+      northern_pike: "3 over 55 cm",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7267,7 +8156,12 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "Lily Lake",
     waterbody_detail: "7-75-5-W5",
-    fish_limits: { walleye: "", northern_pike: "", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      yellow_perch: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -7278,8 +8172,9 @@ export const regulations = [
     waterbody_detail: "24-63-26-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over 63 \ncm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -7293,6 +8188,7 @@ export const regulations = [
       walleye: "",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -7306,6 +8202,7 @@ export const regulations = [
       walleye: "",
       northern_pike: "2 fish",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -7317,8 +8214,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "2 over 63 \ncm",
+      northern_pike: "2 over 63 cm",
       yellow_perch: "0 fish",
+      burbot: "",
     },
   },
   {
@@ -7332,6 +8230,7 @@ export const regulations = [
       walleye: "0 fish",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -7345,6 +8244,7 @@ export const regulations = [
       walleye: "1 over 50 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7358,6 +8258,7 @@ export const regulations = [
       walleye: "1 over 50 cm",
       northern_pike: "0 fish",
       yellow_perch: "",
+      burbot: "",
     },
   },
   {
@@ -7369,8 +8270,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "1 over 70 \ncm",
+      northern_pike: "1 over 70 cm",
       yellow_perch: "",
+      burbot: "",
     },
   },
   {
@@ -7380,7 +8282,12 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "Schuman Lake",
     waterbody_detail: "35-61-8-W5",
-    fish_limits: { walleye: "", northern_pike: "", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      yellow_perch: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -7393,6 +8300,7 @@ export const regulations = [
       walleye: "",
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -7406,6 +8314,7 @@ export const regulations = [
       walleye: "",
       northern_pike: "0 fish",
       yellow_perch: "0 fish",
+      burbot: "",
     },
   },
   {
@@ -7413,9 +8322,14 @@ export const regulations = [
     fish_management_zone: "NB2-Lakes",
     id: "NB2-Lakes-2-16",
     season: "OPEN MAY 1 TO OCT. 31",
-    waterbody: "Whiteridge Recreation Area \nPond (Blueridge Pit)",
+    waterbody: "Whiteridge Recreation Area Pond (Blueridge Pit)",
     waterbody_detail: "SW-01-60-10-W5",
-    fish_limits: { walleye: "", northern_pike: "", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      yellow_perch: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -7428,6 +8342,7 @@ export const regulations = [
       walleye: "1 over 60 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7442,6 +8357,7 @@ export const regulations = [
       walleye: "1 over 60 cm",
       northern_pike: "0 fish",
       yellow_perch: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -7451,12 +8367,14 @@ export const regulations = [
     season: "OPEN JUNE 1 to OCT. 31",
     waterbody: "Athabasca River",
     waterbody_detail:
-      "Mainstem between Sec. Rd. 658 (near Whitecourt) \ndownstream to Sec. Rd. 813 (near Athabasca)",
+      "Mainstem between Sec. Rd. 658 (near Whitecourt) downstream to Sec. Rd. 813 (near Athabasca)",
     fish_limits: {
-      walleye: "3 over \n50 cm",
-      northern_pike: "3 over \n63 cm",
+      walleye: "3 over 50 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "10 fish",
+      goldeye: "10 fish",
     },
   },
   {
@@ -7467,10 +8385,12 @@ export const regulations = [
     waterbody: "East Prairie River",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 over \n43 cm",
-      northern_pike: "3 over \n55 cm",
+      walleye: "1 over 43 cm",
+      northern_pike: "3 over 55 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
     },
   },
   {
@@ -7481,10 +8401,12 @@ export const regulations = [
     waterbody: "Freeman River",
     waterbody_detail: "Mainstem includes tributaries",
     fish_limits: {
-      walleye: "3 over \n50 cm",
+      walleye: "3 over 50 cm",
       northern_pike: "3 fish",
       yellow_perch: "",
       mountain_whitefish: "0 fish",
+      burbot: "",
+      goldeye: "",
     },
   },
   {
@@ -7494,12 +8416,14 @@ export const regulations = [
     season: "",
     waterbody: "Lesser Slave River",
     waterbody_detail:
-      "See Lesser Slave Lake; outlet portion downstream to \nthe weir below Hwy. 88",
+      "See Lesser Slave Lake; outlet portion downstream to the weir below Hwy. 88",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
     },
   },
   {
@@ -7509,12 +8433,14 @@ export const regulations = [
     season: "OPEN JUNE 1 to OCT. 31",
     waterbody: "Lesser Slave River",
     waterbody_detail:
-      "The tributary and backwater downstream of the bridge \nthat is east of the weir on the Old Smith Highway",
+      "The tributary and backwater downstream of the bridge that is east of the weir on the Old Smith Highway",
     fish_limits: {
-      walleye: "1 over \n43 cm",
-      northern_pike: "2 over \n63 cm",
+      walleye: "1 over 43 cm",
+      northern_pike: "2 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
     },
   },
   {
@@ -7524,12 +8450,14 @@ export const regulations = [
     season: "OPEN JUNE 1 to OCT. 31",
     waterbody: "Lesser Slave River",
     waterbody_detail:
-      "The portion of river downstream of the weir below \nHwy. 88",
+      "The portion of river downstream of the weir below Hwy. 88",
     fish_limits: {
-      walleye: "1 over \n43 cm",
-      northern_pike: "2 over \n63 cm",
+      walleye: "1 over 43 cm",
+      northern_pike: "2 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
     },
   },
   {
@@ -7540,10 +8468,12 @@ export const regulations = [
     waterbody: "Pembina River",
     waterbody_detail: "Downstream of Hwy. 43 (near Sandugo)",
     fish_limits: {
-      walleye: "3 over \n50 cm",
-      northern_pike: "3 over \n63 cm",
+      walleye: "3 over 50 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "10 fish",
+      goldeye: "10 fish",
     },
   },
   {
@@ -7553,12 +8483,14 @@ export const regulations = [
     season: "OPEN JUNE 1 to OCT. 31",
     waterbody: "South Heart River",
     waterbody_detail:
-      "Portion between the South Heart Reservoir and the \nWest Prairie River",
+      "Portion between the South Heart Reservoir and the West Prairie River",
     fish_limits: {
-      walleye: "1 over \n43 cm",
-      northern_pike: "3 over \n55 cm",
+      walleye: "1 over 43 cm",
+      northern_pike: "3 over 55 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
     },
   },
   {
@@ -7568,12 +8500,14 @@ export const regulations = [
     season: "OPEN JUNE 16 to OCT. 31",
     waterbody: "South Heart River",
     waterbody_detail:
-      "Portion from the confluence with the West Prairie \nRiver downstream to Buffalo Bay and tributaries",
+      "Portion from the confluence with the West Prairie River downstream to Buffalo Bay and tributaries",
     fish_limits: {
-      walleye: "1 over \n43 cm",
-      northern_pike: "3 over \n55 cm",
+      walleye: "1 over 43 cm",
+      northern_pike: "3 over 55 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
     },
   },
   {
@@ -7584,10 +8518,12 @@ export const regulations = [
     waterbody: "Strawberry Creek",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 over \n43 cm",
-      northern_pike: "3 over \n55 cm",
+      walleye: "1 over 43 cm",
+      northern_pike: "3 over 55 cm",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
+      goldeye: "",
     },
   },
   {
@@ -7598,10 +8534,12 @@ export const regulations = [
     waterbody: "Travers Creek",
     waterbody_detail: "Tributary to Buffalo Bay",
     fish_limits: {
-      walleye: "1 over \n43 cm",
-      northern_pike: "3 over \n55 cm",
+      walleye: "1 over 43 cm",
+      northern_pike: "3 over 55 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
     },
   },
   {
@@ -7612,10 +8550,12 @@ export const regulations = [
     waterbody: "West Prairie River",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 over \n43 cm",
-      northern_pike: "3 over \n55 cm",
+      walleye: "1 over 43 cm",
+      northern_pike: "3 over 55 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
     },
   },
   {
@@ -7630,6 +8570,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -7644,6 +8585,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -7658,6 +8600,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -7672,6 +8615,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -7681,12 +8625,13 @@ export const regulations = [
     season: "OPEN JULY 1 TO MAR. 1",
     waterbody: "Bistcho Lake",
     waterbody_detail:
-      "The bay north of Kirkness Island; the portion of lake northerly \nof a line drawn from the southernmost tip of the point of land \nin SE31-124-5-W6 southeasterly to the westernmost tip of \nthe point of land in SW28-124-5-W6 on Kirkness Island, and \nnortherly of a line drawn from the easternmost tip of the point \nof land in SW27-124-5-W6 on Kirkness Island northeasterly \nto the southernmost tip of the point of land in SW35-124-\n5-W6",
+      "The bay north of Kirkness Island; the portion of lake northerly of a line drawn from the southernmost tip of the point of land in SE31-124-5-W6 southeasterly to the westernmost tip of the point of land in SW28-124-5-W6 on Kirkness Island, and northerly of a line drawn from the easternmost tip of the point of land in SW27-124-5-W6 on Kirkness Island northeasterly to the southernmost tip of the point of land in SW35-124-5-W6",
     fish_limits: {
       walleye: "3 over 43 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -7701,6 +8646,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -7715,6 +8661,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -7729,6 +8676,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -7743,6 +8691,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -7757,6 +8706,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "1 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7771,6 +8721,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -7785,6 +8736,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -7799,6 +8751,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -7810,9 +8763,10 @@ export const regulations = [
     waterbody_detail: "90-02-W5",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "1 over 100 \ncm",
+      northern_pike: "1 over 100 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -7824,9 +8778,10 @@ export const regulations = [
     waterbody_detail: "Tributaries and outlet",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "1 over 100 \ncm",
+      northern_pike: "1 over 100 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -7841,6 +8796,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -7855,6 +8811,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "0 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7869,6 +8826,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "0 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -7883,6 +8841,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "3 fish",
     },
   },
   {
@@ -7897,6 +8856,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "3 fish",
     },
   },
   {
@@ -7911,6 +8871,7 @@ export const regulations = [
       northern_pike: "2 over 70 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -7925,6 +8886,7 @@ export const regulations = [
       northern_pike: "2 over 70 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -7939,6 +8901,7 @@ export const regulations = [
       northern_pike: "1 over 63 cm",
       yellow_perch: "0 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -7953,6 +8916,7 @@ export const regulations = [
       northern_pike: "1 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -7967,6 +8931,7 @@ export const regulations = [
       northern_pike: "1 over 75 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -7981,6 +8946,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -7995,6 +8961,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -8009,6 +8976,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8023,6 +8991,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8037,6 +9006,7 @@ export const regulations = [
       northern_pike: "2 over 70 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -8051,6 +9021,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "1 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -8065,6 +9036,7 @@ export const regulations = [
       northern_pike: "3 over 55 cm",
       yellow_perch: "5 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -8079,6 +9051,7 @@ export const regulations = [
       northern_pike: "1 over 70 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8093,6 +9066,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -8107,6 +9081,7 @@ export const regulations = [
       northern_pike: "1 over 75 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8116,12 +9091,13 @@ export const regulations = [
     season: "OPEN JUNE 1 TO MAR. 1",
     waterbody: "North Wabasca Lake",
     waterbody_detail:
-      "Portion south of a line drawn from the northern boundary of \nWabasca Reserve 166b in NW 35-80-26-W4 to the point of \nland in the east half of NE 31-80-25-W4, which includes the \nmouth of the Willow River and channel of the Wabasca River",
+      "Portion south of a line drawn from the northern boundary of Wabasca Reserve 166b in NW 35-80-26-W4 to the point of land in the east half of NE 31-80-25-W4, which includes the mouth of the Willow River and channel of the Wabasca River",
     fish_limits: {
       walleye: "1 over 50 cm",
       northern_pike: "1 over 75 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8136,6 +9112,7 @@ export const regulations = [
       northern_pike: "1 over 75 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8150,6 +9127,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
       lake_trout: "0 fish",
+      burbot: "",
     },
   },
   {
@@ -8164,6 +9142,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "0 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -8178,6 +9157,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "1 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -8192,6 +9172,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "1 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -8206,6 +9187,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "1 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -8220,6 +9202,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8234,6 +9217,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8248,6 +9232,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8257,12 +9242,13 @@ export const regulations = [
     season: "OPEN JUNE 1 TO MAR. 1",
     waterbody: "Sandy Lake",
     waterbody_detail:
-      "Portion north of a line drawn from the point of land on the \nwest shore in the SE half of 19-79-22-W4 to the point of land \non the east shore in the SW half of 21-79-22-W4",
+      "Portion north of a line drawn from the point of land on the west shore in the SE half of 19-79-22-W4 to the point of land on the east shore in the SW half of 21-79-22-W4",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "1 over 75 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8272,12 +9258,13 @@ export const regulations = [
     season: "OPEN JUNE 1 TO MAR. 1",
     waterbody: "Sandy Lake",
     waterbody_detail:
-      "Portion south of a line drawn from the point of land on the \nwest shore in the SW half of 5-79-22-W4 to the point of land \non the east shore in the SW half of 3-79-22-W4",
+      "Portion south of a line drawn from the point of land on the west shore in the SW half of 5-79-22-W4 to the point of land on the east shore in the SW half of 3-79-22-W4",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "1 over 75 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8292,6 +9279,7 @@ export const regulations = [
       northern_pike: "1 over 75 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8306,6 +9294,7 @@ export const regulations = [
       northern_pike: "1 over 75 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8317,9 +9306,10 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "2 fish; 1 \nunder 63 cm \nand 1 over \n100 cm",
+      northern_pike: "2 fish; 1 under 63 cm and 1 over 100 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -8334,6 +9324,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "1 fish",
+      burbot: "",
     },
   },
   {
@@ -8343,12 +9334,13 @@ export const regulations = [
     season: "OPEN JUNE 1 TO MAR. 1",
     waterbody: "South Wabasca Lake",
     waterbody_detail:
-      "Portion north of a line drawn from the southernmost point of \nland in E1/2 13-80-25-W4 to the point of land in the SW 15-\n80-25-W4, which includes the channel of the Wabasca River",
+      "Portion north of a line drawn from the southernmost point of land in E1/2 13-80-25-W4 to the point of land in the SW 15-80-25-W4, which includes the channel of the Wabasca River",
     fish_limits: {
       walleye: "1 over 50 cm",
       northern_pike: "1 over 75 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8358,12 +9350,13 @@ export const regulations = [
     season: "OPEN JUNE 1 TO MAR. 1",
     waterbody: "South Wabasca Lake",
     waterbody_detail:
-      "Portion south and west of a line drawn from the easternmost \npoint of land in SE 31-79-24-W4 to the point of land in NW \n27-79-24-W4",
+      "Portion south and west of a line drawn from the easternmost point of land in SE 31-79-24-W4 to the point of land in NW 27-79-24-W4",
     fish_limits: {
       walleye: "1 over 50 cm",
       northern_pike: "1 over 75 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8378,6 +9371,7 @@ export const regulations = [
       northern_pike: "1 over 75 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8392,6 +9386,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8406,6 +9401,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8420,6 +9416,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -8431,9 +9428,10 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "1 fish 63-70 \ncm",
+      northern_pike: "1 fish 63-70 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8445,9 +9443,10 @@ export const regulations = [
     waterbody_detail: "Tributaries and outlet for 1 km",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "1 fish 63-70 \ncm",
+      northern_pike: "1 fish 63-70 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8462,6 +9461,7 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -8476,6 +9476,7 @@ export const regulations = [
       northern_pike: "2 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
     },
   },
   {
@@ -8490,6 +9491,7 @@ export const regulations = [
       northern_pike: "2 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8504,6 +9506,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8518,6 +9521,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8532,6 +9536,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -8543,9 +9548,10 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "1 over 50 cm",
-      northern_pike: "1 fish 63-70 \ncm",
+      northern_pike: "1 fish 63-70 cm",
       yellow_perch: "5 fish",
       lake_trout: "",
+      burbot: "3 fish",
     },
   },
   {
@@ -8557,9 +9563,10 @@ export const regulations = [
     waterbody_detail: "Tributaries and outlet for 1 km",
     fish_limits: {
       walleye: "1 over 50 cm",
-      northern_pike: "1 fish 63-70 \ncm",
+      northern_pike: "1 fish 63-70 cm",
       yellow_perch: "5 fish",
       lake_trout: "",
+      burbot: "3 fish",
     },
   },
   {
@@ -8574,6 +9581,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "1 fish",
+      burbot: "10 fish",
     },
   },
   {
@@ -8585,8 +9593,10 @@ export const regulations = [
     waterbody_detail: "Mainstem including tributaries",
     fish_limits: {
       walleye: "3 over 43 cm",
-      northern_pike: "3 over 63 \ncm",
+      northern_pike: "3 over 63 cm",
       mountain_whitefish: "",
+      burbot: "10 fish",
+      goldeye: "",
     },
   },
   {
@@ -8595,11 +9605,13 @@ export const regulations = [
     id: "NB3-Rivers-1-1",
     season: "OPEN JUNE 1 to OCT. 31",
     waterbody: "Hay River",
-    waterbody_detail: "Mainstem including tributaries except Chinchaga \nRiver",
+    waterbody_detail: "Mainstem including tributaries except Chinchaga River",
     fish_limits: {
       walleye: "3 over 43 cm",
-      northern_pike: "3 over 63 \ncm",
+      northern_pike: "3 over 63 cm",
       mountain_whitefish: "",
+      burbot: "10 fish",
+      goldeye: "",
     },
   },
   {
@@ -8611,8 +9623,10 @@ export const regulations = [
     waterbody_detail: "Mainstem including tributaries",
     fish_limits: {
       walleye: "1 over 50 cm",
-      northern_pike: "2 over 63 \ncm",
+      northern_pike: "2 over 63 cm",
       mountain_whitefish: "",
+      burbot: "10 fish",
+      goldeye: "",
     },
   },
   {
@@ -8624,8 +9638,10 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "3 over 43 cm",
-      northern_pike: "3 over 63 \ncm",
+      northern_pike: "3 over 63 cm",
       mountain_whitefish: "",
+      burbot: "10 fish",
+      goldeye: "",
     },
   },
   {
@@ -8637,8 +9653,10 @@ export const regulations = [
     waterbody_detail: "Mainstem including tributaries",
     fish_limits: {
       walleye: "1 over 50 cm",
-      northern_pike: "2 over 63 \ncm",
+      northern_pike: "2 over 63 cm",
       mountain_whitefish: "",
+      burbot: "10 fish",
+      goldeye: "",
     },
   },
   {
@@ -8650,8 +9668,10 @@ export const regulations = [
     waterbody_detail: "Mainstem including tributaries",
     fish_limits: {
       walleye: "1 over 50 cm",
-      northern_pike: "2 over 63 \ncm",
+      northern_pike: "2 over 63 cm",
       mountain_whitefish: "",
+      burbot: "10 fish",
+      goldeye: "",
     },
   },
   {
@@ -8663,8 +9683,10 @@ export const regulations = [
     waterbody_detail: "Mainstem including tributaries",
     fish_limits: {
       walleye: "3 over 43 cm",
-      northern_pike: "3 over 63 \ncm",
+      northern_pike: "3 over 63 cm",
       mountain_whitefish: "",
+      burbot: "10 fish",
+      goldeye: "",
     },
   },
   {
@@ -8676,8 +9698,10 @@ export const regulations = [
     waterbody_detail: "Mainstem",
     fish_limits: {
       walleye: "3 over 43 cm",
-      northern_pike: "3 over 63 \ncm",
-      mountain_whitefish: "5 over 30 \ncm",
+      northern_pike: "3 over 63 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "10 fish",
+      goldeye: "10 fish",
     },
   },
   {
@@ -8687,11 +9711,13 @@ export const regulations = [
     season: "OPEN JUNE 1 to OCT. 31",
     waterbody: "Peace River",
     waterbody_detail:
-      "Tributaries to the Peace River except Mikkwa, Smoky, \nNotikewin and Wabasca river drainages",
+      "Tributaries to the Peace River except Mikkwa, Smoky, Notikewin and Wabasca river drainages",
     fish_limits: {
       walleye: "3 over 43 cm",
-      northern_pike: "3 over 63 \ncm",
-      mountain_whitefish: "5 over 30 \ncm",
+      northern_pike: "3 over 63 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "10 fish",
+      goldeye: "10 fish",
     },
   },
   {
@@ -8700,11 +9726,13 @@ export const regulations = [
     id: "NB3-Rivers-1-9",
     season: "OPEN JULY 1 to OCT. 31",
     waterbody: "Petitot River",
-    waterbody_detail: "Mainstem including tributaries upstream to Spawn \nLake",
+    waterbody_detail: "Mainstem including tributaries upstream to Spawn Lake",
     fish_limits: {
       walleye: "3 over 43 cm",
-      northern_pike: "3 over 63 \ncm",
+      northern_pike: "3 over 63 cm",
       mountain_whitefish: "",
+      burbot: "10 fish",
+      goldeye: "",
     },
   },
   {
@@ -8716,8 +9744,10 @@ export const regulations = [
     waterbody_detail: "Mainstem downstream of the 21st Base Line",
     fish_limits: {
       walleye: "3 over 50 cm",
-      northern_pike: "3 over 63 \ncm",
-      mountain_whitefish: "5 over 30 \ncm",
+      northern_pike: "3 over 63 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "10 fish",
+      goldeye: "",
     },
   },
   {
@@ -8727,11 +9757,13 @@ export const regulations = [
     season: "OPEN JUNE 1 to MAR. 1",
     waterbody: "Wabasca River",
     waterbody_detail:
-      "Portion downstream of Sandy Lake to South \nWabasca Lake and the portion between South and \nNorth Wabasca lakes",
+      "Portion downstream of Sandy Lake to South Wabasca Lake and the portion between South and North Wabasca lakes",
     fish_limits: {
       walleye: "1 over 50 cm",
-      northern_pike: "1 over 75 \ncm",
+      northern_pike: "1 over 75 cm",
       mountain_whitefish: "",
+      burbot: "10 fish",
+      goldeye: "",
     },
   },
   {
@@ -8741,11 +9773,13 @@ export const regulations = [
     season: "OPEN JUNE 1 to OCT. 31",
     waterbody: "Wabasca River",
     waterbody_detail:
-      "Portion downstream of North Wabasca Lake to South \nWabasca Lake and tributaries except the Loon, \nMuskwa and Nipisi Rivers",
+      "Portion downstream of North Wabasca Lake to South Wabasca Lake and tributaries except the Loon, Muskwa and Nipisi Rivers",
     fish_limits: {
       walleye: "1 over 50 cm",
-      northern_pike: "2 over 63 \ncm",
+      northern_pike: "2 over 63 cm",
       mountain_whitefish: "",
+      burbot: "10 fish",
+      goldeye: "10 fish",
     },
   },
   {
@@ -8760,6 +9794,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -8774,6 +9811,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "10 fish",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -8788,6 +9828,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -8802,6 +9845,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -8816,6 +9862,9 @@ export const regulations = [
       northern_pike: "1 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      cisco: "0 fish",
+      goldeye: "",
     },
   },
   {
@@ -8830,6 +9879,9 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -8844,6 +9896,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -8858,6 +9913,9 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -8872,6 +9930,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -8886,6 +9947,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -8900,6 +9964,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -8914,6 +9981,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -8928,6 +9998,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -8942,6 +10015,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -8956,6 +10032,9 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -8965,12 +10044,15 @@ export const regulations = [
     season: "OPEN JUNE 1 TO OCT. 31",
     waterbody: "Christina Lake",
     waterbody_detail:
-      "Includes tributaries within 10 km of the lake; see \nSunday, Monday and Birch creeks and Jackfish River",
+      "Includes tributaries within 10 km of the lake; see Sunday, Monday and Birch creeks and Jackfish River",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -8985,6 +10067,9 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -8999,6 +10084,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9013,6 +10101,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9027,6 +10118,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9041,6 +10135,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9053,8 +10150,11 @@ export const regulations = [
     fish_limits: {
       walleye: "",
       northern_pike: "3 over 63 cm",
-      yellow_perch: "5 fish; only \n1 over 30 \ncm",
+      yellow_perch: "5 fish; only 1 over 30 cm",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9069,6 +10169,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9083,6 +10186,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9097,6 +10203,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9111,6 +10220,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9125,6 +10237,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9139,6 +10254,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9153,6 +10271,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9167,6 +10288,9 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9181,6 +10305,9 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9192,9 +10319,12 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 under 70 \ncm",
+      northern_pike: "1 under 70 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9209,6 +10339,9 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "10 fish",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9219,10 +10352,13 @@ export const regulations = [
     waterbody: "Gregoire (Willow) Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "0 or SHL \ntags",
+      walleye: "0 or SHL tags",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9236,7 +10372,10 @@ export const regulations = [
       walleye: "0 fish",
       northern_pike: "0 fish",
       yellow_perch: "0 fish",
-      lake_trout: "1 fish \n60-70 \ncm",
+      lake_trout: "1 fish 60-70 cm",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9251,6 +10390,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9263,8 +10405,11 @@ export const regulations = [
     fish_limits: {
       walleye: "",
       northern_pike: "3 fish",
-      yellow_perch: "5 fish; only \n1 over 30 \ncm",
+      yellow_perch: "5 fish; only 1 over 30 cm",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9279,6 +10424,9 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9293,6 +10441,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "10 fish",
+      cisco: "",
+      goldeye: "10 fish",
     },
   },
   {
@@ -9307,6 +10458,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9321,6 +10475,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9335,6 +10492,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9349,6 +10509,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9363,6 +10526,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9377,6 +10543,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9391,6 +10560,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9404,7 +10576,10 @@ export const regulations = [
       walleye: "",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
-      lake_trout: "2 over \n65 cm",
+      lake_trout: "2 over 65 cm",
+      burbot: "10 fish",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9419,6 +10594,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9433,6 +10611,9 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9447,6 +10628,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9461,6 +10645,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9470,12 +10657,15 @@ export const regulations = [
     season: "OPEN MAY 15 TO MAR. 31",
     waterbody: "Richardson Backcountry",
     waterbody_detail:
-      "All water within area between Twp. 103 and 107, \nand Rge 01-W4 and Rge 08-W4; Locally known as \nRichardson Backcountry",
+      "All water within area between Twp. 103 and 107, and Rge 01-W4 and Rge 08-W4; Locally known as Richardson Backcountry",
     fish_limits: {
       walleye: "1 over 50 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9490,6 +10680,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9504,6 +10697,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9518,6 +10714,9 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9532,6 +10731,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9546,6 +10748,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9560,6 +10765,9 @@ export const regulations = [
       northern_pike: "1 over 70 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9574,6 +10782,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9588,6 +10799,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9602,6 +10816,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9616,6 +10833,9 @@ export const regulations = [
       northern_pike: "2 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9630,6 +10850,9 @@ export const regulations = [
       northern_pike: "2 over 63 cm",
       yellow_perch: "",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9639,12 +10862,15 @@ export const regulations = [
     season: "OPEN MAY 15 TO MAR. 31",
     waterbody: "Winefred Lake",
     waterbody_detail:
-      "Includes tributaries and outlet within 10 km of the lake \n(excluding Grist Lake)",
+      "Includes tributaries and outlet within 10 km of the lake (excluding Grist Lake)",
     fish_limits: {
-      walleye: "1 fish \n45-50 cm",
+      walleye: "1 fish 45-50 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
+      burbot: "10 fish",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9659,6 +10885,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9673,6 +10902,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9687,6 +10919,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       lake_trout: "3 fish",
+      burbot: "",
+      cisco: "",
+      goldeye: "",
     },
   },
   {
@@ -9700,7 +10935,9 @@ export const regulations = [
       walleye: "0 fish",
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "10 fish",
+      goldeye: "10 fish",
     },
   },
   {
@@ -9711,10 +10948,12 @@ export const regulations = [
     waterbody: "Athabasca River",
     waterbody_detail: "Mainstem",
     fish_limits: {
-      walleye: "3 over \n43 cm",
+      walleye: "3 over 43 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "10 fish",
+      goldeye: "10 fish",
     },
   },
   {
@@ -9725,10 +10964,12 @@ export const regulations = [
     waterbody: "Athabasca River",
     waterbody_detail: "Tributaries except Clearwater and Hangingstone rivers",
     fish_limits: {
-      walleye: "3 over \n43 cm",
+      walleye: "3 over 43 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "10 fish",
+      goldeye: "10 fish",
     },
   },
   {
@@ -9743,6 +10984,8 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
     },
   },
   {
@@ -9750,14 +10993,16 @@ export const regulations = [
     fish_management_zone: "NB4-Rivers",
     id: "NB4-Rivers-1-4",
     season: "OPEN JUNE 1 to OCT. 31",
-    waterbody: "Christina Lake Tributaries and \nOutflows",
+    waterbody: "Christina Lake Tributaries and Outflows",
     waterbody_detail:
-      "Includes all tributaries and outflows within 10km of \nChristina Lake including Jackfish River, Birch, Sunday and \nMonday Creeks",
+      "Includes all tributaries and outflows within 10km of Christina Lake including Jackfish River, Birch, Sunday and Monday Creeks",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
+      goldeye: "",
     },
   },
   {
@@ -9768,10 +11013,12 @@ export const regulations = [
     waterbody: "Clearwater River",
     waterbody_detail: "Snye Channel",
     fish_limits: {
-      walleye: "3 over \n43 cm",
+      walleye: "3 over 43 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "10 fish",
+      goldeye: "10 fish",
     },
   },
   {
@@ -9781,12 +11028,14 @@ export const regulations = [
     season: "OPEN JUNE 1 to OCT. 31",
     waterbody: "Clearwater River",
     waterbody_detail:
-      "Mainstem including tributaries; the portion upstream of the \nChristina River",
+      "Mainstem including tributaries; the portion upstream of the Christina River",
     fish_limits: {
-      walleye: "3 over \n50 cm",
+      walleye: "3 over 50 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "10 fish",
+      goldeye: "",
     },
   },
   {
@@ -9796,12 +11045,14 @@ export const regulations = [
     season: "OPEN JUNE 1 to OCT. 31",
     waterbody: "Clearwater River",
     waterbody_detail:
-      "Mainstem including tributaries; the portion downstream of \nthe Christina River",
+      "Mainstem including tributaries; the portion downstream of the Christina River",
     fish_limits: {
-      walleye: "3 over \n43 cm",
+      walleye: "3 over 43 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "10 fish",
+      goldeye: "10 fish",
     },
   },
   {
@@ -9812,10 +11063,12 @@ export const regulations = [
     waterbody: "Ells River",
     waterbody_detail: "96-11-W4",
     fish_limits: {
-      walleye: "3 over \n50 cm",
+      walleye: "3 over 50 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "10 fish",
+      goldeye: "",
     },
   },
   {
@@ -9830,6 +11083,8 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
     },
   },
   {
@@ -9840,10 +11095,12 @@ export const regulations = [
     waterbody: "House River",
     waterbody_detail: "Mainstem including tributaries",
     fish_limits: {
-      walleye: "3 over \n50 cm",
+      walleye: "3 over 50 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
     },
   },
   {
@@ -9858,6 +11115,8 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
     },
   },
   {
@@ -9872,6 +11131,8 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
     },
   },
   {
@@ -9881,12 +11142,14 @@ export const regulations = [
     season: "OPEN JUNE 1 to OCT. 31",
     waterbody: "Richardson Backcountry",
     waterbody_detail:
-      "All water within area between Twp. 103 and 107, and Rge \n01-W4 and Rge 08-W4; Locally known as Richardson \nBackcountry",
+      "All water within area between Twp. 103 and 107, and Rge 01-W4 and Rge 08-W4; Locally known as Richardson Backcountry",
     fish_limits: {
-      walleye: "1 over \n50 cm",
+      walleye: "1 over 50 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
+      goldeye: "",
     },
   },
   {
@@ -9897,10 +11160,12 @@ export const regulations = [
     waterbody: "Richardson River",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "3 over \n43 cm",
+      walleye: "3 over 43 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "10 fish",
+      goldeye: "10 fish",
     },
   },
   {
@@ -9910,12 +11175,14 @@ export const regulations = [
     season: "OPEN JUNE 1 to OCT. 31",
     waterbody: "Sand River",
     waterbody_detail:
-      "This includes tributaries and outflows within 10 km of \nWinefred including Winefred River, Unnamed (Sand) \nRiver, Grist River and excludes Grist Lake.",
+      "This includes tributaries and outflows within 10 km of Winefred including Winefred River, Unnamed (Sand) River, Grist River and excludes Grist Lake.",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
     },
   },
   {
@@ -9930,6 +11197,8 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
     },
   },
   {
@@ -9937,14 +11206,16 @@ export const regulations = [
     fish_management_zone: "NB4-Rivers",
     id: "NB4-Rivers-1-17",
     season: "OPEN JUNE 1 to OCT. 31",
-    waterbody: "Winefred Lake Tributaries and \nOutflows ",
+    waterbody: "Winefred Lake Tributaries and Outflows ",
     waterbody_detail:
-      "Includes all tributaries and outflows within 10km of \nWinefred Lake including Winefred River, Unnamed (Sand) \nriver, Grist River (excludes Grist Lake)",
+      "Includes all tributaries and outflows within 10km of Winefred Lake including Winefred River, Unnamed (Sand) river, Grist River (excludes Grist Lake)",
     fish_limits: {
-      walleye: "1 fish \nbetween \n45-50 \ncm",
+      walleye: "1 fish between 45-50 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
+      goldeye: "",
     },
   },
   {
@@ -9959,6 +11230,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -9973,6 +11245,7 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -9982,12 +11255,13 @@ export const regulations = [
     season: "OPEN APR. 1 TO OCT. 31",
     waterbody: "Bullshead Reservoir",
     waterbody_detail:
-      "28-8-4-W4; Includes Bullhead Creek (outlet) downstream to \nEagle Butte Rd. Bridge",
+      "28-8-4-W4; Includes Bullhead Creek (outlet) downstream to Eagle Butte Rd. Bridge",
     fish_limits: {
       walleye: "",
       northern_pike: "",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10002,6 +11276,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10012,10 +11287,11 @@ export const regulations = [
     waterbody: "Chin Lakes",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 fish 50-\n55 cm",
+      walleye: "1 fish 50-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10027,9 +11303,10 @@ export const regulations = [
     waterbody_detail: "14-25-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over 100 \ncm",
+      northern_pike: "1 over 100 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10044,6 +11321,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10058,6 +11336,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10072,36 +11351,39 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
     bait_allowed: "no",
     fish_management_zone: "PP1-Lakes",
     id: "PP1-Lakes-1-9",
-    season: "OPEN MAY 8 TO NOV. 30 \nbetween sunrise and sunset",
+    season: "OPEN MAY 8 TO NOV. 30 between sunrise and sunset",
     waterbody: "Crawling Valley Reservoir",
     waterbody_detail:
-      "3-21-18-W4; Includes inlet canal downstream of canal \nheadworks",
+      "3-21-18-W4; Includes inlet canal downstream of canal headworks",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
     bait_allowed: "no",
     fish_management_zone: "PP1-Lakes",
     id: "PP1-Lakes-1-10",
-    season: "OPEN ALL DAY DEC. 1 TO \nMAR. 15",
+    season: "OPEN ALL DAY DEC. 1 TO MAR. 15",
     waterbody: "Crawling Valley Reservoir",
     waterbody_detail:
-      "3-21-18-W4; Includes inlet canal downstream of canal \nheadworks",
+      "3-21-18-W4; Includes inlet canal downstream of canal headworks",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10116,6 +11398,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10130,6 +11413,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10144,6 +11428,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10154,10 +11439,11 @@ export const regulations = [
     waterbody: "Fincastle Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 over 55 \ncm",
+      walleye: "1 over 55 cm",
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10168,10 +11454,11 @@ export const regulations = [
     waterbody: "Forty Mile Coulee Reservoir",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 fish 50-\n55 cm",
+      walleye: "1 fish 50-55 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10186,6 +11473,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10200,6 +11488,7 @@ export const regulations = [
       northern_pike: "2 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10214,6 +11503,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10228,6 +11518,7 @@ export const regulations = [
       northern_pike: "2 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10242,6 +11533,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10256,6 +11548,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10270,6 +11563,7 @@ export const regulations = [
       northern_pike: "1 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10280,10 +11574,11 @@ export const regulations = [
     waterbody: "Keho Lake",
     waterbody_detail: "Includes inlet canal to the first drop structure",
     fish_limits: {
-      walleye: "1 fish 50-\n55 cm",
-      northern_pike: "1 fish 63-70 \ncm",
+      walleye: "1 fish 50-55 cm",
+      northern_pike: "1 fish 63-70 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10298,6 +11593,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10307,12 +11603,13 @@ export const regulations = [
     season: "OPEN MAY 8 TO MAR. 15",
     waterbody: "Lake Newell",
     waterbody_detail:
-      "NE-32-16-15-W4; inlet canal downstream of the Bow Slope \nturnout structure",
+      "NE-32-16-15-W4; inlet canal downstream of the Bow Slope turnout structure",
     fish_limits: {
-      walleye: "0 or SHL \ntags",
+      walleye: "0 or SHL tags",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10327,6 +11624,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10341,6 +11639,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10355,6 +11654,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10369,13 +11669,14 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
     bait_allowed: "no",
     fish_management_zone: "PP1-Lakes",
     id: "PP1-Lakes-2-1",
-    season: "OPEN MAY 8 TO NOV. 30 \nbetween sunrise and sunset",
+    season: "OPEN MAY 8 TO NOV. 30 between sunrise and sunset",
     waterbody: "Mcgregor Reservoir",
     waterbody_detail: "",
     fish_limits: {
@@ -10383,13 +11684,14 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
     bait_allowed: "no",
     fish_management_zone: "PP1-Lakes",
     id: "PP1-Lakes-2-2",
-    season: "OPEN ALL DAY DEC.1 TO \nMAR.15",
+    season: "OPEN ALL DAY DEC.1 TO MAR.15",
     waterbody: "Mcgregor Reservoir",
     waterbody_detail: "",
     fish_limits: {
@@ -10397,6 +11699,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10411,6 +11714,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10425,6 +11729,7 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10434,12 +11739,13 @@ export const regulations = [
     season: "OPEN MAY 8 TO MAR. 15",
     waterbody: "Milk River Ridge Reservoir",
     waterbody_detail:
-      "Includes upstream to the inlet canal to the first drop \nstructure",
+      "Includes upstream to the inlet canal to the first drop structure",
     fish_limits: {
-      walleye: "1 fish 50-\n55 cm",
+      walleye: "1 fish 50-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10450,10 +11756,11 @@ export const regulations = [
     waterbody: "Murray Lake",
     waterbody_detail: "10-7-8-W4",
     fish_limits: {
-      walleye: "3 over 50 \ncm",
+      walleye: "3 over 50 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10468,6 +11775,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10482,6 +11790,7 @@ export const regulations = [
       northern_pike: "1 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10496,6 +11805,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10506,10 +11816,11 @@ export const regulations = [
     waterbody: "Rattlesnake (Sauder) Reservoir",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 fish 50-\n55 cm",
+      walleye: "1 fish 50-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10524,6 +11835,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10538,6 +11850,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10552,6 +11865,7 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10566,6 +11880,7 @@ export const regulations = [
       northern_pike: "1 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10580,6 +11895,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10594,6 +11910,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10604,10 +11921,11 @@ export const regulations = [
     waterbody: "Sherburne Lake",
     waterbody_detail: "Sherburne Reservoir",
     fish_limits: {
-      walleye: "3 over 50 \ncm",
+      walleye: "3 over 50 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10622,6 +11940,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10636,6 +11955,7 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10646,10 +11966,11 @@ export const regulations = [
     waterbody: "St. Mary Reservoir",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "3 over 50 \ncm",
+      walleye: "3 over 50 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10660,10 +11981,11 @@ export const regulations = [
     waterbody: "Stafford Reservoir",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 fish 50-\n55 cm",
+      walleye: "1 fish 50-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10678,6 +12000,7 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10692,6 +12015,7 @@ export const regulations = [
       northern_pike: "3 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10706,6 +12030,7 @@ export const regulations = [
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10713,13 +12038,14 @@ export const regulations = [
     fish_management_zone: "PP1-Lakes",
     id: "PP1-Lakes-2-25",
     season: "OPEN MAY 8 TO MAR. 15",
-    waterbody: "Timko Lake (J Or Bantry \nReservoir)",
+    waterbody: "Timko Lake (J Or Bantry Reservoir)",
     waterbody_detail: "33-17-13-W4",
     fish_limits: {
       walleye: "",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10729,12 +12055,13 @@ export const regulations = [
     season: "OPEN JUNE 1 TO MAR. 15",
     waterbody: "Travers Reservoir",
     waterbody_detail:
-      "Portion west of SW 2-15-22-W4 (North of a line from the \nfarm building to Little Bow Provincial Park pumphouse \non the east); no fishing within 100 m of the Canal inlet \nstructure",
+      "Portion west of SW 2-15-22-W4 (North of a line from the farm building to Little Bow Provincial Park pumphouse on the east); no fishing within 100 m of the Canal inlet structure",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10744,12 +12071,13 @@ export const regulations = [
     season: "OPEN MAY 8 TO MAR. 15",
     waterbody: "Travers Reservoir",
     waterbody_detail:
-      "The remainder of the Reservoir including the canal between \nTravers and McGregor reservoirs; no fishing within 100m of \nthe canal inlet structure",
+      "The remainder of the Reservoir including the canal between Travers and McGregor reservoirs; no fishing within 100m of the canal inlet structure",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10760,10 +12088,11 @@ export const regulations = [
     waterbody: "Twelve Mile Coulee Reservoir",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "3 over 50 \ncm",
+      walleye: "3 over 50 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10778,6 +12107,7 @@ export const regulations = [
       northern_pike: "1 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10788,10 +12118,11 @@ export const regulations = [
     waterbody: "Unnamed",
     waterbody_detail: "Scope Reservoir",
     fish_limits: {
-      walleye: "3 over 50 \ncm",
+      walleye: "3 over 50 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "",
     },
   },
   {
@@ -10802,10 +12133,11 @@ export const regulations = [
     waterbody: "Unnamed (Burdett) Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "3 over 50 \ncm",
+      walleye: "3 over 50 cm",
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10816,10 +12148,11 @@ export const regulations = [
     waterbody: "Yellow Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "3 over 50 \ncm",
+      walleye: "3 over 50 cm",
       northern_pike: "3 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "10 fish",
     },
   },
   {
@@ -10834,6 +12167,10 @@ export const regulations = [
       yellow_perch: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
+      walleye_sauger: "",
     },
   },
   {
@@ -10843,12 +12180,16 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "Bow River",
     waterbody_detail:
-      "Banff National Park downstream to \nBassano Dam including Reservoir",
+      "Banff National Park downstream to Bassano Dam including Reservoir",
     fish_limits: {
       northern_pike: "0 fish",
       yellow_perch: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "0 fish",
+      rainbow_trout: "",
+      walleye_sauger: "0 fish",
     },
   },
   {
@@ -10857,41 +12198,53 @@ export const regulations = [
     id: "PP1-Rivers-1-2",
     season: "OPEN MAY 8 to MAR. 15",
     waterbody: "Bow River",
-    waterbody_detail: "Bassano Dam downstream to South \nSaskatchewan River",
+    waterbody_detail: "Bassano Dam downstream to South Saskatchewan River",
     fish_limits: {
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
+      burbot: "10 fish",
+      goldeye: "10 fish",
+      rainbow_trout: "",
+      walleye_sauger: "3 in combination, WALL over 50 cm",
     },
   },
   {
     bait_allowed: "no",
     fish_management_zone: "PP1-Rivers",
     id: "PP1-Rivers-1-3",
-    season: "OPEN MAY 8 to SEPT. 30 \nand DEC. 1 to MAR. 15",
-    waterbody: "Carseland-Bow \nRiver Headwater \nCanal",
+    season: "OPEN MAY 8 to SEPT. 30 and DEC. 1 to MAR. 15",
+    waterbody: "Carseland-Bow River Headwater Canal",
     waterbody_detail:
-      "Between McGregor Lk and the drop \nstructure 1 km upstream of Sec. Rd. 542",
+      "Between McGregor Lk and the drop structure 1 km upstream of Sec. Rd. 542",
     fish_limits: {
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "10 fish",
+      goldeye: "",
+      rainbow_trout: "",
+      walleye_sauger: "0 fish",
     },
   },
   {
     bait_allowed: "no",
     fish_management_zone: "PP1-Rivers",
     id: "PP1-Rivers-1-4",
-    season: "OPEN MAY 8 to SEPT. 30 \nand DEC. 15 to MAR. 15",
-    waterbody: "Cowoki Irrigation \nCanal",
-    waterbody_detail: "Between Cowoki Lake and Tilley B \nReservoir",
+    season: "OPEN MAY 8 to SEPT. 30 and DEC. 15 to MAR. 15",
+    waterbody: "Cowoki Irrigation Canal",
+    waterbody_detail: "Between Cowoki Lake and Tilley B Reservoir",
     fish_limits: {
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "10 fish",
+      goldeye: "",
+      rainbow_trout: "",
+      walleye_sauger: "",
     },
   },
   {
@@ -10906,20 +12259,28 @@ export const regulations = [
       yellow_perch: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
+      walleye_sauger: "",
     },
   },
   {
     bait_allowed: "no",
     fish_management_zone: "PP1-Rivers",
     id: "PP1-Rivers-1-6",
-    season: "OPEN JUNE 16 to AUG. \n31",
+    season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "Lee Creek",
     waterbody_detail: "Mainstem including tributaries",
     fish_limits: {
       northern_pike: "3 fish",
       yellow_perch: "",
       mountain_whitefish: "5 over 30 cm",
-      cutthroat_trout: " over \n30 cm",
+      cutthroat_trout: " over 30 cm",
+      burbot: "",
+      goldeye: "10 fish",
+      rainbow_trout: "over 30 cm",
+      walleye_sauger: "",
     },
   },
   {
@@ -10934,6 +12295,10 @@ export const regulations = [
       yellow_perch: "",
       mountain_whitefish: "0 fish",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
+      walleye_sauger: "",
     },
   },
   {
@@ -10942,12 +12307,16 @@ export const regulations = [
     id: "PP1-Rivers-1-8",
     season: "CLOSED ALL YEAR",
     waterbody: "Little Bow River",
-    waterbody_detail: "Travers Reservoir upstream to Township \nRd. 144A",
+    waterbody_detail: "Travers Reservoir upstream to Township Rd. 144A",
     fish_limits: {
       northern_pike: "",
       yellow_perch: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
+      walleye_sauger: "",
     },
   },
   {
@@ -10956,12 +12325,16 @@ export const regulations = [
     id: "PP1-Rivers-1-9",
     season: "OPEN JUNE 1 to MAR. 15",
     waterbody: "Little Bow River",
-    waterbody_detail: "Township Rd. 144A upstream to \nCarmangay",
+    waterbody_detail: "Township Rd. 144A upstream to Carmangay",
     fish_limits: {
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "10 fish",
+      goldeye: "",
+      rainbow_trout: "",
+      walleye_sauger: "3 in combination, WALL over 50 cm",
     },
   },
   {
@@ -10970,12 +12343,16 @@ export const regulations = [
     id: "PP1-Rivers-1-10",
     season: "OPEN MAY 8 to MAR. 15",
     waterbody: "Little Bow River",
-    waterbody_detail: "Twin Valley Reservoir Dam downstream to \nRge. Rd. 252",
+    waterbody_detail: "Twin Valley Reservoir Dam downstream to Rge. Rd. 252",
     fish_limits: {
       northern_pike: "0 fish",
       yellow_perch: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
+      walleye_sauger: "",
     },
   },
   {
@@ -10985,12 +12362,16 @@ export const regulations = [
     season: "OPEN MAY 8 to MAR. 15",
     waterbody: "Oldman River",
     waterbody_detail:
-      "Mainstem from Sec. Rd. 509 downstream to \nSouth Saskatchewan River and tributaries",
+      "Mainstem from Sec. Rd. 509 downstream to South Saskatchewan River and tributaries",
     fish_limits: {
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "",
+      burbot: "10 fish",
+      goldeye: "10 fish",
+      rainbow_trout: "",
+      walleye_sauger: "3 in combination, WALL over 50 cm",
     },
   },
   {
@@ -10998,28 +12379,36 @@ export const regulations = [
     fish_management_zone: "PP1-Rivers",
     id: "PP1-Rivers-1-12",
     season: "OPEN MAY 8 to MAR. 15",
-    waterbody: "South \nSaskatchewan River",
+    waterbody: "South Saskatchewan River",
     waterbody_detail: "",
     fish_limits: {
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "10 fish",
+      goldeye: "10 fish",
+      rainbow_trout: "",
+      walleye_sauger: "3 in combination, WALL over 50 cm",
     },
   },
   {
     bait_allowed: "no",
     fish_management_zone: "PP1-Rivers",
     id: "PP1-Rivers-1-13",
-    season: "OPEN JUNE 16 to AUG. \n31",
+    season: "OPEN JUNE 16 to AUG. 31",
     waterbody: "St. Mary River",
     waterbody_detail:
-      "Mainstem upstream of St Mary Reservoir; \nIncludes tributaries except Lee Creek",
+      "Mainstem upstream of St Mary Reservoir; Includes tributaries except Lee Creek",
     fish_limits: {
       northern_pike: "3 fish",
       yellow_perch: "",
       mountain_whitefish: "5 over 30 cm",
-      cutthroat_trout: "over \n35 cm",
+      cutthroat_trout: "over 35 cm",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "over 35 cm",
+      walleye_sauger: "",
     },
   },
   {
@@ -11034,21 +12423,29 @@ export const regulations = [
       yellow_perch: "",
       mountain_whitefish: "",
       cutthroat_trout: "",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "",
+      walleye_sauger: "",
     },
   },
   {
     bait_allowed: "no",
     fish_management_zone: "PP1-Rivers",
     id: "PP1-Rivers-1-15",
-    season: "OPEN JUNE 16 to OCT. \n31",
+    season: "OPEN JUNE 16 to OCT. 31",
     waterbody: "St. Mary River",
     waterbody_detail:
-      "Mainstem downstream of St Mary \nReservoir; Includes tributaries",
+      "Mainstem downstream of St Mary Reservoir; Includes tributaries",
     fish_limits: {
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "5 over 30 cm",
       cutthroat_trout: "0 fish",
+      burbot: "",
+      goldeye: "",
+      rainbow_trout: "0 fish",
+      walleye_sauger: "3 in combination, WALL over 50 cm",
     },
   },
   {
@@ -11060,8 +12457,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -11071,11 +12469,12 @@ export const regulations = [
     season: "OPEN JUNE 1 TO MAR. 31",
     waterbody: "Battle Lake",
     waterbody_detail:
-      "Portion west of the west boundary of section 22-46-2-W5; \nIncludes tributaries and outlet downstream to Sec. Rd. 771",
+      "Portion west of the west boundary of section 22-46-2-W5; Includes tributaries and outlet downstream to Sec. Rd. 771",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "0 fish",
       yellow_perch: "5 fish",
+      burbot: "2 fish; but limit is 0 from Feb. 1 to Mar. 31",
     },
   },
   {
@@ -11089,6 +12488,7 @@ export const regulations = [
       walleye: "0 fish",
       northern_pike: "0 fish",
       yellow_perch: "5 fish",
+      burbot: "2 fish; but limit is 0 from Feb. 1 to Mar. 31",
     },
   },
   {
@@ -11099,9 +12499,10 @@ export const regulations = [
     waterbody: "Berry Creek (Carolside) Reservoir",
     waterbody_detail: "27-12-W4",
     fish_limits: {
-      walleye: "1 fish 45-50 \ncm",
-      northern_pike: "1 fish \n63-70 \ncm",
+      walleye: "1 fish 45-50 cm",
+      northern_pike: "1 fish 63-70 cm",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -11113,8 +12514,9 @@ export const regulations = [
     waterbody_detail: "Includes tributaries",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -11124,7 +12526,12 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "Blood Indian Creek Reservoir",
     waterbody_detail: "21-26-9-W4; Includes tributaries",
-    fish_limits: { walleye: "", northern_pike: "", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      yellow_perch: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -11133,11 +12540,12 @@ export const regulations = [
     season: "OPEN MAY 15 TO MAR. 31",
     waterbody: "Buck Lake",
     waterbody_detail:
-      "Includes tributaries and the portion of the outlet located in \n3-47-6-W5",
+      "Includes tributaries and the portion of the outlet located in 3-47-6-W5",
     fish_limits: {
-      walleye: "1 fish 45-50 \ncm",
+      walleye: "1 fish 45-50 cm",
       northern_pike: "0 fish",
       yellow_perch: "5 fish",
+      burbot: "2 fish; but limit is 0 from Feb. 1 to Mar. 31",
     },
   },
   {
@@ -11147,7 +12555,12 @@ export const regulations = [
     season: "OPEN MAY 15 TO MAR. 31",
     waterbody: "Buffalo Lake",
     waterbody_detail: "Portion located in 40-22-W4 (the Narrows)",
-    fish_limits: { walleye: "", northern_pike: "0 fish", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "0 fish",
+      yellow_perch: "",
+      burbot: "2 fish; but limit is 0 from Feb. 1 to Mar. 31",
+    },
   },
   {
     bait_allowed: "no",
@@ -11158,8 +12571,9 @@ export const regulations = [
     waterbody_detail: "Remainder of the lake",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "",
+      burbot: "2 fish; but limit is 0 from Feb. 1 to Mar. 31",
     },
   },
   {
@@ -11171,8 +12585,9 @@ export const regulations = [
     waterbody_detail: "42-24,25-W4",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 fish \nany \nsize",
+      northern_pike: "1 fish any size",
       yellow_perch: "",
+      burbot: "",
     },
   },
   {
@@ -11182,11 +12597,12 @@ export const regulations = [
     season: "OPEN MAY 15 TO MAR. 31",
     waterbody: "Clear (Barnes) Lake",
     waterbody_detail:
-      "Includes tributaries upstream 1 km and outlet downstream \n1 km; 44-5-W4",
+      "Includes tributaries upstream 1 km and outlet downstream 1 km; 44-5-W4",
     fish_limits: {
       walleye: "0 fish",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -11200,6 +12616,7 @@ export const regulations = [
       walleye: "",
       northern_pike: "1 fish",
       yellow_perch: "5 fish",
+      burbot: "",
     },
   },
   {
@@ -11211,8 +12628,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -11224,8 +12642,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -11239,19 +12658,21 @@ export const regulations = [
       walleye: "0 fish",
       northern_pike: "0 fish",
       yellow_perch: "",
+      burbot: "2 fish; but limit is 0 from Feb. 1 to Mar. 31",
     },
   },
   {
     bait_allowed: "no",
     fish_management_zone: "PP2-Lakes",
     id: "PP2-Lakes-1-15",
-    season: "OPEN MAY 15 TO OCT. 31 \nAND DEC. 11 TO MAR. 31",
+    season: "OPEN MAY 15 TO OCT. 31 AND DEC. 11 TO MAR. 31",
     waterbody: "Gull Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "1 fish 45-50 \ncm",
+      walleye: "1 fish 45-50 cm",
       northern_pike: "0 fish",
       yellow_perch: "5 fish",
+      burbot: "2 fish; but limit is 0 from Feb. 1 to Mar. 31",
     },
   },
   {
@@ -11261,7 +12682,12 @@ export const regulations = [
     season: "CLOSED ALL YEAR",
     waterbody: "Gull Lake",
     waterbody_detail: "Diversion Canal located in 34,35,36-40-1-W5",
-    fish_limits: { walleye: "", northern_pike: "", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      yellow_perch: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -11272,8 +12698,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -11284,9 +12711,10 @@ export const regulations = [
     waterbody: "Isle Lake",
     waterbody_detail: "Includes tributaries and outlet (Sturgeon River)",
     fish_limits: {
-      walleye: "1 fish any \nsize",
-      northern_pike: "1 over \n63 cm",
+      walleye: "1 fish any size",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "10 fish",
+      burbot: "0 fish",
     },
   },
   {
@@ -11300,6 +12728,7 @@ export const regulations = [
       walleye: "0 fish",
       northern_pike: "0 fish",
       yellow_perch: "0 fish",
+      burbot: "0 fish",
     },
   },
   {
@@ -11309,7 +12738,12 @@ export const regulations = [
     season: "OPEN APR. 1 TO NOV. 30",
     waterbody: "Kerbe's Pond",
     waterbody_detail: "NE-19-36-20-W4",
-    fish_limits: { walleye: "", northern_pike: "", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      yellow_perch: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -11319,9 +12753,10 @@ export const regulations = [
     waterbody: "Lac Ste. Anne",
     waterbody_detail: "Includes tributaries & outlet (Sturgeon River)",
     fish_limits: {
-      walleye: "0 or SHL \ntags",
+      walleye: "0 or SHL tags",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
+      burbot: "2 fish; but limit is 0 from Feb. 1 to Mar. 31",
     },
   },
   {
@@ -11333,8 +12768,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -11348,6 +12784,7 @@ export const regulations = [
       walleye: "",
       northern_pike: "0 fish",
       yellow_perch: "0 fish",
+      burbot: "",
     },
   },
   {
@@ -11357,7 +12794,12 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "Lloydminster Pond",
     waterbody_detail: "SE-6-50-1-W4",
-    fish_limits: { walleye: "", northern_pike: "", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      yellow_perch: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -11366,7 +12808,12 @@ export const regulations = [
     season: "OPEN MAY 15 TO MAR. 31",
     waterbody: "Magee Lake",
     waterbody_detail: "",
-    fish_limits: { walleye: "", northern_pike: "1 fish", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "1 fish",
+      yellow_perch: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -11377,8 +12824,9 @@ export const regulations = [
     waterbody_detail: "Includes tributaries and outlet (Sturgeon River)",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "2 fish; but limit is 0 from Feb. 1 to Mar. 31",
     },
   },
   {
@@ -11390,8 +12838,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -11403,8 +12852,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "5 fish",
+      burbot: "",
     },
   },
   {
@@ -11416,8 +12866,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -11429,8 +12880,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -11440,7 +12892,12 @@ export const regulations = [
     season: "OPEN MAY 1 TO OCT. 31",
     waterbody: "Muir Lake",
     waterbody_detail: "31-53-27-W4",
-    fish_limits: { walleye: "", northern_pike: "", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      yellow_perch: "",
+      burbot: "",
+    },
   },
   {
     bait_allowed: "no",
@@ -11450,9 +12907,10 @@ export const regulations = [
     waterbody: "Pigeon Lake",
     waterbody_detail: "Includes tributaries and outlet",
     fish_limits: {
-      walleye: "0 or SHL \ntags",
+      walleye: "0 or SHL tags",
       northern_pike: "0 fish",
-      yellow_perch: "5 over \n25 cm",
+      yellow_perch: "5 over 25 cm",
+      burbot: "1 fish; but limit is 0 from Feb. 1 to Mar. 31",
     },
   },
   {
@@ -11464,8 +12922,9 @@ export const regulations = [
     waterbody_detail: "Includes tributaries and outlet",
     fish_limits: {
       walleye: "1 fish",
-      northern_pike: "1 over \n63 cm",
+      northern_pike: "1 over 63 cm",
       yellow_perch: "5 fish",
+      burbot: "",
     },
   },
   {
@@ -11477,8 +12936,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -11489,9 +12949,10 @@ export const regulations = [
     waterbody: "Rat Lake",
     waterbody_detail: "10-46-6-W5",
     fish_limits: {
-      walleye: "1 fish 45-50 \ncm",
+      walleye: "1 fish 45-50 cm",
       northern_pike: "0 fish",
       yellow_perch: "",
+      burbot: "",
     },
   },
   {
@@ -11501,19 +12962,25 @@ export const regulations = [
     season: "OPEN MAY 15 TO MAR. 31",
     waterbody: "Spotted Lake",
     waterbody_detail: "",
-    fish_limits: { walleye: "", northern_pike: "0 fish", yellow_perch: "" },
+    fish_limits: {
+      walleye: "",
+      northern_pike: "0 fish",
+      yellow_perch: "",
+      burbot: "2 fish; but limit is 0 from Feb. 1 to Mar. 31",
+    },
   },
   {
     bait_allowed: "no",
     fish_management_zone: "PP2-Lakes",
     id: "PP2-Lakes-2-20",
-    season: "OPEN MAY 15 TO OCT. 31 \nAND DEC. 11 TO MAR. 31",
+    season: "OPEN MAY 15 TO OCT. 31 AND DEC. 11 TO MAR. 31",
     waterbody: "Sylvan Lake",
     waterbody_detail: "Includes tributaries",
     fish_limits: {
       walleye: "1 fish",
       northern_pike: "0 fish",
       yellow_perch: "5 fish",
+      burbot: "2 fish; but limit is 0 from Feb. 1 to Mar. 31",
     },
   },
   {
@@ -11524,9 +12991,10 @@ export const regulations = [
     waterbody: "Wabamun Lake",
     waterbody_detail: "Includes tributaries, outlet and canals",
     fish_limits: {
-      walleye: "0 or SHL \ntags",
+      walleye: "0 or SHL tags",
       northern_pike: "0 fish",
       yellow_perch: "0 fish",
+      burbot: "2 fish; but limit is 0 from Feb. 1 to Mar. 31",
     },
   },
   {
@@ -11538,8 +13006,9 @@ export const regulations = [
     waterbody_detail: "Includes Tributaries and outlet; 9,10-46-3-W5",
     fish_limits: {
       walleye: "",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -11551,8 +13020,9 @@ export const regulations = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "3 over \n63 cm",
+      northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
+      burbot: "",
     },
   },
   {
@@ -11562,11 +13032,14 @@ export const regulations = [
     season: "",
     waterbody: "Battle River",
     waterbody_detail:
-      "Mainstem from Battle Lake downstream to Hwy. \n771 - See Battle Lake ",
+      "Mainstem from Battle Lake downstream to Hwy. 771 - See Battle Lake ",
     fish_limits: {
       northern_pike: "",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
+      walleye_sauger: "",
     },
   },
   {
@@ -11580,6 +13053,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
+      walleye_sauger: "3 in combination; WALL over 50 cm",
     },
   },
   {
@@ -11589,11 +13065,14 @@ export const regulations = [
     season: "",
     waterbody: "Battle River",
     waterbody_detail:
-      "Mainstem from Hwy. 855 downstream to the \nForestburg Reservoir - See Forestburg Reservoir",
+      "Mainstem from Hwy. 855 downstream to the Forestburg Reservoir - See Forestburg Reservoir",
     fish_limits: {
       northern_pike: "",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
+      walleye_sauger: "",
     },
   },
   {
@@ -11603,11 +13082,14 @@ export const regulations = [
     season: "OPEN JUNE 1 to OCT. 31",
     waterbody: "Battle River",
     waterbody_detail:
-      "Mainstem from downstream of the Forestburg \nReservoir and tributaries",
+      "Mainstem from downstream of the Forestburg Reservoir and tributaries",
     fish_limits: {
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "2 fish",
+      goldeye: "10 fish",
+      walleye_sauger: "3 in combination; WALL over 50 cm",
     },
   },
   {
@@ -11618,9 +13100,12 @@ export const regulations = [
     waterbody: "Berry Creek",
     waterbody_detail: "Mainstem including ALL tributaries",
     fish_limits: {
-      northern_pike: "1 fish 63-70 \ncm",
+      northern_pike: "1 fish 63-70 cm",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
+      walleye_sauger: "0 SAUG; 1 wall 45-50 cm",
     },
   },
   {
@@ -11633,7 +13118,10 @@ export const regulations = [
     fish_limits: {
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
-      mountain_whitefish: "3 over \n30 cm",
+      mountain_whitefish: "3 over 30 cm",
+      burbot: "2 fish, but limit is zero from Feb. 1 to Mar. 1",
+      goldeye: "10 fish",
+      walleye_sauger: "0 WALL",
     },
   },
   {
@@ -11643,11 +13131,14 @@ export const regulations = [
     season: "OPEN MAY 15 to MAR. 1",
     waterbody: "Little Red Deer River",
     waterbody_detail:
-      "Mainstem from Cottonwood Road (Twp. Rd. 352) \ndownstream to Red Deer River; Includes ALL \ntributaries",
+      "Mainstem from Cottonwood Road (Twp. Rd. 352) downstream to Red Deer River; Includes ALL tributaries",
     fish_limits: {
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
-      mountain_whitefish: "3 over \n30 cm",
+      mountain_whitefish: "3 over 30 cm",
+      burbot: "2 fish, but limit is zero from Feb. 1 to Mar. 1",
+      goldeye: "10 fish",
+      walleye_sauger: "0 WALL",
     },
   },
   {
@@ -11660,7 +13151,10 @@ export const regulations = [
     fish_limits: {
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
-      mountain_whitefish: "3 over \n30 cm",
+      mountain_whitefish: "3 over 30 cm",
+      burbot: "2 fish, but limit is 0 from Feb. 1 to Mar. 1",
+      goldeye: "10 fish",
+      walleye_sauger: "0 WALL",
     },
   },
   {
@@ -11670,11 +13164,14 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "North Saskatchewan River",
     waterbody_detail:
-      "Mainstem downstream Hwy. 22/39 (Drayton Valley) \nto the Alberta/ Saskatchewan border",
+      "Mainstem downstream Hwy. 22/39 (Drayton Valley) to the Alberta/ Saskatchewan border",
     fish_limits: {
       northern_pike: "1 over 63 cm",
       yellow_perch: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "10 fish",
+      goldeye: "10 fish",
+      walleye_sauger: "0 WALL or SAUG",
     },
   },
   {
@@ -11684,11 +13181,14 @@ export const regulations = [
     season: "OPEN MAY 15 to MAR. 31",
     waterbody: "North Saskatchewan River",
     waterbody_detail:
-      "Tributaries (excluding the Sturgeon River; \nSee Redwater River in NB1); from Hwy. 22/39 \ndownstream to the Alberta/ Saskatchewan border",
+      "Tributaries (excluding the Sturgeon River; See Redwater River in NB1); from Hwy. 22/39 downstream to the Alberta/ Saskatchewan border",
     fish_limits: {
       northern_pike: "1 over 63 cm",
       yellow_perch: "",
-      mountain_whitefish: "5 over \n30 cm",
+      mountain_whitefish: "5 over 30 cm",
+      burbot: "10 fish",
+      goldeye: "10 fish",
+      walleye_sauger: "0 within 500 m of mainstem",
     },
   },
   {
@@ -11697,11 +13197,14 @@ export const regulations = [
     id: "PP2-Rivers-1-10",
     season: "OPEN MAY 15 to MAR. 31",
     waterbody: "Parlby Creek",
-    waterbody_detail: "23-40-22-W4; Portion between Buffalo and Alix \nlakes",
+    waterbody_detail: "23-40-22-W4; Portion between Buffalo and Alix lakes",
     fish_limits: {
       northern_pike: "0 fish",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
+      walleye_sauger: "",
     },
   },
   {
@@ -11711,11 +13214,14 @@ export const regulations = [
     season: "OPEN MAY 15 to MAR. 1",
     waterbody: "Red Deer River",
     waterbody_detail:
-      "Mainstem from Dickson Dam downstream to the \nTolman Bridge (Hwy. 585) including ALL named \nand unnamed tributaries (excluding Medicine \nRiver) (Sec. Hwy. 585 [14-33-22-W4])",
+      "Mainstem from Dickson Dam downstream to the Tolman Bridge (Hwy. 585) including ALL named and unnamed tributaries (excluding Medicine River) (Sec. Hwy. 585 [14-33-22-W4])",
     fish_limits: {
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
-      mountain_whitefish: "3 over \n30 cm",
+      mountain_whitefish: "3 over 30 cm",
+      burbot: "2 fish, but limit is 0 from Feb. 1 to Mar. 1",
+      goldeye: "10 fish",
+      walleye_sauger: "0 WALL; 3 SAUG",
     },
   },
   {
@@ -11725,11 +13231,14 @@ export const regulations = [
     season: "OPEN MAY 15 to MAR. 31",
     waterbody: "Red Deer River",
     waterbody_detail:
-      "Mainstem and tributaries from Tolman Bridge \n(Sec. Hwy. 585) downstream to the Alberta/ \nSaskatchewan border",
+      "Mainstem and tributaries from Tolman Bridge (Sec. Hwy. 585) downstream to the Alberta/ Saskatchewan border",
     fish_limits: {
       northern_pike: "3 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "2 fish, but limit is 0 from Feb. 1 to Mar. 31",
+      goldeye: "10 fish",
+      walleye_sauger: "3 in combination, WALL over 50 cm",
     },
   },
   {
@@ -11743,6 +13252,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "2 fish, but limit is 0 from Feb. 1 to Mar. 31",
+      goldeye: "",
+      walleye_sauger: "0 WALL or SAUG",
     },
   },
   {
@@ -11756,6 +13268,9 @@ export const regulations = [
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "2 fish, but limit is 0 from Feb. 1 to Mar. 31",
+      goldeye: "10 fish",
+      walleye_sauger: "0 WALL or SAUG",
     },
   },
   {
@@ -11765,11 +13280,15 @@ export const regulations = [
     season: "OPEN ALL YEAR",
     waterbody: "Sturgeon River",
     waterbody_detail:
-      "From Sec. Hwy. 825 downstream to North \nSaskatchewan River",
+      "From Sec. Hwy. 825 downstream to North Saskatchewan River",
     fish_limits: {
       northern_pike: "1 over 63 cm",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
+      burbot: "2 fish, but limit is 0 from Feb. 1 to Mar. 31",
+      goldeye: "10 fish",
+      walleye_sauger:
+        "0 WALL all year; 0 SAUG from apr. 1 to may 14; 3 SAUG from may 15 to mar. 31",
     },
   },
   {
@@ -11783,6 +13302,9 @@ export const regulations = [
       northern_pike: "",
       yellow_perch: "",
       mountain_whitefish: "",
+      burbot: "",
+      goldeye: "",
+      walleye_sauger: "",
     },
   },
 ];
