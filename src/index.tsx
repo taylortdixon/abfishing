@@ -4,7 +4,11 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { MainMenuNav } from "./components/main-menu-nav/main-menu-nav";
+import ReactGA from "react-ga";
 
+if (process.env.NODE_ENV === "production") {
+  ReactGA.initialize("G-5X3HF9TBY0");
+}
 ReactDOM.render(
   <React.StrictMode>
     <MainMenuNav />
