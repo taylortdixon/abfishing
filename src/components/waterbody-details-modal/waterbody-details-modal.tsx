@@ -55,6 +55,8 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
             <ListItem
               button
               component="a"
+              target="_blank"
+              rel="noreferrer noopener"
               href={`https://albertaregulations.ca/fishingregs/${selectedWaterbody.fish_management_zone}.pdf`}
             >
               <ListItemText
