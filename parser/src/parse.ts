@@ -1,9 +1,14 @@
-import { zipObject } from "lodash";
+import { startCase, zipObject } from "lodash";
 import { Waterbody } from "../../src/types/waterbody.type";
 import * as pdf_table_extractor from "pdf-table-extractor";
 
-const SPECIAL_BAIT_KEY = "Bait \nl = Bait \nexcept bait \nfish allowed";
-const SPECIAL_TROUT_KEY = "Trout\nTotal";
+const SPECIAL_BAIT_KEY_1 = "Bait l = Bait except bait fish allowed";
+const SPECIAL_BAIT_KEY_2 = "Bait l = Bait allowed";
+const SPECIAL_BAIT_KEY_3 = "Bait l = Bait except Bait fish allowed";
+const SPECIAL_BAIT_KEY_4 = "Bait";
+const SPECIAL_BAIT_KEY_5 = "Bait l = Bait ban";
+const SPECIAL_TROUT_KEY_1 = "TroutTotal";
+const SPECIAL_TROUT_KEY_2 = "Trout Total";
 const SPECIAL_WALLEYE_SAUGER_KEY = "WALL + SAUG";
 
 type ExtractorResponse = {
@@ -70,27 +75,64 @@ export class RegulationsFileParser {
     index: string,
     previousWaterbodyName: string
   ): Waterbody => {
+    const trimNewlines = (values: string[]): string[] =>
+      values.map((value) => value.replace(/\n/g, ""));
+
     const waterbody = zipObject(
-      rowHeader,
-      waterbodyRow.map((value) => value.replace(/\n/g, ""))
+      trimNewlines(rowHeader),
+      trimNewlines(waterbodyRow)
     );
 
-    const mapBaitAllowed = (baitAllowed: string): Waterbody["bait_allowed"] => {
-      switch (baitAllowed) {
-        case "Bait and bait \nfish allowed":
-          return "yes";
-        case "l":
-          return "partially";
-        default:
-          return "no";
+    const mapBaitAllowed = (): Waterbody["bait_ban"] => {
+      if (waterbody[SPECIAL_BAIT_KEY_1] !== undefined) {
+        if (waterbody[SPECIAL_BAIT_KEY_1] === "") {
+          return "Bait ban";
+        }
+        return waterbody[SPECIAL_BAIT_KEY_1] !== "l"
+          ? waterbody[SPECIAL_BAIT_KEY_1]
+          : "Bait except bait fish allowed";
       }
+      if (waterbody[SPECIAL_BAIT_KEY_2] !== undefined) {
+        if (waterbody[SPECIAL_BAIT_KEY_2] === "") {
+          return "Bait ban";
+        }
+        return waterbody[SPECIAL_BAIT_KEY_2] !== "l"
+          ? waterbody[SPECIAL_BAIT_KEY_2]
+          : "Bait allowed";
+      }
+      if (waterbody[SPECIAL_BAIT_KEY_3] !== undefined) {
+        if (waterbody[SPECIAL_BAIT_KEY_3] === "") {
+          return "Bait ban";
+        }
+        return waterbody[SPECIAL_BAIT_KEY_3] !== "l"
+          ? waterbody[SPECIAL_BAIT_KEY_3]
+          : "Bait except bait fish allowed";
+      }
+      if (waterbody[SPECIAL_BAIT_KEY_4] !== undefined) {
+        if (waterbody[SPECIAL_BAIT_KEY_4] === "") {
+          return "Bait ban";
+        }
+        return waterbody[SPECIAL_BAIT_KEY_4];
+      }
+      if (waterbody[SPECIAL_BAIT_KEY_5] !== undefined) {
+        if (waterbody[SPECIAL_BAIT_KEY_5] === "") {
+          return "Bait ban";
+        }
+        return waterbody[SPECIAL_BAIT_KEY_5] !== "l"
+          ? waterbody[SPECIAL_BAIT_KEY_5]
+          : "Bait ban";
+      }
+
+      return `Not Specified ${this.regulationsId} ${JSON.stringify(waterbody)}`;
     };
 
     return {
-      bait_allowed: mapBaitAllowed(waterbody[SPECIAL_BAIT_KEY]),
+      bait_ban: mapBaitAllowed(),
       fish_management_zone: this.regulationsId,
       id: index,
-      season: waterbody.Season,
+      season: startCase(waterbody.Season.toLowerCase())
+        .replace(/ To /g, " to ")
+        .replace(/ And /g, " and "),
       waterbody: waterbody.Waterbody
         ? waterbody.Waterbody
         : previousWaterbodyName,
@@ -109,7 +151,8 @@ export class RegulationsFileParser {
         goldeye: waterbody.GOLD,
         rainbow_trout: waterbody.RNTR,
         walleye_sauger: waterbody[SPECIAL_WALLEYE_SAUGER_KEY],
-        trout_total: waterbody[SPECIAL_TROUT_KEY],
+        trout_total:
+          waterbody[SPECIAL_TROUT_KEY_1] || waterbody[SPECIAL_TROUT_KEY_2],
       },
     };
   };

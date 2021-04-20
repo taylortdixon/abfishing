@@ -1,14 +1,34 @@
 import {
+  Button,
   Dialog,
+  DialogActions,
   DialogTitle,
   Divider,
   List,
   ListItem,
   ListItemText,
 } from "@material-ui/core";
-import { BaitAllowedIcon } from "../bait-allowed-icon/bait-allowed-icon";
 import { WaterbodyDetailsModalProps } from "./waterbody-details-modal.props.types";
 import "./waterbody-details-modal.css";
+import { FishLimit } from "../../types/waterbody.type";
+import React from "react";
+
+const fishLimitsNameMap: Record<FishLimit, string> = {
+  brook_trout: "Brook Trout",
+  burbot: "Burbot",
+  cisco: "Cisco",
+  cutthroat_trout: "Cutthroat Trout",
+  dolly_varden: "Dolly Varden",
+  goldeye: "Goldeye",
+  lake_trout: "Lake Trout",
+  mountain_whitefish: "Mountain Whitefish",
+  northern_pike: "Northern Pike",
+  rainbow_trout: "Rainbow Trout",
+  trout_total: "Trout Total",
+  walleye: "Walleye",
+  walleye_sauger: "Walleye + Sauger",
+  yellow_perch: "Yellow Perch",
+};
 
 export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
   selectedWaterbody,
@@ -16,6 +36,8 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
 }) => {
   return (
     <Dialog
+      maxWidth="sm"
+      fullWidth
       onClose={handleClose}
       aria-labelledby="simple-dialog-title"
       open={!!selectedWaterbody}
@@ -27,10 +49,19 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
               <span className="waterbody_details__dialog_title__text">
                 {selectedWaterbody.waterbody}
               </span>
-              <BaitAllowedIcon bait_allowed={selectedWaterbody.bait_allowed} />
             </div>
           </DialogTitle>
           <List dense={true}>
+            <ListItem
+              button
+              component="a"
+              href={`https://albertaregulations.ca/fishingregs/${selectedWaterbody.fish_management_zone}.pdf`}
+            >
+              <ListItemText
+                primary="Disclaimer"
+                secondary="Use this at your own risk. Click here to view the official Alberta regulations."
+              />
+            </ListItem>
             <ListItem>
               <ListItemText
                 primary="Season"
@@ -39,10 +70,18 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
             </ListItem>
             <ListItem>
               <ListItemText
-                primary="Waterbody Details"
-                secondary={selectedWaterbody.waterbody_detail}
+                primary="Bait Ban"
+                secondary={selectedWaterbody.bait_ban}
               />
             </ListItem>
+            {selectedWaterbody.waterbody_detail && (
+              <ListItem>
+                <ListItemText
+                  primary="Waterbody Details"
+                  secondary={selectedWaterbody.waterbody_detail}
+                />
+              </ListItem>
+            )}
             <Divider />
             {Object.entries(selectedWaterbody.fish_limits || {}).map(
               ([limitName, limit]) => {
@@ -52,7 +91,10 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
 
                 return (
                   <ListItem key={limitName}>
-                    <ListItemText primary={limitName} secondary={limit} />
+                    <ListItemText
+                      primary={fishLimitsNameMap[limitName as FishLimit]}
+                      secondary={limit}
+                    />
                   </ListItem>
                 );
               }
@@ -60,6 +102,11 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
           </List>
         </>
       )}
+      <DialogActions>
+        <Button onClick={handleClose} color="primary">
+          Close
+        </Button>
+      </DialogActions>
     </Dialog>
   );
 };

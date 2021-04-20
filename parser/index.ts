@@ -19,7 +19,8 @@ const parseRegulations = async () => {
 
   writeFileSync(
     "./src/fishing-regulations.ts",
-    `export const regulations = ${JSON.stringify(regulations)};`
+    `import { Waterbody } from "./types/waterbody.type";
+    export const regulations: Waterbody[] = ${JSON.stringify(regulations)};`
   );
 };
 

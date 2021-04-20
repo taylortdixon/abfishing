@@ -1,3 +1,7 @@
+.waterbody_modal {
+  min-width: 300px;
+}
+
 .waterbody_details__dialog_title {
   align-items: center;
   display: flex;

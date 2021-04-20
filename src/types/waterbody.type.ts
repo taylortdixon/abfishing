@@ -1,4 +1,4 @@
-type FishLimit =
+export type FishLimit =
   | "walleye"
   | "northern_pike"
   | "lake_trout"
@@ -20,6 +20,6 @@ export type Waterbody = {
   waterbody: string;
   waterbody_detail: string;
   season: string;
-  bait_allowed: "yes" | "partially" | "no";
+  bait_ban: string;
   fish_limits?: Partial<Record<FishLimit, string>>;
 };
