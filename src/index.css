@@ -12,6 +12,6 @@ code {
     monospace;
 }
 
-.root {
-  height: 100vh;
-}
+/* .root {
+  height: calc(100vh - 64px);
+} */

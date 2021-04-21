@@ -7,8 +7,10 @@
   pointer-events: none;
 }
 
-.Container {
-  height: 100%;
+div.Container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 64px);
   padding-top: 24px;
 }
 

@@ -6,7 +6,7 @@ import { FishingRegulationTable } from "./components/fishing-regulation-table/fi
 function App() {
   return (
     <Container className="Container">
-      <Typography variant="h3" component="h2" gutterBottom>
+      <Typography variant="h3" component="h1" gutterBottom>
         Search for Fishing Regulations
       </Typography>
       <Typography variant="body1">
