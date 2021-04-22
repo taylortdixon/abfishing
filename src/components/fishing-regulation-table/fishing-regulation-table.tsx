@@ -5,7 +5,7 @@ import {
   GridFilterItem,
   GridRowParams,
 } from "@material-ui/data-grid";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { regulations } from "../../fishing-regulations";
 import { Waterbody } from "../../types/waterbody.type";
 import { WaterbodyDetailsModal } from "../waterbody-details-modal/waterbody-details-modal";
@@ -45,11 +45,20 @@ export const FishingRegulationTable = () => {
   const [selectedWaterbody, setSelectedWaterbody] = useState<
     Waterbody | undefined
   >(undefined);
-
+  const [page, onPageChange] = useState<number>(0);
   const [filters, setFilters] = useState<GridFilterItem[]>([]);
+
+  useEffect(() => {
+    onPageChange(0);
+  }, [filters]);
 
   const onRowClick = (params: GridRowParams) =>
     setSelectedWaterbody(params.row as Waterbody);
+
+  const filteredRegulations = filterRegulations(
+    regulations as Waterbody[],
+    filters
+  );
   return (
     <>
       <FilterPanel
@@ -59,8 +68,12 @@ export const FishingRegulationTable = () => {
       />
       <DataGrid
         columns={columns}
-        rows={filterRegulations(regulations as Waterbody[], filters)}
+        rows={filteredRegulations}
         onRowClick={onRowClick}
+        pagination
+        page={page}
+        rowsPerPageOptions={[100]}
+        onPageChange={(params) => onPageChange(params.page)}
         // This fixes an annoying issue where the grid re-steals focus on rerendering.
         state={{
           keyboard: {

@@ -29,7 +29,7 @@ export const WarningModal = () => {
         <DialogContentText>
           This site is not affiliated with the Province of Alberta. While much
           effort has been put into making the data displayed here as accurate as
-          possible, it is your responsbility to ensure you are fishing legally
+          possible, it is your responsibility to ensure you are fishing legally
           where you are.
         </DialogContentText>
         <DialogContentText>

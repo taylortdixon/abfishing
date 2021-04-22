@@ -21,7 +21,7 @@ export const FilterPanel: React.VFC<FilterPanelProps> = ({
     regulations.map((waterbody) =>
       waterbody.fish_management_zone.replace(/-[A-z]+/, "")
     )
-  );
+  ).sort();
 
   const handleFilterChange = (filterItem: GridFilterItem) => {
     const newFilters = [...filters];
