@@ -2,6 +2,7 @@ import {
   Button,
   Dialog,
   DialogActions,
+  DialogContent,
   DialogTitle,
   Divider,
   List,
@@ -38,6 +39,7 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
     <Dialog
       maxWidth="sm"
       fullWidth
+      scroll="paper"
       onClose={handleClose}
       aria-labelledby="simple-dialog-title"
       open={!!selectedWaterbody}
@@ -51,57 +53,59 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
               </span>
             </div>
           </DialogTitle>
-          <List dense={true}>
-            <ListItem
-              button
-              component="a"
-              target="_blank"
-              rel="noreferrer noopener"
-              href={`https://albertaregulations.ca/fishingregs/${selectedWaterbody.fish_management_zone}.pdf`}
-            >
-              <ListItemText
-                primary="Disclaimer"
-                secondary="Use this at your own risk. Click here to view the official Alberta regulations."
-              />
-            </ListItem>
-            <ListItem>
-              <ListItemText
-                primary="Season"
-                secondary={selectedWaterbody.season}
-              />
-            </ListItem>
-            <ListItem>
-              <ListItemText
-                primary="Bait Ban"
-                secondary={selectedWaterbody.bait_ban}
-              />
-            </ListItem>
-            {selectedWaterbody.waterbody_detail && (
-              <ListItem>
+          <DialogContent dividers>
+            <List dense={true}>
+              <ListItem
+                button
+                component="a"
+                target="_blank"
+                rel="noreferrer noopener"
+                href={`https://albertaregulations.ca/fishingregs/${selectedWaterbody.fish_management_zone}.pdf`}
+              >
                 <ListItemText
-                  primary="Waterbody Details"
-                  secondary={selectedWaterbody.waterbody_detail}
+                  primary="Disclaimer"
+                  secondary="Use this at your own risk. Click here to view the official Alberta regulations."
                 />
               </ListItem>
-            )}
-            <Divider />
-            {Object.entries(selectedWaterbody.fish_limits || {}).map(
-              ([limitName, limit]) => {
-                if (!limit) {
-                  return null;
-                }
+              <ListItem>
+                <ListItemText
+                  primary="Season"
+                  secondary={selectedWaterbody.season}
+                />
+              </ListItem>
+              <ListItem>
+                <ListItemText
+                  primary="Bait Ban"
+                  secondary={selectedWaterbody.bait_ban}
+                />
+              </ListItem>
+              {selectedWaterbody.waterbody_detail && (
+                <ListItem>
+                  <ListItemText
+                    primary="Waterbody Details"
+                    secondary={selectedWaterbody.waterbody_detail}
+                  />
+                </ListItem>
+              )}
+              <Divider />
+              {Object.entries(selectedWaterbody.fish_limits || {}).map(
+                ([limitName, limit]) => {
+                  if (!limit) {
+                    return null;
+                  }
 
-                return (
-                  <ListItem key={limitName}>
-                    <ListItemText
-                      primary={fishLimitsNameMap[limitName as FishLimit]}
-                      secondary={limit}
-                    />
-                  </ListItem>
-                );
-              }
-            )}
-          </List>
+                  return (
+                    <ListItem key={limitName}>
+                      <ListItemText
+                        primary={fishLimitsNameMap[limitName as FishLimit]}
+                        secondary={limit}
+                      />
+                    </ListItem>
+                  );
+                }
+              )}
+            </List>
+          </DialogContent>
         </>
       )}
       <DialogActions>
