@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { MainMenuNav } from "./components/main-menu-nav/main-menu-nav";
 import ReactGA from "react-ga";
+import { WarningModal } from "./components/warning-modal/warning-modal";
 
 if (process.env.NODE_ENV === "production") {
   ReactGA.initialize("UA-195051054-1");
@@ -13,6 +14,7 @@ ReactDOM.render(
   <React.StrictMode>
     <MainMenuNav />
     <App />
+    <WarningModal />
   </React.StrictMode>,
   document.getElementById("root")
 );

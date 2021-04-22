@@ -1,5 +1,6 @@
 import { readdirSync, writeFileSync } from "fs";
 import { RegulationsFileParser } from "./src/parse";
+import { sortBy } from "lodash";
 
 const REGULATIONS_FOLDER = "./parser/regulations";
 
@@ -20,7 +21,9 @@ const parseRegulations = async () => {
   writeFileSync(
     "./src/fishing-regulations.ts",
     `import { Waterbody } from "./types/waterbody.type";
-    export const regulations: Waterbody[] = ${JSON.stringify(regulations)};`
+    export const regulations: Waterbody[] = ${JSON.stringify(
+      sortBy(regulations, (reg) => reg.waterbody)
+    )};`
   );
 };
 

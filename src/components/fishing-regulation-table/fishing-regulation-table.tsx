@@ -61,12 +61,6 @@ export const FishingRegulationTable = () => {
         columns={columns}
         rows={filterRegulations(regulations as Waterbody[], filters)}
         onRowClick={onRowClick}
-        sortModel={[
-          {
-            field: "waterbody",
-            sort: "asc",
-          },
-        ]}
         // This fixes an annoying issue where the grid re-steals focus on rerendering.
         state={{
           keyboard: {
