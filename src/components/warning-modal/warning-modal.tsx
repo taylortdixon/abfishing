@@ -11,6 +11,7 @@ import Cookies from "js-cookie";
 import React from "react";
 
 const COOKIE_NAME = "accepted-disclaimer-cookie";
+const COOKIE_EXPIRY_DAYS = 90;
 const ACCEPTED_COOKIE_VALUE = "accepted";
 
 export const WarningModal = () => {
@@ -19,7 +20,9 @@ export const WarningModal = () => {
   );
   const handleClose = () => {
     setVisible(false);
-    Cookies.set(COOKIE_NAME, ACCEPTED_COOKIE_VALUE);
+    Cookies.set(COOKIE_NAME, ACCEPTED_COOKIE_VALUE, {
+      expires: COOKIE_EXPIRY_DAYS,
+    });
   };
 
   return (

@@ -55,18 +55,6 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
           </DialogTitle>
           <DialogContent dividers>
             <List dense={true}>
-              <ListItem
-                button
-                component="a"
-                target="_blank"
-                rel="noreferrer noopener"
-                href={`https://albertaregulations.ca/fishingregs/${selectedWaterbody.fish_management_zone}.pdf`}
-              >
-                <ListItemText
-                  primary="Disclaimer"
-                  secondary="Use this at your own risk. Click here to view the official Alberta regulations."
-                />
-              </ListItem>
               <ListItem>
                 <ListItemText
                   primary="Season"
@@ -87,6 +75,18 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
                   />
                 </ListItem>
               )}
+              <ListItem
+                button
+                component="a"
+                target="_blank"
+                rel="noreferrer noopener"
+                href={`https://albertaregulations.ca/fishingregs/${selectedWaterbody.fish_management_zone}.pdf`}
+              >
+                <ListItemText
+                  primary="Use this at your own risk"
+                  secondary="Click here to view the official Alberta regulations."
+                />
+              </ListItem>
               <Divider />
               {Object.entries(selectedWaterbody.fish_limits || {}).map(
                 ([limitName, limit]) => {
