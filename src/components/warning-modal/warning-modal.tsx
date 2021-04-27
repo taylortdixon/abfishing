@@ -32,8 +32,8 @@ export const WarningModal = () => {
         <DialogContentText>
           This site is not affiliated with the Province of Alberta. While much
           effort has been put into making the data displayed here as accurate as
-          possible, it is your responsibility to ensure you are fishing legally
-          where you are.
+          possible, it is the user's responsibility to fish legally in the body
+          of water they are in.
         </DialogContentText>
         <DialogContentText>
           Use this at your own risk.{" "}

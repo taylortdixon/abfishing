@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 import {
   FormGroup,
   FormControl,
@@ -5,6 +6,7 @@ import {
   InputLabel,
   Select,
   MenuItem,
+  Button,
 } from "@material-ui/core";
 import React from "react";
 import { FilterPanelProps } from "./filter-panel.types.props";
@@ -46,6 +48,10 @@ export const FilterPanel: React.VFC<FilterPanelProps> = ({
           id="filled-search"
           label="Search for lake, river, etc"
           type="search"
+          value={
+            filters.find((predicate) => predicate.columnField === "waterbody")
+              ?.value || ""
+          }
           onChange={(event) =>
             handleFilterChange({
               columnField: "waterbody",
@@ -66,6 +72,11 @@ export const FilterPanel: React.VFC<FilterPanelProps> = ({
               value: event.target.value as string,
             })
           }
+          value={
+            filters.find(
+              (predicate) => predicate.columnField === "fish_management_zone"
+            )?.value || ""
+          }
         >
           <MenuItem value="">All</MenuItem>
           {managementZones.map((zone) => (
@@ -75,6 +86,9 @@ export const FilterPanel: React.VFC<FilterPanelProps> = ({
           ))}
         </Select>
       </FormControl>
+      <Button variant="text" onClick={() => onFiltersChange([])}>
+        Reset Filters
+      </Button>
     </FormGroup>
   );
 };
