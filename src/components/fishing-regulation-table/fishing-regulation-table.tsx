@@ -8,6 +8,7 @@ import {
 import { useEffect, useState } from "react";
 import { regulations } from "../../fishing-regulations";
 import { Waterbody } from "../../types/waterbody.type";
+import { trackWaterbodyOpen } from "../../utils/analytics.utils";
 import { WaterbodyDetailsModal } from "../waterbody-details-modal/waterbody-details-modal";
 import { FilterPanel } from "./filter-panel/filter-panel";
 import "./fishing-regulation-table.css";
@@ -52,8 +53,11 @@ export const FishingRegulationTable = () => {
     onPageChange(0);
   }, [filters]);
 
-  const onRowClick = (params: GridRowParams) =>
-    setSelectedWaterbody(params.row as Waterbody);
+  const onRowClick = (params: GridRowParams) => {
+    const waterbody = params.row as Waterbody;
+    trackWaterbodyOpen(waterbody.waterbody);
+    setSelectedWaterbody(waterbody);
+  };
 
   const filteredRegulations = filterRegulations(
     regulations as Waterbody[],
