@@ -11,7 +11,7 @@ function App() {
       </Typography>
       <Typography variant="body1">
         Look up the fishing regulations for the lakes, rivers, streams,
-        resevoirs and tributaries in Alberta.
+        resevoirs and tributaries in Alberta. Click on a row to view details.
       </Typography>
       <FishingRegulationTable />
     </Container>
