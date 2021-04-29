@@ -7,12 +7,20 @@ import {
   Divider,
   List,
   ListItem,
+  ListItemIcon,
   ListItemText,
 } from "@material-ui/core";
 import { WaterbodyDetailsModalProps } from "./waterbody-details-modal.props.types";
 import "./waterbody-details-modal.css";
 import { FishLimit } from "../../types/waterbody.type";
 import React from "react";
+import { ReactComponent as TroutIcon } from "../../static/trout.svg";
+import { ReactComponent as WalleyeIcon } from "../../static/walleye.svg";
+import { ReactComponent as PerchIcon } from "../../static/perch.svg";
+import { ReactComponent as PikeIcon } from "../../static/pike.svg";
+import { ReactComponent as BurbotIcon } from "../../static/burbot.svg";
+import { ReactComponent as FishIcon } from "../../static/fish.svg";
+import { ReactComponent as WhitefishIcon } from "../../static/whitefish.svg";
 
 const fishLimitsNameMap: Record<FishLimit, string> = {
   brook_trout: "Brook Trout",
@@ -29,6 +37,30 @@ const fishLimitsNameMap: Record<FishLimit, string> = {
   walleye: "Walleye",
   walleye_sauger: "Walleye + Sauger",
   yellow_perch: "Yellow Perch",
+};
+
+const fishLimitsIconMap: Record<
+  FishLimit,
+  React.FunctionComponent<
+    React.SVGProps<SVGSVGElement> & {
+      title?: string | undefined;
+    }
+  >
+> = {
+  brook_trout: TroutIcon,
+  burbot: BurbotIcon,
+  cisco: FishIcon,
+  cutthroat_trout: TroutIcon,
+  dolly_varden: TroutIcon,
+  goldeye: FishIcon,
+  lake_trout: TroutIcon,
+  mountain_whitefish: WhitefishIcon,
+  northern_pike: PikeIcon,
+  rainbow_trout: TroutIcon,
+  trout_total: TroutIcon,
+  walleye: WalleyeIcon,
+  walleye_sauger: WalleyeIcon,
+  yellow_perch: PerchIcon,
 };
 
 export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
@@ -94,8 +126,13 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
                     return null;
                   }
 
+                  const Icon = fishLimitsIconMap[limitName as FishLimit];
+
                   return (
                     <ListItem key={limitName}>
+                      <ListItemIcon>
+                        <Icon className="svg" />
+                      </ListItemIcon>
                       <ListItemText
                         primary={fishLimitsNameMap[limitName as FishLimit]}
                         secondary={limit}
