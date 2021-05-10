@@ -5,42 +5,53 @@ import {
   GridFilterItem,
   GridRowParams,
 } from "@material-ui/data-grid";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { regulations } from "../../fishing-regulations";
 import { Waterbody } from "../../types/waterbody.type";
 import { trackWaterbodyOpen } from "../../utils/analytics.utils";
+import { useWindowSize } from "../../utils/window-resize-hook";
 import { WaterbodyDetailsModal } from "../waterbody-details-modal/waterbody-details-modal";
 import { FilterPanel } from "./filter-panel/filter-panel";
 import "./fishing-regulation-table.css";
 import { filterRegulations } from "./fishing-regulation-table.utils";
 
-const columns: GridColumns = [
-  {
-    field: "waterbody",
-    flex: 0.3,
-    headerName: "Waterbody",
-    renderCell: (params) => {
-      const row = params.row as Waterbody;
-      return (
-        <div className="fishing_regulation_table__name_cell">
-          <Typography variant="body1" gutterBottom>
-            {row.waterbody}
-          </Typography>
-          <Typography variant="body2" noWrap>
-            {row.waterbody_detail}
-          </Typography>
-        </div>
-      );
-    },
-  },
-  { field: "season", flex: 0.1, headerName: "Season" },
-  {
-    field: "fish_management_zone",
-    flex: 0.1,
-    headerName: "Zone",
-    valueFormatter: (params) => (params.value as string).replace(/-/, " "),
-  },
-];
+const useColumnDefinitions = (): GridColumns => {
+  const size = useWindowSize();
+
+  return useMemo(() => {
+    const columns: GridColumns = [
+      {
+        field: "waterbody",
+        flex: 1,
+        headerName: "Waterbody",
+        renderCell: (params) => {
+          const row = params.row as Waterbody;
+          return (
+            <div className="fishing_regulation_table__name_cell">
+              <Typography variant="body1" gutterBottom>
+                {row.waterbody}
+              </Typography>
+              <Typography variant="body2" noWrap>
+                {row.waterbody_detail}
+              </Typography>
+            </div>
+          );
+        },
+      },
+      { field: "season", flex: 0.6, headerName: "Season" },
+    ];
+
+    if (size.width && size.width > 400) {
+      columns.push({
+        field: "fish_management_zone",
+        flex: 0.4,
+        headerName: "Zone",
+        valueFormatter: (params) => (params.value as string).replace(/-/, " "),
+      });
+    }
+    return columns;
+  }, [size.width]);
+};
 
 export const FishingRegulationTable = () => {
   const [selectedWaterbody, setSelectedWaterbody] = useState<
@@ -52,6 +63,8 @@ export const FishingRegulationTable = () => {
   useEffect(() => {
     onPageChange(0);
   }, [filters]);
+
+  const columns = useColumnDefinitions();
 
   const onRowClick = (params: GridRowParams) => {
     const waterbody = params.row as Waterbody;
