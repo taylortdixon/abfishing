@@ -4,6 +4,7 @@ export type FishLimit =
   | "lake_trout"
   | "yellow_perch"
   | "mountain_whitefish"
+  | "lake_whitefish"
   | "cutthroat_trout"
   | "brook_trout"
   | "rainbow_trout"

@@ -143,6 +143,7 @@ export class RegulationsFileParser {
         yellow_perch: waterbody.YLPR,
         lake_trout: waterbody.LKTR,
         mountain_whitefish: waterbody.MNWH,
+        lake_whitefish: waterbody.LKWH,
         cutthroat_trout: waterbody.CTTR,
         brook_trout: waterbody.BKTR,
         dolly_varden: waterbody.DLVR,

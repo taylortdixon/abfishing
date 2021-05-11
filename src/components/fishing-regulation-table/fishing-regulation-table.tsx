@@ -14,6 +14,7 @@ import { WaterbodyDetailsModal } from "../waterbody-details-modal/waterbody-deta
 import { FilterPanel } from "./filter-panel/filter-panel";
 import "./fishing-regulation-table.css";
 import { filterRegulations } from "./fishing-regulation-table.utils";
+import { NoResultsRowsOverlay } from "./no-results/no-results";
 
 const useColumnDefinitions = (): GridColumns => {
   const size = useWindowSize();
@@ -85,12 +86,16 @@ export const FishingRegulationTable = () => {
       />
       <DataGrid
         columns={columns}
+        className="fishing_regulation_table"
         rows={filteredRegulations}
         onRowClick={onRowClick}
         pagination
         page={page}
         rowsPerPageOptions={[100]}
         onPageChange={(params) => onPageChange(params.page)}
+        components={{
+          NoRowsOverlay: NoResultsRowsOverlay,
+        }}
         // This fixes an annoying issue where the grid re-steals focus on rerendering.
         state={{
           keyboard: {
@@ -100,6 +105,9 @@ export const FishingRegulationTable = () => {
           },
         }}
       />
+      <Typography display="block" variant="caption" gutterBottom>
+        Regulations last updated May 10, 2021
+      </Typography>
       <WaterbodyDetailsModal
         selectedWaterbody={selectedWaterbody}
         handleClose={() => setSelectedWaterbody(undefined)}
