@@ -17,6 +17,7 @@
     "lodash": "^4.17.21",
     "pdf-table-extractor": "^1.0.3",
     "react": "^17.0.2",
+    "react-device-detect": "^1.17.0",
     "react-dom": "^17.0.2",
     "react-ga": "^3.3.0",
     "react-scripts": "4.0.3",

@@ -1,4 +1,4 @@
-import { Typography } from "@material-ui/core";
+import { Link, Typography } from "@material-ui/core";
 import {
   DataGrid,
   GridColumns,
@@ -9,16 +9,14 @@ import { useEffect, useMemo, useState } from "react";
 import { regulations } from "../../fishing-regulations";
 import { Waterbody } from "../../types/waterbody.type";
 import { trackWaterbodyOpen } from "../../utils/analytics.utils";
-import { useWindowSize } from "../../utils/window-resize-hook";
 import { WaterbodyDetailsModal } from "../waterbody-details-modal/waterbody-details-modal";
 import { FilterPanel } from "./filter-panel/filter-panel";
 import "./fishing-regulation-table.css";
 import { filterRegulations } from "./fishing-regulation-table.utils";
 import { NoResultsRowsOverlay } from "./no-results/no-results";
+import { isMobile } from "react-device-detect";
 
 const useColumnDefinitions = (): GridColumns => {
-  const size = useWindowSize();
-
   return useMemo(() => {
     const columns: GridColumns = [
       {
@@ -42,7 +40,7 @@ const useColumnDefinitions = (): GridColumns => {
       { field: "season", flex: 0.6, headerName: "Season" },
     ];
 
-    if (size.width && size.width > 400) {
+    if (!isMobile) {
       columns.push({
         field: "fish_management_zone",
         flex: 0.4,
@@ -51,13 +49,12 @@ const useColumnDefinitions = (): GridColumns => {
       });
     }
     return columns;
-  }, [size.width]);
+  }, []);
 };
 
 export const FishingRegulationTable = () => {
-  const [selectedWaterbody, setSelectedWaterbody] = useState<
-    Waterbody | undefined
-  >(undefined);
+  const [selectedWaterbody, setSelectedWaterbody] =
+    useState<Waterbody | undefined>(undefined);
   const [page, onPageChange] = useState<number>(0);
   const [filters, setFilters] = useState<GridFilterItem[]>([]);
 
@@ -106,8 +103,12 @@ export const FishingRegulationTable = () => {
         }}
       />
       <Typography display="block" variant="caption" gutterBottom>
-        Regulations last updated May 10, 2021
+        Updated May 10, 2021. See an issue?{" "}
+        <Link href="mailto&#58;%&#54;1bfis%68in%67ca&#64;gm%61i&#108;&#46;c&#37;&#54;Fm">
+          Reach Out!
+        </Link>
       </Typography>
+
       <WaterbodyDetailsModal
         selectedWaterbody={selectedWaterbody}
         handleClose={() => setSelectedWaterbody(undefined)}
