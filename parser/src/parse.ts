@@ -1,6 +1,9 @@
 import { startCase, zipObject } from "lodash";
 import { Waterbody } from "../../src/types/waterbody.type";
 import * as pdf_table_extractor from "pdf-table-extractor";
+import { exit } from "node:process";
+
+const md5 = require("md5");
 
 const SPECIAL_BAIT_KEY_1 = "Bait l = Bait except bait fish allowed";
 const SPECIAL_BAIT_KEY_2 = "Bait l = Bait allowed";
@@ -47,15 +50,23 @@ export class RegulationsFileParser {
       const [ignoreHeader, rowHeader, ...waterbodies] = page.tables;
 
       let previousWaterbodyName = "";
+      let previousWaterbodyDescription = "";
       const mapped = waterbodies.map((waterbody, i) => {
         previousWaterbodyName = waterbody[0]
           ? waterbody[0]
           : previousWaterbodyName;
+
+        previousWaterbodyDescription =
+          !waterbody[0] && !waterbody[1]
+            ? previousWaterbodyDescription
+            : waterbody[1];
+
         return this.parseWaterbody(
           rowHeader,
           waterbody,
           `${this.regulationsId}-${page.page}-${i}`,
-          previousWaterbodyName
+          previousWaterbodyName,
+          previousWaterbodyDescription
         );
       });
 
@@ -69,11 +80,31 @@ export class RegulationsFileParser {
     console.error(`File: ${this.regulationsFilePath} - Error: ` + err);
   };
 
+  private generateId = (
+    waterbodyName: string,
+    waterbodyDetail: string,
+    waterbodySeason: string
+  ) => {
+    const parsedName = waterbodyName
+      .replace(/\(\)/g, "")
+      .toLowerCase()
+      .split(" ")
+      .splice(0, 3)
+      .join("-");
+
+    const hash = md5(
+      `${this.regulationsId}-${waterbodyDetail}-${waterbodySeason}`
+    ).substr(0, 5);
+
+    return `${parsedName}-${hash}`;
+  };
+
   private parseWaterbody = (
     rowHeader: string[],
     waterbodyRow: string[],
     index: string,
-    previousWaterbodyName: string
+    previousWaterbodyName: string,
+    previousWaterbodyDescription: string
   ): Waterbody => {
     const trimNewlines = (values: string[]): string[] =>
       values.map((value) => value.replace(/\n/g, ""));
@@ -126,17 +157,25 @@ export class RegulationsFileParser {
       return `Not Specified ${this.regulationsId} ${JSON.stringify(waterbody)}`;
     };
 
+    const waterbodyName = waterbody.Waterbody
+      ? waterbody.Waterbody
+      : previousWaterbodyName;
+
+    const waterbodyDetail = waterbody["Waterbody Detail"]
+      ? waterbody["Waterbody Detail"]
+      : previousWaterbodyDescription;
+
+    const waterbodySeason = startCase(waterbody.Season.toLowerCase())
+      .replace(/ To /g, " to ")
+      .replace(/ And /g, " and ");
+
     return {
       bait_ban: mapBaitAllowed(),
       fish_management_zone: this.regulationsId,
-      id: index,
-      season: startCase(waterbody.Season.toLowerCase())
-        .replace(/ To /g, " to ")
-        .replace(/ And /g, " and "),
-      waterbody: waterbody.Waterbody
-        ? waterbody.Waterbody
-        : previousWaterbodyName,
-      waterbody_detail: waterbody["Waterbody Detail"],
+      id: index, // this.generateId(waterbodyName, waterbodyDetail, waterbodySeason),
+      season: waterbodySeason,
+      waterbody: waterbodyName,
+      waterbody_detail: waterbodyDetail,
       fish_limits: {
         walleye: waterbody.WALL,
         northern_pike: waterbody.NRPK,
