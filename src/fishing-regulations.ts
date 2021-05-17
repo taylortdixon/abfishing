@@ -3,7 +3,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Lakes",
-    id: "ES4-Lakes-1-0",
+    id: "a-la-peche-39b27",
     season: "Open June 1 to Aug 31",
     waterbody: "A La Peche Lake",
     waterbody_detail: "55-6-W5",
@@ -20,7 +20,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-0",
+    id: "abraham-lake-de413",
     season: "Open All Year",
     waterbody: "Abraham Lake",
     waterbody_detail:
@@ -40,7 +40,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-0",
+    id: "albright-lake-027f2",
     season: "Open All Year",
     waterbody: "Albright Lake",
     waterbody_detail: "",
@@ -57,7 +57,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-0",
+    id: "alexander-lake-a2fec",
     season: "Open All Year",
     waterbody: "Alexander Lake",
     waterbody_detail: "",
@@ -75,7 +75,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-0",
+    id: "alford-creek-50988",
     season: "Open Apr 1 to Aug 31",
     waterbody: "Alford Creek",
     waterbody_detail: "Mainstem and tributaries",
@@ -93,7 +93,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-1",
+    id: "alford-creek-cdfc5",
     season: "Open Sept 1 to Mar 31",
     waterbody: "Alford Creek",
     waterbody_detail: "Mainstem and tributaries",
@@ -111,7 +111,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-1",
+    id: "allstones-lake-6222b",
     season: "Open All Year",
     waterbody: "Allstones Lake",
     waterbody_detail: "30-38-17-W5",
@@ -130,7 +130,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-0",
+    id: "amisk-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Amisk Lake",
     waterbody_detail: "",
@@ -147,7 +147,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-1",
+    id: "amisk-lake-3b269",
     season: "Open June 1 to Oct 31",
     waterbody: "Amisk Lake",
     waterbody_detail: "Tributaries and outlet for 1 km",
@@ -164,7 +164,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-1",
+    id: "andrew-lake-c4c40",
     season: "Open All Year",
     waterbody: "Andrew Lake",
     waterbody_detail: "",
@@ -182,7 +182,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-2",
+    id: "angling-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Angling Lake",
     waterbody_detail: "",
@@ -199,7 +199,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-2",
+    id: "arch-lake-a2fec",
     season: "Open All Year",
     waterbody: "Arch Lake",
     waterbody_detail: "",
@@ -217,7 +217,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-0",
+    id: "arm-lake-2b706",
     season: "Open May 15 to Mar 31",
     waterbody: "Arm Lake",
     waterbody_detail: "",
@@ -233,7 +233,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-3",
+    id: "ashton-lake-a2fec",
     season: "Open All Year",
     waterbody: "Ashton Lake",
     waterbody_detail: "",
@@ -251,7 +251,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-0",
+    id: "aster-lake-706d7",
     season: "Open All Year",
     waterbody: "Aster Lake",
     waterbody_detail: "5-19-9-W5",
@@ -271,7 +271,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-0",
+    id: "athabasca-river-510d2",
     season: "Open Apr 1 to Aug 31",
     waterbody: "Athabasca River",
     waterbody_detail:
@@ -289,7 +289,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-1",
+    id: "athabasca-river-0bd15",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Athabasca River",
     waterbody_detail:
@@ -307,7 +307,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Rivers",
-    id: "NB1-Rivers-1-0",
+    id: "athabasca-river-76971",
     season: "Open June 1 to Oct 31",
     waterbody: "Athabasca River",
     waterbody_detail:
@@ -327,7 +327,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed in river only",
     fish_management_zone: "NB2-Rivers",
-    id: "NB2-Rivers-1-0",
+    id: "athabasca-river-c574b",
     season: "Open June 1 to Oct 31",
     waterbody: "Athabasca River",
     waterbody_detail:
@@ -346,7 +346,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-0",
+    id: "athabasca-river-80953",
     season: "Open Apr 1 to May 31",
     waterbody: "Athabasca River",
     waterbody_detail: "Mainstem",
@@ -363,7 +363,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-1",
+    id: "athabasca-river-3b346",
     season: "Open June 1 to Mar 31",
     waterbody: "Athabasca River",
     waterbody_detail: "Mainstem",
@@ -380,7 +380,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-2",
+    id: "athabasca-river-aaabd",
     season: "Open June 1 to Oct 31",
     waterbody: "Athabasca River",
     waterbody_detail: "Tributaries except Clearwater and Hangingstone rivers",
@@ -397,7 +397,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-0",
+    id: "badger-lake-f6e9a",
     season: "Open May 8 to Mar 15",
     waterbody: "Badger Lake",
     waterbody_detail: "",
@@ -414,7 +414,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-3",
+    id: "bangs-lake-8fb17",
     season: "Open May 15 to Mar 31",
     waterbody: "Bangs Lake",
     waterbody_detail: "Includes tributaries and outlet for 1 km",
@@ -431,7 +431,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-0",
+    id: "baptiste-lake-8b847",
     season: "Open May 15 to Mar 31",
     waterbody: "Baptiste Lake",
     waterbody_detail: "66-24-W4",
@@ -447,7 +447,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-2",
+    id: "baptiste-river-7609e",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Baptiste River",
     waterbody_detail: "Mainstem only",
@@ -465,7 +465,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-1",
+    id: "barnaby-lake-f9e4e",
     season: "Open July 16 to Oct 31",
     waterbody: "Barnaby Lake",
     waterbody_detail: "32-4-3-W5",
@@ -485,7 +485,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-2",
+    id: "barnaby-lake-d4358",
     season: "Closed All Year",
     waterbody: "Barnaby Lake",
     waterbody_detail: "Tributaries and outlet ",
@@ -504,7 +504,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-4",
+    id: "barrow-lake-f0be4",
     season: "Open May 15 to Mar 31",
     waterbody: "Barrow Lake",
     waterbody_detail: "",
@@ -522,7 +522,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-5",
+    id: "base-lake-f0be4",
     season: "Open May 15 to Mar 31",
     waterbody: "Base Lake",
     waterbody_detail: "",
@@ -540,7 +540,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-1",
+    id: "bassano-reservoir-2ca75",
     season: "",
     waterbody: "Bassano Reservoir",
     waterbody_detail: "See Bow River from Hwy. 24 downstream to Bassano Dam",
@@ -557,7 +557,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP1-Rivers",
-    id: "PP1-Rivers-1-0",
+    id: "battle-creek-4bce2",
     season: "Open June 1 to Mar 31",
     waterbody: "Battle Creek",
     waterbody_detail: "8-1-W4; Includes tributaries",
@@ -577,7 +577,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-1",
+    id: "battle-lake-b10fe",
     season: "Open June 1 to Mar 31",
     waterbody: "Battle Lake",
     waterbody_detail:
@@ -594,7 +594,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-2",
+    id: "battle-lake-a98cd",
     season: "Open May 15 to Mar 31",
     waterbody: "Battle Lake",
     waterbody_detail: "Remainder of the lake",
@@ -610,7 +610,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-0",
+    id: "battle-river-356e9",
     season: "",
     waterbody: "Battle River",
     waterbody_detail:
@@ -628,7 +628,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-1",
+    id: "battle-river-54860",
     season: "Open May 15 to Mar 31",
     waterbody: "Battle River",
     waterbody_detail: "Mainstem from Hwy. 771 downstream to Hwy. 855 ",
@@ -645,7 +645,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-2",
+    id: "battle-river-0b745",
     season: "",
     waterbody: "Battle River",
     waterbody_detail:
@@ -663,7 +663,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-3",
+    id: "battle-river-3976c",
     season: "Open June 1 to Oct 31",
     waterbody: "Battle River",
     waterbody_detail:
@@ -681,7 +681,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-6",
+    id: "bayonet-lake-a2fec",
     season: "Open All Year",
     waterbody: "Bayonet Lake",
     waterbody_detail: "",
@@ -699,7 +699,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-0",
+    id: "bear-lake-8039d",
     season: "Open May 15 to Mar 31",
     waterbody: "Bear Lake",
     waterbody_detail: "",
@@ -717,7 +717,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-3",
+    id: "bear-pond-af7a2",
     season: "Open All Year",
     waterbody: "Bear Pond",
     waterbody_detail: "36-14-4-W5",
@@ -737,7 +737,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-4",
+    id: "bearspaw-reservoir-fe386",
     season: "Open All Year",
     waterbody: "Bearspaw Reservoir",
     waterbody_detail: "",
@@ -757,7 +757,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-4",
+    id: "beartrap-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Beartrap Lake",
     waterbody_detail: "",
@@ -774,7 +774,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-1",
+    id: "beatty-lake-027f2",
     season: "Open All Year",
     waterbody: "Beatty Lake",
     waterbody_detail: "",
@@ -791,7 +791,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-2",
+    id: "beatty-lake-429c7",
     season: "Open June 1 to Oct 31",
     waterbody: "Beatty Lake",
     waterbody_detail: "Tributaries and outlet",
@@ -808,7 +808,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-0",
+    id: "beaver-creek-09714",
     season: "Open June 16 to Aug 31",
     waterbody: "Beaver Creek",
     waterbody_detail: "",
@@ -826,7 +826,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-1",
+    id: "beaver-creek-c5231",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Beaver Creek",
     waterbody_detail: "",
@@ -844,7 +844,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-2",
+    id: "beaver-lake-076b4",
     season: "Open Apr 1 to Nov 30",
     waterbody: "Beaver Lake",
     waterbody_detail: "16-35-6-W5",
@@ -863,7 +863,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-5",
+    id: "beaver-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Beaver Lake",
     waterbody_detail: "",
@@ -880,7 +880,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Rivers",
-    id: "NB1-Rivers-1-1",
+    id: "beaver-river-26f58",
     season: "Open June 1 to Mar 31",
     waterbody: "Beaver River",
     waterbody_detail: "Mainstem including tributaries",
@@ -899,7 +899,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-6",
+    id: "behan-lake-79e94",
     season: "Open May 15 to Mar 31",
     waterbody: "Behan Lake",
     waterbody_detail: "11-1-73-11-W4",
@@ -916,7 +916,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-2",
+    id: "belly-river-095f0",
     season: "Open June 16 to Aug 31",
     waterbody: "Belly River",
     waterbody_detail: "Mainstem upstream of Sec. Rd. 800 and tributaries",
@@ -934,7 +934,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-3",
+    id: "belly-river-270f4",
     season: "Closed Sept 1 to June 15",
     waterbody: "Belly River",
     waterbody_detail: "Mainstem upstream of Sec. Rd. 800 and \ntributaries",
@@ -952,7 +952,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-4",
+    id: "belly-river-e0030",
     season: "Open June 16 to Aug 31",
     waterbody: "Belly River",
     waterbody_detail: "Mainstem and tributaries; downstream of Sec. Rd. 800",
@@ -970,7 +970,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-5",
+    id: "belly-river-5337c",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Belly River",
     waterbody_detail: "Mainstem and tributaries; downstream of Sec. \nRd. 800",
@@ -988,7 +988,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-7",
+    id: "bentley-lake-62730",
     season: "Open May 15 to Mar 31",
     waterbody: "Bentley Lake",
     waterbody_detail: "58-8-W4",
@@ -1005,7 +1005,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-2",
+    id: "berland-river-22ffa",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Berland River",
     waterbody_detail: "Mainstem only - downstream of Hwy 40",
@@ -1022,7 +1022,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-4",
+    id: "berry-creek-f428b",
     season: "Open May 15 to Mar 31",
     waterbody: "Berry Creek",
     waterbody_detail: "Mainstem including ALL tributaries",
@@ -1039,7 +1039,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-3",
+    id: "berry-creek-(carolside)-3f57f",
     season: "Open May 15 to Mar 31",
     waterbody: "Berry Creek (Carolside) Reservoir",
     waterbody_detail: "27-12-W4",
@@ -1055,7 +1055,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-3",
+    id: "berry-lake-027f2",
     season: "Open All Year",
     waterbody: "Berry Lake",
     waterbody_detail: "",
@@ -1072,7 +1072,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-8",
+    id: "big-chief-lake-5686c",
     season: "Open May 15 to Mar 31",
     waterbody: "Big Chief Lake",
     waterbody_detail: "16-72-11-W4",
@@ -1089,7 +1089,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-5",
+    id: "big-iron-lake-848fc",
     season: "Open All Year",
     waterbody: "Big Iron Lake",
     waterbody_detail: "1-15-4-W5",
@@ -1109,7 +1109,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-7",
+    id: "big-island-lake-f0be4",
     season: "Open May 15 to Mar 31",
     waterbody: "Big Island Lake",
     waterbody_detail: "",
@@ -1127,7 +1127,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-9",
+    id: "big-johnson-(chump)-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Big Johnson (Chump) Lake ",
     waterbody_detail: "",
@@ -1144,7 +1144,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-4",
+    id: "big-lake-5a2ad",
     season: "Open May 15 to Mar 31",
     waterbody: "Big Lake",
     waterbody_detail: "Includes tributaries",
@@ -1160,7 +1160,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-3",
+    id: "bighorn-river-849d6",
     season: "Open June 16 to Aug 31",
     waterbody: "Bighorn River",
     waterbody_detail: "Mainstem and tributaries upstream of Crescent Falls",
@@ -1178,7 +1178,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-4",
+    id: "bighorn-river-e8f4b",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Bighorn River",
     waterbody_detail: "Mainstem and tributaries upstream of Crescent \nFalls",
@@ -1196,7 +1196,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-5",
+    id: "bighorn-river-52a61",
     season: "Open June 16 to Aug 31",
     waterbody: "Bighorn River",
     waterbody_detail: "Mainstem and tributaries downstream of Crescent Falls",
@@ -1214,7 +1214,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-6",
+    id: "bighorn-river-df182",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Bighorn River",
     waterbody_detail: "Mainstem and tributaries downstream of Crescent \nFalls",
@@ -1232,7 +1232,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-3",
+    id: "bigoray-river-626a0",
     season: "Open June 16 to Oct 31",
     waterbody: "Bigoray River",
     waterbody_detail: "Mainstem including tributaries",
@@ -1249,7 +1249,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-3",
+    id: "birch-creek-dd92a",
     season: "Open June 1 to Oct 31",
     waterbody: "Birch Creek",
     waterbody_detail: "Beyond 10 km of Christina Lake",
@@ -1266,7 +1266,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-3",
+    id: "birch-lake-5f638",
     season: "Open All Year",
     waterbody: "Birch Lake",
     waterbody_detail: "18-35-6-W5",
@@ -1285,7 +1285,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-4",
+    id: "bistcho-lake-023ad",
     season: "Open July 1 to Mar 1",
     waterbody: "Bistcho Lake",
     waterbody_detail:
@@ -1303,7 +1303,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-5",
+    id: "bistcho-lake-a1041",
     season: "Open All Year",
     waterbody: "Bistcho Lake",
     waterbody_detail: "Remainder of the lake",
@@ -1320,7 +1320,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-7",
+    id: "blackstone-river-90c74",
     season: "Closed All Year",
     waterbody: "Blackstone River",
     waterbody_detail:
@@ -1339,7 +1339,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-8",
+    id: "blackstone-river-4189f",
     season: "Open June 16 to Oct 31",
     waterbody: "Blackstone River",
     waterbody_detail:
@@ -1358,7 +1358,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-8",
+    id: "blanche-lake-381b4",
     season: "Open May 15 to Mar 31",
     waterbody: "Blanche Lake",
     waterbody_detail: "Includes outlet",
@@ -1376,7 +1376,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-5",
+    id: "blindman-river-6297a",
     season: "Open May 15 to Mar 1",
     waterbody: "Blindman River",
     waterbody_detail: "Mainstem including ALL tributaries",
@@ -1393,7 +1393,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-5",
+    id: "blood-indian-creek-70e08",
     season: "Open All Year",
     waterbody: "Blood Indian Creek Reservoir",
     waterbody_detail: "21-26-9-W4; Includes tributaries",
@@ -1410,7 +1410,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-1",
+    id: "blue-lake-8039d",
     season: "Open May 15 to Mar 31",
     waterbody: "Blue Lake",
     waterbody_detail: "",
@@ -1428,7 +1428,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-1",
+    id: "blue-lake-dff3c",
     season: "Open May 15 to Mar 31",
     waterbody: "Blue Lake",
     waterbody_detail: "13-69-17-W5",
@@ -1444,7 +1444,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-10",
+    id: "bluet-lake-1b986",
     season: "Open May 15 to Mar 31",
     waterbody: "Bluet Lake",
     waterbody_detail: "58-4-W4",
@@ -1461,7 +1461,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-9",
+    id: "bocquene-lake-a2fec",
     season: "Open All Year",
     waterbody: "Bocquene Lake",
     waterbody_detail: "",
@@ -1479,7 +1479,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-2",
+    id: "bolloque-lake-5a29a",
     season: "Open May 15 to Mar 31",
     waterbody: "Bolloque Lake",
     waterbody_detail: "",
@@ -1495,7 +1495,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-11",
+    id: "bonnie-lake-52696",
     season: "Open May 15 to Mar 31",
     waterbody: "Bonnie Lake",
     waterbody_detail: "RED LAKE; 60-13-W4",
@@ -1512,7 +1512,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-6",
+    id: "boulton-creek-c1344",
     season: "Open July 16 to Oct 31",
     waterbody: "Boulton Creek",
     waterbody_detail: "",
@@ -1530,7 +1530,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-12",
+    id: "bourque-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Bourque Lake",
     waterbody_detail: "",
@@ -1547,7 +1547,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-7",
+    id: "bow-river-35b4e",
     season: "Open All Year",
     waterbody: "Bow River",
     waterbody_detail:
@@ -1566,7 +1566,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP1-Rivers",
-    id: "PP1-Rivers-1-1",
+    id: "bow-river-0d906",
     season: "Open All Year",
     waterbody: "Bow River",
     waterbody_detail:
@@ -1587,7 +1587,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Rivers",
-    id: "PP1-Rivers-1-2",
+    id: "bow-river-25031",
     season: "Open May 8 to Mar 15",
     waterbody: "Bow River",
     waterbody_detail: "Bassano Dam downstream to South Saskatchewan River",
@@ -1607,7 +1607,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait and bait fish allowed",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-4",
+    id: "brazeau-canal-aca63",
     season: "Open All Year",
     waterbody: "Brazeau Canal",
     waterbody_detail: "3-46-11-W5",
@@ -1626,7 +1626,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-5",
+    id: "brazeau-reservoir-f1d0c",
     season: "Open All Year",
     waterbody: "Brazeau Reservoir",
     waterbody_detail: "12-46-12-W5",
@@ -1645,7 +1645,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-9",
+    id: "brazeau-river-d3f19",
     season: "Open June 16 to Aug 31",
     waterbody: "Brazeau River",
     waterbody_detail:
@@ -1664,7 +1664,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-10",
+    id: "brazeau-river-7a012",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Brazeau River",
     waterbody_detail:
@@ -1683,7 +1683,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-11",
+    id: "brazeau-river-2b773",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Brazeau River",
     waterbody_detail:
@@ -1702,7 +1702,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-12",
+    id: "brazeau-river-c4daf",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Brazeau River",
     waterbody_detail: "Mainstem downstream of Brazeau Reservoir",
@@ -1720,7 +1720,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-6",
+    id: "brintnell-lake-027f2",
     season: "Open All Year",
     waterbody: "Brintnell Lake",
     waterbody_detail: "",
@@ -1737,7 +1737,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-10",
+    id: "bryant-lake-a2fec",
     season: "Open All Year",
     waterbody: "Bryant Lake",
     waterbody_detail: "",
@@ -1755,7 +1755,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-6",
+    id: "buck-lake-a6b6e",
     season: "Open May 15 to Mar 31",
     waterbody: "Buck Lake",
     waterbody_detail:
@@ -1772,7 +1772,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-7",
+    id: "buffalo-lake-12cc1",
     season: "Open May 15 to Mar 31",
     waterbody: "Buffalo Lake",
     waterbody_detail: "Portion located in 40-22-W4 (the Narrows)",
@@ -1788,7 +1788,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-8",
+    id: "buffalo-lake-a98cd",
     season: "Open May 15 to Mar 31",
     waterbody: "Buffalo Lake",
     waterbody_detail: "Remainder of the lake",
@@ -1804,7 +1804,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-2",
+    id: "bullshead-reservoir-d12dd",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Bullshead Reservoir",
     waterbody_detail:
@@ -1822,7 +1822,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-13",
+    id: "bunder-lake-faaa7",
     season: "Open May 15 to Mar 31",
     waterbody: "Bunder Lake",
     waterbody_detail: "61-12-W4",
@@ -1839,7 +1839,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-6",
+    id: "burns-lake-d4672",
     season: "Open All Year",
     waterbody: "Burns Lake",
     waterbody_detail: "17-19-7-W5",
@@ -1859,7 +1859,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait and bait fish allowed",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-6",
+    id: "burnstick-lake-e9bd2",
     season: "Open May 15 to Mar 31",
     waterbody: "Burnstick Lake",
     waterbody_detail: "12-35-7-W5; Includes tributaries for 1 km upstream",
@@ -1878,7 +1878,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-14",
+    id: "burnt-lake-1bc69",
     season: "Closed All Year",
     waterbody: "Burnt Lake",
     waterbody_detail: "67-3-W4",
@@ -1895,7 +1895,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-13",
+    id: "burnt-timber-creek-b1974",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Burnt Timber Creek",
     waterbody_detail: "Mainstem and tributaries (except Pinto Creek)",
@@ -1913,7 +1913,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-11",
+    id: "burstall-lake-a2fec",
     season: "Open All Year",
     waterbody: "Burstall Lake",
     waterbody_detail: "",
@@ -1931,7 +1931,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-7",
+    id: "burstall-lakes-[upper]-654d8",
     season: "Open All Year",
     waterbody: "Burstall Lakes [Upper]",
     waterbody_detail: "16-21-10-W5",
@@ -1951,7 +1951,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-2",
+    id: "busby-lake-48b09",
     season: "Open All Year",
     waterbody: "Busby Lake",
     waterbody_detail: "6-51-1-W6",
@@ -1969,7 +1969,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-3",
+    id: "cache-lake-8039d",
     season: "Open May 15 to Mar 31",
     waterbody: "Cache Lake",
     waterbody_detail: "",
@@ -1987,7 +1987,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-15",
+    id: "cache-lake-32f40",
     season: "Open May 15 to Mar 31",
     waterbody: "Cache Lake",
     waterbody_detail: "59-12-W4",
@@ -2004,7 +2004,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-7",
+    id: "cadotte-lake-027f2",
     season: "Open All Year",
     waterbody: "Cadotte Lake",
     waterbody_detail: "",
@@ -2021,7 +2021,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-8",
+    id: "calder-lake-027f2",
     season: "Open All Year",
     waterbody: "Calder Lake",
     waterbody_detail: "",
@@ -2038,7 +2038,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-16",
+    id: "calling-lake-459a2",
     season: "Open June 1 to Mar 31",
     waterbody: "Calling Lake",
     waterbody_detail: "",
@@ -2055,7 +2055,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-17",
+    id: "calling-lake-d0c3d",
     season: "Open June 1 to Oct 31",
     waterbody: "Calling Lake",
     waterbody_detail: "Includes tributaries and outlet for 1 km",
@@ -2072,7 +2072,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-8",
+    id: "canmore-creek-cf697",
     season: "Open Apr 1 to Sept 30",
     waterbody: "Canmore Creek",
     waterbody_detail: "",
@@ -2090,7 +2090,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-9",
+    id: "canyon-creek-d3e09",
     season: "Open June 16 to Oct 31",
     waterbody: "Canyon Creek",
     waterbody_detail: "Includes tributaries",
@@ -2108,7 +2108,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-10",
+    id: "carbondale-river-8cffe",
     season: "Open June 16 to Aug 31",
     waterbody: "Carbondale River",
     waterbody_detail: "Includes tributaries",
@@ -2126,7 +2126,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-11",
+    id: "carbondale-river-699e0",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Carbondale River",
     waterbody_detail: "Includes tributaries",
@@ -2144,7 +2144,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-8",
+    id: "carburn-park-pond-f2563",
     season: "Open All Year",
     waterbody: "Carburn Park Pond",
     waterbody_detail: "NE-23-23-1-W5",
@@ -2163,7 +2163,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-14",
+    id: "cardinal-river-753b7",
     season: "Open June 16 to Oct 31",
     waterbody: "Cardinal River",
     waterbody_detail: "Mainstem and tributaries",
@@ -2181,7 +2181,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-9",
+    id: "caribou-lake-027f2",
     season: "Open All Year",
     waterbody: "Caribou Lake",
     waterbody_detail: "",
@@ -2198,7 +2198,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-9",
+    id: "carnarvon-lake-83b3f",
     season: "Open All Year",
     waterbody: "Carnarvon Lake",
     waterbody_detail: "30-16-6-W5",
@@ -2218,7 +2218,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Rivers",
-    id: "PP1-Rivers-1-3",
+    id: "carseland-bow-river-headwater-096a0",
     season: "Open May 8 to Sept 30 and Dec 1 to Mar 15",
     waterbody: "Carseland-Bow River Headwater Canal",
     waterbody_detail:
@@ -2239,7 +2239,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-12",
+    id: "castle-river-00e33",
     season: "Open June 16 to Aug 31",
     waterbody: "Castle River",
     waterbody_detail:
@@ -2258,7 +2258,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-13",
+    id: "castle-river-561d7",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Castle River",
     waterbody_detail:
@@ -2277,7 +2277,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-3",
+    id: "chain-(lower)-lake-ba5d1",
     season: "Open All Year",
     waterbody: "Chain (Lower) Lake",
     waterbody_detail: "69-23-W4",
@@ -2293,7 +2293,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-9",
+    id: "chain-lakes-(upper-7798d",
     season: "Open May 15 to Mar 31",
     waterbody: "Chain Lakes (Upper and Middle)",
     waterbody_detail: "42-24,25-W4",
@@ -2309,7 +2309,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-12",
+    id: "charles-lake-a2fec",
     season: "Open All Year",
     waterbody: "Charles Lake",
     waterbody_detail: "",
@@ -2327,7 +2327,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-13",
+    id: "cherry-lake-a2fec",
     season: "Open All Year",
     waterbody: "Cherry Lake",
     waterbody_detail: "",
@@ -2345,7 +2345,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-10",
+    id: "chester-lake-17a6a",
     season: "Open July 1 to Oct 31",
     waterbody: "Chester Lake",
     waterbody_detail: "26-21-10-W5; Includes tributaries and outlet",
@@ -2364,7 +2364,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-3",
+    id: "chestermere-lake-f6e9a",
     season: "Open May 8 to Mar 15",
     waterbody: "Chestermere Lake",
     waterbody_detail: "",
@@ -2381,7 +2381,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-18",
+    id: "chickenhill-lake-121b1",
     season: "Open May 15 to Mar 31",
     waterbody: "Chickenhill Lake",
     waterbody_detail: "59-8-W4",
@@ -2398,7 +2398,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-4",
+    id: "chin-lakes-f6e9a",
     season: "Open May 8 to Mar 15",
     waterbody: "Chin Lakes",
     waterbody_detail: "",
@@ -2415,7 +2415,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed in river only",
     fish_management_zone: "NB3-Rivers",
-    id: "NB3-Rivers-1-0",
+    id: "chinchaga-river-84334",
     season: "Open June 1 to Oct 31",
     waterbody: "Chinchaga River",
     waterbody_detail: "Mainstem including tributaries",
@@ -2431,7 +2431,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-4",
+    id: "chip-lake-8039d",
     season: "Open May 15 to Mar 31",
     waterbody: "Chip Lake",
     waterbody_detail: "",
@@ -2449,7 +2449,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-14",
+    id: "christina-lake-e798c",
     season: "Open June 1 to Mar 15",
     waterbody: "Christina Lake",
     waterbody_detail: "Portion locally known as Sawbones Bay (2-77-6-W4)",
@@ -2467,7 +2467,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-15",
+    id: "christina-lake-9116f",
     season: "Open June 1 to Oct 31",
     waterbody: "Christina Lake",
     waterbody_detail:
@@ -2486,7 +2486,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-16",
+    id: "christina-lake-40405",
     season: "Open May 15 to Mar 31",
     waterbody: "Christina Lake",
     waterbody_detail: "Remainder of the lake",
@@ -2504,7 +2504,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-4",
+    id: "christina-lake-tributaries-d4bdc",
     season: "Open June 1 to Oct 31",
     waterbody: "Christina Lake Tributaries and Outflows",
     waterbody_detail:
@@ -2522,7 +2522,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-19",
+    id: "claude-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Claude Lake",
     waterbody_detail: "",
@@ -2539,7 +2539,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-10",
+    id: "clear-(barnes)-lake-00b8a",
     season: "Open May 15 to Mar 31",
     waterbody: "Clear (Barnes) Lake",
     waterbody_detail:
@@ -2556,7 +2556,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-15",
+    id: "clear-creek-50988",
     season: "Open Apr 1 to Aug 31",
     waterbody: "Clear Creek",
     waterbody_detail: "Mainstem and tributaries",
@@ -2574,7 +2574,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-16",
+    id: "clear-creek-cdfc5",
     season: "Open Sept 1 to Mar 31",
     waterbody: "Clear Creek",
     waterbody_detail: "Mainstem and tributaries",
@@ -2592,7 +2592,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-5",
+    id: "clear-lake-0adda",
     season: "Open May 8 to Mar 15",
     waterbody: "Clear Lake",
     waterbody_detail: "14-25-W4",
@@ -2609,7 +2609,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-17",
+    id: "clearwater-river-5dee6",
     season: "Open Apr 1 to Aug 31",
     waterbody: "Clearwater River",
     waterbody_detail:
@@ -2628,7 +2628,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-18",
+    id: "clearwater-river-78398",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Clearwater River",
     waterbody_detail:
@@ -2647,7 +2647,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-19",
+    id: "clearwater-river-7293f",
     season: "Closed All Year",
     waterbody: "Clearwater River",
     waterbody_detail:
@@ -2666,7 +2666,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-20",
+    id: "clearwater-river-42fb2",
     season: "Open Apr 1 to Aug 31",
     waterbody: "Clearwater River",
     waterbody_detail:
@@ -2685,7 +2685,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-21",
+    id: "clearwater-river-05280",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Clearwater River",
     waterbody_detail:
@@ -2704,7 +2704,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban except maggots allowed Aug. 16 to Oct. 31",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-1-22",
+    id: "clearwater-river-cea7f",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Clearwater River",
     waterbody_detail:
@@ -2723,7 +2723,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-5",
+    id: "clearwater-river-340a9",
     season: "Open June 1 to Oct 31",
     waterbody: "Clearwater River",
     waterbody_detail: "Snye Channel",
@@ -2740,7 +2740,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-6",
+    id: "clearwater-river-42e39",
     season: "Open June 1 to Oct 31",
     waterbody: "Clearwater River",
     waterbody_detail:
@@ -2758,7 +2758,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-7",
+    id: "clearwater-river-130b7",
     season: "Open June 1 to Oct 31",
     waterbody: "Clearwater River",
     waterbody_detail:
@@ -2776,7 +2776,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-0",
+    id: "cline-river-33556",
     season: "Open June 16 to Aug 31",
     waterbody: "Cline River",
     waterbody_detail:
@@ -2795,7 +2795,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-1",
+    id: "cline-river-e24d4",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Cline River",
     waterbody_detail:
@@ -2814,7 +2814,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-11",
+    id: "coal-lake-2b706",
     season: "Open May 15 to Mar 31",
     waterbody: "Coal Lake",
     waterbody_detail: "",
@@ -2830,7 +2830,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-17",
+    id: "cockscomb-lake-a2fec",
     season: "Open All Year",
     waterbody: "Cockscomb Lake",
     waterbody_detail: "",
@@ -2848,7 +2848,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-20",
+    id: "cold-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Cold Lake",
     waterbody_detail: "",
@@ -2866,7 +2866,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-18",
+    id: "colin-lake-a2fec",
     season: "Open All Year",
     waterbody: "Colin Lake",
     waterbody_detail: "",
@@ -2884,7 +2884,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-19",
+    id: "collins-lake-a2fec",
     season: "Open All Year",
     waterbody: "Collins Lake",
     waterbody_detail: "",
@@ -2902,7 +2902,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-11",
+    id: "commonwealth-lake-c8f38",
     season: "Open All Year",
     waterbody: "Commonwealth Lake",
     waterbody_detail: "29-21-10-W5",
@@ -2922,7 +2922,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-7",
+    id: "coral-lake-af149",
     season: "Open Aug 1 to Oct 31",
     waterbody: "Coral Lake",
     waterbody_detail: "21-38-20-W5",
@@ -2941,7 +2941,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-8",
+    id: "coral-lake-c98a1",
     season: "Closed All Year",
     waterbody: "Coral Lake",
     waterbody_detail: "Tributaries and outlet for 1 km",
@@ -2960,7 +2960,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-6",
+    id: "corner-lake-c5601",
     season: "Open All Year",
     waterbody: "Corner Lake",
     waterbody_detail: "",
@@ -2977,7 +2977,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-20",
+    id: "cornwall-lake-a2fec",
     season: "Open All Year",
     waterbody: "Cornwall Lake",
     waterbody_detail: "",
@@ -2995,7 +2995,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait and bait fish allowed",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-9",
+    id: "cow-lake-269c3",
     season: "Open May 15 to Mar 31",
     waterbody: "Cow Lake",
     waterbody_detail: "12-38-8-W5",
@@ -3014,7 +3014,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-21",
+    id: "cow-lake-5f093",
     season: "Open May 15 to Mar 31",
     waterbody: "Cow Lake",
     waterbody_detail: "8-72-11-W4",
@@ -3031,7 +3031,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP1-Rivers",
-    id: "PP1-Rivers-1-4",
+    id: "cowoki-irrigation-canal-a73d8",
     season: "Open May 8 to Sept 30 and Dec 15 to Mar 15",
     waterbody: "Cowoki Irrigation Canal",
     waterbody_detail: "Between Cowoki Lake and Tilley B Reservoir",
@@ -3051,7 +3051,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-7",
+    id: "cowoki-lake-f6e9a",
     season: "Open May 8 to Mar 15",
     waterbody: "Cowoki Lake",
     waterbody_detail: "",
@@ -3068,7 +3068,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-21",
+    id: "cowper-lake-f0be4",
     season: "Open May 15 to Mar 31",
     waterbody: "Cowper Lake",
     waterbody_detail: "",
@@ -3086,7 +3086,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-8",
+    id: "cpr-reservoir-c5601",
     season: "Open All Year",
     waterbody: "Cpr Reservoir",
     waterbody_detail: "",
@@ -3103,7 +3103,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-22",
+    id: "crane-(moore)-lake-53998",
     season: "Open May 15 to Mar 31",
     waterbody: "Crane (Moore) Lake ",
     waterbody_detail: "Includes outlet stream",
@@ -3120,7 +3120,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-9",
+    id: "crawling-valley-reservoir-12654",
     season: "Open May 8 to Nov 30 Between Sunrise and Sunset",
     waterbody: "Crawling Valley Reservoir",
     waterbody_detail:
@@ -3138,7 +3138,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-10",
+    id: "crawling-valley-reservoir-95b8b",
     season: "Open All Day Dec 1 to Mar 15",
     waterbody: "Crawling Valley Reservoir",
     waterbody_detail:
@@ -3156,7 +3156,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-23",
+    id: "crickett-lake-089a0",
     season: "Open May 15 to Mar 31",
     waterbody: "Crickett Lake",
     waterbody_detail: "64-18-W4",
@@ -3173,7 +3173,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES4-Lakes",
-    id: "ES4-Lakes-1-1",
+    id: "crooked-lake-05eab",
     season: "Open May 15 to Mar 31",
     waterbody: "Crooked Lake",
     waterbody_detail: "",
@@ -3190,7 +3190,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-4",
+    id: "crooked-lake-5a29a",
     season: "Open May 15 to Mar 31",
     waterbody: "Crooked Lake",
     waterbody_detail: "",
@@ -3206,7 +3206,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-11",
+    id: "cross-coulee-reservoir-9199a",
     season: "Open All Year",
     waterbody: "Cross Coulee Reservoir",
     waterbody_detail: "5-20-W4",
@@ -3223,7 +3223,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-12",
+    id: "crowsnest-lake-fe386",
     season: "Open All Year",
     waterbody: "Crowsnest Lake",
     waterbody_detail: "",
@@ -3243,7 +3243,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-13",
+    id: "crowsnest-lake-5799b",
     season: "Open June 16 to Aug 31",
     waterbody: "Crowsnest Lake",
     waterbody_detail: "Tributaries",
@@ -3263,7 +3263,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-14",
+    id: "crowsnest-lake-078c6",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Crowsnest Lake",
     waterbody_detail: "Tributaries",
@@ -3283,7 +3283,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-14",
+    id: "crowsnest-river-2fe05",
     season: "Open All Year",
     waterbody: "Crowsnest River",
     waterbody_detail:
@@ -3302,7 +3302,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-15",
+    id: "crowsnest-river-9efaa",
     season: "Open June 16 to Aug 31",
     waterbody: "Crowsnest River",
     waterbody_detail: "All tributaries of Crowsnest River except Gold Creek",
@@ -3320,7 +3320,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-16",
+    id: "crowsnest-river-14b63",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Crowsnest River",
     waterbody_detail: "All tributaries of Crowsnest River except Gold Creek",
@@ -3338,7 +3338,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-0",
+    id: "cutbank-river-a8072",
     season: "Open June 1 to Oct 31",
     waterbody: "Cutbank River",
     waterbody_detail: "Mainstem including tributaries",
@@ -3353,7 +3353,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-22",
+    id: "daly-lake-a2fec",
     season: "Open All Year",
     waterbody: "Daly Lake",
     waterbody_detail: "",
@@ -3371,7 +3371,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-23",
+    id: "darwin-lake-a2fec",
     season: "Open All Year",
     waterbody: "Darwin Lake",
     waterbody_detail: "",
@@ -3389,7 +3389,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-24",
+    id: "dawson-lake-a2fec",
     season: "Open All Year",
     waterbody: "Dawson Lake",
     waterbody_detail: "",
@@ -3407,7 +3407,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-1",
+    id: "deep-valley-creek-a8072",
     season: "Open June 1 to Oct 31",
     waterbody: "Deep Valley Creek",
     waterbody_detail: "Mainstem including tributaries",
@@ -3422,7 +3422,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-4",
+    id: "deerlick-creek-923f9",
     season: "Closed All Year",
     waterbody: "Deerlick Creek",
     waterbody_detail: "Mainstem including tributaries",
@@ -3439,7 +3439,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-25",
+    id: "disappointment-lake-a2fec",
     season: "Open All Year",
     waterbody: "Disappointment Lake",
     waterbody_detail: "",
@@ -3457,7 +3457,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-5",
+    id: "dismal-creek-309b1",
     season: "Closed All Year",
     waterbody: "Dismal Creek",
     waterbody_detail: "Mainstem including tributaries; See Pembina River",
@@ -3474,7 +3474,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-2",
+    id: "dogpound-creek-27b67",
     season: "Open Apr 1 to June 15",
     waterbody: "Dogpound Creek",
     waterbody_detail: "Mainstem and tributaries",
@@ -3492,7 +3492,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-3",
+    id: "dogpound-creek-35e30",
     season: "Open June 16 to Aug 31",
     waterbody: "Dogpound Creek",
     waterbody_detail: "Mainstem and tributaries",
@@ -3510,7 +3510,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-4",
+    id: "dogpound-creek-f53b7",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Dogpound Creek",
     waterbody_detail: "Mainstem and tributaries",
@@ -3528,7 +3528,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-5",
+    id: "dolberg-lake-85b6b",
     season: "Open All Year",
     waterbody: "Dolberg Lake",
     waterbody_detail: "8-1-60-8-W5",
@@ -3544,7 +3544,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-10",
+    id: "dormer-lake-2854f",
     season: "Open All Year",
     waterbody: "Dormer Lake",
     waterbody_detail: "28-30-11-W5",
@@ -3563,7 +3563,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-12",
+    id: "driedmeat-lake-2b706",
     season: "Open May 15 to Mar 31",
     waterbody: "Driedmeat Lake",
     waterbody_detail: "",
@@ -3579,7 +3579,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-1-24",
+    id: "drown-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Drown Lake",
     waterbody_detail: "",
@@ -3596,7 +3596,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-11",
+    id: "eagle-lake-ba18b",
     season: "Open All Year",
     waterbody: "Eagle Lake",
     waterbody_detail: "11-32-11-W5",
@@ -3615,7 +3615,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-12",
+    id: "eagle-lake-f6e9a",
     season: "Open May 8 to Mar 15",
     waterbody: "Eagle Lake",
     waterbody_detail: "",
@@ -3632,7 +3632,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Rivers",
-    id: "NB2-Rivers-1-1",
+    id: "east-prairie-river-8f155",
     season: "Open June 16 to Oct 31",
     waterbody: "East Prairie River",
     waterbody_detail: "",
@@ -3650,7 +3650,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-15",
+    id: "east-scarpe-lake-ef6ee",
     season: "Open All Year",
     waterbody: "East Scarpe Lake",
     waterbody_detail: "13-3-3-W5",
@@ -3670,7 +3670,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-13",
+    id: "east-twin-lake-2b706",
     season: "Open May 15 to Mar 31",
     waterbody: "East Twin Lake",
     waterbody_detail: "",
@@ -3686,7 +3686,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-17",
+    id: "elbow-river-aa087",
     season: "Open June 16 to Oct 31",
     waterbody: "Elbow River",
     waterbody_detail:
@@ -3705,7 +3705,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-18",
+    id: "elbow-river-92fe4",
     season: "Closed All Year",
     waterbody: "Elbow River",
     waterbody_detail: "Mainstem, Elbow Falls downstream to Canyon Creek",
@@ -3723,7 +3723,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-19",
+    id: "elbow-river-f1a2c",
     season: "Open June 16 to Oct 31",
     waterbody: "Elbow River",
     waterbody_detail: "Mainstem, Canyon Creek downstream to Hwy. 22",
@@ -3741,7 +3741,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-20",
+    id: "elbow-river-82535",
     season: "Open June 16 to Oct 31",
     waterbody: "Elbow River",
     waterbody_detail:
@@ -3760,7 +3760,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-1-21",
+    id: "elbow-river-7f516",
     season: "Open All Year",
     waterbody: "Elbow River",
     waterbody_detail:
@@ -3779,7 +3779,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-0",
+    id: "elinor-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Elinor Lake",
     waterbody_detail: "",
@@ -3796,7 +3796,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-5",
+    id: "elk-creek-69ff2",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Elk Creek",
     waterbody_detail: "Mainstem and tributaries; 33-35-12-W5",
@@ -3814,7 +3814,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-13",
+    id: "elkwater-lake-f6e9a",
     season: "Open May 8 to Mar 15",
     waterbody: "Elkwater Lake",
     waterbody_detail: "",
@@ -3831,7 +3831,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-26",
+    id: "ells-lake-a2fec",
     season: "Open All Year",
     waterbody: "Ells Lake",
     waterbody_detail: "",
@@ -3849,7 +3849,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-8",
+    id: "ells-river-2bb2f",
     season: "Open June 1 to Oct 31",
     waterbody: "Ells River",
     waterbody_detail: "96-11-W4",
@@ -3866,7 +3866,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-5",
+    id: "embarras-pit-lakes-6cccc",
     season: "Closed All Year",
     waterbody: "Embarras Pit Lakes",
     waterbody_detail: "NW-25-47-21-W5",
@@ -3884,7 +3884,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-6",
+    id: "embarras-river-87c36",
     season: "Open June 16 to Oct 31",
     waterbody: "Embarras River",
     waterbody_detail: "Mainstem including tributaries except Erith River",
@@ -3901,7 +3901,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-12",
+    id: "entry-lake-c2359",
     season: "Open All Year",
     waterbody: "Entry Lake",
     waterbody_detail: "18-36-18-W5",
@@ -3920,7 +3920,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-10",
+    id: "equisetum-lake-429c7",
     season: "Open June 1 to Oct 31",
     waterbody: "Equisetum Lake",
     waterbody_detail: "Tributaries and outlet",
@@ -3937,7 +3937,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-11",
+    id: "equisetum-lake-73fae",
     season: "Open May 15 to Mar 31",
     waterbody: "Equisetum Lake",
     waterbody_detail: "Tributaries and outlet",
@@ -3954,7 +3954,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-1",
+    id: "ethel-(bear)-lake-e2065",
     season: "Open May 15 to Mar 31",
     waterbody: "Ethel (Bear) Lake",
     waterbody_detail: "Includes tributaries and outlet for 1 km ",
@@ -3971,7 +3971,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-7",
+    id: "eunice-creek-a0a48",
     season: "Closed All Year",
     waterbody: "Eunice Creek",
     waterbody_detail: "23-48-23-W5, includes tributaries",
@@ -3988,7 +3988,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-6",
+    id: "fall-creek-b9e3c",
     season: "Open June 16 to Oct 31",
     waterbody: "Fall Creek",
     waterbody_detail:
@@ -4007,7 +4007,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-7",
+    id: "fall-creek-1cf0f",
     season: "Closed All Year",
     waterbody: "Fall Creek",
     waterbody_detail:
@@ -4026,7 +4026,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-8",
+    id: "fallentimber-creek-e0990",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Fallentimber Creek",
     waterbody_detail: "Mainstem and tributaries",
@@ -4044,7 +4044,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-6",
+    id: "fawcett-lake-95fc3",
     season: "Open May 15 to Mar 31",
     waterbody: "Fawcett Lake",
     waterbody_detail: "Remainder of the lake",
@@ -4060,7 +4060,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-7",
+    id: "fawcett-lake-4e8f3",
     season: "Open July 1 to Mar 1",
     waterbody: "Fawcett Lake",
     waterbody_detail:
@@ -4077,7 +4077,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-8",
+    id: "fawcett-lake-5eb4b",
     season: "Open June 1 to Oct 31",
     waterbody: "Fawcett Lake",
     waterbody_detail: "Includes tributaries and outlet for 1 km",
@@ -4093,7 +4093,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-6",
+    id: "fickle-lake-8039d",
     season: "Open May 15 to Mar 31",
     waterbody: "Fickle Lake",
     waterbody_detail: "",
@@ -4111,7 +4111,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-7",
+    id: "fickle-lake-7fa51",
     season: "Open June 16 to Oct 31",
     waterbody: "Fickle Lake",
     waterbody_detail: "Tributaries and outlet",
@@ -4129,7 +4129,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-13",
+    id: "fiesta-lake-dcdcb",
     season: "Open Apr 16 to Oct 31",
     waterbody: "Fiesta Lake",
     waterbody_detail: "15-12-35-6-W5",
@@ -4148,7 +4148,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-14",
+    id: "fincastle-lake-f6e9a",
     season: "Open May 8 to Mar 15",
     waterbody: "Fincastle Lake",
     waterbody_detail: "",
@@ -4165,7 +4165,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-12",
+    id: "fish-(jackfish)-lake-570b8",
     season: "Open All Year",
     waterbody: "Fish (Jackfish) Lake",
     waterbody_detail: "76-11-W6",
@@ -4182,7 +4182,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-2",
+    id: "fishing-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Fishing Lake",
     waterbody_detail: "",
@@ -4199,7 +4199,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-27",
+    id: "fletcher-lake-a2fec",
     season: "Open All Year",
     waterbody: "Fletcher Lake",
     waterbody_detail: "",
@@ -4217,7 +4217,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-3",
+    id: "floatingstone-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Floatingstone Lake",
     waterbody_detail: "",
@@ -4234,7 +4234,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-4",
+    id: "floatingstone-lake-444c2",
     season: "Open June 1 to Oct 31",
     waterbody: "Floatingstone Lake",
     waterbody_detail: "Tributaries and outlet for 1 km ",
@@ -4251,7 +4251,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-28",
+    id: "florence-lake-a2fec",
     season: "Open All Year",
     waterbody: "Florence Lake",
     waterbody_detail: "",
@@ -4269,7 +4269,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-14",
+    id: "forestburg-reservoir-01c5a",
     season: "Open May 15 to Mar 31",
     waterbody: "Forestburg Reservoir",
     waterbody_detail: "Includes the Battle River upstream to Sec. Rd. 855",
@@ -4285,7 +4285,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-5",
+    id: "fork-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Fork Lake",
     waterbody_detail: "",
@@ -4302,7 +4302,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-16",
+    id: "fortress-lake-e2be4",
     season: "Open All Year",
     waterbody: "Fortress Lake",
     waterbody_detail: "6-22-9-W5",
@@ -4322,7 +4322,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-15",
+    id: "forty-mile-coulee-f6e9a",
     season: "Open May 8 to Mar 15",
     waterbody: "Forty Mile Coulee Reservoir",
     waterbody_detail: "",
@@ -4339,7 +4339,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-6",
+    id: "francis-lake-8bd27",
     season: "Open May 15 to Mar 31",
     waterbody: "Francis Lake",
     waterbody_detail: "69-11-W4",
@@ -4356,7 +4356,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-9",
+    id: "francis-lake-7e168",
     season: "Open May 15 to Mar 31",
     waterbody: "Francis Lake",
     waterbody_detail: "18-66-25-W4",
@@ -4372,7 +4372,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-10",
+    id: "freeman-lake-fd3f1",
     season: "Open All Year",
     waterbody: "Freeman Lake",
     waterbody_detail: "",
@@ -4388,7 +4388,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-11",
+    id: "freeman-lake-3b025",
     season: "Open June 16 to Oct 31",
     waterbody: "Freeman Lake",
     waterbody_detail: "Tributaries",
@@ -4404,7 +4404,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB2-Rivers",
-    id: "NB2-Rivers-1-2",
+    id: "freeman-river-bfd71",
     season: "Open June 16 to Oct 31",
     waterbody: "Freeman River",
     waterbody_detail: "Mainstem includes tributaries",
@@ -4422,7 +4422,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-7",
+    id: "frog-lake-360ac",
     season: "Open May 15 to Mar 31",
     waterbody: "Frog Lake",
     waterbody_detail: "57-3-W4",
@@ -4439,7 +4439,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-17",
+    id: "galatea-lakes-7c1f2",
     season: "Open All Year",
     waterbody: "Galatea Lakes",
     waterbody_detail: "13-22-10-W5",
@@ -4459,7 +4459,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-18",
+    id: "gap-lake-47182",
     season: "Open All Year",
     waterbody: "Gap Lake",
     waterbody_detail: "SW 20-24-09-W5",
@@ -4479,7 +4479,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-14",
+    id: "gap-lake-467d0",
     season: "Open All Year",
     waterbody: "Gap Lake",
     waterbody_detail: "5-39-13-W5",
@@ -4498,7 +4498,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-29",
+    id: "gardiner-lakes-e0041",
     season: "Open May 15 to Mar 31",
     waterbody: "Gardiner Lakes",
     waterbody_detail: "Moose Lake",
@@ -4516,7 +4516,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-1-30",
+    id: "gardiner-lakes-8c91e",
     season: "Open June 1 to Oct 31",
     waterbody: "Gardiner Lakes",
     waterbody_detail: "Moose Lake; Tributaries and outlet for 1 km",
@@ -4534,7 +4534,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-8",
+    id: "garner-lake-3990a",
     season: "Open May 15 to Mar 31",
     waterbody: "Garner Lake",
     waterbody_detail: "60-12-W4",
@@ -4551,7 +4551,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-9",
+    id: "garnier-lakes-1b986",
     season: "Open May 15 to Mar 31",
     waterbody: "Garnier Lakes",
     waterbody_detail: "58-4-W4",
@@ -4568,7 +4568,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-12",
+    id: "ghost-lake-353d6",
     season: "Open May 15 to Mar 31",
     waterbody: "Ghost Lake",
     waterbody_detail: "16-68-24-W4",
@@ -4584,7 +4584,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait and bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-19",
+    id: "ghost-reservoir-e600c",
     season: "Open All Year",
     waterbody: "Ghost Reservoir",
     waterbody_detail: "",
@@ -4604,7 +4604,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-0",
+    id: "ghost-river-bce19",
     season: "Open June 16 to Aug 31",
     waterbody: "Ghost River",
     waterbody_detail: "Mainstem including tributaries except Waiparous Creek",
@@ -4622,7 +4622,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-1",
+    id: "ghost-river-0dff9",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Ghost River",
     waterbody_detail: "Mainstem including tributaries except Waiparous \nCreek",
@@ -4640,7 +4640,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-2",
+    id: "ghost-river-wilderness-b927d",
     season: "Closed All Year",
     waterbody: "Ghost River Wilderness Area",
     waterbody_detail: "All water within the Wilderness Area",
@@ -4658,7 +4658,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-13",
+    id: "gilroy-lake-fd3f1",
     season: "Open All Year",
     waterbody: "Gilroy Lake",
     waterbody_detail: "",
@@ -4674,7 +4674,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-0",
+    id: "gipsy-lake-a2fec",
     season: "Open All Year",
     waterbody: "Gipsy Lake",
     waterbody_detail: "",
@@ -4692,7 +4692,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait and bait fish allowed",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-15",
+    id: "gleniffer-lake-be0e2",
     season: "Open All Year",
     waterbody: "Gleniffer Lake",
     waterbody_detail: "30-35-2-W5",
@@ -4711,7 +4711,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-20",
+    id: "glenmore-reservoir-16655",
     season: "Open May 1 to Oct 31",
     waterbody: "Glenmore Reservoir",
     waterbody_detail: "",
@@ -4731,7 +4731,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-1",
+    id: "glover-(birch)-lake-fe107",
     season: "Open May 15 to Mar 31",
     waterbody: "Glover (Birch) Lake",
     waterbody_detail: "79-5-W4",
@@ -4749,7 +4749,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-13",
+    id: "gods-lake-5d750",
     season: "Open June 16 to Mar 31",
     waterbody: "Gods Lake",
     waterbody_detail: "90-02-W5",
@@ -4766,7 +4766,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-14",
+    id: "gods-lake-429c7",
     season: "Open June 1 to Oct 31",
     waterbody: "Gods Lake",
     waterbody_detail: "Tributaries and outlet",
@@ -4783,7 +4783,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-3",
+    id: "gold-creek-d3e09",
     season: "Open June 16 to Oct 31",
     waterbody: "Gold Creek",
     waterbody_detail: "Includes tributaries",
@@ -4801,7 +4801,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-10",
+    id: "goodfish-lake-fcf57",
     season: "Closed All Year",
     waterbody: "Goodfish Lake",
     waterbody_detail: "61-13-W4",
@@ -4818,7 +4818,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-15",
+    id: "goodfish-lake-3785c",
     season: "Open May 15 to Mar 31",
     waterbody: "Goodfish Lake",
     waterbody_detail: "89-5-W5",
@@ -4835,7 +4835,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-11",
+    id: "goodwin-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Goodwin Lake",
     waterbody_detail: "",
@@ -4852,7 +4852,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES4-Lakes",
-    id: "ES4-Lakes-1-2",
+    id: "goose-lake-1ceef",
     season: "Open All Year",
     waterbody: "Goose Lake",
     waterbody_detail: "69-24-W5",
@@ -4869,7 +4869,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-14",
+    id: "goose-lake-5a29a",
     season: "Open May 15 to Mar 31",
     waterbody: "Goose Lake",
     waterbody_detail: "",
@@ -4885,7 +4885,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-15",
+    id: "goose-lake-8b512",
     season: "Open June 1 to Oct 31",
     waterbody: "Goose Lake",
     waterbody_detail: "Tributaries and outlet",
@@ -4901,7 +4901,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-4",
+    id: "gorge-creek-95206",
     season: "Open June 16 to Oct 31",
     waterbody: "Gorge Creek",
     waterbody_detail: "",
@@ -4919,7 +4919,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP1-Rivers",
-    id: "PP1-Rivers-1-5",
+    id: "graburn-creek-4bce2",
     season: "Open June 1 to Mar 31",
     waterbody: "Graburn Creek",
     waterbody_detail: "8-1-W4; Includes tributaries",
@@ -4939,7 +4939,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-16",
+    id: "graham-(trout)-lake-31c97",
     season: "Open June 1 to Mar 31",
     waterbody: "Graham (Trout) Lake",
     waterbody_detail: "87-4-W5",
@@ -4956,7 +4956,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-17",
+    id: "graham-(trout)-lake-38965",
     season: "Open June 1 to Oct 31",
     waterbody: "Graham (Trout) Lake",
     waterbody_detail: "Tributaries and outlet downstream to Maria Lake",
@@ -4973,7 +4973,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-8",
+    id: "graveyard-lake-8039d",
     season: "Open May 15 to Mar 31",
     waterbody: "Graveyard Lake",
     waterbody_detail: "",
@@ -4991,7 +4991,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-12",
+    id: "greenstreet-lake-88d01",
     season: "Open May 15 to Mar 31",
     waterbody: "Greenstreet Lake",
     waterbody_detail: "60-11-W4",
@@ -5008,7 +5008,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-9",
+    id: "gregg-lake-8039d",
     season: "Open May 15 to Mar 31",
     waterbody: "Gregg Lake",
     waterbody_detail: "",
@@ -5026,7 +5026,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-8",
+    id: "gregg-river-626a0",
     season: "Open June 16 to Oct 31",
     waterbody: "Gregg River",
     waterbody_detail: "Mainstem including tributaries",
@@ -5043,7 +5043,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-2",
+    id: "gregoire-(willow)-lake-f0be4",
     season: "Open May 15 to Mar 31",
     waterbody: "Gregoire (Willow) Lake",
     waterbody_detail: "",
@@ -5061,7 +5061,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-3",
+    id: "grist-lake-f0be4",
     season: "Open May 15 to Mar 31",
     waterbody: "Grist Lake",
     waterbody_detail: "",
@@ -5079,7 +5079,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-2",
+    id: "grizzly-creek-2b4db",
     season: "Closed All Year",
     waterbody: "Grizzly Creek",
     waterbody_detail: "Tributary to Kakwa River",
@@ -5094,7 +5094,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-15",
+    id: "gull-lake-a2863",
     season: "Open May 15 to Oct 31 and Dec 11 to Mar 31",
     waterbody: "Gull Lake",
     waterbody_detail: "",
@@ -5110,7 +5110,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-1-16",
+    id: "gull-lake-904eb",
     season: "Closed All Year",
     waterbody: "Gull Lake",
     waterbody_detail: "Diversion Canal located in 34,35,36-40-1-W5",
@@ -5126,7 +5126,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-16",
+    id: "gun-club-(cann)-62755",
     season: "Open May 8 to Mar 15",
     waterbody: "Gun Club (Cann) Reservoir",
     waterbody_detail: "17-19-14-W4",
@@ -5143,7 +5143,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-18",
+    id: "haig-lake-56c1b",
     season: "Open June 1 to Mar 31",
     waterbody: "Haig Lake",
     waterbody_detail: "",
@@ -5160,7 +5160,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-19",
+    id: "haig-lake-e9889",
     season: "Open June 1 to Oct 31",
     waterbody: "Haig Lake",
     waterbody_detail: "Tributaries and outlet for 1 km",
@@ -5177,7 +5177,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-13",
+    id: "halfmoon-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Halfmoon Lake",
     waterbody_detail: "",
@@ -5194,7 +5194,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-9",
+    id: "hangingstone-river-7e339",
     season: "Open June 16 to Oct 31",
     waterbody: "Hangingstone River",
     waterbody_detail: "",
@@ -5211,7 +5211,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-14",
+    id: "hanmore-lake-5e32a",
     season: "Open May 15 to Mar 31",
     waterbody: "Hanmore Lake",
     waterbody_detail: "61-17-W4",
@@ -5228,7 +5228,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed in river only",
     fish_management_zone: "NB3-Rivers",
-    id: "NB3-Rivers-1-1",
+    id: "hay-river-31540",
     season: "Open June 1 to Oct 31",
     waterbody: "Hay River",
     waterbody_detail: "Mainstem including tributaries except Chinchaga River",
@@ -5244,7 +5244,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-17",
+    id: "hays-(grantham-reservoir)-c5601",
     season: "Open All Year",
     waterbody: "Hays (Grantham Reservoir) Lake",
     waterbody_detail: "",
@@ -5261,7 +5261,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-21",
+    id: "headwall-lakes-60f1f",
     season: "Open All Year",
     waterbody: "Headwall Lakes",
     waterbody_detail: "19,30-21-9-W5",
@@ -5281,7 +5281,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-15",
+    id: "heart-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Heart Lake",
     waterbody_detail: "",
@@ -5298,7 +5298,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-20",
+    id: "hebephrenic-(jackfish)-lake-4d9aa",
     season: "Open May 15 to Mar 31",
     waterbody: "Hebephrenic (Jackfish) Lake",
     waterbody_detail: "",
@@ -5315,7 +5315,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-21",
+    id: "hebephrenic-(jackfish)-lake-e9889",
     season: "Open June 1 to Oct 31",
     waterbody: "Hebephrenic (Jackfish) Lake",
     waterbody_detail: "Tributaries and outlet for 1 km",
@@ -5332,7 +5332,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-18",
+    id: "henderson-lake-c5601",
     season: "Open All Year",
     waterbody: "Henderson Lake",
     waterbody_detail: "",
@@ -5349,7 +5349,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-5",
+    id: "hidden-creek-380e4",
     season: "Closed Sept 1 to June 15",
     waterbody: "Hidden Creek",
     waterbody_detail: "Tributary to Oldman River",
@@ -5367,7 +5367,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-6",
+    id: "hidden-creek-5f030",
     season: "Open June 16 to Aug 31",
     waterbody: "Hidden Creek",
     waterbody_detail: "Tributary to Oldman River",
@@ -5385,7 +5385,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-7",
+    id: "highwood-river-19091",
     season: "Open June 16 to Aug 31",
     waterbody: "Highwood River",
     waterbody_detail:
@@ -5404,7 +5404,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-8",
+    id: "highwood-river-d1879",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Highwood River",
     waterbody_detail:
@@ -5423,7 +5423,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-9",
+    id: "highwood-river-ecf33",
     season: "Open June 16 to Oct 31",
     waterbody: "Highwood River",
     waterbody_detail:
@@ -5442,7 +5442,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-10",
+    id: "highwood-river-0adf2",
     season: "Open All Year",
     waterbody: "Highwood River",
     waterbody_detail: "Mainstem within 500m of Bow River (see Bow River)",
@@ -5460,7 +5460,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-16",
+    id: "hilda-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Hilda Lake",
     waterbody_detail: "",
@@ -5477,7 +5477,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-22",
+    id: "hogarth-lakes-16f35",
     season: "Open All Year",
     waterbody: "Hogarth Lakes",
     waterbody_detail: "21-21-10-W5",
@@ -5497,7 +5497,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-4",
+    id: "hooker-lake-a2fec",
     season: "Open All Year",
     waterbody: "Hooker Lake",
     waterbody_detail: "",
@@ -5515,7 +5515,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-17",
+    id: "hope-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Hope Lake",
     waterbody_detail: "",
@@ -5532,7 +5532,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-19",
+    id: "horsefly-lake-reservoir-c5601",
     season: "Open All Year",
     waterbody: "Horsefly Lake Reservoir",
     waterbody_detail: "",
@@ -5549,7 +5549,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-10",
+    id: "horseshoe-lake-8039d",
     season: "Open May 15 to Mar 31",
     waterbody: "Horseshoe Lake",
     waterbody_detail: "",
@@ -5567,7 +5567,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-10",
+    id: "house-river-85b5b",
     season: "Open June 1 to Oct 31",
     waterbody: "House River",
     waterbody_detail: "Mainstem including tributaries",
@@ -5584,7 +5584,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-0",
+    id: "hubbles-lake-2b706",
     season: "Open May 15 to Mar 31",
     waterbody: "Hubbles Lake",
     waterbody_detail: "",
@@ -5600,7 +5600,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-22",
+    id: "hutch-lake-423b7",
     season: "Open May 15 to Mar 31",
     waterbody: "Hutch Lake",
     waterbody_detail: "Includes tributaries",
@@ -5617,7 +5617,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-16",
+    id: "ice-lake-ae867",
     season: "Open All Year",
     waterbody: "Ice Lake",
     waterbody_detail: "13-31-12-W5",
@@ -5636,7 +5636,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-23",
+    id: "invincible-lake-0abeb",
     season: "Open All Year",
     waterbody: "Invincible Lake",
     waterbody_detail: "5-20-9-W5",
@@ -5656,7 +5656,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES4-Lakes",
-    id: "ES4-Lakes-1-3",
+    id: "iosegun-lake-05eab",
     season: "Open May 15 to Mar 31",
     waterbody: "Iosegun Lake",
     waterbody_detail: "",
@@ -5673,7 +5673,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Lakes",
-    id: "ES4-Lakes-1-4",
+    id: "iosegun-lake-ecdbb",
     season: "Open June 1 to Oct 31",
     waterbody: "Iosegun Lake",
     waterbody_detail: "Tributaries",
@@ -5690,7 +5690,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-17",
+    id: "ironside-pond-53e42",
     season: "Open Apr 16 to Oct 31",
     waterbody: "Ironside Pond",
     waterbody_detail: "7-38-7-W5",
@@ -5709,7 +5709,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-18",
+    id: "ironwood-lake-bf00a",
     season: "Open May 15 to Mar 31",
     waterbody: "Ironwood Lake",
     waterbody_detail: "65-11-W4",
@@ -5726,7 +5726,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-19",
+    id: "island-lake-3a840",
     season: "Open May 15 to Mar 31",
     waterbody: "Island Lake",
     waterbody_detail: "62-17-W4",
@@ -5743,7 +5743,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-16",
+    id: "island-lake-80aed",
     season: "Open May 15 to Mar 31",
     waterbody: "Island Lake",
     waterbody_detail: "67-24-W4",
@@ -5759,7 +5759,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-17",
+    id: "island-lake-c4445",
     season: "Open June 1 to Oct 31",
     waterbody: "Island Lake",
     waterbody_detail: "Includes tributaries and outlet ",
@@ -5775,7 +5775,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-1",
+    id: "isle-lake-99d90",
     season: "Open May 15 to Mar 31",
     waterbody: "Isle Lake",
     waterbody_detail: "Includes tributaries and outlet (Sturgeon River)",
@@ -5791,7 +5791,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-2",
+    id: "jack-fish-lake-f80f8",
     season: "Open May 15 to Mar 31",
     waterbody: "Jack Fish Lake",
     waterbody_detail: "52-2-W5",
@@ -5807,7 +5807,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait and bait fish allowed",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-18",
+    id: "jackfish-lake-7a16c",
     season: "Open May 15 to Mar 31",
     waterbody: "Jackfish Lake",
     waterbody_detail:
@@ -5827,7 +5827,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-11",
+    id: "jackfish-river-dd92a",
     season: "Open June 1 to Oct 31",
     waterbody: "Jackfish River",
     waterbody_detail: "Beyond 10 km of Christina Lake",
@@ -5844,7 +5844,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-9",
+    id: "james-river-e0990",
     season: "Open Apr 1 to Oct 31",
     waterbody: "James River",
     waterbody_detail: "Mainstem and tributaries",
@@ -5862,7 +5862,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-20",
+    id: "jamieson-lake-9fe0b",
     season: "Open May 8 to Mar 15",
     waterbody: "Jamieson Lake",
     waterbody_detail: "16-19-14-W4",
@@ -5879,7 +5879,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-11",
+    id: "jarvis-lake-8039d",
     season: "Open May 15 to Mar 31",
     waterbody: "Jarvis Lake",
     waterbody_detail: "",
@@ -5897,7 +5897,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-18",
+    id: "jenkins-lake-a414f",
     season: "Open May 15 to Mar 31",
     waterbody: "Jenkins Lake",
     waterbody_detail: "68-24-W4",
@@ -5913,7 +5913,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-19",
+    id: "jenkins-lake-5f9ea",
     season: "Open June 1 to Oct 31",
     waterbody: "Jenkins Lake",
     waterbody_detail: "Includes outlet downstream for 1 km",
@@ -5929,7 +5929,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-21",
+    id: "jensen-reservoir-107d9",
     season: "Open May 8 to Mar 15",
     waterbody: "Jensen Reservoir",
     waterbody_detail: "4-22-W4",
@@ -5946,7 +5946,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-19",
+    id: "job-(wilson-or-59cb4",
     season: "Closed All Year",
     waterbody: "Job (Wilson or Blue) Lake",
     waterbody_detail:
@@ -5966,7 +5966,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-22",
+    id: "johnson-lake-fc56a",
     season: "Open All Year",
     waterbody: "Johnson Lake",
     waterbody_detail: "Interlakes Reservoir; 9-19-14-W4",
@@ -5983,7 +5983,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-23",
+    id: "joker-lake-027f2",
     season: "Open All Year",
     waterbody: "Joker Lake",
     waterbody_detail: "",
@@ -6000,7 +6000,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-11",
+    id: "jumpingpound-creek-8cffe",
     season: "Open June 16 to Aug 31",
     waterbody: "Jumpingpound Creek",
     waterbody_detail: "Includes tributaries",
@@ -6018,7 +6018,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-12",
+    id: "jumpingpound-creek-699e0",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Jumpingpound Creek",
     waterbody_detail: "Includes tributaries",
@@ -6036,7 +6036,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-20",
+    id: "kaduk-lake-d1255",
     season: "Open May 15 to Mar 31",
     waterbody: "Kaduk Lake",
     waterbody_detail: "60-15-W4",
@@ -6053,7 +6053,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-3",
+    id: "kakwa-river-05125",
     season: "Open June 1 to Oct 31",
     waterbody: "Kakwa River",
     waterbody_detail: "Mainstem including tributaries except Lynx Creek",
@@ -6068,7 +6068,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-13",
+    id: "kananaskis-river-2a8ff",
     season: "Open Apr 1 to June 15",
     waterbody: "Kananaskis River",
     waterbody_detail:
@@ -6087,7 +6087,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-14",
+    id: "kananaskis-river-908a7",
     season: "Open June 16 to Aug 31",
     waterbody: "Kananaskis River",
     waterbody_detail:
@@ -6106,7 +6106,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-15",
+    id: "kananaskis-river-5ee64",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Kananaskis River",
     waterbody_detail:
@@ -6125,7 +6125,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-16",
+    id: "kananaskis-river-6c0d0",
     season: "Open All Year",
     waterbody: "Kananaskis River",
     waterbody_detail: "Mainstem from Hwy. 1 downstream to Bow River",
@@ -6143,7 +6143,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-21",
+    id: "kehiwin-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Kehiwin Lake",
     waterbody_detail: "",
@@ -6160,7 +6160,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-23",
+    id: "keho-lake-adf2c",
     season: "Open May 8 to Mar 15",
     waterbody: "Keho Lake",
     waterbody_detail: "Includes inlet canal to the first drop structure",
@@ -6177,7 +6177,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-3",
+    id: "kerbe's-pond-65aff",
     season: "Open Apr 1 to Nov 30",
     waterbody: "Kerbe's Pond",
     waterbody_detail: "NE-19-36-20-W4",
@@ -6193,7 +6193,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-24",
+    id: "kids-can-catch-3965e",
     season: "Open May 1 to Sept 30",
     waterbody: "Kids Can Catch Pond",
     waterbody_detail: "13-24-1-W5",
@@ -6213,7 +6213,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-5",
+    id: "kimowin-(hook)-lake-f0be4",
     season: "Open May 15 to Mar 31",
     waterbody: "Kimowin (Hook) Lake",
     waterbody_detail: "",
@@ -6231,7 +6231,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-20",
+    id: "kinglet-lake-a17b5",
     season: "Open All Year",
     waterbody: "Kinglet Lake",
     waterbody_detail: "35-35-18-W5",
@@ -6250,7 +6250,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-6",
+    id: "kirby-(sterner)-lake-948c5",
     season: "Open May 15 to Mar 31",
     waterbody: "Kirby (Sterner) Lake",
     waterbody_detail: "75-5-W4",
@@ -6268,7 +6268,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-24",
+    id: "kitsim-reservoir-b989f",
     season: "Open May 8 to Mar 15",
     waterbody: "Kitsim Reservoir",
     waterbody_detail: "17-16-W4",
@@ -6285,7 +6285,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB1-Rivers",
-    id: "NB1-Rivers-1-2",
+    id: "la-biche-river-93ebc",
     season: "Closed All Year",
     waterbody: "La Biche River",
     waterbody_detail: "Between Hwy 63 and Lac La Biche",
@@ -6304,7 +6304,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-22",
+    id: "lac-bellevue-a2c9c",
     season: "Open May 15 to Mar 31",
     waterbody: "Lac Bellevue",
     waterbody_detail: "56-9-W4",
@@ -6321,7 +6321,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-12",
+    id: "lac-des-roches-04f78",
     season: "Closed All Year",
     waterbody: "Lac Des Roches",
     waterbody_detail: "13-47-24-W5",
@@ -6339,7 +6339,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-23",
+    id: "lac-la-biche-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Lac La Biche",
     waterbody_detail: "",
@@ -6356,7 +6356,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-24",
+    id: "lac-la-biche-efedc",
     season: "Closed All Year",
     waterbody: "Lac La Biche",
     waterbody_detail:
@@ -6374,7 +6374,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-25",
+    id: "lac-la-biche-ed916",
     season: "Open All Year",
     waterbody: "Lac La Biche Trout Pond",
     waterbody_detail: "Alexander Hamilton Pond",
@@ -6391,7 +6391,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-20",
+    id: "lac-la-nonne-5a29a",
     season: "Open May 15 to Mar 31",
     waterbody: "Lac La Nonne",
     waterbody_detail: "",
@@ -6407,7 +6407,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-2-26",
+    id: "lac-saint-cyr-4cf86",
     season: "Open May 15 to Mar 31",
     waterbody: "Lac Saint Cyr",
     waterbody_detail: "57-9-W4",
@@ -6424,7 +6424,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-0",
+    id: "lac-sante-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Lac Sante",
     waterbody_detail: "",
@@ -6441,7 +6441,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-1",
+    id: "lac-sante-80d8a",
     season: "Open June 1 to Oct 31",
     waterbody: "Lac Sante",
     waterbody_detail: "Includes outlet ",
@@ -6458,7 +6458,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-4",
+    id: "lac-ste.-anne-3742b",
     season: "Open May 15 to Mar 31",
     waterbody: "Lac Ste. Anne",
     waterbody_detail: "Includes tributaries & outlet (Sturgeon River)",
@@ -6474,7 +6474,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-7",
+    id: "lake-athabasca-a2fec",
     season: "Open All Year",
     waterbody: "Lake Athabasca",
     waterbody_detail: "",
@@ -6492,7 +6492,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-25",
+    id: "lake-newell-057f8",
     season: "Open May 8 to Mar 15",
     waterbody: "Lake Newell",
     waterbody_detail:
@@ -6510,7 +6510,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-21",
+    id: "lake-of-falls-12a38",
     season: "Open July 1 to Oct 31",
     waterbody: "Lake Of Falls",
     waterbody_detail: "10-36-19-W5",
@@ -6529,7 +6529,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-1-22",
+    id: "lake-of-falls-82f75",
     season: "Open July 1 to Aug 31",
     waterbody: "Lake Of Falls",
     waterbody_detail: "Tributaries and outlet for 1.5 km downstream",
@@ -6548,7 +6548,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-25",
+    id: "lake-of-the-bd506",
     season: "Open All Year",
     waterbody: "Lake Of The Horns",
     waterbody_detail: "11-17-7-W5",
@@ -6568,7 +6568,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-2",
+    id: "lakeland-provincial-park-d5e00",
     season: "Open May 15 to Mar 31",
     waterbody: "Lakeland Provincial Park",
     waterbody_detail:
@@ -6586,7 +6586,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Rivers",
-    id: "NB1-Rivers-1-3",
+    id: "lakeland-provincial-park-ada76",
     season: "Open June 1 to Oct 31",
     waterbody: "Lakeland Provincial Park",
     waterbody_detail:
@@ -6606,7 +6606,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-2-0",
+    id: "landslide-lake-4c324",
     season: "Open All Year",
     waterbody: "Landslide Lake",
     waterbody_detail: "7-36-18-W5",
@@ -6625,7 +6625,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-3",
+    id: "laurier-lake-931f4",
     season: "Open May 15 to Mar 31",
     waterbody: "Laurier Lake",
     waterbody_detail: "56-4-W4",
@@ -6642,7 +6642,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-1-21",
+    id: "lawrence-lake-5a29a",
     season: "Open May 15 to Mar 31",
     waterbody: "Lawrence Lake",
     waterbody_detail: "",
@@ -6658,7 +6658,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP1-Rivers",
-    id: "PP1-Rivers-1-6",
+    id: "lee-creek-a9a73",
     season: "Open June 16 to Aug 31",
     waterbody: "Lee Creek",
     waterbody_detail: "Mainstem including tributaries",
@@ -6678,7 +6678,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP1-Rivers",
-    id: "PP1-Rivers-1-7",
+    id: "lee-creek-023c3",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Lee Creek",
     waterbody_detail: "Mainstem including tributaries",
@@ -6698,7 +6698,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-24",
+    id: "legend-lake-903d8",
     season: "Open May 15 to Mar 31",
     waterbody: "Legend Lake",
     waterbody_detail: "12-7-97-18-W4",
@@ -6715,7 +6715,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-8",
+    id: "leggo-lake-a2fec",
     season: "Open All Year",
     waterbody: "Leggo Lake",
     waterbody_detail: "",
@@ -6733,7 +6733,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-9",
+    id: "leland-lakes-a2fec",
     season: "Open All Year",
     waterbody: "Leland Lakes",
     waterbody_detail: "",
@@ -6751,7 +6751,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-5",
+    id: "lessard-lake-2b706",
     season: "Open May 15 to Mar 31",
     waterbody: "Lessard Lake",
     waterbody_detail: "",
@@ -6767,7 +6767,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-0",
+    id: "lesser-slave-lake-fd9eb",
     season: "Open June 16 to Oct 31",
     waterbody: "Lesser Slave Lake",
     waterbody_detail:
@@ -6784,7 +6784,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-1",
+    id: "lesser-slave-lake-dc3be",
     season: "Open Nov 1 to Mar 1",
     waterbody: "Lesser Slave Lake",
     waterbody_detail:
@@ -6801,7 +6801,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-2",
+    id: "lesser-slave-lake-268cc",
     season: "Open May 15 to Oct 31",
     waterbody: "Lesser Slave Lake",
     waterbody_detail:
@@ -6818,7 +6818,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-3",
+    id: "lesser-slave-lake-85b74",
     season: "Open Nov 1 to Mar 31",
     waterbody: "Lesser Slave Lake",
     waterbody_detail:
@@ -6835,7 +6835,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB2-Rivers",
-    id: "NB2-Rivers-1-3",
+    id: "lesser-slave-river-14f7d",
     season: "",
     waterbody: "Lesser Slave River",
     waterbody_detail:
@@ -6854,7 +6854,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Rivers",
-    id: "NB2-Rivers-1-4",
+    id: "lesser-slave-river-4edbb",
     season: "Open June 1 to Oct 31",
     waterbody: "Lesser Slave River",
     waterbody_detail:
@@ -6873,7 +6873,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Rivers",
-    id: "NB2-Rivers-1-5",
+    id: "lesser-slave-river-c2dad",
     season: "Open June 1 to Oct 31",
     waterbody: "Lesser Slave River",
     waterbody_detail:
@@ -6892,7 +6892,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-26",
+    id: "lethbridge-university-pond-c5601",
     season: "Open All Year",
     waterbody: "Lethbridge University Pond",
     waterbody_detail: "",
@@ -6909,7 +6909,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-26",
+    id: "lillian-lake-7c1f2",
     season: "Open All Year",
     waterbody: "Lillian Lake",
     waterbody_detail: "13-22-10-W5",
@@ -6929,7 +6929,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-4",
+    id: "lily-lake-c0c74",
     season: "Open All Year",
     waterbody: "Lily Lake",
     waterbody_detail: "7-75-5-W5",
@@ -6945,7 +6945,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-10",
+    id: "limon-lake-381b4",
     season: "Open May 15 to Mar 31",
     waterbody: "Limon Lake",
     waterbody_detail: "Includes outlet",
@@ -6963,7 +6963,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-4",
+    id: "little-bear-lake-d6d7c",
     season: "Open May 15 to Mar 31",
     waterbody: "Little Bear Lake",
     waterbody_detail: "34-70-10-W4",
@@ -6980,7 +6980,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-27",
+    id: "little-bow-lake-ffd0b",
     season: "Open May 8 to Mar 15",
     waterbody: "Little Bow Lake Reservoir",
     waterbody_detail: "Includes inlet canal",
@@ -6997,7 +6997,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP1-Rivers",
-    id: "PP1-Rivers-1-8",
+    id: "little-bow-river-35d19",
     season: "Closed All Year",
     waterbody: "Little Bow River",
     waterbody_detail: "Travers Reservoir upstream to Township Rd. 144A",
@@ -7017,7 +7017,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Rivers",
-    id: "PP1-Rivers-1-9",
+    id: "little-bow-river-bf32e",
     season: "Open June 1 to Mar 15",
     waterbody: "Little Bow River",
     waterbody_detail: "Township Rd. 144A upstream to Carmangay",
@@ -7037,7 +7037,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP1-Rivers",
-    id: "PP1-Rivers-1-10",
+    id: "little-bow-river-06a76",
     season: "Open May 8 to Mar 15",
     waterbody: "Little Bow River",
     waterbody_detail: "Twin Valley Reservoir Dam downstream to Rge. Rd. 252",
@@ -7057,7 +7057,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-6",
+    id: "little-fish-lake-749f3",
     season: "Open May 15 to Mar 31",
     waterbody: "Little Fish Lake",
     waterbody_detail: "Includes tributaries & outlet",
@@ -7073,7 +7073,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-10",
+    id: "little-red-deer-5dbb5",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Little Red Deer River",
     waterbody_detail:
@@ -7092,7 +7092,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Only maggots allowed",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-6",
+    id: "little-red-deer-10eae",
     season: "Open May 15 to Mar 1",
     waterbody: "Little Red Deer River",
     waterbody_detail:
@@ -7110,7 +7110,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-25",
+    id: "little-sandy-lake-4d9aa",
     season: "Open May 15 to Mar 31",
     waterbody: "Little Sandy Lake",
     waterbody_detail: "",
@@ -7127,7 +7127,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-1-26",
+    id: "little-sandy-lake-e9889",
     season: "Open June 1 to Oct 31",
     waterbody: "Little Sandy Lake",
     waterbody_detail: "Tributaries and outlet for 1 km",
@@ -7144,7 +7144,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-4",
+    id: "little-smoky-river-18eaf",
     season: "Open June 1 to Aug 31",
     waterbody: "Little Smoky River",
     waterbody_detail: "Headwaters downstream to Hwy. 43",
@@ -7159,7 +7159,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-5",
+    id: "little-smoky-river-5b0f4",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Little Smoky River",
     waterbody_detail: "Headwaters downstream to Hwy. 43",
@@ -7174,7 +7174,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-6",
+    id: "little-smoky-river-83b27",
     season: "Open June 1 to Oct 31",
     waterbody: "Little Smoky River",
     waterbody_detail: "Mainstem; Downstream of Hwy. 43",
@@ -7189,7 +7189,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-17",
+    id: "livingstone-river-d3e09",
     season: "Open June 16 to Oct 31",
     waterbody: "Livingstone River",
     waterbody_detail: "Includes tributaries",
@@ -7207,7 +7207,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-7",
+    id: "lloydminster-pond-8a3d4",
     season: "Open All Year",
     waterbody: "Lloydminster Pond",
     waterbody_detail: "SE-6-50-1-W4",
@@ -7223,7 +7223,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-9",
+    id: "lobstick-river-cf0b3",
     season: "Open June 16 to Oct 31",
     waterbody: "Lobstick River",
     waterbody_detail:
@@ -7241,7 +7241,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-10",
+    id: "lobstick-river-aa424",
     season: "Open June 16 to Oct 31",
     waterbody: "Lobstick River",
     waterbody_detail: "Portion downstream from Chip Lake to the Pembina River",
@@ -7258,7 +7258,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-5",
+    id: "lodge-lake-c062e",
     season: "Open May 15 to Mar 31",
     waterbody: "Lodge Lake",
     waterbody_detail: "66-17-W4",
@@ -7275,7 +7275,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-6",
+    id: "logan-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Logan Lake",
     waterbody_detail: "",
@@ -7292,7 +7292,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-7",
+    id: "lone-pine-lake-a72ad",
     season: "Open May 15 to Mar 31",
     waterbody: "Lone Pine Lake",
     waterbody_detail: "63-14-W4",
@@ -7309,7 +7309,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-5",
+    id: "long-island-lake-ad1b9",
     season: "Open May 15 to Mar 31",
     waterbody: "Long Island Lake",
     waterbody_detail: "24-63-26-W4",
@@ -7325,7 +7325,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-13",
+    id: "long-lake-8039d",
     season: "Open May 15 to Mar 31",
     waterbody: "Long Lake",
     waterbody_detail: "",
@@ -7343,7 +7343,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES4-Lakes",
-    id: "ES4-Lakes-1-5",
+    id: "long-lake-a1dd9",
     season: "Open All Year",
     waterbody: "Long Lake",
     waterbody_detail: "68-24-W5",
@@ -7360,7 +7360,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-8",
+    id: "long-lake-2c2d9",
     season: "Open May 15 to Mar 31",
     waterbody: "Long Lake",
     waterbody_detail: "56-1-W4",
@@ -7377,7 +7377,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-9",
+    id: "long-lake-9d661",
     season: "Open May 15 to Mar 31",
     waterbody: "Long Lake",
     waterbody_detail: "Boyle area; 63-19-W4",
@@ -7394,7 +7394,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-10",
+    id: "long-lake-a410c",
     season: "Open June 1 to Oct 31",
     waterbody: "Long Lake",
     waterbody_detail: "Boyle area; tributaries",
@@ -7411,7 +7411,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-6",
+    id: "long-lake-ff91d",
     season: "Open May 15 to Mar 31",
     waterbody: "Long Lake",
     waterbody_detail: "36-64-25-W4",
@@ -7427,7 +7427,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-0",
+    id: "long-lake-89be9",
     season: "Open May 15 to Mar 31",
     waterbody: "Long Lake",
     waterbody_detail: "Peerless Lake area; 89-5-W5",
@@ -7444,7 +7444,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-1",
+    id: "long-lake-23137",
     season: "Open June 1 to Oct 31",
     waterbody: "Long Lake",
     waterbody_detail: "Peerless Lake area; Tributaries and outlet for 1 km",
@@ -7461,7 +7461,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-2",
+    id: "long-lake-081ae",
     season: "Open May 15 to Mar 31",
     waterbody: "Long Lake",
     waterbody_detail: "Second Last Lake; 90-2-W5",
@@ -7478,7 +7478,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-1-27",
+    id: "loomis-lake-ec9f5",
     season: "Open All Year",
     waterbody: "Loomis Lake",
     waterbody_detail: "21-17-7-W5",
@@ -7498,7 +7498,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed in river only downstream of Loon Lake",
     fish_management_zone: "NB3-Rivers",
-    id: "NB3-Rivers-1-2",
+    id: "loon-river-b2e92",
     season: "Open June 1 to Oct 31",
     waterbody: "Loon River",
     waterbody_detail: "Mainstem including tributaries",
@@ -7514,7 +7514,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-2-1",
+    id: "lost-guide-lake-838f7",
     season: "Open All Year",
     waterbody: "Lost Guide Lake",
     waterbody_detail: "9-34-14-W5",
@@ -7533,7 +7533,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-1-28",
+    id: "lost-lake-c5601",
     season: "Open All Year",
     waterbody: "Lost Lake",
     waterbody_detail: "",
@@ -7550,7 +7550,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-11",
+    id: "lottie-lake-65ae6",
     season: "Open May 15 to Mar 31",
     waterbody: "Lottie Lake",
     waterbody_detail: "58-11-W4",
@@ -7567,7 +7567,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-11",
+    id: "loutit-lake-a2fec",
     season: "Open All Year",
     waterbody: "Loutit Lake",
     waterbody_detail: "",
@@ -7585,7 +7585,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-14",
+    id: "lovett-lake-157d9",
     season: "Open All Year",
     waterbody: "Lovett Lake",
     waterbody_detail: "10-47-19-W5",
@@ -7603,7 +7603,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-0",
+    id: "lower-kananaskis-lake-369f1",
     season: "Closed All Year",
     waterbody: "Lower Kananaskis Lake",
     waterbody_detail:
@@ -7623,7 +7623,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-1",
+    id: "lower-kananaskis-lake-9df58",
     season: "Open All Year",
     waterbody: "Lower Kananaskis Lake",
     waterbody_detail: "35-19-9-W5; the remainder of the lake",
@@ -7643,7 +7643,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-12",
+    id: "lower-mann-lake-e78ae",
     season: "Open May 15 to Mar 31",
     waterbody: "Lower Mann Lake",
     waterbody_detail: "60-10-W4",
@@ -7660,7 +7660,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-11",
+    id: "luscar-creek-923f9",
     season: "Closed All Year",
     waterbody: "Luscar Creek",
     waterbody_detail: "Mainstem including tributaries",
@@ -7677,7 +7677,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-11",
+    id: "lynx-creek-0e288",
     season: "Open June 16 to Oct 31",
     waterbody: "Lynx Creek",
     waterbody_detail: "Mainstem and Tributaries",
@@ -7695,7 +7695,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-7",
+    id: "lynx-creek-2b4db",
     season: "Closed All Year",
     waterbody: "Lynx Creek",
     waterbody_detail: "Tributary to Kakwa River",
@@ -7710,7 +7710,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-2",
+    id: "lys-lake-b3c40",
     season: "Open All Year",
     waterbody: "Lys Lake",
     waterbody_detail: "26-3-3-W5",
@@ -7730,7 +7730,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-12",
+    id: "mackenzie-creek-923f9",
     season: "Closed All Year",
     waterbody: "Mackenzie Creek",
     waterbody_detail: "Mainstem including tributaries",
@@ -7747,7 +7747,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-8",
+    id: "magee-lake-2b706",
     season: "Open May 15 to Mar 31",
     waterbody: "Magee Lake",
     waterbody_detail: "",
@@ -7763,7 +7763,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-13",
+    id: "manatokan-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Manatokan Lake",
     waterbody_detail: "",
@@ -7780,7 +7780,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-3",
+    id: "margaret-lake-d0f4d",
     season: "Open All Year",
     waterbody: "Margaret Lake",
     waterbody_detail: "",
@@ -7797,7 +7797,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-14",
+    id: "marie-lake-459a2",
     season: "Open June 1 to Mar 31",
     waterbody: "Marie Lake",
     waterbody_detail: "",
@@ -7814,7 +7814,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-0",
+    id: "marsh-lake-c5601",
     season: "Open All Year",
     waterbody: "Marsh Lake",
     waterbody_detail: "",
@@ -7831,7 +7831,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Rivers",
-    id: "NB1-Rivers-1-4",
+    id: "martineau-river-b9de8",
     season: "Open June 1 to Oct 31",
     waterbody: "Martineau River",
     waterbody_detail: "",
@@ -7850,7 +7850,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-9",
+    id: "matchayaw-(devil's)-lake-99d90",
     season: "Open May 15 to Mar 31",
     waterbody: "Matchayaw (Devil's) Lake",
     waterbody_detail: "Includes tributaries and outlet (Sturgeon River)",
@@ -7866,7 +7866,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-3",
+    id: "maude-lake-f0b9c",
     season: "Open All Year",
     waterbody: "Maude Lake",
     waterbody_detail: "14-20-10-W5",
@@ -7886,7 +7886,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-15",
+    id: "may-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "May Lake",
     waterbody_detail: "",
@@ -7903,7 +7903,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-10",
+    id: "mayatan-lake-2b706",
     season: "Open May 15 to Mar 31",
     waterbody: "Mayatan Lake",
     waterbody_detail: "",
@@ -7919,7 +7919,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-12",
+    id: "mcclelland-lake-a2fec",
     season: "Open All Year",
     waterbody: "Mcclelland Lake",
     waterbody_detail: "",
@@ -7937,7 +7937,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-1",
+    id: "mcgregor-reservoir-a75b3",
     season: "Open May 8 to Nov 30 Between Sunrise and Sunset",
     waterbody: "Mcgregor Reservoir",
     waterbody_detail: "",
@@ -7954,7 +7954,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-2",
+    id: "mcgregor-reservoir-14d09",
     season: "Open All Day Dec 1 to Mar 15",
     waterbody: "Mcgregor Reservoir",
     waterbody_detail: "",
@@ -7971,7 +7971,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-13",
+    id: "mcleod-river-56c0d",
     season: "Open Apr 1 to Aug 31",
     waterbody: "Mcleod River",
     waterbody_detail: "Mainstem only; Headwater downstream to Hwy 47",
@@ -7988,7 +7988,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-14",
+    id: "mcleod-river-3d18d",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Mcleod River",
     waterbody_detail: "Mainstem only; Headwater downstream to Hwy 47",
@@ -8005,7 +8005,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-15",
+    id: "mcleod-river-3c075",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Mcleod River",
     waterbody_detail: "Mainstem only; Hwy 47 downstream to the Athabasca River",
@@ -8022,7 +8022,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-3",
+    id: "mcvinnie-reservoir-c5601",
     season: "Open All Year",
     waterbody: "Mcvinnie Reservoir",
     waterbody_detail: "",
@@ -8039,7 +8039,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-11",
+    id: "medicine-lake-2b706",
     season: "Open May 15 to Mar 31",
     waterbody: "Medicine Lake",
     waterbody_detail: "",
@@ -8055,7 +8055,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Only maggots allowed",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-7",
+    id: "medicine-river-5bed4",
     season: "Open June 16 to Mar 1",
     waterbody: "Medicine River",
     waterbody_detail: "Mainstem including ALL tributaries",
@@ -8072,7 +8072,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Rivers",
-    id: "NB1-Rivers-1-5",
+    id: "medley-river-f62ee",
     season: "Open June 1 to Oct 31",
     waterbody: "Medley River",
     waterbody_detail: "11-62-2-W4",
@@ -8091,7 +8091,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES4-Lakes",
-    id: "ES4-Lakes-1-6",
+    id: "meekwap-lake-05eab",
     season: "Open May 15 to Mar 31",
     waterbody: "Meekwap Lake",
     waterbody_detail: "",
@@ -8108,7 +8108,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-4",
+    id: "memorial-lakes-a299c",
     season: "Open All Year",
     waterbody: "Memorial Lakes",
     waterbody_detail: "6-23-9-W5",
@@ -8128,7 +8128,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-13",
+    id: "mercredi-lake-a2fec",
     season: "Open All Year",
     waterbody: "Mercredi Lake",
     waterbody_detail: "",
@@ -8146,7 +8146,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-12",
+    id: "mere-lake-2b706",
     season: "Open May 15 to Mar 31",
     waterbody: "Mere Lake",
     waterbody_detail: "",
@@ -8162,7 +8162,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-7",
+    id: "meyer-lake-5a29a",
     season: "Open May 15 to Mar 31",
     waterbody: "Meyer Lake",
     waterbody_detail: "",
@@ -8178,7 +8178,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-2-3",
+    id: "michele-(upper-and-e9f91",
     season: "Closed All Year",
     waterbody: "Michele (Upper And Lower) \nLakes ",
     waterbody_detail: "Tributaries",
@@ -8197,7 +8197,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-2-2",
+    id: "michele-(upper-and-466b3",
     season: "Open Aug 1 to Oct 31",
     waterbody: "Michele (Upper And Lower) Lakes ",
     waterbody_detail: "2,11-36-20-W5",
@@ -8216,7 +8216,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-4",
+    id: "michele-creek-reservoir-b3ec4",
     season: "Open All Year",
     waterbody: "Michele Creek Reservoir",
     waterbody_detail: "5-7-3-W4",
@@ -8234,7 +8234,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed in river only",
     fish_management_zone: "NB3-Rivers",
-    id: "NB3-Rivers-1-3",
+    id: "mikkwa-river-757cc",
     season: "Open June 1 to Oct 31",
     waterbody: "Mikkwa River",
     waterbody_detail: "",
@@ -8250,7 +8250,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-5",
+    id: "milk-river-ridge-fec94",
     season: "Open May 8 to Mar 15",
     waterbody: "Milk River Ridge Reservoir",
     waterbody_detail:
@@ -8268,7 +8268,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-18",
+    id: "mill-creek-27814",
     season: "Closed Sept 1 to June 15",
     waterbody: "Mill Creek",
     waterbody_detail: "Including Gladstone and Whitney creeks",
@@ -8286,7 +8286,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-2-19",
+    id: "mill-creek-8da17",
     season: "Open June 16 to Aug 31",
     waterbody: "Mill Creek",
     waterbody_detail:
@@ -8305,7 +8305,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-15",
+    id: "millers-lake-959a7",
     season: "Open All Year",
     waterbody: "Millers Lake",
     waterbody_detail: "8-53-19-W5",
@@ -8323,7 +8323,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-13",
+    id: "mink-lake-2b706",
     season: "Open May 15 to Mar 31",
     waterbody: "Mink Lake",
     waterbody_detail: "",
@@ -8339,7 +8339,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-4",
+    id: "mink-lake-#1-5b969",
     season: "Open All Year",
     waterbody: "Mink Lake #1",
     waterbody_detail: "17-82-11-W5",
@@ -8356,7 +8356,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-16",
+    id: "minnie-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Minnie Lake",
     waterbody_detail: "",
@@ -8373,7 +8373,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-16",
+    id: "minnow-lake-8039d",
     season: "Open May 15 to Mar 31",
     waterbody: "Minnow Lake",
     waterbody_detail: "",
@@ -8391,7 +8391,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-17",
+    id: "minnow-lake-3b8ca",
     season: "Open June 1 to Oct 31",
     waterbody: "Minnow Lake",
     waterbody_detail: "Tributaries and outlet",
@@ -8409,7 +8409,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-5",
+    id: "mistehae-lake-c77f9",
     season: "Open May 15 to Mar 31",
     waterbody: "Mistehae Lake",
     waterbody_detail: "80-2-W5",
@@ -8426,7 +8426,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-8",
+    id: "mitsue-lake-5a29a",
     season: "Open May 15 to Mar 31",
     waterbody: "Mitsue Lake",
     waterbody_detail: "",
@@ -8442,7 +8442,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-12",
+    id: "monday-creek-dd92a",
     season: "Open June 1 to Oct 31",
     waterbody: "Monday Creek",
     waterbody_detail: "Beyond 10 km of Christina Lake",
@@ -8459,7 +8459,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-17",
+    id: "mons-lake-8f361",
     season: "Open May 15 to Mar 31",
     waterbody: "Mons Lake",
     waterbody_detail: "60-16-W4",
@@ -8476,7 +8476,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-18",
+    id: "moonshine-lake-7a362",
     season: "Open May 15 to Mar 31",
     waterbody: "Moonshine Lake",
     waterbody_detail: "58-1-W4",
@@ -8493,7 +8493,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-19",
+    id: "moose-lake-5abbf",
     season: "Open June 1 to Mar 1",
     waterbody: "Moose Lake",
     waterbody_detail:
@@ -8511,7 +8511,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-20",
+    id: "moose-lake-bc6a3",
     season: "Open June 1 to Mar 31",
     waterbody: "Moose Lake",
     waterbody_detail:
@@ -8529,7 +8529,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-21",
+    id: "moosehills-lake-a93ed",
     season: "Open May 15 to Mar 31",
     waterbody: "Moosehills Lake",
     waterbody_detail: "57-6-W4",
@@ -8546,7 +8546,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-5",
+    id: "mount-lorette-ponds-24c9d",
     season: "Open All Year",
     waterbody: "Mount Lorette Ponds",
     waterbody_detail: "19-23-8-W5",
@@ -8566,7 +8566,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-6",
+    id: "mud-lake-f3a48",
     season: "Open All Year",
     waterbody: "Mud Lake",
     waterbody_detail: "22-21-10-W5",
@@ -8586,7 +8586,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-14",
+    id: "muir-lake-10524",
     season: "Open May 1 to Oct 31",
     waterbody: "Muir Lake",
     waterbody_detail: "31-53-27-W4",
@@ -8602,7 +8602,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-22",
+    id: "muriel-lake-8fb17",
     season: "Open May 15 to Mar 31",
     waterbody: "Muriel Lake",
     waterbody_detail: "Includes tributaries and outlet for 1 km",
@@ -8619,7 +8619,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-6",
+    id: "murray-lake-843c7",
     season: "Open May 8 to Mar 15",
     waterbody: "Murray Lake",
     waterbody_detail: "10-7-8-W4",
@@ -8636,7 +8636,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-8",
+    id: "muskeg-river-63942",
     season: "Open June 1 to Aug 31",
     waterbody: "Muskeg River",
     waterbody_detail: "Mainstem including tributaries",
@@ -8651,7 +8651,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-2-4",
+    id: "muskiki-lake-73754",
     season: "Open All Year",
     waterbody: "Muskiki Lake",
     waterbody_detail: "5-45-20-W5",
@@ -8670,7 +8670,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-6",
+    id: "muskwa-lake-4d9aa",
     season: "Open May 15 to Mar 31",
     waterbody: "Muskwa Lake",
     waterbody_detail: "",
@@ -8687,7 +8687,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Rivers",
-    id: "NB3-Rivers-1-4",
+    id: "muskwa-river-9a0ca",
     season: "Open June 1 to Oct 31",
     waterbody: "Muskwa River",
     waterbody_detail: "Mainstem including tributaries",
@@ -8703,7 +8703,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-14",
+    id: "myers-lake-a2fec",
     season: "Open All Year",
     waterbody: "Myers Lake",
     waterbody_detail: "",
@@ -8721,7 +8721,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-18",
+    id: "mystery-lake-86e4e",
     season: "Open All Year",
     waterbody: "Mystery Lake",
     waterbody_detail: "24-48-26-W5",
@@ -8739,7 +8739,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-15",
+    id: "namur-lake-59f4e",
     season: "Open May 15 to Mar 31",
     waterbody: "Namur Lake",
     waterbody_detail: "",
@@ -8757,7 +8757,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-9",
+    id: "narrow-lake-5a29a",
     season: "Open May 15 to Mar 31",
     waterbody: "Narrow Lake",
     waterbody_detail: "",
@@ -8773,7 +8773,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-7",
+    id: "nipisi-lake-1ac8c",
     season: "Open May 15 to Mar 31",
     waterbody: "Nipisi Lake",
     waterbody_detail: "13-23-78-7-W5",
@@ -8790,7 +8790,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Rivers",
-    id: "NB3-Rivers-1-5",
+    id: "nipisi-river-9a0ca",
     season: "Open June 1 to Oct 31",
     waterbody: "Nipisi River",
     waterbody_detail: "Mainstem including tributaries",
@@ -8806,7 +8806,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-12",
+    id: "nordegg-river-e0990",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Nordegg River",
     waterbody_detail: "Mainstem and tributaries",
@@ -8824,7 +8824,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-23",
+    id: "north-buck-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "North Buck Lake",
     waterbody_detail: "",
@@ -8841,7 +8841,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-24",
+    id: "north-buck-lake-79a06",
     season: "Open June 1 to Oct 31",
     waterbody: "North Buck Lake",
     waterbody_detail: "Includes outlet for 1 km",
@@ -8858,7 +8858,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-13",
+    id: "north-ram-river-753b7",
     season: "Open June 16 to Oct 31",
     waterbody: "North Ram River",
     waterbody_detail: "Mainstem and tributaries",
@@ -8876,7 +8876,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-14",
+    id: "north-raven-river-790c7",
     season: "Open All Year",
     waterbody: "North Raven River",
     waterbody_detail: "STAUFFER CREEK; Mainstem and tributaries",
@@ -8894,7 +8894,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-16",
+    id: "north-saskatchewan-\nriver-8b5bf",
     season: "Open Sept 1 to Oct 31",
     waterbody: "North Saskatchewan \nRiver",
     waterbody_detail:
@@ -8913,7 +8913,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban except maggots allowed Aug. 16 to Oct. 31",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-17",
+    id: "north-saskatchewan-\nriver-2b1de",
     season: "Apr 1 to Oct 31",
     waterbody: "North Saskatchewan \nRiver",
     waterbody_detail: "Mainstem from Bighorn Dam downstream to Hwy 22/39",
@@ -8931,7 +8931,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-18",
+    id: "north-saskatchewan-\nriver-f2f94",
     season: "Open Apr 1 to Aug 31",
     waterbody: "North Saskatchewan \nRiver",
     waterbody_detail:
@@ -8950,7 +8950,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-19",
+    id: "north-saskatchewan-\nriver-64f6f",
     season: "Open Sept 1 to Oct 31",
     waterbody: "North Saskatchewan \nRiver",
     waterbody_detail:
@@ -8969,7 +8969,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-15",
+    id: "north-saskatchewan-river-54925",
     season: "Open Apr 1 to Aug 31",
     waterbody: "North Saskatchewan River",
     waterbody_detail:
@@ -8988,7 +8988,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-8",
+    id: "north-saskatchewan-river-9df34",
     season: "Open All Year",
     waterbody: "North Saskatchewan River",
     waterbody_detail:
@@ -9006,7 +9006,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-9",
+    id: "north-saskatchewan-river-e1728",
     season: "Open May 15 to Mar 31",
     waterbody: "North Saskatchewan River",
     waterbody_detail:
@@ -9024,7 +9024,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-8",
+    id: "north-wabasca-lake-d8f20",
     season: "Open June 1 to Mar 1",
     waterbody: "North Wabasca Lake",
     waterbody_detail:
@@ -9042,7 +9042,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-9",
+    id: "north-wabasca-lake-2ad04",
     season: "Open May 15 to Mar 31",
     waterbody: "North Wabasca Lake",
     waterbody_detail: "Remainder of the lake",
@@ -9059,7 +9059,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed in river downstream of hwy. 35 only",
     fish_management_zone: "NB3-Rivers",
-    id: "NB3-Rivers-1-6",
+    id: "notikewin-river-e74b3",
     season: "Open June 1 to Oct 31",
     waterbody: "Notikewin River",
     waterbody_detail: "Mainstem including tributaries",
@@ -9075,7 +9075,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-2-5",
+    id: "obstruction-lakes-eb56b",
     season: "Open All Year",
     waterbody: "Obstruction Lakes",
     waterbody_detail: "6-40-20-W5",
@@ -9094,7 +9094,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-7",
+    id: "odlum-lake-bd0a5",
     season: "Open All Year",
     waterbody: "Odlum Lake",
     waterbody_detail: "33-17-7-W5",
@@ -9114,7 +9114,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-8",
+    id: "oldman-reservoir-0657d",
     season: "Open All Year",
     waterbody: "Oldman Reservoir",
     waterbody_detail:
@@ -9135,7 +9135,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-0",
+    id: "oldman-river-e73f3",
     season: "Open June 16 to Aug 31",
     waterbody: "Oldman River",
     waterbody_detail:
@@ -9154,7 +9154,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-1",
+    id: "oldman-river-20f9e",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Oldman River",
     waterbody_detail:
@@ -9173,7 +9173,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-2",
+    id: "oldman-river-11b34",
     season: "Open June 16 to Aug 31",
     waterbody: "Oldman River",
     waterbody_detail: "Mainstem - headwater downstream to Racehorse Creek",
@@ -9191,7 +9191,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-3",
+    id: "oldman-river-b0c29",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Oldman River",
     waterbody_detail: "Mainstem - headwater downstream to Racehorse \nCreek",
@@ -9209,7 +9209,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-4",
+    id: "oldman-river-c859c",
     season: "Open June 16 to Oct 31",
     waterbody: "Oldman River",
     waterbody_detail: "Mainstem - Racehorse Creek downstream to Hwy. 22",
@@ -9227,7 +9227,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-5",
+    id: "oldman-river-27320",
     season: "Open Apr 1 to June 15",
     waterbody: "Oldman River",
     waterbody_detail: "Mainstem - Hwy. 22 downstream to Sec. Rd. 510",
@@ -9245,7 +9245,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-6",
+    id: "oldman-river-fb16f",
     season: "Open June 16 to Aug 31",
     waterbody: "Oldman River",
     waterbody_detail: "Mainstem - Hwy. 22 downstream to Sec. Rd. 510",
@@ -9263,7 +9263,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-7",
+    id: "oldman-river-cc27c",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Oldman River",
     waterbody_detail: "Mainstem - Hwy. 22 downstream to Sec. Rd. 510",
@@ -9281,7 +9281,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-8",
+    id: "oldman-river-a03c1",
     season: "",
     waterbody: "Oldman River",
     waterbody_detail:
@@ -9300,7 +9300,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-9",
+    id: "oldman-river-c48f8",
     season: "Open Apr 1 to June 15",
     waterbody: "Oldman River",
     waterbody_detail: "Oldman Reservoir dam downstream to Sec. Rd. 509",
@@ -9318,7 +9318,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-10",
+    id: "oldman-river-cf7b2",
     season: "Open June 16 to Oct 31",
     waterbody: "Oldman River",
     waterbody_detail: "Oldman Reservoir dam downstream to Sec. Rd. \n509",
@@ -9336,7 +9336,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-11",
+    id: "oldman-river-d4975",
     season: "Open Nov 1 to Mar 31",
     waterbody: "Oldman River",
     waterbody_detail: "Oldman Reservoir dam downstream to Sec. Rd. \n509",
@@ -9354,7 +9354,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Rivers",
-    id: "PP1-Rivers-1-11",
+    id: "oldman-river-a8559",
     season: "Open May 8 to Mar 15",
     waterbody: "Oldman River",
     waterbody_detail:
@@ -9375,7 +9375,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-16",
+    id: "one-week-lake-a2fec",
     season: "Open All Year",
     waterbody: "One Week Lake",
     waterbody_detail: "",
@@ -9393,7 +9393,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-10",
+    id: "orloff-lake-5a29a",
     season: "Open May 15 to Mar 31",
     waterbody: "Orloff Lake",
     waterbody_detail: "",
@@ -9409,7 +9409,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-11",
+    id: "orloff-lake-8b512",
     season: "Open June 1 to Oct 31",
     waterbody: "Orloff Lake",
     waterbody_detail: "Tributaries and outlet",
@@ -9425,7 +9425,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-7",
+    id: "outpost-(police)-lake-82782",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Outpost (Police) Lake",
     waterbody_detail: "8-1-26-W4",
@@ -9442,7 +9442,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB1-Rivers",
-    id: "NB1-Rivers-1-6",
+    id: "owl-river-36826",
     season: "Closed All Year",
     waterbody: "Owl River",
     waterbody_detail: "From Lac La Biche upstream to Piche River",
@@ -9461,7 +9461,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Rivers",
-    id: "NB1-Rivers-1-7",
+    id: "owl-river-2b5ee",
     season: "Open June 1 to Oct 31",
     waterbody: "Owl River",
     waterbody_detail: "From confluence with Piche River upstream to headwater",
@@ -9480,7 +9480,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-17",
+    id: "pans-lake-a2fec",
     season: "Open All Year",
     waterbody: "Pans Lake",
     waterbody_detail: "",
@@ -9498,7 +9498,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-8",
+    id: "park-lake-c5601",
     season: "Open All Year",
     waterbody: "Park Lake",
     waterbody_detail: "",
@@ -9515,7 +9515,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-10",
+    id: "parlby-creek-4a745",
     season: "Open May 15 to Mar 31",
     waterbody: "Parlby Creek",
     waterbody_detail: "23-40-22-W4; Portion between Buffalo and Alix lakes",
@@ -9532,7 +9532,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-10",
+    id: "pastecho-lake-027f2",
     season: "Open All Year",
     waterbody: "Pastecho Lake",
     waterbody_detail: "",
@@ -9549,7 +9549,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-12",
+    id: "paul-lake-5a29a",
     season: "Open May 15 to Mar 31",
     waterbody: "Paul Lake",
     waterbody_detail: "",
@@ -9565,7 +9565,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed in river only",
     fish_management_zone: "NB3-Rivers",
-    id: "NB3-Rivers-1-7",
+    id: "peace-river-ae89b",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Peace River",
     waterbody_detail: "Mainstem",
@@ -9581,7 +9581,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB3-Rivers",
-    id: "NB3-Rivers-1-8",
+    id: "peace-river-34422",
     season: "Open June 1 to Oct 31",
     waterbody: "Peace River",
     waterbody_detail:
@@ -9598,7 +9598,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-11",
+    id: "peerless-lake-d3196",
     season: "Open Apr 1 to May 31",
     waterbody: "Peerless Lake",
     waterbody_detail: "",
@@ -9615,7 +9615,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-12",
+    id: "peerless-lake-56c1b",
     season: "Open June 1 to Mar 31",
     waterbody: "Peerless Lake",
     waterbody_detail: "",
@@ -9632,7 +9632,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-13",
+    id: "peerless-lake-429c7",
     season: "Open June 1 to Oct 31",
     waterbody: "Peerless Lake",
     waterbody_detail: "Tributaries and outlet",
@@ -9649,7 +9649,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-16",
+    id: "pembina-river-1f931",
     season: "Closed All Year",
     waterbody: "Pembina River",
     waterbody_detail:
@@ -9667,7 +9667,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-17",
+    id: "pembina-river-d2989",
     season: "Open June 1 to Oct 31",
     waterbody: "Pembina River",
     waterbody_detail:
@@ -9685,7 +9685,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed in river only",
     fish_management_zone: "NB2-Rivers",
-    id: "NB2-Rivers-1-6",
+    id: "pembina-river-104f3",
     season: "Open June 1 to Oct 31",
     waterbody: "Pembina River",
     waterbody_detail: "Downstream of Hwy. 43 (near Sandugo)",
@@ -9703,7 +9703,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-18",
+    id: "peters-lake-a2fec",
     season: "Open All Year",
     waterbody: "Peters Lake",
     waterbody_detail: "",
@@ -9721,7 +9721,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB3-Rivers",
-    id: "NB3-Rivers-1-9",
+    id: "petitot-river-6f20e",
     season: "Open July 1 to Oct 31",
     waterbody: "Petitot River",
     waterbody_detail: "Mainstem including tributaries upstream to Spawn Lake",
@@ -9737,7 +9737,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-9",
+    id: "phillips-lake-2b617",
     season: "Open All Year",
     waterbody: "Phillips Lake",
     waterbody_detail: "18-8-5-W5",
@@ -9757,7 +9757,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-3-25",
+    id: "piche-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Piche Lake",
     waterbody_detail: "",
@@ -9774,7 +9774,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Rivers",
-    id: "NB1-Rivers-1-8",
+    id: "piche-river-60a84",
     season: "Open June 1 to Oct 31",
     waterbody: "Piche River",
     waterbody_detail: "Includes tributaries",
@@ -9793,7 +9793,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-10",
+    id: "picklejar-lakes-0ca87",
     season: "Open July 1 to Oct 31",
     waterbody: "Picklejar Lakes",
     waterbody_detail: "16, 17-18-6-W5",
@@ -9813,7 +9813,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-9",
+    id: "picture-butte-reservoir-c5601",
     season: "Open All Year",
     waterbody: "Picture Butte Reservoir",
     waterbody_detail: "",
@@ -9830,7 +9830,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Lakes",
-    id: "ES4-Lakes-1-7",
+    id: "pierre-greys-lakes-ee77d",
     season: "Open All Year",
     waterbody: "Pierre Greys Lakes",
     waterbody_detail: "Lower or MacDonald Lake; 7-57-4-W6",
@@ -9847,7 +9847,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-15",
+    id: "pigeon-lake-019ce",
     season: "Open May 15 to Mar 31",
     waterbody: "Pigeon Lake",
     waterbody_detail: "Includes tributaries and outlet",
@@ -9863,7 +9863,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-12",
+    id: "pincher-creek-8cffe",
     season: "Open June 16 to Aug 31",
     waterbody: "Pincher Creek",
     waterbody_detail: "Includes tributaries",
@@ -9881,7 +9881,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-13",
+    id: "pincher-creek-699e0",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Pincher Creek",
     waterbody_detail: "Includes tributaries",
@@ -9899,7 +9899,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait and bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-11",
+    id: "pine-coulee-reservoir-e600c",
     season: "Open All Year",
     waterbody: "Pine Coulee Reservoir",
     waterbody_detail: "",
@@ -9919,7 +9919,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-16",
+    id: "pine-lake-019ce",
     season: "Open May 15 to Mar 31",
     waterbody: "Pine Lake",
     waterbody_detail: "Includes tributaries and outlet",
@@ -9935,7 +9935,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-0",
+    id: "pinehurst-lake-47a94",
     season: "Closed All Year",
     waterbody: "Pinehurst Lake",
     waterbody_detail:
@@ -9953,7 +9953,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-1",
+    id: "pinehurst-lake-dbaa2",
     season: "Open May 15 to Mar 31",
     waterbody: "Pinehurst Lake",
     waterbody_detail: "Remainder of the lake",
@@ -9970,7 +9970,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-20",
+    id: "pinto-creek-721e3",
     season: "Closed All Year",
     waterbody: "Pinto Creek",
     waterbody_detail:
@@ -9989,7 +9989,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-2-6",
+    id: "pinto-lake-e72c2",
     season: "Closed All Year",
     waterbody: "Pinto Lake",
     waterbody_detail:
@@ -10009,7 +10009,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-19",
+    id: "pit-24-lake-afe60",
     season: "Open All Year",
     waterbody: "Pit 24 Lake ",
     waterbody_detail: "15,16, NE4-47-19-W5",
@@ -10027,7 +10027,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-20",
+    id: "pit-35-lake-66c2c",
     season: "Open All Year",
     waterbody: "Pit 35 Lake",
     waterbody_detail: "24-46-19-W5",
@@ -10045,7 +10045,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-21",
+    id: "pit-44-lake-2a298",
     season: "Open All Year",
     waterbody: "Pit 44 Lake ",
     waterbody_detail: "SW 35-46-19-W5",
@@ -10063,7 +10063,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-22",
+    id: "pit-45-lake-66c2c",
     season: "Open All Year",
     waterbody: "Pit 45 Lake",
     waterbody_detail: "24-46-19-W5",
@@ -10081,7 +10081,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-14",
+    id: "pitchimi-lake-027f2",
     season: "Open All Year",
     waterbody: "Pitchimi Lake",
     waterbody_detail: "",
@@ -10098,7 +10098,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-18",
+    id: "plante-creek-6a7d7",
     season: "Open June 16 to Oct 31",
     waterbody: "Plante Creek",
     waterbody_detail: "Mainstem including Apetowun Creek and tributaries",
@@ -10115,7 +10115,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-14",
+    id: "policeman-creek-bbdd6",
     season: "Open Apr 1 to Sept 30",
     waterbody: "Policeman Creek",
     waterbody_detail: "Includes tributaries",
@@ -10133,7 +10133,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-19",
+    id: "potts-lake-a2fec",
     season: "Open All Year",
     waterbody: "Potts Lake",
     waterbody_detail: "",
@@ -10151,7 +10151,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-21",
+    id: "prairie-creek-6ef43",
     season: "Open Apr 1 to Aug 31",
     waterbody: "Prairie Creek",
     waterbody_detail:
@@ -10170,7 +10170,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-22",
+    id: "prairie-creek-bedea",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Prairie Creek",
     waterbody_detail:
@@ -10189,7 +10189,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-23",
+    id: "prairie-creek-e2fe4",
     season: "Open Apr 1 to Aug 31",
     waterbody: "Prairie Creek",
     waterbody_detail:
@@ -10208,7 +10208,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-24",
+    id: "prairie-creek-237d4",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Prairie Creek",
     waterbody_detail:
@@ -10227,7 +10227,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-2",
+    id: "primrose-lake-18613",
     season: "Closed All Year",
     waterbody: "Primrose Lake",
     waterbody_detail: "",
@@ -10244,7 +10244,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-12",
+    id: "quarry-lake-96e10",
     season: "Open All Year",
     waterbody: "Quarry Lake",
     waterbody_detail: "29-24-10-W5",
@@ -10264,7 +10264,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-15",
+    id: "quirk-creek-d3e09",
     season: "Open June 16 to Oct 31",
     waterbody: "Quirk Creek",
     waterbody_detail: "Includes tributaries",
@@ -10282,7 +10282,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-17",
+    id: "raft-lake-2b706",
     season: "Open May 15 to Mar 31",
     waterbody: "Raft Lake",
     waterbody_detail: "",
@@ -10298,7 +10298,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-15",
+    id: "rainbow-lake-027f2",
     season: "Open All Year",
     waterbody: "Rainbow Lake",
     waterbody_detail: "",
@@ -10315,7 +10315,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-13",
+    id: "rainy-ridge-lake-7942a",
     season: "Open July 16 to Oct 31",
     waterbody: "Rainy Ridge Lake",
     waterbody_detail: "32-3-3-W5",
@@ -10335,7 +10335,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-14",
+    id: "rainy-ridge-lake-b6e4a",
     season: "Closed All Year",
     waterbody: "Rainy Ridge Lake",
     waterbody_detail: "Tributaries and outlet",
@@ -10354,7 +10354,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-2-25",
+    id: "ram-river-ce241",
     season: "Open June 16 to Oct 31",
     waterbody: "Ram River",
     waterbody_detail:
@@ -10373,7 +10373,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES4-Lakes",
-    id: "ES4-Lakes-1-8",
+    id: "raspberry-lake-05eab",
     season: "Open May 15 to Mar 31",
     waterbody: "Raspberry Lake",
     waterbody_detail: "",
@@ -10390,7 +10390,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-19",
+    id: "rat-creek-4258f",
     season: "Closed All Year",
     waterbody: "Rat Creek",
     waterbody_detail: "Mainstem including tributaries: see Pembina River",
@@ -10407,7 +10407,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-18",
+    id: "rat-lake-8d1b4",
     season: "Open May 15 to Mar 31",
     waterbody: "Rat Lake",
     waterbody_detail: "10-46-6-W5",
@@ -10423,7 +10423,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-10",
+    id: "rattlesnake-(sauder)-reservoir-f6e9a",
     season: "Open May 8 to Mar 15",
     waterbody: "Rattlesnake (Sauder) Reservoir",
     waterbody_detail: "",
@@ -10440,7 +10440,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-3-0",
+    id: "raven-brood-trout-2a157",
     season: "Closed All Year",
     waterbody: "Raven Brood Trout Station",
     waterbody_detail: "SW-5-36-5-W5; All water within",
@@ -10458,7 +10458,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-3-1",
+    id: "raven-river-54359",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Raven River",
     waterbody_detail:
@@ -10477,7 +10477,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-15",
+    id: "rawson-lake-2f0c8",
     season: "Open July 16 to Oct 31",
     waterbody: "Rawson Lake",
     waterbody_detail: "11-19-9-W5; Includes tributaries and outlet",
@@ -10497,7 +10497,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-11",
+    id: "raymond-reservoir-c5601",
     season: "Open All Year",
     waterbody: "Raymond Reservoir",
     waterbody_detail: "",
@@ -10514,7 +10514,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-12",
+    id: "raymond-sugar-factory-c5601",
     season: "Open All Year",
     waterbody: "Raymond Sugar Factory Reservoir",
     waterbody_detail: "",
@@ -10531,7 +10531,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-3-2",
+    id: "red-deer-river-81574",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Red Deer River",
     waterbody_detail:
@@ -10550,7 +10550,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-3-3",
+    id: "red-deer-river-5d527",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Red Deer River",
     waterbody_detail:
@@ -10569,7 +10569,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Only maggots allowed",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-11",
+    id: "red-deer-river-5131d",
     season: "Open May 15 to Mar 1",
     waterbody: "Red Deer River",
     waterbody_detail:
@@ -10587,7 +10587,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-12",
+    id: "red-deer-river-a7ac1",
     season: "Open May 15 to Mar 31",
     waterbody: "Red Deer River",
     waterbody_detail:
@@ -10605,7 +10605,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB1-Rivers",
-    id: "NB1-Rivers-1-9",
+    id: "redwater-river-60d35",
     season: "Open May 15 to Mar 31",
     waterbody: "Redwater River",
     waterbody_detail: "",
@@ -10624,7 +10624,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Rivers",
-    id: "NB1-Rivers-1-10",
+    id: "redwater-river-14505",
     season: "Open May 15 to Mar 31",
     waterbody: "Redwater River",
     waterbody_detail: "",
@@ -10643,7 +10643,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-3",
+    id: "reed-lake-faaa7",
     season: "Open May 15 to Mar 31",
     waterbody: "Reed Lake",
     waterbody_detail: "61-12-W4",
@@ -10660,7 +10660,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-13",
+    id: "reesor-lake-ebe6c",
     season: "Open All Year",
     waterbody: "Reesor Lake",
     waterbody_detail: "20-8-1-W4",
@@ -10678,7 +10678,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-2-7",
+    id: "resolute-lake-383c3",
     season: "Open Apr 1 to Oct 31",
     waterbody: "Resolute Lake",
     waterbody_detail: "13-35-19-W5; Includes tributaries and outlet",
@@ -10697,7 +10697,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-16",
+    id: "ribbon-lake-032d4",
     season: "Open All Year",
     waterbody: "Ribbon Lake",
     waterbody_detail: "19-22-9-W5",
@@ -10717,7 +10717,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-20",
+    id: "richardson-backcountry-71df9",
     season: "Open May 15 to Mar 31",
     waterbody: "Richardson Backcountry",
     waterbody_detail:
@@ -10736,7 +10736,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-13",
+    id: "richardson-backcountry-0cc71",
     season: "Open June 1 to Oct 31",
     waterbody: "Richardson Backcountry",
     waterbody_detail:
@@ -10754,7 +10754,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-21",
+    id: "richardson-lake-ff5cd",
     season: "Open May 15 to Mar 31",
     waterbody: "Richardson Lake",
     waterbody_detail: "Includes outlet (Jackfish Channel)",
@@ -10772,7 +10772,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-14",
+    id: "richardson-river-6a27c",
     season: "Open June 1 to Oct 31",
     waterbody: "Richardson River",
     waterbody_detail: "",
@@ -10789,7 +10789,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-4",
+    id: "rock-island-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Rock Island Lake",
     waterbody_detail: "",
@@ -10806,7 +10806,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-5",
+    id: "rock-island-lake-3b269",
     season: "Open June 1 to Oct 31",
     waterbody: "Rock Island Lake",
     waterbody_detail: "Tributaries and outlet for 1 km",
@@ -10823,7 +10823,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-23",
+    id: "rock-lake-35d1e",
     season: "Open May 15 to Sept 15",
     waterbody: "Rock Lake",
     waterbody_detail: "52-2-W6",
@@ -10841,7 +10841,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-14",
+    id: "rock-lake-ea67a",
     season: "Open All Year",
     waterbody: "Rock Lake",
     waterbody_detail: "20-15-W4",
@@ -10858,7 +10858,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-22",
+    id: "roderick-lake-a2fec",
     season: "Open All Year",
     waterbody: "Roderick Lake",
     waterbody_detail: "",
@@ -10876,7 +10876,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-15",
+    id: "rolling-hills-lake-f6e9a",
     season: "Open May 8 to Mar 15",
     waterbody: "Rolling Hills Lake",
     waterbody_detail: "",
@@ -10893,7 +10893,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-6",
+    id: "ross-lake-931f4",
     season: "Open May 15 to Mar 31",
     waterbody: "Ross Lake",
     waterbody_detail: "56-4-W4",
@@ -10910,7 +10910,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-16",
+    id: "round-lake-4d9aa",
     season: "Open May 15 to Mar 31",
     waterbody: "Round Lake",
     waterbody_detail: "",
@@ -10927,7 +10927,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-17",
+    id: "round-lake-710c2",
     season: "Open June 1 to Oct 31",
     waterbody: "Round Lake",
     waterbody_detail: "Tributaries and outlet",
@@ -10944,7 +10944,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-23",
+    id: "royemma-lake-22151",
     season: "Open May 15 to Mar 31",
     waterbody: "Royemma Lake",
     waterbody_detail: "75-1-W4",
@@ -10962,7 +10962,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-2-8",
+    id: "ruby-lake-3ab2f",
     season: "Open June 1 to Oct 31",
     waterbody: "Ruby Lake",
     waterbody_detail: "22,27-44-22-W5",
@@ -10981,7 +10981,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-17",
+    id: "rummel-lake-cc133",
     season: "Open July 1 to Oct 31",
     waterbody: "Rummel Lake",
     waterbody_detail: "3-22-10-W5; Includes tributaries and outlet",
@@ -11001,7 +11001,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-3-4",
+    id: "rundell-creek-e0436",
     season: "Closed All Year",
     waterbody: "Rundell Creek",
     waterbody_detail: "27-44-15-W5; Mainstem and tributaries",
@@ -11019,7 +11019,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-18",
+    id: "running-rain-lake-8f4bc",
     season: "Open All Year",
     waterbody: "Running Rain Lake",
     waterbody_detail: "7-18-7-W5",
@@ -11039,7 +11039,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-24",
+    id: "ryan-lake-a2fec",
     season: "Open All Year",
     waterbody: "Ryan Lake",
     waterbody_detail: "",
@@ -11057,7 +11057,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-7",
+    id: "saddle-lake-89293",
     season: "Open All Year",
     waterbody: "Saddle Lake",
     waterbody_detail: "",
@@ -11074,7 +11074,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-15",
+    id: "sand-river-395b2",
     season: "Open June 1 to Oct 31",
     waterbody: "Sand River",
     waterbody_detail:
@@ -11092,7 +11092,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-18",
+    id: "sandy-lake-06de4",
     season: "Open June 1 to Mar 1",
     waterbody: "Sandy Lake",
     waterbody_detail:
@@ -11110,7 +11110,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-19",
+    id: "sandy-lake-83517",
     season: "Open June 1 to Mar 1",
     waterbody: "Sandy Lake",
     waterbody_detail:
@@ -11128,7 +11128,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-20",
+    id: "sandy-lake-523cb",
     season: "Open May 15 to Mar 31",
     waterbody: "Sandy Lake",
     waterbody_detail: "Remainder of the lake ",
@@ -11145,7 +11145,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-21",
+    id: "sandy-lake-429c7",
     season: "Open June 1 to Oct 31",
     waterbody: "Sandy Lake",
     waterbody_detail: "Tributaries and outlet",
@@ -11162,7 +11162,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-22",
+    id: "sawn-lake-4d9aa",
     season: "Open May 15 to Mar 31",
     waterbody: "Sawn Lake",
     waterbody_detail: "",
@@ -11179,7 +11179,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-13",
+    id: "schuman-lake-86733",
     season: "Open All Year",
     waterbody: "Schuman Lake",
     waterbody_detail: "35-61-8-W5",
@@ -11195,7 +11195,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-8",
+    id: "seibert-lake-92814",
     season: "Open June 1 to Mar 31",
     waterbody: "Seibert Lake",
     waterbody_detail: "",
@@ -11212,7 +11212,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-23",
+    id: "semo-lake-d0f4d",
     season: "Open All Year",
     waterbody: "Semo Lake",
     waterbody_detail: "",
@@ -11229,7 +11229,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-19",
+    id: "shark-lake-f4ee2",
     season: "Open All Year",
     waterbody: "Shark Lake",
     waterbody_detail: "NW-1-22-11-W5",
@@ -11249,7 +11249,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-16",
+    id: "shays-reservoir-c5601",
     season: "Open All Year",
     waterbody: "Shays Reservoir",
     waterbody_detail: "",
@@ -11266,7 +11266,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-16",
+    id: "sheep-river-50e1e",
     season: "Open June 16 to Oct 31",
     waterbody: "Sheep River",
     waterbody_detail:
@@ -11285,7 +11285,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-17",
+    id: "sheep-river-0656f",
     season: "Closed All Year",
     waterbody: "Sheep River",
     waterbody_detail:
@@ -11304,7 +11304,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-18",
+    id: "sheep-river-8ad5b",
     season: "Open June 16 to Aug 31",
     waterbody: "Sheep River",
     waterbody_detail: "Mainstem - Gorge Creek downstream to Highwood River",
@@ -11322,7 +11322,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-19",
+    id: "sheep-river-9f1ee",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Sheep River",
     waterbody_detail: "Mainstem - Gorge Creek downstream to \nHighwood River",
@@ -11340,7 +11340,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-17",
+    id: "sherburne-lake-c5091",
     season: "Open May 8 to Mar 15",
     waterbody: "Sherburne Lake",
     waterbody_detail: "Sherburne Reservoir",
@@ -11357,7 +11357,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-24",
+    id: "shiningbank-lake-8039d",
     season: "Open May 15 to Mar 31",
     waterbody: "Shiningbank Lake",
     waterbody_detail: "",
@@ -11375,7 +11375,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-25",
+    id: "shiningbank-lake-0c896",
     season: "Open June 16 to Oct 31",
     waterbody: "Shiningbank Lake",
     waterbody_detail: "Tributaries",
@@ -11393,7 +11393,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-3-5",
+    id: "siffleur-river-2898d",
     season: "Closed All Year",
     waterbody: "Siffleur River",
     waterbody_detail:
@@ -11412,7 +11412,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-2-9",
+    id: "siffleur-wilderness-area-256c5",
     season: "Closed All Year",
     waterbody: "Siffleur Wilderness Area",
     waterbody_detail: "All water within the Wilderness Area",
@@ -11431,7 +11431,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-3-6",
+    id: "siffleur-wilderness-area-02bc3",
     season: "Closed All Year",
     waterbody: "Siffleur Wilderness Area",
     waterbody_detail: "All water within the Wilderness Area",
@@ -11449,7 +11449,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-26",
+    id: "silkstone-lake-1df5f",
     season: "Open All Year",
     waterbody: "Silkstone Lake",
     waterbody_detail: "9-47-19-W5",
@@ -11467,7 +11467,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-20",
+    id: "silvester-creek-95206",
     season: "Open June 16 to Oct 31",
     waterbody: "Silvester Creek",
     waterbody_detail: "",
@@ -11485,7 +11485,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-9",
+    id: "simonette-river-4d559",
     season: "Open June 1 to Aug 31",
     waterbody: "Simonette River",
     waterbody_detail: "Mainstem including tributaries except Deep Valley Creek",
@@ -11500,7 +11500,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-10",
+    id: "simonette-river-9aa9c",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Simonette River",
     waterbody_detail: "Mainstem including tributaries except Deep Valley Creek",
@@ -11515,7 +11515,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-9",
+    id: "sinclair-lake-65e5d",
     season: "Open May 15 to Mar 31",
     waterbody: "Sinclair Lake",
     waterbody_detail: "23-65-5-W4",
@@ -11532,7 +11532,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-10",
+    id: "skeleton-lake-c1c87",
     season: "Open May 15 to Mar 31",
     waterbody: "Skeleton Lake",
     waterbody_detail: "65-18-W4",
@@ -11549,7 +11549,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-21",
+    id: "smith-dorrien-creek-c7fb6",
     season: "Closed All Year",
     waterbody: "Smith-Dorrien Creek",
     waterbody_detail: "Includes tributaries",
@@ -11567,7 +11567,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES4-Lakes",
-    id: "ES4-Lakes-1-9",
+    id: "smoke-lake-05eab",
     season: "Open May 15 to Mar 31",
     waterbody: "Smoke Lake",
     waterbody_detail: "",
@@ -11584,7 +11584,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Lakes",
-    id: "ES4-Lakes-1-10",
+    id: "smoke-lake-ecdbb",
     season: "Open June 1 to Oct 31",
     waterbody: "Smoke Lake",
     waterbody_detail: "Tributaries",
@@ -11601,7 +11601,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-11",
+    id: "smoky-river-ae7b8",
     season: "Open June 1 to Aug 31",
     waterbody: "Smoky River",
     waterbody_detail:
@@ -11617,7 +11617,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-12",
+    id: "smoky-river-94e81",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Smoky River",
     waterbody_detail:
@@ -11633,7 +11633,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-13",
+    id: "smoky-river-95abb",
     season: "Open June 1 to Oct 31",
     waterbody: "Smoky River",
     waterbody_detail: "Mainstem - downstream of Hwy. 43 to 21st Base Line",
@@ -11648,7 +11648,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Rivers",
-    id: "NB3-Rivers-1-10",
+    id: "smoky-river-3d84d",
     season: "Open June 1 to Oct 31",
     waterbody: "Smoky River",
     waterbody_detail: "Mainstem downstream of the 21st Base Line",
@@ -11664,7 +11664,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-20",
+    id: "smuts-lakes-cca41",
     season: "Open All Year",
     waterbody: "Smuts Lakes",
     waterbody_detail: "24-21-11-W5; Includes tributaries and outlet",
@@ -11684,7 +11684,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-18",
+    id: "snake-lake-8e8ea",
     season: "Open May 8 to Mar 15",
     waterbody: "Snake Lake",
     waterbody_detail: "19-17-W4",
@@ -11701,7 +11701,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES4-Lakes",
-    id: "ES4-Lakes-1-11",
+    id: "snipe-lake-05eab",
     season: "Open May 15 to Mar 31",
     waterbody: "Snipe Lake",
     waterbody_detail: "",
@@ -11718,7 +11718,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Lakes",
-    id: "ES4-Lakes-1-12",
+    id: "snipe-lake-0779f",
     season: "Open June 1 to Oct 31",
     waterbody: "Snipe Lake",
     waterbody_detail: "Tributaries and outlet 1 km downstream ",
@@ -11735,7 +11735,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-11",
+    id: "soars-lake-a3498",
     season: "Open May 15 to Mar 31",
     waterbody: "Soars Lake",
     waterbody_detail: "59-1-W4",
@@ -11752,7 +11752,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-22",
+    id: "south-castle-river-8cffe",
     season: "Open June 16 to Aug 31",
     waterbody: "South Castle River",
     waterbody_detail: "Includes tributaries",
@@ -11770,7 +11770,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-3-23",
+    id: "south-castle-river-699e0",
     season: "Open Sept 1 to Oct 31",
     waterbody: "South Castle River",
     waterbody_detail: "Includes tributaries",
@@ -11788,7 +11788,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Rivers",
-    id: "NB2-Rivers-1-7",
+    id: "south-heart-river-40516",
     season: "Open June 1 to Oct 31",
     waterbody: "South Heart River",
     waterbody_detail:
@@ -11807,7 +11807,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Rivers",
-    id: "NB2-Rivers-1-8",
+    id: "south-heart-river-c47d0",
     season: "Open June 16 to Oct 31",
     waterbody: "South Heart River",
     waterbody_detail:
@@ -11826,7 +11826,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Rivers",
-    id: "PP1-Rivers-1-12",
+    id: "south-saskatchewan-river-f4136",
     season: "Open May 8 to Mar 15",
     waterbody: "South Saskatchewan River",
     waterbody_detail: "",
@@ -11846,7 +11846,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-24",
+    id: "south-wabasca-lake-b548d",
     season: "Open June 1 to Mar 1",
     waterbody: "South Wabasca Lake",
     waterbody_detail:
@@ -11864,7 +11864,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-25",
+    id: "south-wabasca-lake-8d7d8",
     season: "Open June 1 to Mar 1",
     waterbody: "South Wabasca Lake",
     waterbody_detail:
@@ -11882,7 +11882,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-2-26",
+    id: "south-wabasca-lake-523cb",
     season: "Open May 15 to Mar 31",
     waterbody: "South Wabasca Lake",
     waterbody_detail: "Remainder of the lake ",
@@ -11899,7 +11899,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-21",
+    id: "southfork-lake-42c22",
     season: "Open July 16 to Oct 31",
     waterbody: "Southfork Lake",
     waterbody_detail: "29-4-3-W5",
@@ -11919,7 +11919,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-22",
+    id: "southfork-lake-b6e4a",
     season: "Closed All Year",
     waterbody: "Southfork Lake",
     waterbody_detail: "Tributaries and outlet",
@@ -11938,7 +11938,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-2-23",
+    id: "sparrow's-egg-lake-4a97a",
     season: "Open July 1 to Oct 31",
     waterbody: "Sparrow's Egg Lake",
     waterbody_detail: "6-20-8-W5; Includes tributaries and outlet",
@@ -11958,7 +11958,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-3-0",
+    id: "spawn-lake-027f2",
     season: "Open All Year",
     waterbody: "Spawn Lake",
     waterbody_detail: "",
@@ -11975,7 +11975,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-3-1",
+    id: "spawn-lake-fd3aa",
     season: "Open June 1 to Oct 31",
     waterbody: "Spawn Lake",
     waterbody_detail: "Tributaries",
@@ -11992,7 +11992,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-12",
+    id: "spencer-lake-ee0a8",
     season:
       "Open May 15 to Mar 31 From 1700 H Friday to 1 2 H After Sunset The Following Sunday",
     waterbody: "Spencer Lake",
@@ -12011,7 +12011,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-13",
+    id: "spencer-lake-81121",
     season:
       "Open May 15 to Mar 31 Long Weekends With The Holiday Friday 1700 H Thursday to 1 2 H After Sunset The Following Sunday",
     waterbody: "Spencer Lake",
@@ -12030,7 +12030,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-14",
+    id: "spencer-lake-faf65",
     season:
       "Open May 15 to Mar 31 Long Weekends With The Holiday Monday 1700 H Friday to 1 2 H After Sunset The Following Monday",
     waterbody: "Spencer Lake",
@@ -12049,7 +12049,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-15",
+    id: "spencer-lake-2f3c3",
     season: "Open Dec 24 1700 H to 1 2 H After Sunset On Jan 1",
     waterbody: "Spencer Lake",
     waterbody_detail:
@@ -12067,7 +12067,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-19",
+    id: "spotted-lake-2b706",
     season: "Open May 15 to Mar 31",
     waterbody: "Spotted Lake",
     waterbody_detail: "",
@@ -12083,7 +12083,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-3-0",
+    id: "spray-lakes-reservoir-fe386",
     season: "Open All Year",
     waterbody: "Spray Lakes Reservoir",
     waterbody_detail: "",
@@ -12103,7 +12103,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-3-1",
+    id: "spray-lakes-reservoir-78b1a",
     season: "Open July 1 to Aug 31",
     waterbody: "Spray Lakes Reservoir",
     waterbody_detail: "Tributaries",
@@ -12123,7 +12123,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-3-2",
+    id: "spray-lakes-reservoir-078c6",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Spray Lakes Reservoir",
     waterbody_detail: "Tributaries",
@@ -12143,7 +12143,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-19",
+    id: "spruce-coulee-reservoir-c8003",
     season: "Open All Year",
     waterbody: "Spruce Coulee Reservoir",
     waterbody_detail: "26-8-2-W4",
@@ -12160,7 +12160,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-25",
+    id: "st.-agnes-lake-a2fec",
     season: "Open All Year",
     waterbody: "St. Agnes Lake",
     waterbody_detail: "",
@@ -12178,7 +12178,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-20",
+    id: "st.-mary-reservoir-f6e9a",
     season: "Open May 8 to Mar 15",
     waterbody: "St. Mary Reservoir",
     waterbody_detail: "",
@@ -12195,7 +12195,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP1-Rivers",
-    id: "PP1-Rivers-1-13",
+    id: "st.-mary-river-acfa2",
     season: "Open June 16 to Aug 31",
     waterbody: "St. Mary River",
     waterbody_detail:
@@ -12216,7 +12216,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP1-Rivers",
-    id: "PP1-Rivers-1-14",
+    id: "st.-mary-river-aed41",
     season: "Open Sept 1 to Oct 31",
     waterbody: "St. Mary River",
     waterbody_detail:
@@ -12237,7 +12237,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP1-Rivers",
-    id: "PP1-Rivers-1-15",
+    id: "st.-mary-river-34205",
     season: "Open June 16 to Oct 31",
     waterbody: "St. Mary River",
     waterbody_detail:
@@ -12258,7 +12258,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-21",
+    id: "stafford-reservoir-f6e9a",
     season: "Open May 8 to Mar 15",
     waterbody: "Stafford Reservoir",
     waterbody_detail: "",
@@ -12275,7 +12275,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-14",
+    id: "steele-(cross)-lake-5a29a",
     season: "Open May 15 to Mar 31",
     waterbody: "Steele (Cross) Lake",
     waterbody_detail: "",
@@ -12291,7 +12291,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-26",
+    id: "steepbank-lake-f0be4",
     season: "Open May 15 to Mar 31",
     waterbody: "Steepbank Lake",
     waterbody_detail: "",
@@ -12309,7 +12309,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-3-3",
+    id: "stenton-lake-99c21",
     season: "Open All Year",
     waterbody: "Stenton Lake",
     waterbody_detail: "35-25-10-W5; Includes tributaries and outlet",
@@ -12329,7 +12329,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-22",
+    id: "stonehill-lake-f6e9a",
     season: "Open May 8 to Mar 15",
     waterbody: "Stonehill Lake",
     waterbody_detail: "",
@@ -12346,7 +12346,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-16",
+    id: "stoney-(siler)-lake-c3542",
     season: "Open May 15 to Mar 31",
     waterbody: "Stoney (Siler) Lake",
     waterbody_detail: "56-8-W4",
@@ -12363,7 +12363,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-4-0",
+    id: "storm-creek-b32e0",
     season: "Closed All Year",
     waterbody: "Storm Creek",
     waterbody_detail: "",
@@ -12381,7 +12381,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Rivers",
-    id: "NB2-Rivers-1-9",
+    id: "strawberry-creek-8f155",
     season: "Open June 16 to Oct 31",
     waterbody: "Strawberry Creek",
     waterbody_detail: "",
@@ -12399,7 +12399,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES4-Lakes",
-    id: "ES4-Lakes-1-13",
+    id: "sturgeon-lake-07429",
     season: "Open Apr 1 to Sept 30 and Jan 16 to Mar 31",
     waterbody: "Sturgeon Lake",
     waterbody_detail: "",
@@ -12416,7 +12416,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES4-Lakes",
-    id: "ES4-Lakes-1-14",
+    id: "sturgeon-lake-f6844",
     season: "Open Oct 1 to Jan 15 Between Sunrise and Sunset",
     waterbody: "Sturgeon Lake",
     waterbody_detail: "",
@@ -12433,7 +12433,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES4-Lakes",
-    id: "ES4-Lakes-1-15",
+    id: "sturgeon-lake-7575e",
     season: "Open June 1 to Oct 31",
     waterbody: "Sturgeon Lake",
     waterbody_detail: "Goose Creek tributary",
@@ -12450,7 +12450,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-13",
+    id: "sturgeon-river-a6011",
     season: "Open May 15 to Mar 31",
     waterbody: "Sturgeon River",
     waterbody_detail: "From headwater downstream to Big Lake",
@@ -12467,7 +12467,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-14",
+    id: "sturgeon-river-35bd8",
     season: "Open May 15 to Mar 31",
     waterbody: "Sturgeon River",
     waterbody_detail: "From Big Lake downstream to Sec. Hwy. 825",
@@ -12484,7 +12484,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-15",
+    id: "sturgeon-river-bf519",
     season: "Open All Year",
     waterbody: "Sturgeon River",
     waterbody_detail:
@@ -12503,7 +12503,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-16",
+    id: "sunday-creek-dd92a",
     season: "Open June 1 to Oct 31",
     waterbody: "Sunday Creek",
     waterbody_detail: "Beyond 10 km of Christina Lake",
@@ -12520,7 +12520,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-17",
+    id: "sunday-lake-fd816",
     season: "Open May 15 to Mar 31",
     waterbody: "Sunday Lake",
     waterbody_detail: "74-9-W4",
@@ -12537,7 +12537,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-3-4",
+    id: "sunken-lake-3063f",
     season: "Open All Year",
     waterbody: "Sunken Lake",
     waterbody_detail: "Champion Lake; 26-21-5-W5",
@@ -12557,7 +12557,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-3-7",
+    id: "swan-creek-caab3",
     season: "Open Apr 1 to Aug 31",
     waterbody: "Swan Creek",
     waterbody_detail:
@@ -12576,7 +12576,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-3-8",
+    id: "swan-creek-87899",
     season: "Apr 1 to Aug 31",
     waterbody: "Swan Creek",
     waterbody_detail: "The remainder including tributaries to Swan Lake",
@@ -12594,7 +12594,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-3-9",
+    id: "swan-creek-92a17",
     season: "Sept 1 to Oct 31",
     waterbody: "Swan Creek",
     waterbody_detail: "The remainder including tributaries to Swan Lake",
@@ -12612,7 +12612,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-2-10",
+    id: "swan-lake-78cea",
     season: "Open June 16 to Sept 15",
     waterbody: "Swan Lake",
     waterbody_detail: "26-36-9-W5; for outlet regs see Swan Creek",
@@ -12631,7 +12631,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-2-11",
+    id: "swan-lake-b1880",
     season: "Open Nov 1 to Jan 15",
     waterbody: "Swan Lake",
     waterbody_detail: "26-36-9-W5; for outlet regs see Swan Creek",
@@ -12650,7 +12650,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "PP2-Rivers",
-    id: "PP2-Rivers-1-16",
+    id: "sylvan-creek-5f5e0",
     season: "Closed All Year",
     waterbody: "Sylvan Creek",
     waterbody_detail: "NE-11-38-28-W4; Includes Cygnet Lake",
@@ -12667,7 +12667,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-20",
+    id: "sylvan-lake-0d2c7",
     season: "Open May 15 to Oct 31 and Dec 11 to Mar 31",
     waterbody: "Sylvan Lake",
     waterbody_detail: "Includes tributaries",
@@ -12683,7 +12683,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-23",
+    id: "taber-lake-c5601",
     season: "Open All Year",
     waterbody: "Taber Lake",
     waterbody_detail: "",
@@ -12700,7 +12700,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-3-2",
+    id: "talbot-lake-027f2",
     season: "Open All Year",
     waterbody: "Talbot Lake",
     waterbody_detail: "",
@@ -12717,7 +12717,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-3-5",
+    id: "talus-lake-49608",
     season: "Open All Year",
     waterbody: "Talus Lake",
     waterbody_detail: "25-20-8-W5",
@@ -12737,7 +12737,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-3-10",
+    id: "tay-river-50988",
     season: "Open Apr 1 to Aug 31",
     waterbody: "Tay River",
     waterbody_detail: "Mainstem and tributaries",
@@ -12755,7 +12755,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-3-6",
+    id: "three-isle-lake-38056",
     season: "Open All Year",
     waterbody: "Three Isle Lake",
     waterbody_detail: "23-19-10-W5",
@@ -12775,7 +12775,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-15",
+    id: "thunder-lake-5a29a",
     season: "Open May 15 to Mar 31",
     waterbody: "Thunder Lake",
     waterbody_detail: "",
@@ -12791,7 +12791,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-3-3",
+    id: "thurston-lake-027f2",
     season: "Open All Year",
     waterbody: "Thurston Lake",
     waterbody_detail: "",
@@ -12808,7 +12808,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-3-4",
+    id: "thurston-lake-e9889",
     season: "Open June 1 to Oct 31",
     waterbody: "Thurston Lake",
     waterbody_detail: "Tributaries and outlet for 1 km",
@@ -12825,7 +12825,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-24",
+    id: "tilley-b-reservoir-f6e9a",
     season: "Open May 8 to Mar 15",
     waterbody: "Tilley B Reservoir",
     waterbody_detail: "",
@@ -12842,7 +12842,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-2-25",
+    id: "timko-lake-(j-05aa8",
     season: "Open May 8 to Mar 15",
     waterbody: "Timko Lake (J Or Bantry Reservoir)",
     waterbody_detail: "33-17-13-W4",
@@ -12859,7 +12859,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-3-7",
+    id: "tombstone-lakes-80943",
     season: "Open All Year",
     waterbody: "Tombstone Lakes",
     waterbody_detail: "13-20-8-W5",
@@ -12879,7 +12879,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-14",
+    id: "torrens-river-a8072",
     season: "Open June 1 to Oct 31",
     waterbody: "Torrens River",
     waterbody_detail: "Mainstem including tributaries",
@@ -12894,7 +12894,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-18",
+    id: "touchwood-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Touchwood Lake",
     waterbody_detail: "",
@@ -12911,7 +12911,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Rivers",
-    id: "NB2-Rivers-1-10",
+    id: "travers-creek-0e08b",
     season: "Open June 16 to Oct 31",
     waterbody: "Travers Creek",
     waterbody_detail: "Tributary to Buffalo Bay",
@@ -12929,7 +12929,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-3-0",
+    id: "travers-reservoir-0ec01",
     season: "Open June 1 to Mar 15",
     waterbody: "Travers Reservoir",
     waterbody_detail:
@@ -12947,7 +12947,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-3-1",
+    id: "travers-reservoir-0da5b",
     season: "Open May 8 to Mar 15",
     waterbody: "Travers Reservoir",
     waterbody_detail:
@@ -12965,7 +12965,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-27",
+    id: "treasure-loch-lake-a2fec",
     season: "Open All Year",
     waterbody: "Treasure Loch Lake",
     waterbody_detail: "",
@@ -12983,7 +12983,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-19",
+    id: "tucker-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Tucker Lake",
     waterbody_detail: "",
@@ -13000,7 +13000,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-28",
+    id: "tulip-lake-a2fec",
     season: "Open All Year",
     waterbody: "Tulip Lake",
     waterbody_detail: "",
@@ -13018,7 +13018,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-29",
+    id: "turtle-lake-a2fec",
     season: "Open All Year",
     waterbody: "Turtle Lake",
     waterbody_detail: "",
@@ -13036,7 +13036,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-3-2",
+    id: "twelve-mile-coulee-f6e9a",
     season: "Open May 8 to Mar 15",
     waterbody: "Twelve Mile Coulee Reservoir",
     waterbody_detail: "",
@@ -13053,7 +13053,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-3-5",
+    id: "twin-lakes-b472b",
     season: "Open All Year",
     waterbody: "Twin Lakes",
     waterbody_detail: "29-97-22-W5",
@@ -13070,7 +13070,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-3-3",
+    id: "twin-valley-reservoir-f6e9a",
     season: "Open May 8 to Mar 15",
     waterbody: "Twin Valley Reservoir",
     waterbody_detail: "",
@@ -13087,7 +13087,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-4-1",
+    id: "unnamed-0f9f2",
     season: "Closed All Year",
     waterbody: "Unnamed",
     waterbody_detail:
@@ -13106,7 +13106,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-3-6",
+    id: "unnamed-5d25b",
     season: "Open May 15 to Mar 31",
     waterbody: "Unnamed",
     waterbody_detail: "Artisinn Lake",
@@ -13123,7 +13123,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-3-4",
+    id: "unnamed-29418",
     season: "Open May 8 to Mar 15",
     waterbody: "Unnamed",
     waterbody_detail: "Scope Reservoir",
@@ -13140,7 +13140,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-3-8",
+    id: "unnamed-(blairmore-water-bf276",
     season: "Closed All Year",
     waterbody: "Unnamed (Blairmore Water Supply Reservoir)",
     waterbody_detail: "34-7-4-W5",
@@ -13159,7 +13159,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-4-20",
+    id: "unnamed-(brodick)-lake-e5059",
     season: "Open May 15 to Mar 31",
     waterbody: "Unnamed (Brodick) Lake",
     waterbody_detail: "60-17-W4",
@@ -13176,7 +13176,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-3-5",
+    id: "unnamed-(burdett)-lake-c5601",
     season: "Open All Year",
     waterbody: "Unnamed (Burdett) Lake",
     waterbody_detail: "",
@@ -13193,7 +13193,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-3-11",
+    id: "unnamed-(devil's-fork)-473be",
     season: "Closed All Year",
     waterbody: "Unnamed (Devil's Fork) Creek",
     waterbody_detail: "4-45-16-W5; Tributary to Brazeau River",
@@ -13211,7 +13211,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-5-0",
+    id: "unnamed-(island)-lake-52573",
     season: "Open May 15 to Mar 31",
     waterbody: "Unnamed (Island) Lake",
     waterbody_detail: "57-1-W4",
@@ -13228,7 +13228,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-2-13",
+    id: "unnamed-(jumping-fish)-fdb24",
     season: "Closed All Year",
     waterbody: "Unnamed (Jumping Fish) Lake",
     waterbody_detail:
@@ -13248,7 +13248,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-5-1",
+    id: "unnamed-(little-perch)-a2c9c",
     season: "Open May 15 to Mar 31",
     waterbody: "Unnamed (Little Perch) Lake",
     waterbody_detail: "56-9-W4",
@@ -13265,7 +13265,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-27",
+    id: "unnamed-(lodgepole)-pond-f9827",
     season: "Open All Year",
     waterbody: "Unnamed (Lodgepole) Pond",
     waterbody_detail: "NE-01-48-10-W5",
@@ -13283,7 +13283,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-5-2",
+    id: "unnamed-(sowka)-lake-a4f30",
     season: "Open May 15 to Mar 31",
     waterbody: "Unnamed (Sowka) Lake",
     waterbody_detail: "10-18-W4",
@@ -13300,7 +13300,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-28",
+    id: "unnamed-(sphinx)-lake-03382",
     season: "Closed All Year",
     waterbody: "Unnamed (Sphinx) Lake",
     waterbody_detail: "NE-6-48-24-W5",
@@ -13318,7 +13318,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-5-3",
+    id: "unnamed-(whitemud)-lake-3aa08",
     season: "Open May 15 to Mar 31",
     waterbody: "Unnamed (Whitemud) Lake",
     waterbody_detail: "62-19-W4",
@@ -13335,7 +13335,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-3-9",
+    id: "upper-kananaskis-lake-b8b6e",
     season: "Open July 16 to May 31",
     waterbody: "Upper Kananaskis Lake",
     waterbody_detail:
@@ -13356,7 +13356,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-3-10",
+    id: "upper-kananaskis-lake-7bf1f",
     season: "Open All Year",
     waterbody: "Upper Kananaskis Lake",
     waterbody_detail: "The remainder of the lake",
@@ -13376,7 +13376,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-5-4",
+    id: "upper-mann-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Upper Mann Lake",
     waterbody_detail: "",
@@ -13393,7 +13393,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-5-5",
+    id: "upper-mann-lake-5077a",
     season: "Open June 1 to Oct 31",
     waterbody: "Upper Mann Lake",
     waterbody_detail: "Includes tributaries",
@@ -13410,7 +13410,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-3-7",
+    id: "utikuma-lake-4d9aa",
     season: "Open May 15 to Mar 31",
     waterbody: "Utikuma Lake",
     waterbody_detail: "",
@@ -13427,7 +13427,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-3-8",
+    id: "utikumasis-lake-4d9aa",
     season: "Open May 15 to Mar 31",
     waterbody: "Utikumasis Lake",
     waterbody_detail: "",
@@ -13444,7 +13444,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-3-9",
+    id: "vandersteene-lake-56c1b",
     season: "Open June 1 to Mar 31",
     waterbody: "Vandersteene Lake",
     waterbody_detail: "",
@@ -13461,7 +13461,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-3-10",
+    id: "vandersteene-lake-429c7",
     season: "Open June 1 to Oct 31",
     waterbody: "Vandersteene Lake",
     waterbody_detail: "Tributaries and outlet",
@@ -13478,7 +13478,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-5-6",
+    id: "victor-lake-a72ad",
     season: "Open May 15 to Mar 31",
     waterbody: "Victor Lake",
     waterbody_detail: "63-14-W4",
@@ -13495,7 +13495,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-21",
+    id: "wabamun-lake-1271f",
     season: "Open May 15 to Mar 31",
     waterbody: "Wabamun Lake",
     waterbody_detail: "Includes tributaries, outlet and canals",
@@ -13511,7 +13511,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed in river only",
     fish_management_zone: "NB3-Rivers",
-    id: "NB3-Rivers-1-11",
+    id: "wabasca-river-be57b",
     season: "Open June 1 to Mar 1",
     waterbody: "Wabasca River",
     waterbody_detail:
@@ -13528,7 +13528,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed in river only",
     fish_management_zone: "NB3-Rivers",
-    id: "NB3-Rivers-1-12",
+    id: "wabasca-river-a2fd5",
     season: "Open June 1 to Oct 31",
     waterbody: "Wabasca River",
     waterbody_detail:
@@ -13545,7 +13545,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-3-11",
+    id: "wadlin-lake-56c1b",
     season: "Open June 1 to Mar 31",
     waterbody: "Wadlin Lake",
     waterbody_detail: "",
@@ -13562,7 +13562,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-3-12",
+    id: "wadlin-lake-e9889",
     season: "Open June 1 to Oct 31",
     waterbody: "Wadlin Lake",
     waterbody_detail: "Tributaries and outlet for 1 km",
@@ -13579,7 +13579,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-4-2",
+    id: "waiparous-creek-8cffe",
     season: "Open June 16 to Aug 31",
     waterbody: "Waiparous Creek",
     waterbody_detail: "Includes tributaries",
@@ -13597,7 +13597,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-4-3",
+    id: "waiparous-creek-699e0",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Waiparous Creek",
     waterbody_detail: "Includes tributaries",
@@ -13615,7 +13615,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-20",
+    id: "wampus-creek-923f9",
     season: "Closed All Year",
     waterbody: "Wampus Creek",
     waterbody_detail: "Mainstem including tributaries",
@@ -13632,7 +13632,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-15",
+    id: "wapiti-river-63942",
     season: "Open June 1 to Aug 31",
     waterbody: "Wapiti River",
     waterbody_detail: "Mainstem including tributaries",
@@ -13647,7 +13647,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES4-Rivers",
-    id: "ES4-Rivers-1-16",
+    id: "wapiti-river-5cace",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Wapiti River",
     waterbody_detail: "Mainstem including tributaries",
@@ -13662,7 +13662,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-30",
+    id: "wappau-lake-d36a2",
     season: "Open May 15 to Mar 31",
     waterbody: "Wappau Lake",
     waterbody_detail: "14-75-11-W4",
@@ -13680,7 +13680,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-3-12",
+    id: "washout-creek-237f3",
     season: "Open All Year",
     waterbody: "Washout Creek",
     waterbody_detail: "24-47-8-W5; Mainstem and tributaries",
@@ -13698,7 +13698,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-4-4",
+    id: "waterton-river-3bd74",
     season: "Open June 16 to Aug 31",
     waterbody: "Waterton River",
     waterbody_detail:
@@ -13717,7 +13717,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-4-5",
+    id: "waterton-river-2fc84",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Waterton River",
     waterbody_detail:
@@ -13736,7 +13736,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-4-6",
+    id: "waterton-river-4531c",
     season: "Open June 16 to Aug 31",
     waterbody: "Waterton River",
     waterbody_detail: "Mainstem - upstream of Waterton Reservoir",
@@ -13754,7 +13754,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-4-7",
+    id: "waterton-river-5f9de",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Waterton River",
     waterbody_detail: "Mainstem - upstream of Waterton Reservoir",
@@ -13772,7 +13772,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-4-8",
+    id: "waterton-river-f7e72",
     season: "Open June 16 to Aug 31",
     waterbody: "Waterton River",
     waterbody_detail:
@@ -13791,7 +13791,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-4-9",
+    id: "waterton-river-a9730",
     season: "Open Sept 1 to Oct 31",
     waterbody: "Waterton River",
     waterbody_detail:
@@ -13810,7 +13810,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-3-11",
+    id: "watridge-lake-24f50",
     season: "Open July 1 to Oct 31",
     waterbody: "Watridge Lake",
     waterbody_detail: "11-22-11-W5; Includes tributaries and outlet",
@@ -13830,7 +13830,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-5-7",
+    id: "wayetenaw-lake-1296c",
     season: "Open May 15 to Mar 31",
     waterbody: "Wayetenaw Lake",
     waterbody_detail: "61-13-W4",
@@ -13847,7 +13847,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-3-12",
+    id: "wedge-pond-f1911",
     season: "Open All Year",
     waterbody: "Wedge Pond",
     waterbody_detail: "14-22-9-W5",
@@ -13867,7 +13867,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-2-31",
+    id: "weekes-lake-a2fec",
     season: "Open All Year",
     waterbody: "Weekes Lake",
     waterbody_detail: "",
@@ -13885,7 +13885,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB3-Lakes",
-    id: "NB3-Lakes-3-13",
+    id: "wentzel-lake-027f2",
     season: "Open All Year",
     waterbody: "Wentzel Lake",
     waterbody_detail: "",
@@ -13902,7 +13902,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-4-10",
+    id: "west-castle-river-d3e09",
     season: "Open June 16 to Oct 31",
     waterbody: "West Castle River",
     waterbody_detail: "Includes tributaries",
@@ -13920,7 +13920,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Rivers",
-    id: "NB2-Rivers-1-11",
+    id: "west-prairie-river-8f155",
     season: "Open June 16 to Oct 31",
     waterbody: "West Prairie River",
     waterbody_detail: "",
@@ -13938,7 +13938,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-22",
+    id: "west-twin-lake-11b5a",
     season: "Open May 15 to Mar 31",
     waterbody: "West Twin Lake",
     waterbody_detail: "Includes Tributaries and outlet; 9,10-46-3-W5",
@@ -13954,7 +13954,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Lakes",
-    id: "ES2-Lakes-2-12",
+    id: "white-goat-wilderness-256c5",
     season: "Closed All Year",
     waterbody: "White Goat Wilderness Area",
     waterbody_detail: "All water within the Wilderness Area",
@@ -13973,7 +13973,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-3-13",
+    id: "white-goat-wilderness-02bc3",
     season: "Closed All Year",
     waterbody: "White Goat Wilderness Area",
     waterbody_detail: "All water within the Wilderness Area",
@@ -13991,7 +13991,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-5-8",
+    id: "whitefish-lake-eaf70",
     season: "Open May 15 to Mar 31",
     waterbody: "Whitefish Lake",
     waterbody_detail: "",
@@ -14008,7 +14008,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-16",
+    id: "whiteridge-recreation-area-80436",
     season: "Open May 1 to Oct 31",
     waterbody: "Whiteridge Recreation Area Pond (Blueridge Pit)",
     waterbody_detail: "SW-01-60-10-W5",
@@ -14024,7 +14024,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-5-9",
+    id: "whitney-lake-931f4",
     season: "Open May 15 to Mar 31",
     waterbody: "Whitney Lake",
     waterbody_detail: "56-4-W4",
@@ -14041,7 +14041,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-5-10",
+    id: "wiau-lake-25e66",
     season: "Open May 15 to Mar 31",
     waterbody: "Wiau Lake",
     waterbody_detail: "34-73-9-W4",
@@ -14058,7 +14058,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-21",
+    id: "wildhay-river-65318",
     season: "Open June 16 to Oct 31",
     waterbody: "Wildhay River",
     waterbody_detail: "Mainstem including tributaries and Jarvis Creek",
@@ -14075,7 +14075,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-4-11",
+    id: "willow-creek-6645f",
     season: "Open June 16 to Oct 31",
     waterbody: "Willow Creek",
     waterbody_detail: "Mainstem and tributaries upstream of Hwy. 532",
@@ -14093,7 +14093,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-4-12",
+    id: "willow-creek-b83db",
     season: "Open June 16 to Oct 31",
     waterbody: "Willow Creek",
     waterbody_detail:
@@ -14112,7 +14112,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-4-13",
+    id: "willow-creek-7c890",
     season: "Open May 8 to Oct 31",
     waterbody: "Willow Creek",
     waterbody_detail:
@@ -14131,7 +14131,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-4-14",
+    id: "willow-creek-97381",
     season: "Open Nov 1 to Mar 15",
     waterbody: "Willow Creek",
     waterbody_detail:
@@ -14150,7 +14150,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "ES1-Rivers-4-15",
+    id: "willow-creek-3fcf0",
     season: "Open June 16 to Oct 31",
     waterbody: "Willow Creek",
     waterbody_detail:
@@ -14169,7 +14169,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-17",
+    id: "winagami-lake-bdaac",
     season: "Open May 15 to Mar 31",
     waterbody: "Winagami Lake",
     waterbody_detail: "Includes Boone's Slough and South Heart Reservoir",
@@ -14185,7 +14185,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB2-Lakes",
-    id: "NB2-Lakes-2-18",
+    id: "winagami-lake-c3285",
     season: "Open June 1 to Oct 31",
     waterbody: "Winagami Lake",
     waterbody_detail:
@@ -14202,7 +14202,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES3-Rivers",
-    id: "ES3-Rivers-1-22",
+    id: "windfall-creek-626a0",
     season: "Open June 16 to Oct 31",
     waterbody: "Windfall Creek",
     waterbody_detail: "Mainstem including tributaries",
@@ -14219,7 +14219,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait except bait fish allowed",
     fish_management_zone: "ES1-Lakes",
-    id: "ES1-Lakes-3-13",
+    id: "window-mountain-lake-5f4a1",
     season: "Open All Year",
     waterbody: "Window Mountain Lake",
     waterbody_detail: "29-9-5-W5",
@@ -14239,7 +14239,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-3-0",
+    id: "winefred-lake-5a791",
     season: "Open May 15 to Mar 31",
     waterbody: "Winefred Lake",
     waterbody_detail:
@@ -14258,7 +14258,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "NB4-Rivers",
-    id: "NB4-Rivers-1-17",
+    id: "winefred-lake-tributaries-0b80f",
     season: "Open June 1 to Oct 31",
     waterbody: "Winefred Lake Tributaries and Outflows ",
     waterbody_detail:
@@ -14276,7 +14276,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-3-1",
+    id: "winnifred-lake-0999b",
     season: "Open All Year",
     waterbody: "Winnifred Lake",
     waterbody_detail: "118-3-W4",
@@ -14294,7 +14294,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
-    id: "PP2-Lakes-2-23",
+    id: "wizard-lake-2b706",
     season: "Open May 15 to Mar 31",
     waterbody: "Wizard Lake",
     waterbody_detail: "",
@@ -14310,7 +14310,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES2-Rivers",
-    id: "ES2-Rivers-3-14",
+    id: "wolf-creek-f27db",
     season: "Open All Year",
     waterbody: "Wolf Creek",
     waterbody_detail: "13-47-8-W5; Rose Creek; Mainstem and tributaries",
@@ -14328,7 +14328,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-29",
+    id: "wolf-lake-4db7f",
     season: "Open May 15 to Mar 31",
     waterbody: "Wolf Lake",
     waterbody_detail: "SE-12-49-15-W5",
@@ -14346,7 +14346,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "ES3-Lakes",
-    id: "ES3-Lakes-1-30",
+    id: "wolf-lake-a664b",
     season: "Open June 16 to Oct 31",
     waterbody: "Wolf Lake",
     waterbody_detail: "Tributaries to lake and outlet",
@@ -14364,7 +14364,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-5-11",
+    id: "wolf-lake-complex-b0846",
     season: "Open June 1 to Mar 31",
     waterbody: "Wolf Lake Complex",
     waterbody_detail:
@@ -14382,7 +14382,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB1-Lakes",
-    id: "NB1-Lakes-5-12",
+    id: "wolf-lake-complex-965df",
     season: "Open June 1 to Mar 31",
     waterbody: "Wolf Lake Complex",
     waterbody_detail: "Tributaries",
@@ -14399,7 +14399,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-3-2",
+    id: "woodman-lake-a2fec",
     season: "Open All Year",
     waterbody: "Woodman Lake",
     waterbody_detail: "",
@@ -14417,7 +14417,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "NB4-Lakes-3-3",
+    id: "wylie-lake-a2fec",
     season: "Open All Year",
     waterbody: "Wylie Lake",
     waterbody_detail: "",
@@ -14435,7 +14435,7 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Lakes",
-    id: "PP1-Lakes-3-6",
+    id: "yellow-lake-c5601",
     season: "Open All Year",
     waterbody: "Yellow Lake",
     waterbody_detail: "",

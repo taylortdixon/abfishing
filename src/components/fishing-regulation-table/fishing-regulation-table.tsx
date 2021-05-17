@@ -15,6 +15,7 @@ import "./fishing-regulation-table.css";
 import { filterRegulations } from "./fishing-regulation-table.utils";
 import { NoResultsRowsOverlay } from "./no-results/no-results";
 import { isMobile } from "react-device-detect";
+import { FishingRegualationTableProps } from "./fishing-regulation-table.props.types";
 
 const useColumnDefinitions = (): GridColumns => {
   return useMemo(() => {
@@ -52,67 +53,70 @@ const useColumnDefinitions = (): GridColumns => {
   }, []);
 };
 
-export const FishingRegulationTable = () => {
-  const [selectedWaterbody, setSelectedWaterbody] =
-    useState<Waterbody | undefined>(undefined);
-  const [page, onPageChange] = useState<number>(0);
-  const [filters, setFilters] = useState<GridFilterItem[]>([]);
+export const FishingRegulationTable: React.VFC<FishingRegualationTableProps> =
+  ({ openWaterbodyId, setOpenWaterbodyId }) => {
+    const [page, onPageChange] = useState<number>(0);
+    const [filters, setFilters] = useState<GridFilterItem[]>([]);
+    const selectedWaterbody = useMemo(
+      () => regulations.find((waterbody) => waterbody.id === openWaterbodyId),
+      [openWaterbodyId]
+    );
 
-  useEffect(() => {
-    onPageChange(0);
-  }, [filters]);
+    useEffect(() => {
+      onPageChange(0);
+    }, [filters]);
 
-  const columns = useColumnDefinitions();
+    const columns = useColumnDefinitions();
 
-  const onRowClick = (params: GridRowParams) => {
-    const waterbody = params.row as Waterbody;
-    trackWaterbodyOpen(waterbody.waterbody);
-    setSelectedWaterbody(waterbody);
+    const onRowClick = (params: GridRowParams) => {
+      const waterbody = params.row as Waterbody;
+      trackWaterbodyOpen(waterbody.waterbody);
+      setOpenWaterbodyId(waterbody.id);
+    };
+
+    const filteredRegulations = filterRegulations(
+      regulations as Waterbody[],
+      filters
+    );
+    return (
+      <>
+        <FilterPanel
+          filters={filters}
+          onFiltersChange={setFilters}
+          regulations={regulations as Waterbody[]}
+        />
+        <DataGrid
+          columns={columns}
+          className="fishing_regulation_table"
+          rows={filteredRegulations}
+          onRowClick={onRowClick}
+          pagination
+          page={page}
+          rowsPerPageOptions={[100]}
+          onPageChange={(params) => onPageChange(params.page)}
+          components={{
+            NoRowsOverlay: NoResultsRowsOverlay,
+          }}
+          // This fixes an annoying issue where the grid re-steals focus on rerendering.
+          state={{
+            keyboard: {
+              cell: null,
+              columnHeader: null,
+              isMultipleKeyPressed: false,
+            },
+          }}
+        />
+        <Typography display="block" variant="caption" gutterBottom>
+          Updated May 10, 2021. See an issue?{" "}
+          <Link href="mailto&#58;%&#54;1bfis%68in%67ca&#64;gm%61i&#108;&#46;c&#37;&#54;Fm">
+            Reach Out!
+          </Link>
+        </Typography>
+
+        <WaterbodyDetailsModal
+          selectedWaterbody={selectedWaterbody}
+          handleClose={() => setOpenWaterbodyId(undefined)}
+        />
+      </>
+    );
   };
-
-  const filteredRegulations = filterRegulations(
-    regulations as Waterbody[],
-    filters
-  );
-  return (
-    <>
-      <FilterPanel
-        filters={filters}
-        onFiltersChange={setFilters}
-        regulations={regulations as Waterbody[]}
-      />
-      <DataGrid
-        columns={columns}
-        className="fishing_regulation_table"
-        rows={filteredRegulations}
-        onRowClick={onRowClick}
-        pagination
-        page={page}
-        rowsPerPageOptions={[100]}
-        onPageChange={(params) => onPageChange(params.page)}
-        components={{
-          NoRowsOverlay: NoResultsRowsOverlay,
-        }}
-        // This fixes an annoying issue where the grid re-steals focus on rerendering.
-        state={{
-          keyboard: {
-            cell: null,
-            columnHeader: null,
-            isMultipleKeyPressed: false,
-          },
-        }}
-      />
-      <Typography display="block" variant="caption" gutterBottom>
-        Updated May 10, 2021. See an issue?{" "}
-        <Link href="mailto&#58;%&#54;1bfis%68in%67ca&#64;gm%61i&#108;&#46;c&#37;&#54;Fm">
-          Reach Out!
-        </Link>
-      </Typography>
-
-      <WaterbodyDetailsModal
-        selectedWaterbody={selectedWaterbody}
-        handleClose={() => setSelectedWaterbody(undefined)}
-      />
-    </>
-  );
-};

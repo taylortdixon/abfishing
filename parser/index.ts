@@ -11,9 +11,9 @@ const validateRegulationIds = (regulations: Waterbody[]) => {
   regulations.forEach((waterbody) => {
     const count = regulations.filter((reg) => reg.id === waterbody.id).length;
     if (count > 1) {
-      // throw new Error(
-      //   `Duplicate ID for waterbody ${waterbody.waterbody} - ${waterbody.id}`
-      // );
+      throw new Error(
+        `Duplicate ID for waterbody ${waterbody.waterbody} - ${waterbody.id}`
+      );
     }
   });
 };

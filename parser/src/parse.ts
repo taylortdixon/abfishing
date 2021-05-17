@@ -83,7 +83,8 @@ export class RegulationsFileParser {
   private generateId = (
     waterbodyName: string,
     waterbodyDetail: string,
-    waterbodySeason: string
+    waterbodySeason: string,
+    baitAllowed: string
   ) => {
     const parsedName = waterbodyName
       .replace(/\(\)/g, "")
@@ -93,7 +94,7 @@ export class RegulationsFileParser {
       .join("-");
 
     const hash = md5(
-      `${this.regulationsId}-${waterbodyDetail}-${waterbodySeason}`
+      `${this.regulationsId}-${waterbodyDetail}-${waterbodySeason}-${baitAllowed}`
     ).substr(0, 5);
 
     return `${parsedName}-${hash}`;
@@ -169,10 +170,17 @@ export class RegulationsFileParser {
       .replace(/ To /g, " to ")
       .replace(/ And /g, " and ");
 
+    const baitAllowed = mapBaitAllowed();
+
     return {
-      bait_ban: mapBaitAllowed(),
+      bait_ban: baitAllowed,
       fish_management_zone: this.regulationsId,
-      id: index, // this.generateId(waterbodyName, waterbodyDetail, waterbodySeason),
+      id: this.generateId(
+        waterbodyName,
+        waterbodyDetail,
+        waterbodySeason,
+        baitAllowed
+      ),
       season: waterbodySeason,
       waterbody: waterbodyName,
       waterbody_detail: waterbodyDetail,
