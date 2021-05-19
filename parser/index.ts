@@ -3,6 +3,7 @@ import { RegulationsFileParser } from "./src/parse";
 import { sortBy } from "lodash";
 import { generateStructuredData } from "./src/generate-structured-data";
 import { Waterbody } from "../src/types/waterbody.type";
+import { generateSitemap } from "./src/generate-sitemap";
 
 const REGULATIONS_FOLDER = "./parser/regulations";
 const version = "May 10, 2021";
@@ -51,6 +52,10 @@ const parseRegulations = async () => {
     ${JSON.stringify(structuredData)}
     </script>`
   );
+
+  const sitemap = generateSitemap(version, regulations);
+
+  writeFileSync("./public/sitemap.xml", sitemap);
 };
 
 parseRegulations();

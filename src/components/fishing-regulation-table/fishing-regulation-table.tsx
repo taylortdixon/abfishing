@@ -9,13 +9,13 @@ import { useEffect, useMemo, useState } from "react";
 import { regulations } from "../../fishing-regulations";
 import { Waterbody } from "../../types/waterbody.type";
 import { trackWaterbodyOpen } from "../../utils/analytics.utils";
-import { WaterbodyDetailsModal } from "../waterbody-details-modal/waterbody-details-modal";
 import { FilterPanel } from "./filter-panel/filter-panel";
 import "./fishing-regulation-table.css";
 import { filterRegulations } from "./fishing-regulation-table.utils";
 import { NoResultsRowsOverlay } from "./no-results/no-results";
 import { isMobile } from "react-device-detect";
 import { FishingRegualationTableProps } from "./fishing-regulation-table.props.types";
+import { useHistory } from "react-router-dom";
 
 const useColumnDefinitions = (): GridColumns => {
   return useMemo(() => {
@@ -55,23 +55,19 @@ const useColumnDefinitions = (): GridColumns => {
 
 export const FishingRegulationTable: React.VFC<FishingRegualationTableProps> =
   ({ openWaterbodyId, setOpenWaterbodyId }) => {
+    const history = useHistory();
+    const columns = useColumnDefinitions();
     const [page, onPageChange] = useState<number>(0);
     const [filters, setFilters] = useState<GridFilterItem[]>([]);
-    const selectedWaterbody = useMemo(
-      () => regulations.find((waterbody) => waterbody.id === openWaterbodyId),
-      [openWaterbodyId]
-    );
 
     useEffect(() => {
       onPageChange(0);
     }, [filters]);
 
-    const columns = useColumnDefinitions();
-
     const onRowClick = (params: GridRowParams) => {
       const waterbody = params.row as Waterbody;
       trackWaterbodyOpen(waterbody.waterbody);
-      setOpenWaterbodyId(waterbody.id);
+      history.push(`/waterbody/${waterbody.id}`);
     };
 
     const filteredRegulations = filterRegulations(
@@ -112,11 +108,6 @@ export const FishingRegulationTable: React.VFC<FishingRegualationTableProps> =
             Reach Out!
           </Link>
         </Typography>
-
-        <WaterbodyDetailsModal
-          selectedWaterbody={selectedWaterbody}
-          handleClose={() => setOpenWaterbodyId(undefined)}
-        />
       </>
     );
   };

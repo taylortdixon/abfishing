@@ -21,6 +21,8 @@ import { ReactComponent as PikeIcon } from "../../static/pike.svg";
 import { ReactComponent as BurbotIcon } from "../../static/burbot.svg";
 import { ReactComponent as FishIcon } from "../../static/fish.svg";
 import { ReactComponent as WhitefishIcon } from "../../static/whitefish.svg";
+import { Helmet } from "react-helmet";
+import { useHistory } from "react-router";
 
 const fishLimitsNameMap: Record<FishLimit, string> = {
   brook_trout: "Brook Trout",
@@ -69,6 +71,8 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
   selectedWaterbody,
   handleClose,
 }) => {
+  const history = useHistory();
+
   return (
     <Dialog
       maxWidth="sm"
@@ -148,7 +152,7 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
         </>
       )}
       <DialogActions>
-        <Button onClick={handleClose} color="primary">
+        <Button onClick={() => history.push("/")} color="primary">
           Close
         </Button>
       </DialogActions>

@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { MainMenuNav } from "./components/main-menu-nav/main-menu-nav";
 import ReactGA from "react-ga";
 import { WarningModal } from "./components/warning-modal/warning-modal";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 if (process.env.NODE_ENV === "production") {
   ReactGA.initialize("UA-195051054-1");
@@ -13,7 +14,16 @@ if (process.env.NODE_ENV === "production") {
 ReactDOM.render(
   <React.StrictMode>
     <MainMenuNav />
-    <App />
+    <Router>
+      <Switch>
+        <Route path="/waterbody/:id">
+          <App />
+        </Route>
+        <Route path="/">
+          <App />
+        </Route>
+      </Switch>
+    </Router>
     <WarningModal />
   </React.StrictMode>,
   document.getElementById("root")
