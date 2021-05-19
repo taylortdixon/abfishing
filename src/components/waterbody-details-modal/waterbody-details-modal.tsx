@@ -9,6 +9,7 @@ import {
   ListItem,
   ListItemIcon,
   ListItemText,
+  Typography,
 } from "@material-ui/core";
 import { WaterbodyDetailsModalProps } from "./waterbody-details-modal.props.types";
 import "./waterbody-details-modal.css";
@@ -84,12 +85,14 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
     >
       {selectedWaterbody && (
         <>
-          <DialogTitle id="simple-dialog-title">
-            <div className="waterbody_details__dialog_title">
-              <span className="waterbody_details__dialog_title__text">
-                {selectedWaterbody.waterbody}
-              </span>
-            </div>
+          <DialogTitle id="simple-dialog-title" disableTypography>
+            <Typography variant="h4" component="h1">
+              <div className="waterbody_details__dialog_title">
+                <span className="waterbody_details__dialog_title__text">
+                  {selectedWaterbody.waterbody}
+                </span>
+              </div>
+            </Typography>
           </DialogTitle>
           <DialogContent dividers>
             <List dense={true}>
