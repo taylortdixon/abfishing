@@ -1,11 +1,12 @@
 import { Waterbody } from "../../src/types/waterbody.type";
+import * as dayjs from "dayjs";
 
 export const generateSitemap = (version: string, regulations: Waterbody[]) => {
   const regulationSitemaps = regulations
     .map(
       (waterbody) => `<url>
   <loc>https://www.abfishing.ca/waterbody/${waterbody.id}</loc>
-  <lastmod>${version}</lastmod>
+  <lastmod>${dayjs(version).format("YYYY-MM-DD")}</lastmod>
   </url>`
     )
     .join("\n");
