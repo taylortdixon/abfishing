@@ -87,7 +87,7 @@ export class RegulationsFileParser {
     baitAllowed: string
   ) => {
     const parsedName = waterbodyName
-      .replace(/\(\)/g, "")
+      .replace(/[()'\n]+/g, "")
       .toLowerCase()
       .split(" ")
       .splice(0, 3)
