@@ -11,7 +11,8 @@ import {
 import React from "react";
 import { FilterPanelProps } from "./filter-panel.types.props";
 import "./filter-panel.css";
-import _ from "lodash";
+import uniq from "lodash/uniq";
+import findIndex from "lodash/findIndex";
 import { GridFilterItem } from "@material-ui/data-grid";
 
 export const FilterPanel: React.VFC<FilterPanelProps> = ({
@@ -19,7 +20,7 @@ export const FilterPanel: React.VFC<FilterPanelProps> = ({
   regulations,
   onFiltersChange,
 }) => {
-  const managementZones = _.uniq(
+  const managementZones = uniq(
     regulations.map((waterbody) =>
       waterbody.fish_management_zone.replace(/-[A-z]+/, "")
     )
@@ -27,7 +28,7 @@ export const FilterPanel: React.VFC<FilterPanelProps> = ({
 
   const handleFilterChange = (filterItem: GridFilterItem) => {
     const newFilters = [...filters];
-    const filterIndex = _.findIndex(
+    const filterIndex = findIndex(
       filters,
       (predicate) => predicate.columnField === filterItem.columnField
     );

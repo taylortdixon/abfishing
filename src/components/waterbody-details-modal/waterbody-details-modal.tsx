@@ -22,7 +22,6 @@ import { ReactComponent as PikeIcon } from "../../static/pike.svg";
 import { ReactComponent as BurbotIcon } from "../../static/burbot.svg";
 import { ReactComponent as FishIcon } from "../../static/fish.svg";
 import { ReactComponent as WhitefishIcon } from "../../static/whitefish.svg";
-import { Helmet } from "react-helmet";
 import { useHistory } from "react-router";
 
 const fishLimitsNameMap: Record<FishLimit, string> = {
