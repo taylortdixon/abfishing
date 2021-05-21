@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
@@ -6,23 +6,20 @@ import { MainMenuNav } from "./components/main-menu-nav/main-menu-nav";
 // import ReactGA from "react-ga";
 import { WarningModal } from "./components/warning-modal/warning-modal";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { SiteLoader } from "./components/site-loader/site-loader";
-const App = lazy(() => import("./App"));
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
     <MainMenuNav />
     <Router>
-      <Suspense fallback={<SiteLoader />}>
-        <Switch>
-          <Route path="/waterbody/:id">
-            <App />
-          </Route>
-          <Route path="/">
-            <App />
-          </Route>
-        </Switch>
-      </Suspense>
+      <Switch>
+        <Route path="/waterbody/:id">
+          <App />
+        </Route>
+        <Route path="/">
+          <App />
+        </Route>
+      </Switch>
     </Router>
     <WarningModal />
   </React.StrictMode>,

@@ -1,10 +1,16 @@
 import { Container, Typography } from "@material-ui/core";
+import { Suspense } from "react";
+import { lazy } from "react";
 import { useParams } from "react-router-dom";
 import "./App.css";
-import { FishingRegulationTable } from "./components/fishing-regulation-table/fishing-regulation-table";
 import { SeoHead } from "./components/seo-head/seo-head";
+import { SiteLoader } from "./components/site-loader/site-loader";
 import { WaterbodyDetailsModal } from "./components/waterbody-details-modal/waterbody-details-modal";
 import { regulations } from "./fishing-regulations";
+
+const FishingRegulationTable = lazy(
+  () => import("./components/fishing-regulation-table/fishing-regulation-table")
+);
 
 type UrlParams = {
   id?: string;
@@ -26,15 +32,12 @@ function App() {
         Look up the fishing regulations for the lakes, rivers, streams,
         resevoirs and tributaries in Alberta. Click on a row to view details.
       </Typography>
-      <FishingRegulationTable
-        openWaterbodyId={params.id}
-        setOpenWaterbodyId={() => null}
-      />
 
-      <WaterbodyDetailsModal
-        selectedWaterbody={selectedWaterbody}
-        handleClose={() => null}
-      />
+      <Suspense fallback={<SiteLoader />}>
+        <FishingRegulationTable />
+      </Suspense>
+
+      <WaterbodyDetailsModal selectedWaterbody={selectedWaterbody} />
     </Container>
   );
 }

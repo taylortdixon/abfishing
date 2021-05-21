@@ -69,9 +69,9 @@ const fishLimitsIconMap: Record<
 
 export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
   selectedWaterbody,
-  handleClose,
 }) => {
   const history = useHistory();
+  const handleClose = () => history.push("/");
 
   return (
     <Dialog
@@ -154,7 +154,7 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
         </>
       )}
       <DialogActions>
-        <Button onClick={() => history.push("/")} color="primary">
+        <Button onClick={handleClose} color="primary">
           Close
         </Button>
       </DialogActions>

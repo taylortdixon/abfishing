@@ -54,7 +54,7 @@ const useColumnDefinitions = (): GridColumns => {
 };
 
 export const FishingRegulationTable: React.VFC<FishingRegualationTableProps> =
-  ({ openWaterbodyId, setOpenWaterbodyId }) => {
+  () => {
     const history = useHistory();
     const columns = useColumnDefinitions();
     const [page, onPageChange] = useState<number>(0);
@@ -111,3 +111,5 @@ export const FishingRegulationTable: React.VFC<FishingRegualationTableProps> =
       </>
     );
   };
+
+export default FishingRegulationTable;

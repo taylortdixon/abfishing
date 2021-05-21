@@ -6,7 +6,6 @@ const useStyles = makeStyles({
   root: {
     display: "flex",
     flexDirection: "column",
-    padding: 30,
   },
   skeleton: {
     width: "100%",
