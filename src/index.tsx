@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { MainMenuNav } from "./components/main-menu-nav/main-menu-nav";
-// import ReactGA from "react-ga";
 import { WarningModal } from "./components/warning-modal/warning-modal";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import App from "./App";

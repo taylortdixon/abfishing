@@ -23,6 +23,7 @@ import { ReactComponent as BurbotIcon } from "../../static/burbot.svg";
 import { ReactComponent as FishIcon } from "../../static/fish.svg";
 import { ReactComponent as WhitefishIcon } from "../../static/whitefish.svg";
 import { useHistory } from "react-router";
+import { useSelectedWaterbody } from "../../utils/hooks";
 
 const fishLimitsNameMap: Record<FishLimit, string> = {
   brook_trout: "Brook Trout",
@@ -68,10 +69,12 @@ const fishLimitsIconMap: Record<
 };
 
 export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
-  selectedWaterbody,
+  selectedId,
 }) => {
   const history = useHistory();
   const handleClose = () => history.push("/");
+
+  const selectedWaterbody = useSelectedWaterbody(selectedId);
 
   return (
     <Dialog
@@ -161,3 +164,5 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
     </Dialog>
   );
 };
+
+export default WaterbodyDetailsModal;

@@ -3,14 +3,17 @@ import { Suspense } from "react";
 import { lazy } from "react";
 import { useParams } from "react-router-dom";
 import "./App.css";
-import { SeoHead } from "./components/seo-head/seo-head";
 import { SiteLoader } from "./components/site-loader/site-loader";
-import { WaterbodyDetailsModal } from "./components/waterbody-details-modal/waterbody-details-modal";
-import { regulations } from "./fishing-regulations";
 
 const FishingRegulationTable = lazy(
   () => import("./components/fishing-regulation-table/fishing-regulation-table")
 );
+
+const WaterbodyDetailsModal = lazy(
+  () => import("./components/waterbody-details-modal/waterbody-details-modal")
+);
+
+const SeoHead = lazy(() => import("./components/seo-head/seo-head"));
 
 type UrlParams = {
   id?: string;
@@ -18,13 +21,9 @@ type UrlParams = {
 
 function App() {
   const params = useParams<UrlParams>();
-  const selectedWaterbody = regulations.find(
-    (waterbody) => waterbody.id === params.id
-  );
 
   return (
     <Container className="Container">
-      <SeoHead selectedWaterbody={selectedWaterbody} />
       <Typography variant="h3" component="h1" gutterBottom>
         Search for Fishing Regulations
       </Typography>
@@ -35,9 +34,9 @@ function App() {
 
       <Suspense fallback={<SiteLoader />}>
         <FishingRegulationTable />
+        <WaterbodyDetailsModal selectedId={params.id} />
+        <SeoHead selectedId={params.id} />
       </Suspense>
-
-      <WaterbodyDetailsModal selectedWaterbody={selectedWaterbody} />
     </Container>
   );
 }
