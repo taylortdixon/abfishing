@@ -24,24 +24,7 @@ import { ReactComponent as FishIcon } from "../../static/fish.svg";
 import { ReactComponent as WhitefishIcon } from "../../static/whitefish.svg";
 import { useHistory } from "react-router";
 import { useSelectedWaterbody } from "../../utils/hooks";
-
-const fishLimitsNameMap: Record<FishLimit, string> = {
-  brook_trout: "Brook Trout",
-  burbot: "Burbot",
-  cisco: "Cisco",
-  cutthroat_trout: "Cutthroat Trout",
-  dolly_varden: "Dolly Varden",
-  goldeye: "Goldeye",
-  lake_trout: "Lake Trout",
-  lake_whitefish: "Lake Whitefish",
-  mountain_whitefish: "Mountain Whitefish",
-  northern_pike: "Northern Pike",
-  rainbow_trout: "Rainbow Trout",
-  trout_total: "Trout Total",
-  walleye: "Walleye",
-  walleye_sauger: "Walleye + Sauger",
-  yellow_perch: "Yellow Perch",
-};
+import { FISH_LIMIT_LABELS } from "../../constants";
 
 const fishLimitsIconMap: Record<
   FishLimit,
@@ -145,7 +128,7 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
                         <Icon className="svg" />
                       </ListItemIcon>
                       <ListItemText
-                        primary={fishLimitsNameMap[limitName as FishLimit]}
+                        primary={FISH_LIMIT_LABELS[limitName as FishLimit]}
                         secondary={limit}
                       />
                     </ListItem>
