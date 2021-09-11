@@ -7,6 +7,8 @@ import {
   Select,
   MenuItem,
   Button,
+  Switch,
+  FormControlLabel,
 } from "@material-ui/core";
 import React from "react";
 import { FilterPanelProps } from "./filter-panel.types.props";
@@ -14,6 +16,7 @@ import "./filter-panel.css";
 import uniq from "lodash/uniq";
 import findIndex from "lodash/findIndex";
 import { GridFilterItem } from "@material-ui/data-grid";
+import { trackOpenSeasonSearch } from "../../../utils/analytics.utils";
 
 export const FilterPanel: React.VFC<FilterPanelProps> = ({
   filters,
@@ -42,6 +45,25 @@ export const FilterPanel: React.VFC<FilterPanelProps> = ({
     onFiltersChange(newFilters);
   };
 
+  const getValue = (key: string) =>
+    filters.find((predicate) => predicate.columnField === key)?.value || "";
+
+  const handleOpenSeasonChange = (
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => {
+    const checked = event.target.checked;
+
+    handleFilterChange({
+      columnField: "open_season",
+      operatorValue: "waterbody_date_range_in",
+      value: checked ? "checked" : undefined,
+    });
+
+    if (checked) {
+      trackOpenSeasonSearch();
+    }
+  };
+
   return (
     <FormGroup className="filter_panel" row>
       <FormControl>
@@ -49,10 +71,7 @@ export const FilterPanel: React.VFC<FilterPanelProps> = ({
           id="filled-search"
           label="Search for lake, river, etc"
           type="search"
-          value={
-            filters.find((predicate) => predicate.columnField === "waterbody")
-              ?.value || ""
-          }
+          value={getValue("waterbody")}
           onChange={(event) =>
             handleFilterChange({
               columnField: "waterbody",
@@ -73,11 +92,7 @@ export const FilterPanel: React.VFC<FilterPanelProps> = ({
               value: event.target.value as string,
             })
           }
-          value={
-            filters.find(
-              (predicate) => predicate.columnField === "fish_management_zone"
-            )?.value || ""
-          }
+          value={getValue("fish_management_zone")}
         >
           <MenuItem value="">All</MenuItem>
           {managementZones.map((zone) => (
@@ -86,6 +101,19 @@ export const FilterPanel: React.VFC<FilterPanelProps> = ({
             </MenuItem>
           ))}
         </Select>
+      </FormControl>
+      <FormControl style={{ justifyContent: "flex-end" }}>
+        <FormControlLabel
+          control={
+            <Switch
+              checked={!!getValue("open_season")}
+              onChange={handleOpenSeasonChange}
+              color="primary"
+              name="open_season"
+            />
+          }
+          label="Open season only"
+        />
       </FormControl>
       <Button variant="text" onClick={() => onFiltersChange([])}>
         Reset Filters

@@ -6,3 +6,11 @@ export const trackWaterbodyOpen = (waterbodyName: string) => {
     });
   }
 };
+
+export const trackOpenSeasonSearch = () => {
+  if ("dataLayer" in window && (window as any).dataLayer.length > 0) {
+    (window as any).gtag("event", "toggle", {
+      event_category: "open_seaon_filter",
+    });
+  }
+};

@@ -6,6 +6,12 @@ import { MainMenuNav } from "./components/main-menu-nav/main-menu-nav";
 import { WarningModal } from "./components/warning-modal/warning-modal";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import App from "./App";
+import dayjs from "dayjs";
+import isSameOrAfter from "dayjs/plugin/isSameOrAfter";
+import isSameOrBefore from "dayjs/plugin/isSameOrBefore";
+
+dayjs.extend(isSameOrAfter);
+dayjs.extend(isSameOrBefore);
 
 ReactDOM.render(
   <React.StrictMode>

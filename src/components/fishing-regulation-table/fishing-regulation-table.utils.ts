@@ -1,5 +1,28 @@
 import { GridFilterItem } from "@material-ui/data-grid";
+import dayjs from "dayjs";
 import { Waterbody } from "../../types/waterbody.type";
+
+const TODAY = dayjs();
+const CURRENT_YEAR = TODAY.year();
+
+const filterOpenSeason = (dateRange: string) => {
+  const match = dateRange.match(/Open ([A-z]+ [0-9]+) to ([A-z]+ [0-9]+)/i);
+
+  if (!match) {
+    return false;
+  }
+
+  // Format like "Jan 12", "Oct 25"
+  const [, startDateString, endDateString] = match;
+  const startDate = dayjs(`${startDateString} ${CURRENT_YEAR}`);
+  let endDate = dayjs(`${endDateString} ${CURRENT_YEAR}`);
+
+  if (endDate.isBefore(startDate)) {
+    endDate = dayjs(`${endDateString} ${CURRENT_YEAR + 1}`);
+  }
+
+  return TODAY.isSameOrAfter(startDate) && TODAY.isSameOrBefore(endDate);
+};
 
 const filterItem = (filter: GridFilterItem, regulation: Waterbody) => {
   if (!filter.columnField || !filter.operatorValue) {
@@ -17,6 +40,17 @@ const filterItem = (filter: GridFilterItem, regulation: Waterbody) => {
       return (value as string)
         .toLowerCase()
         .startsWith((filter.value as string).toLowerCase());
+    case "waterbody_date_range_in":
+      if (!filter.value) {
+        return true;
+      }
+      if (regulation.season === "Open All Year") {
+        return true;
+      }
+      if (regulation.season === "Closed All Year") {
+        return false;
+      }
+      return filterOpenSeason(regulation.season);
     default:
       return false;
   }
