@@ -102,13 +102,13 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
                 onClick={() =>
                   trackWaterbodyDirections(selectedWaterbody.waterbody)
                 }
-                href={`https://maps.google.ca?daddr=${encodeURI(
+                href={`https://maps.google.ca?q=${encodeURI(
                   `${selectedWaterbody.waterbody}, AB`
                 )}`}
               >
                 <ListItemText
-                  primary="Get Directions"
-                  secondary="View on Google Maps."
+                  primary="View Location"
+                  secondary="Open on Google Maps."
                 />
               </ListItem>
               {selectedWaterbody.waterbody_detail && (
