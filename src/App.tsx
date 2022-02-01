@@ -1,9 +1,10 @@
 import { Container, Typography } from "@material-ui/core";
-import { Suspense } from "react";
+import { Suspense, useEffect } from "react";
 import { lazy } from "react";
-import { useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import "./App.css";
 import { SiteLoader } from "./components/site-loader/site-loader";
+import { trackPageview } from "./utils/analytics.utils";
 
 const FishingRegulationTable = lazy(
   () => import("./components/fishing-regulation-table/fishing-regulation-table")
@@ -20,7 +21,14 @@ type UrlParams = {
 };
 
 function App() {
+  const location = useLocation();
   const params = useParams<UrlParams>();
+
+  // Manually track location to send google analytics pageviews when modals are navigated,
+  // to reduce perceived bounce-rate.
+  useEffect(() => {
+    trackPageview(location.pathname);
+  }, [location]);
 
   return (
     <Container className="Container">

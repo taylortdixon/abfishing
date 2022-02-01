@@ -25,6 +25,7 @@ import { ReactComponent as WhitefishIcon } from "../../static/whitefish.svg";
 import { useHistory } from "react-router";
 import { useSelectedWaterbody } from "../../utils/hooks";
 import { FISH_LIMIT_LABELS } from "../../constants";
+import { trackWaterbodyDirections } from "../../utils/analytics.utils";
 
 const fishLimitsIconMap: Record<
   FishLimit,
@@ -91,6 +92,23 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
                 <ListItemText
                   primary="Bait Ban"
                   secondary={selectedWaterbody.bait_ban}
+                />
+              </ListItem>
+              <ListItem
+                button
+                component="a"
+                target="_blank"
+                rel="noreferrer noopener"
+                onClick={() =>
+                  trackWaterbodyDirections(selectedWaterbody.waterbody)
+                }
+                href={`https://maps.google.ca?daddr=${encodeURI(
+                  `${selectedWaterbody.waterbody}, AB`
+                )}`}
+              >
+                <ListItemText
+                  primary="Get Directions"
+                  secondary="View on Google Maps."
                 />
               </ListItem>
               {selectedWaterbody.waterbody_detail && (

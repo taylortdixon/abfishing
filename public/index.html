@@ -9485,7 +9485,9 @@
       if ("%NODE_ENV%" === "production") {
         gtag("js", new Date());
 
-        gtag("config", "UA-195051054-1");
+        gtag("config", "UA-195051054-1", {
+          send_page_view: false,
+        });
       }
     </script>
 
