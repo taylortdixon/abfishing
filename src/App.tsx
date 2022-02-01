@@ -24,7 +24,7 @@ function App() {
   const location = useLocation();
   const params = useParams<UrlParams>();
 
-  // Manually track location to send google analytics pageviews when modals are navigated,
+  // Manually track location to send google analytics pageviews when modals are opened/closed,
   // to reduce perceived bounce-rate.
   useEffect(() => {
     trackPageview(location.pathname);
