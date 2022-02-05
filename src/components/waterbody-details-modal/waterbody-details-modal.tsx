@@ -25,7 +25,10 @@ import { ReactComponent as WhitefishIcon } from "../../static/whitefish.svg";
 import { useHistory } from "react-router";
 import { useSelectedWaterbody } from "../../utils/hooks";
 import { FISH_LIMIT_LABELS } from "../../constants";
-import { trackWaterbodyDirections } from "../../utils/analytics.utils";
+import {
+  trackWaterbodyDirections,
+  trackWaterbodyOfficialRegulations,
+} from "../../utils/analytics.utils";
 
 const fishLimitsIconMap: Record<
   FishLimit,
@@ -123,6 +126,9 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
                 button
                 component="a"
                 target="_blank"
+                onClick={() =>
+                  trackWaterbodyOfficialRegulations(selectedWaterbody.waterbody)
+                }
                 rel="noreferrer noopener"
                 href={`https://albertaregulations.ca/fishingregs/${selectedWaterbody.fish_management_zone}.pdf`}
               >
