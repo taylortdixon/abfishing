@@ -6,7 +6,7 @@ import { Waterbody } from "../src/types/waterbody.type";
 import { generateSitemap } from "./src/generate-sitemap";
 
 const REGULATIONS_FOLDER = "./parser/regulations";
-const version = "May 10, 2021";
+const version = "April 10, 2022";
 
 const validateRegulationIds = (regulations: Waterbody[]) => {
   regulations.forEach((waterbody) => {
