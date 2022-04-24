@@ -20,6 +20,9 @@ ReactDOM.render(
       <Switch>
         <Route path="/waterbody/:id">
           <App />
+        </Route>{" "}
+        <Route path="/group/:name">
+          <App />
         </Route>
         <Route path="/">
           <App />

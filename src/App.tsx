@@ -4,6 +4,7 @@ import { lazy } from "react";
 import { useLocation, useParams } from "react-router-dom";
 import "./App.css";
 import { SiteLoader } from "./components/site-loader/site-loader";
+import { WaterbodyGroupModal } from "./components/waterbody-group-modal/waterbody-group-modal";
 import { trackPageview } from "./utils/analytics.utils";
 
 const FishingRegulationTable = lazy(
@@ -18,6 +19,7 @@ const SeoHead = lazy(() => import("./components/seo-head/seo-head"));
 
 type UrlParams = {
   id?: string;
+  name?: string;
 };
 
 function App() {
@@ -42,7 +44,8 @@ function App() {
 
       <Suspense fallback={<SiteLoader />}>
         <FishingRegulationTable />
-        <WaterbodyDetailsModal selectedId={params.id} />
+        {params.id && <WaterbodyDetailsModal selectedId={params.id} />}
+        {params.name && <WaterbodyGroupModal name={params.name} />}
         <SeoHead selectedId={params.id} />
       </Suspense>
     </Container>

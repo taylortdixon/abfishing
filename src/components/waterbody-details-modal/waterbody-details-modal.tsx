@@ -30,7 +30,7 @@ import {
   trackWaterbodyOfficialRegulations,
 } from "../../utils/analytics.utils";
 
-const fishLimitsIconMap: Record<
+export const fishLimitsIconMap: Record<
   FishLimit,
   React.FunctionComponent<
     React.SVGProps<SVGSVGElement> & {
