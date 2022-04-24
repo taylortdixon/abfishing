@@ -1,4 +1,4 @@
-import { Container, Typography } from "@material-ui/core";
+import { Container, Typography } from "@mui/material";
 import { Suspense, useEffect } from "react";
 import { lazy } from "react";
 import { useLocation, useParams } from "react-router-dom";
@@ -45,7 +45,7 @@ function App() {
       <Suspense fallback={<SiteLoader />}>
         <FishingRegulationTable />
         {params.id && <WaterbodyDetailsModal selectedId={params.id} />}
-        {params.name && <WaterbodyGroupModal name={params.name} />}
+        {params.name && <WaterbodyGroupModal waterbodyGroupId={params.name} />}
         <SeoHead selectedId={params.id} />
       </Suspense>
     </Container>

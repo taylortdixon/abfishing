@@ -41,3 +41,11 @@ export const trackOpenSeasonSearch = () => {
     });
   }
 };
+export const trackGroupOpen = (groupName: string) => {
+  if ("dataLayer" in window && (window as any).dataLayer.length > 0) {
+    (window as any).gtag("event", "open", {
+      event_category: "group",
+      event_label: groupName,
+    });
+  }
+};

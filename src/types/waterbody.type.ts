@@ -24,3 +24,11 @@ export type Waterbody = {
   bait_ban: string;
   fish_limits?: Partial<Record<FishLimit, string>>;
 };
+
+export type WaterbodyGroup = {
+  id: string;
+  name: string;
+  waterbodies: Waterbody[];
+};
+
+export type WaterbodyGroupMap = Record<string, WaterbodyGroup>;

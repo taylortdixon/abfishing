@@ -1,4 +1,4 @@
-import { GridFilterItem } from "@material-ui/data-grid";
+import { GridFilterItem } from "@mui/x-data-grid";
 import dayjs from "dayjs";
 import { Waterbody } from "../../types/waterbody.type";
 

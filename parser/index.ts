@@ -4,6 +4,7 @@ import { sortBy } from "lodash";
 import { generateStructuredData } from "./src/generate-structured-data";
 import { Waterbody } from "../src/types/waterbody.type";
 import { generateSitemap } from "./src/generate-sitemap";
+import { buildWaterbodyGroups } from "./src/waterbody-group-builder";
 
 const REGULATIONS_FOLDER = "./parser/regulations";
 const version = "April 10, 2022";
@@ -38,10 +39,15 @@ const parseRegulations = async () => {
 
   validateRegulationIds(regulations);
 
+  const waterbodyGroups = buildWaterbodyGroups(regulations);
+
   writeFileSync(
     "./src/fishing-regulations.ts",
-    `import { Waterbody } from "./types/waterbody.type";
-    export const regulations: Waterbody[] = ${JSON.stringify(regulations)};`
+    `import { Waterbody, WaterbodyGroupMap } from "./types/waterbody.type";
+    export const regulations: Waterbody[] = ${JSON.stringify(regulations)};
+    export const waterbodyGroups: WaterbodyGroupMap = ${JSON.stringify(
+      waterbodyGroups
+    )};`
   );
 
   const structuredData = generateStructuredData(version, regulations);

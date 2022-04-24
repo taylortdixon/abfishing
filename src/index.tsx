@@ -9,25 +9,42 @@ import App from "./App";
 import dayjs from "dayjs";
 import isSameOrAfter from "dayjs/plugin/isSameOrAfter";
 import isSameOrBefore from "dayjs/plugin/isSameOrBefore";
+import {
+  createTheme,
+  ThemeProvider,
+  Theme,
+  StyledEngineProvider,
+} from "@mui/material";
+
+declare module "@mui/styles/defaultTheme" {
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
+  interface DefaultTheme extends Theme {}
+}
 
 dayjs.extend(isSameOrAfter);
 dayjs.extend(isSameOrBefore);
+
+const theme = createTheme();
 
 ReactDOM.render(
   <React.StrictMode>
     <MainMenuNav />
     <Router>
-      <Switch>
-        <Route path="/waterbody/:id">
-          <App />
-        </Route>{" "}
-        <Route path="/group/:name">
-          <App />
-        </Route>
-        <Route path="/">
-          <App />
-        </Route>
-      </Switch>
+      <StyledEngineProvider injectFirst>
+        <ThemeProvider theme={theme}>
+          <Switch>
+            <Route path="/waterbody/:id">
+              <App />
+            </Route>{" "}
+            <Route path="/all/:name">
+              <App />
+            </Route>
+            <Route path="/">
+              <App />
+            </Route>
+          </Switch>
+        </ThemeProvider>
+      </StyledEngineProvider>
     </Router>
     <WarningModal />
   </React.StrictMode>,

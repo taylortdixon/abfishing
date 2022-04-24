@@ -6,7 +6,7 @@ import {
   DialogContentText,
   DialogTitle,
   Link,
-} from "@material-ui/core";
+} from "@mui/material";
 import Cookies from "js-cookie";
 import React, { useEffect } from "react";
 

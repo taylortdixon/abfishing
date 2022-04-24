@@ -1,5 +1,6 @@
-import { makeStyles, Typography } from "@material-ui/core";
-import { GridOverlay } from "@material-ui/data-grid";
+import { Switch, Typography } from "@mui/material";
+import makeStyles from "@mui/styles/makeStyles";
+import { GridOverlay } from "@mui/x-data-grid";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -20,6 +21,7 @@ export const NoResultsRowsOverlay = () => {
       </Typography>
       <Typography variant="body2">
         Use the default fishing regulations for the management zone
+        <Switch onChange={() => undefined} name="open_season" />
       </Typography>
     </GridOverlay>
   );

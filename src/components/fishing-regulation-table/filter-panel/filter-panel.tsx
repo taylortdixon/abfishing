@@ -9,13 +9,13 @@ import {
   Button,
   Switch,
   FormControlLabel,
-} from "@material-ui/core";
+} from "@mui/material";
 import React from "react";
 import { FilterPanelProps } from "./filter-panel.types.props";
 import "./filter-panel.css";
 import uniq from "lodash/uniq";
 import findIndex from "lodash/findIndex";
-import { GridFilterItem } from "@material-ui/data-grid";
+import { GridFilterItem } from "@mui/x-data-grid";
 import { trackOpenSeasonSearch } from "../../../utils/analytics.utils";
 
 export const FilterPanel: React.VFC<FilterPanelProps> = ({
@@ -72,6 +72,7 @@ export const FilterPanel: React.VFC<FilterPanelProps> = ({
           label="Search for lake, river, etc"
           type="search"
           value={getValue("waterbody")}
+          variant="standard"
           onChange={(event) =>
             handleFilterChange({
               columnField: "waterbody",
@@ -85,6 +86,7 @@ export const FilterPanel: React.VFC<FilterPanelProps> = ({
         <InputLabel>Zone</InputLabel>
         <Select
           defaultValue=""
+          variant="standard"
           onChange={(event) =>
             handleFilterChange({
               columnField: "fish_management_zone",
@@ -108,7 +110,6 @@ export const FilterPanel: React.VFC<FilterPanelProps> = ({
             <Switch
               checked={!!getValue("open_season")}
               onChange={handleOpenSeasonChange}
-              color="primary"
               name="open_season"
             />
           }

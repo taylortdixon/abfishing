@@ -1,10 +1,10 @@
-import { Link, Typography } from "@material-ui/core";
+import { Link, Typography } from "@mui/material";
 import {
   DataGrid,
   GridColumns,
   GridFilterItem,
   GridRowParams,
-} from "@material-ui/data-grid";
+} from "@mui/x-data-grid";
 import { useEffect, useMemo, useState } from "react";
 import { regulations } from "../../fishing-regulations";
 import { Waterbody } from "../../types/waterbody.type";
@@ -53,63 +53,64 @@ const useColumnDefinitions = (): GridColumns => {
   }, []);
 };
 
-export const FishingRegulationTable: React.VFC<FishingRegualationTableProps> =
-  () => {
-    const history = useHistory();
-    const columns = useColumnDefinitions();
-    const [page, onPageChange] = useState<number>(0);
-    const [filters, setFilters] = useState<GridFilterItem[]>([]);
+export const FishingRegulationTable: React.VFC<
+  FishingRegualationTableProps
+> = () => {
+  const history = useHistory();
+  const columns = useColumnDefinitions();
+  const [page, onPageChange] = useState<number>(0);
+  const [filters, setFilters] = useState<GridFilterItem[]>([]);
 
-    useEffect(() => {
-      onPageChange(0);
-    }, [filters]);
+  useEffect(() => {
+    onPageChange(0);
+  }, [filters]);
 
-    const onRowClick = (params: GridRowParams) => {
-      const waterbody = params.row as Waterbody;
-      trackWaterbodyOpen(waterbody.waterbody);
-      history.push(`/waterbody/${waterbody.id}`);
-    };
-
-    const filteredRegulations = filterRegulations(
-      regulations as Waterbody[],
-      filters
-    );
-    return (
-      <>
-        <FilterPanel
-          filters={filters}
-          onFiltersChange={setFilters}
-          regulations={regulations as Waterbody[]}
-        />
-        <DataGrid
-          columns={columns}
-          className="fishing_regulation_table"
-          rows={filteredRegulations}
-          onRowClick={onRowClick}
-          pagination
-          page={page}
-          rowsPerPageOptions={[100]}
-          onPageChange={(params) => onPageChange(params.page)}
-          components={{
-            NoRowsOverlay: NoResultsRowsOverlay,
-          }}
-          // This fixes an annoying issue where the grid re-steals focus on rerendering.
-          state={{
-            keyboard: {
-              cell: null,
-              columnHeader: null,
-              isMultipleKeyPressed: false,
-            },
-          }}
-        />
-        <Typography display="block" variant="caption" gutterBottom>
-          Updated May 10, 2021. See an issue?{" "}
-          <Link href="mailto&#58;%&#54;1bfis%68in%67ca&#64;gm%61i&#108;&#46;c&#37;&#54;Fm">
-            Reach Out!
-          </Link>
-        </Typography>
-      </>
-    );
+  const onRowClick = (params: GridRowParams) => {
+    const waterbody = params.row as Waterbody;
+    trackWaterbodyOpen(waterbody.waterbody);
+    history.push(`/waterbody/${waterbody.id}`);
   };
+
+  const filteredRegulations = filterRegulations(
+    regulations as Waterbody[],
+    filters
+  );
+  return (
+    <>
+      <FilterPanel
+        filters={filters}
+        onFiltersChange={setFilters}
+        regulations={regulations as Waterbody[]}
+      />
+      <DataGrid
+        columns={columns}
+        className="fishing_regulation_table"
+        rows={filteredRegulations}
+        onRowClick={onRowClick}
+        pagination
+        page={page}
+        rowsPerPageOptions={[100]}
+        onPageChange={(page) => onPageChange(page)}
+        components={{
+          NoRowsOverlay: NoResultsRowsOverlay,
+        }}
+        // This fixes an annoying issue where the grid re-steals focus on rerendering.
+        // state={{
+        //   keyboard: {
+        //     cell: null,
+        //     columnHeader: null,
+        //     isMultipleKeyPressed: false,
+        //   },
+        // }}
+      />
+      <Typography display="block" variant="caption" gutterBottom>
+        Updated May 10, 2021. See an issue?{" "}
+        <Link href="mailto&#58;%&#54;1bfis%68in%67ca&#64;gm%61i&#108;&#46;c&#37;&#54;Fm">
+          Reach Out!
+        </Link>
+      </Typography>
+    </>
+  );
+};
 
 export default FishingRegulationTable;

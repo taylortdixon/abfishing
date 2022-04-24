@@ -1,0 +1,14 @@
+.svg {
+  width: 56px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list_item {
+  width: 50%;
+}
