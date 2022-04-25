@@ -8,8 +8,6 @@ type WaterbodyGroupAccordionItemDetailsProps = {
   waterbodies: Waterbody[];
 };
 
-type WaterbodyOpenSeasonMap = Record<string, Waterbody[]>;
-
 function TabPanel(props: any) {
   const { children, value, id, ...other } = props;
 
@@ -20,6 +18,8 @@ function TabPanel(props: any) {
   );
 }
 
+const buildId = (season: string, index: number) => `${season}-${index}`;
+
 export const WaterbodyGroupAccordionItemDetails: React.VFC<
   WaterbodyGroupAccordionItemDetailsProps
 > = ({ includeDetail, waterbodies }) => {
@@ -27,23 +27,13 @@ export const WaterbodyGroupAccordionItemDetails: React.VFC<
     throw new Error("Missing waterbodies for accordion item details.");
   }
 
-  const [currentTab, setCurrentTab] = useState<string>(waterbodies[0].season);
+  const [currentTab, setCurrentTab] = useState<string>(
+    buildId(waterbodies[0].season, 0)
+  );
 
   const handleTabChange = (event: React.ChangeEvent<{}>, newTab: string) => {
     setCurrentTab(newTab);
   };
-
-  const waterbodiesByOpenSeason = waterbodies.reduce<WaterbodyOpenSeasonMap>(
-    (acc, waterbody) => {
-      if (!acc[waterbody.season]) {
-        acc[waterbody.season] = [];
-      }
-
-      acc[waterbody.season].push(waterbody);
-      return acc;
-    },
-    {}
-  );
 
   if (waterbodies.length === 1) {
     return (
@@ -58,20 +48,20 @@ export const WaterbodyGroupAccordionItemDetails: React.VFC<
   return (
     <>
       <Tabs value={currentTab} onChange={handleTabChange}>
-        {Object.keys(waterbodiesByOpenSeason).map((waterbody) => (
+        {waterbodies.map((waterbody, i) => (
           <Tab
-            value={waterbody}
-            label={waterbody.replace("Open ", "")}
-            id={waterbody}
+            value={buildId(waterbody.season, i)}
+            label={waterbody.season.replace("Open ", "")}
+            id={buildId(waterbody.season, i)}
           />
         ))}
       </Tabs>
 
-      {Object.keys(waterbodiesByOpenSeason).map((waterbody) => (
-        <TabPanel value={currentTab} id={waterbody}>
+      {waterbodies.map((waterbody, i) => (
+        <TabPanel value={currentTab} id={buildId(waterbody.season, i)}>
           <WaterbodyGroupItemInfo
             includeDetail={includeDetail}
-            waterbody={waterbodiesByOpenSeason[waterbody][0]}
+            waterbody={waterbody}
           />
         </TabPanel>
       ))}

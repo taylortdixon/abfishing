@@ -1,15 +1,20 @@
 import { Helmet } from "react-helmet";
 import { FISH_LIMIT_LABELS } from "../../constants";
+import { waterbodyGroups } from "../../fishing-regulations";
 import { FishLimit } from "../../types/waterbody.type";
 import { joinSentence } from "../../utils/array.utils";
 import { useSelectedWaterbody } from "../../utils/hooks";
 
-export const SeoHead: React.VFC<{ selectedId: string | undefined }> = ({
-  selectedId,
-}) => {
+export const SeoHead: React.VFC<{
+  selectedId: string | undefined;
+  waterbodyGroupId: string | undefined;
+}> = ({ selectedId, waterbodyGroupId }) => {
   const selectedWaterbody = useSelectedWaterbody(selectedId);
+  const waterbodyGroup = waterbodyGroupId
+    ? waterbodyGroups[waterbodyGroupId]
+    : undefined;
 
-  if (!selectedWaterbody) {
+  if (!selectedWaterbody && !waterbodyGroup) {
     return (
       <Helmet>
         <title>Alberta Fishing Regulations | AB Fishing</title>
@@ -19,6 +24,24 @@ export const SeoHead: React.VFC<{ selectedId: string | undefined }> = ({
         />
       </Helmet>
     );
+  }
+
+  console.log(waterbodyGroupId);
+
+  if (waterbodyGroup) {
+    return (
+      <Helmet>
+        <title>{waterbodyGroup.name} Regulations | AB Fishing</title>
+        <meta
+          name="description"
+          content={`View the ${waterbodyGroup.name}, Alberta fishing regulations including catch limits, bait bans, and open seasons.`}
+        />
+      </Helmet>
+    );
+  }
+
+  if (!selectedWaterbody) {
+    return null;
   }
 
   const fishLimits = joinSentence(

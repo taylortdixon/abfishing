@@ -1,3 +1,4 @@
+import { Typography } from "@mui/material";
 import { useState } from "react";
 import { Waterbody } from "../../types/waterbody.type";
 import { WaterbodyGroupAccordionItem } from "./waterbody-group-accordion-item";
@@ -12,8 +13,6 @@ type WaterbodyDetailMap = Record<string, Waterbody[]>;
 export const WaterbodyGroupAccordion: React.VFC<
   WaterbodyGroupAccordionProps
 > = ({ waterbodies }) => {
-  const [expandedArea, setExpandedArea] = useState<string | undefined>();
-
   const waterbodiesByWaterbodyDetail = waterbodies.reduce<WaterbodyDetailMap>(
     (acc, waterbody) => {
       if (!acc[waterbody.waterbody_detail]) {
@@ -24,6 +23,10 @@ export const WaterbodyGroupAccordion: React.VFC<
       return acc;
     },
     {}
+  );
+
+  const [expandedArea, setExpandedArea] = useState<string | undefined>(
+    Object.keys(waterbodiesByWaterbodyDetail)[0]
   );
 
   if (Object.keys(waterbodiesByWaterbodyDetail).length === 1) {
@@ -47,5 +50,12 @@ export const WaterbodyGroupAccordion: React.VFC<
     )
   );
 
-  return <>{accordions}</>;
+  return (
+    <>
+      <Typography gutterBottom>
+        Click to expand the waterbody details section below:
+      </Typography>
+      {accordions}
+    </>
+  );
 };

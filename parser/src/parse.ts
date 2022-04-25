@@ -51,6 +51,7 @@ export class RegulationsFileParser {
 
       let previousWaterbodyName = "";
       let previousWaterbodyDescription = "";
+      let previousWaterbodySeason = "";
       const mapped = waterbodies.map((waterbody, i) => {
         previousWaterbodyName = waterbody[0]
           ? waterbody[0]
@@ -61,12 +62,22 @@ export class RegulationsFileParser {
             ? previousWaterbodyDescription
             : waterbody[1];
 
+        previousWaterbodySeason = waterbody[2]
+          ? waterbody[2]
+          : previousWaterbodySeason;
+
+        if (previousWaterbodyName === "Redwater River") {
+          console.log(waterbody);
+          console.log(previousWaterbodySeason);
+        }
+
         return this.parseWaterbody(
           rowHeader,
           waterbody,
           `${this.regulationsId}-${page.page}-${i}`,
           previousWaterbodyName,
-          previousWaterbodyDescription
+          previousWaterbodyDescription,
+          previousWaterbodySeason
         );
       });
 
@@ -105,7 +116,8 @@ export class RegulationsFileParser {
     waterbodyRow: string[],
     index: string,
     previousWaterbodyName: string,
-    previousWaterbodyDescription: string
+    previousWaterbodyDescription: string,
+    previousSeason: string
   ): Waterbody => {
     const trimNewlines = (values: string[]): string[] =>
       values.map((value) => value.replace(/\n/g, ""));
@@ -166,7 +178,9 @@ export class RegulationsFileParser {
       ? waterbody["Waterbody Detail"]
       : previousWaterbodyDescription;
 
-    const waterbodySeason = startCase(waterbody.Season.toLowerCase())
+    let waterbodySeason = waterbody.Season ? waterbody.Season : previousSeason;
+
+    waterbodySeason = startCase(waterbodySeason.toLowerCase())
       .replace(/ To /g, " to ")
       .replace(/ And /g, " and ");
 

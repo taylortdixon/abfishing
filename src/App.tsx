@@ -46,7 +46,7 @@ function App() {
         <FishingRegulationTable />
         {params.id && <WaterbodyDetailsModal selectedId={params.id} />}
         {params.name && <WaterbodyGroupModal waterbodyGroupId={params.name} />}
-        <SeoHead selectedId={params.id} />
+        <SeoHead selectedId={params.id} waterbodyGroupId={params.name} />
       </Suspense>
     </Container>
   );
