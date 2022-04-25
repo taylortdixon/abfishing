@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { regulations } from "../fishing-regulations";
+import { regulations, waterbodyGroups } from "../fishing-regulations";
 import { Waterbody } from "../types/waterbody.type";
 
 export function usePrevious<T>(value: T): T | undefined {
@@ -17,3 +17,12 @@ export const useSelectedWaterbody = (
     () => regulations.find((waterbody) => waterbody.id === id),
     [id]
   );
+
+export const useAssociatedWaterbodyGroupId = (
+  waterbodyName: string | undefined
+): string | undefined =>
+  React.useMemo(() => {
+    return Object.values(waterbodyGroups).find(
+      (group) => group.name === waterbodyName
+    )?.id;
+  }, [waterbodyName]);

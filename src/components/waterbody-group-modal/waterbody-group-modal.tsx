@@ -17,7 +17,9 @@ type WaterbodyGroupModalProps = {
 export const WaterbodyGroupModal: React.VFC<WaterbodyGroupModalProps> = ({
   waterbodyGroupId,
 }) => {
-  const selectedWaterbodyGroup = waterbodyGroups[waterbodyGroupId];
+  const selectedWaterbodyGroup = Object.values(waterbodyGroups).find(
+    (group) => group.id === waterbodyGroupId
+  );
 
   const history = useHistory();
   const handleClose = () => history.push("/");

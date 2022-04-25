@@ -19,7 +19,7 @@ const SeoHead = lazy(() => import("./components/seo-head/seo-head"));
 
 type UrlParams = {
   id?: string;
-  name?: string;
+  groupId?: string;
 };
 
 function App() {
@@ -45,8 +45,10 @@ function App() {
       <Suspense fallback={<SiteLoader />}>
         <FishingRegulationTable />
         {params.id && <WaterbodyDetailsModal selectedId={params.id} />}
-        {params.name && <WaterbodyGroupModal waterbodyGroupId={params.name} />}
-        <SeoHead selectedId={params.id} waterbodyGroupId={params.name} />
+        {params.groupId && (
+          <WaterbodyGroupModal waterbodyGroupId={params.groupId} />
+        )}
+        <SeoHead selectedId={params.id} waterbodyGroupId={params.groupId} />
       </Suspense>
     </Container>
   );

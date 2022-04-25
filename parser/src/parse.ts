@@ -66,11 +66,6 @@ export class RegulationsFileParser {
           ? waterbody[2]
           : previousWaterbodySeason;
 
-        if (previousWaterbodyName === "Redwater River") {
-          console.log(waterbody);
-          console.log(previousWaterbodySeason);
-        }
-
         return this.parseWaterbody(
           rowHeader,
           waterbody,

@@ -4,9 +4,11 @@ export const buildWaterbodyGroups = (
   waterbodies: Waterbody[]
 ): WaterbodyGroupMap => {
   return waterbodies.reduce<WaterbodyGroupMap>((acc, waterbody) => {
-    if (!acc[waterbody.waterbody]) {
-      acc[waterbody.waterbody] = {
-        id: waterbody.waterbody,
+    const id = waterbody.waterbody.replace(/\s/g, "-");
+
+    if (!acc[id]) {
+      acc[id] = {
+        id: id,
         name: waterbody.waterbody,
         waterbodies: [],
       };
@@ -20,7 +22,7 @@ export const buildWaterbodyGroups = (
         : waterbody.waterbody,
     };
 
-    acc[waterbody.waterbody].waterbodies.push(mappedWaterbody);
+    acc[id].waterbodies.push(mappedWaterbody);
 
     return acc;
   }, {});

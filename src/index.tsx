@@ -36,7 +36,7 @@ ReactDOM.render(
             <Route path="/waterbody/:id">
               <App />
             </Route>{" "}
-            <Route path="/all/:name">
+            <Route path="/regulations/:groupId">
               <App />
             </Route>
             <Route path="/">

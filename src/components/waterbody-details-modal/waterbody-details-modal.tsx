@@ -16,7 +16,10 @@ import "./waterbody-details-modal.css";
 import { FishLimit } from "../../types/waterbody.type";
 import React from "react";
 import { useHistory } from "react-router";
-import { useSelectedWaterbody } from "../../utils/hooks";
+import {
+  useAssociatedWaterbodyGroupId,
+  useSelectedWaterbody,
+} from "../../utils/hooks";
 import { FISH_LIMIT_LABELS } from "../../constants";
 import {
   trackGroupOpen,
@@ -29,17 +32,20 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
   selectedId,
 }) => {
   const selectedWaterbody = useSelectedWaterbody(selectedId);
+  const associatedGroupId = useAssociatedWaterbodyGroupId(
+    selectedWaterbody?.waterbody
+  );
 
   const history = useHistory();
   const handleClose = () => history.push("/");
   const handleViewGroup = () => {
-    if (!selectedWaterbody) {
+    if (!selectedWaterbody || !associatedGroupId) {
       return;
     }
 
     trackGroupOpen(selectedWaterbody.waterbody);
 
-    history.push(`/all/${selectedWaterbody.waterbody}`);
+    history.push(`/regulations/${associatedGroupId}`);
   };
 
   return (
@@ -146,9 +152,11 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
         <Button onClick={handleClose} color="info">
           Close
         </Button>
-        <Button onClick={handleViewGroup} color="primary">
-          View All
-        </Button>
+        {associatedGroupId && (
+          <Button onClick={handleViewGroup} color="primary">
+            View All
+          </Button>
+        )}
       </DialogActions>
     </Dialog>
   );
