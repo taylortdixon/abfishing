@@ -20,19 +20,34 @@ export const SeoHead: React.VFC<{
         <title>Alberta Fishing Regulations | AB Fishing</title>
         <meta
           name="description"
-          content="View the fishing regulations including catch limits, bait bans, and open seasons for lakes and rivers in Alberta."
+          content="View Alberta's fishing regulations including catch limits, bait bans, and open seasons for lakes and rivers."
+        />
+        <meta
+          property="og:title"
+          content="Alberta Fishing Regulations"
+          data-react-helmet="true"
+        />
+        <meta
+          property="og:description"
+          content="View Alberta's fishing regulations including catch limits, bait bans, and open seasons for lakes and rivers."
+          data-react-helmet="true"
         />
       </Helmet>
     );
   }
 
   if (waterbodyGroup) {
+    const title = `${waterbodyGroup.name} Regulations`;
+    const description = `View ${waterbodyGroup.name}, Alberta fishing regulations including catch limits, bait bans, and open seasons.`;
     return (
       <Helmet>
-        <title>{waterbodyGroup.name} Regulations | AB Fishing</title>
+        <title>{title} | AB Fishing</title>
+        <meta name="description" content={description} />
+        <meta property="og:title" content={title} data-react-helmet="true" />
         <meta
-          name="description"
-          content={`View the ${waterbodyGroup.name}, Alberta fishing regulations including catch limits, bait bans, and open seasons.`}
+          property="og:description"
+          content={description}
+          data-react-helmet="true"
         />
       </Helmet>
     );
@@ -60,13 +75,18 @@ export const SeoHead: React.VFC<{
     descriptionContent += ` ${selectedWaterbody.waterbody_detail}`;
   }
 
+  const title = `${selectedWaterbody.waterbody} - ${selectedWaterbody.fish_management_zone}`;
+
   return (
     <Helmet>
-      <title>
-        {selectedWaterbody.waterbody} - {selectedWaterbody.fish_management_zone}{" "}
-        | AB Fishing
-      </title>
+      <title>{title} | AB Fishing</title>
       <meta name="description" content={descriptionContent} />
+      <meta property="og:title" content={title} data-react-helmet="true" />
+      <meta
+        property="og:description"
+        content={descriptionContent}
+        data-react-helmet="true"
+      />
     </Helmet>
   );
 };
