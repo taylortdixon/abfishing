@@ -59,7 +59,7 @@ const parseRegulations = async () => {
     </script>`
   );
 
-  const sitemap = generateSitemap(version, regulations);
+  const sitemap = generateSitemap(version, regulations, waterbodyGroups);
 
   writeFileSync("./public/sitemap.xml", sitemap);
 };

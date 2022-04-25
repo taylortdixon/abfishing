@@ -1,12 +1,29 @@
-import { Waterbody } from "../../src/types/waterbody.type";
+import {
+  Waterbody,
+  WaterbodyGroup,
+  WaterbodyGroupMap,
+} from "../../src/types/waterbody.type";
 import * as dayjs from "dayjs";
 
-export const generateSitemap = (version: string, regulations: Waterbody[]) => {
+export const generateSitemap = (
+  version: string,
+  regulations: Waterbody[],
+  waterbodyGroups: WaterbodyGroupMap
+) => {
   const formattedVersion = dayjs(version).format("YYYY-MM-DD");
   const regulationSitemaps = regulations
     .map(
       (waterbody) => `<url>
   <loc>https://www.abfishing.ca/waterbody/${waterbody.id}</loc>
+  <lastmod>${formattedVersion}</lastmod>
+  </url>`
+    )
+    .join("\n");
+
+  const groupSitemaps = Object.values(waterbodyGroups)
+    .map(
+      (group) => `<url>
+  <loc>https://www.abfishing.ca/regulations/${group.id}</loc>
   <lastmod>${formattedVersion}</lastmod>
   </url>`
     )
@@ -23,7 +40,8 @@ export const generateSitemap = (version: string, regulations: Waterbody[]) => {
   <loc>https://www.abfishing.ca/</loc>
   <lastmod>${formattedVersion}</lastmod>
 </url>
-${regulationSitemaps}         
+${regulationSitemaps}    
+${groupSitemaps}     
     
 </urlset>`;
 };

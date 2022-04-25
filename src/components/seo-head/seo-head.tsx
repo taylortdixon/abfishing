@@ -37,8 +37,11 @@ export const SeoHead: React.VFC<{
   }
 
   if (waterbodyGroup) {
-    const title = `${waterbodyGroup.name} Regulations`;
-    const description = `View ${waterbodyGroup.name}, Alberta fishing regulations including catch limits, bait bans, and open seasons.`;
+    const groupExceptionZoneName = waterbodyGroup.groupExceptionZone
+      ? ` (${waterbodyGroup.groupExceptionZone.replace("-", " ")}) `
+      : "";
+    const title = `${waterbodyGroup.name}${groupExceptionZoneName} Regulations`;
+    const description = `View ${waterbodyGroup.name}${groupExceptionZoneName}, Alberta fishing regulations including catch limits, bait bans, and open seasons.`;
     return (
       <Helmet>
         <title>{title} | AB Fishing</title>

@@ -14186,6 +14186,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "A-La-Peche-Lake": {
     id: "A-La-Peche-Lake",
     name: "A La Peche Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -14209,6 +14210,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Abraham-Lake": {
     id: "Abraham-Lake",
     name: "Abraham Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -14235,6 +14237,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Albright-Lake": {
     id: "Albright-Lake",
     name: "Albright Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -14258,6 +14261,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Alexander-Lake": {
     id: "Alexander-Lake",
     name: "Alexander Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -14282,6 +14286,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Alford-Creek": {
     id: "Alford-Creek",
     name: "Alford Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -14324,6 +14329,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Allstones-Lake": {
     id: "Allstones-Lake",
     name: "Allstones Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -14349,6 +14355,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Amisk-Lake": {
     id: "Amisk-Lake",
     name: "Amisk Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -14389,6 +14396,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Andrew-Lake": {
     id: "Andrew-Lake",
     name: "Andrew Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -14413,6 +14421,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Angling-Lake": {
     id: "Angling-Lake",
     name: "Angling Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -14436,6 +14445,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Arch-Lake": {
     id: "Arch-Lake",
     name: "Arch Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -14460,6 +14470,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Arm-Lake": {
     id: "Arm-Lake",
     name: "Arm Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -14482,6 +14493,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Ashton-Lake": {
     id: "Ashton-Lake",
     name: "Ashton Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -14506,6 +14518,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Aster-Lake": {
     id: "Aster-Lake",
     name: "Aster Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -14532,6 +14545,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Athabasca-River": {
     id: "Athabasca-River",
     name: "Athabasca River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -14667,6 +14681,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Badger-Lake": {
     id: "Badger-Lake",
     name: "Badger Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -14690,6 +14705,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bangs-Lake": {
     id: "Bangs-Lake",
     name: "Bangs Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -14713,6 +14729,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Baptiste-Lake": {
     id: "Baptiste-Lake",
     name: "Baptiste Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -14735,6 +14752,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Baptiste-River": {
     id: "Baptiste-River",
     name: "Baptiste River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -14759,6 +14777,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Barnaby-Lake": {
     id: "Barnaby-Lake",
     name: "Barnaby Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -14804,6 +14823,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Barrow-Lake": {
     id: "Barrow-Lake",
     name: "Barrow Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -14828,6 +14848,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Base-Lake": {
     id: "Base-Lake",
     name: "Base Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -14852,6 +14873,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bassano-Reservoir": {
     id: "Bassano-Reservoir",
     name: "Bassano Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -14876,6 +14898,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Battle-Creek": {
     id: "Battle-Creek",
     name: "Battle Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -14902,6 +14925,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Battle-Lake": {
     id: "Battle-Lake",
     name: "Battle Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -14941,6 +14965,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Battle-River": {
     id: "Battle-River",
     name: "Battle River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -15018,6 +15043,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bayonet-Lake": {
     id: "Bayonet-Lake",
     name: "Bayonet Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15042,6 +15068,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bear-Lake": {
     id: "Bear-Lake",
     name: "Bear Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15066,6 +15093,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bear-Pond": {
     id: "Bear-Pond",
     name: "Bear Pond",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -15092,6 +15120,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bearspaw-Reservoir": {
     id: "Bearspaw-Reservoir",
     name: "Bearspaw Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -15118,6 +15147,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Beartrap-Lake": {
     id: "Beartrap-Lake",
     name: "Beartrap Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15141,6 +15171,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Beatty-Lake": {
     id: "Beatty-Lake",
     name: "Beatty Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15181,6 +15212,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Beaver-Creek": {
     id: "Beaver-Creek",
     name: "Beaver Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -15223,6 +15255,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Beaver-Lake": {
     id: "Beaver-Lake",
     name: "Beaver Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -15248,6 +15281,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Beaver-Lake-NB1-Lakes": {
     id: "Beaver-Lake-NB1-Lakes",
     name: "Beaver Lake",
+    groupExceptionZone: "NB1-Lakes",
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15271,6 +15305,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Beaver-River": {
     id: "Beaver-River",
     name: "Beaver River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15296,6 +15331,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Behan-Lake": {
     id: "Behan-Lake",
     name: "Behan Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15319,6 +15355,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Belly-River": {
     id: "Belly-River",
     name: "Belly River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -15399,6 +15436,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bentley-Lake": {
     id: "Bentley-Lake",
     name: "Bentley Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15422,6 +15460,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Berland-River": {
     id: "Berland-River",
     name: "Berland River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -15445,6 +15484,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Berry-Creek": {
     id: "Berry-Creek",
     name: "Berry Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15468,6 +15508,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Berry-Creek-(Carolside)-Reservoir": {
     id: "Berry-Creek-(Carolside)-Reservoir",
     name: "Berry Creek (Carolside) Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15490,6 +15531,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Berry-Lake": {
     id: "Berry-Lake",
     name: "Berry Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15513,6 +15555,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Big-Chief-Lake": {
     id: "Big-Chief-Lake",
     name: "Big Chief Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15536,6 +15579,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Big-Iron-Lake": {
     id: "Big-Iron-Lake",
     name: "Big Iron Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -15562,6 +15606,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Big-Island-Lake": {
     id: "Big-Island-Lake",
     name: "Big Island Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15586,6 +15631,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Big-Johnson-(Chump)-Lake-": {
     id: "Big-Johnson-(Chump)-Lake-",
     name: "Big Johnson (Chump) Lake ",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15609,6 +15655,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Big-Lake": {
     id: "Big-Lake",
     name: "Big Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15631,6 +15678,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bighorn-River": {
     id: "Bighorn-River",
     name: "Bighorn River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -15713,6 +15761,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bigoray-River": {
     id: "Bigoray-River",
     name: "Bigoray River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -15736,6 +15785,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Birch-Creek": {
     id: "Birch-Creek",
     name: "Birch Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15759,6 +15809,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Birch-Lake": {
     id: "Birch-Lake",
     name: "Birch Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -15784,6 +15835,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bistcho-Lake": {
     id: "Bistcho-Lake",
     name: "Bistcho Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15825,6 +15877,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Blackstone-River": {
     id: "Blackstone-River",
     name: "Blackstone River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -15868,6 +15921,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Blanche-Lake": {
     id: "Blanche-Lake",
     name: "Blanche Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15892,6 +15946,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Blindman-River": {
     id: "Blindman-River",
     name: "Blindman River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15915,6 +15970,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Blood-Indian-Creek-Reservoir": {
     id: "Blood-Indian-Creek-Reservoir",
     name: "Blood Indian Creek Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15938,6 +15994,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Blue-Lake": {
     id: "Blue-Lake",
     name: "Blue Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15962,6 +16019,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Blue-Lake-NB2-Lakes": {
     id: "Blue-Lake-NB2-Lakes",
     name: "Blue Lake",
+    groupExceptionZone: "NB2-Lakes",
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -15984,6 +16042,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bluet-Lake": {
     id: "Bluet-Lake",
     name: "Bluet Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16007,6 +16066,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bocquene-Lake": {
     id: "Bocquene-Lake",
     name: "Bocquene Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16031,6 +16091,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bolloque-Lake": {
     id: "Bolloque-Lake",
     name: "Bolloque Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16053,6 +16114,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bonnie-Lake": {
     id: "Bonnie-Lake",
     name: "Bonnie Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16076,6 +16138,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Boulton-Creek": {
     id: "Boulton-Creek",
     name: "Boulton Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -16100,6 +16163,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bourque-Lake": {
     id: "Bourque-Lake",
     name: "Bourque Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16123,6 +16187,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bow-River": {
     id: "Bow-River",
     name: "Bow River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -16189,6 +16254,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Brazeau-Canal": {
     id: "Brazeau-Canal",
     name: "Brazeau Canal",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait and bait fish allowed",
@@ -16214,6 +16280,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Brazeau-Reservoir": {
     id: "Brazeau-Reservoir",
     name: "Brazeau Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -16239,6 +16306,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Brazeau-River": {
     id: "Brazeau-River",
     name: "Brazeau River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -16320,6 +16388,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Brintnell-Lake": {
     id: "Brintnell-Lake",
     name: "Brintnell Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16343,6 +16412,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bryant-Lake": {
     id: "Bryant-Lake",
     name: "Bryant Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16367,6 +16437,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Buck-Lake": {
     id: "Buck-Lake",
     name: "Buck Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16390,6 +16461,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Buffalo-Lake": {
     id: "Buffalo-Lake",
     name: "Buffalo Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16428,6 +16500,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Bunder-Lake": {
     id: "Bunder-Lake",
     name: "Bunder Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16451,6 +16524,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Burns-Lake": {
     id: "Burns-Lake",
     name: "Burns Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -16477,6 +16551,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Burnstick-Lake": {
     id: "Burnstick-Lake",
     name: "Burnstick Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait and bait fish allowed",
@@ -16502,6 +16577,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Burnt-Lake": {
     id: "Burnt-Lake",
     name: "Burnt Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -16525,6 +16601,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Burnt-Timber-Creek": {
     id: "Burnt-Timber-Creek",
     name: "Burnt Timber Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -16549,6 +16626,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Burstall-Lake": {
     id: "Burstall-Lake",
     name: "Burstall Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16573,6 +16651,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Burstall-Lakes": {
     id: "Burstall-Lakes",
     name: "Burstall Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -16599,6 +16678,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Busby-Lake": {
     id: "Busby-Lake",
     name: "Busby Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -16623,6 +16703,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "CPR-Reservoir": {
     id: "CPR-Reservoir",
     name: "CPR Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16646,6 +16727,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Cache-Lake": {
     id: "Cache-Lake",
     name: "Cache Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16670,6 +16752,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Cache-Lake-NB1-Lakes": {
     id: "Cache-Lake-NB1-Lakes",
     name: "Cache Lake",
+    groupExceptionZone: "NB1-Lakes",
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16693,6 +16776,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Cadotte-Lake": {
     id: "Cadotte-Lake",
     name: "Cadotte Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16716,6 +16800,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Calder-Lake": {
     id: "Calder-Lake",
     name: "Calder Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16739,6 +16824,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Calling-Lake": {
     id: "Calling-Lake",
     name: "Calling Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16779,6 +16865,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Canmore-Creek": {
     id: "Canmore-Creek",
     name: "Canmore Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -16803,6 +16890,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Canyon-Creek": {
     id: "Canyon-Creek",
     name: "Canyon Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -16827,6 +16915,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Carbondale-River": {
     id: "Carbondale-River",
     name: "Carbondale River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -16869,6 +16958,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Carburn-Park-Pond": {
     id: "Carburn-Park-Pond",
     name: "Carburn Park Pond",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -16894,6 +16984,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Cardinal-River": {
     id: "Cardinal-River",
     name: "Cardinal River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -16918,6 +17009,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Caribou-Lake": {
     id: "Caribou-Lake",
     name: "Caribou Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16941,6 +17033,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Carnarvon-Lake": {
     id: "Carnarvon-Lake",
     name: "Carnarvon Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -16967,6 +17060,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Carseland-Bow-River-Headwater-Canal": {
     id: "Carseland-Bow-River-Headwater-Canal",
     name: "Carseland-Bow River Headwater Canal",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -16994,6 +17088,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Castle-River": {
     id: "Castle-River",
     name: "Castle River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -17038,6 +17133,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Chain-(Lower)-Lake": {
     id: "Chain-(Lower)-Lake",
     name: "Chain (Lower) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17060,6 +17156,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Chain-Lakes-(Upper-and-Middle)": {
     id: "Chain-Lakes-(Upper-and-Middle)",
     name: "Chain Lakes (Upper and Middle)",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17082,6 +17179,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Charles-Lake": {
     id: "Charles-Lake",
     name: "Charles Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17106,6 +17204,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Cherry-Lake": {
     id: "Cherry-Lake",
     name: "Cherry Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17130,6 +17229,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Chester-Lake": {
     id: "Chester-Lake",
     name: "Chester Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -17155,6 +17255,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Chestermere-Lake": {
     id: "Chestermere-Lake",
     name: "Chestermere Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17178,6 +17279,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Chickenhill-Lake": {
     id: "Chickenhill-Lake",
     name: "Chickenhill Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17201,6 +17303,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Chin-Lakes": {
     id: "Chin-Lakes",
     name: "Chin Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17224,6 +17327,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Chinchaga-River": {
     id: "Chinchaga-River",
     name: "Chinchaga River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed in river only",
@@ -17246,6 +17350,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Chip-Lake": {
     id: "Chip-Lake",
     name: "Chip Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17270,6 +17375,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Christina-Lake": {
     id: "Christina-Lake",
     name: "Christina Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17313,6 +17419,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Christina-Lake-Tributaries-and-Outflows": {
     id: "Christina-Lake-Tributaries-and-Outflows",
     name: "Christina Lake Tributaries and Outflows",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17337,6 +17444,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Claude-Lake": {
     id: "Claude-Lake",
     name: "Claude Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17360,6 +17468,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Clear-(Barnes)-Lake": {
     id: "Clear-(Barnes)-Lake",
     name: "Clear (Barnes) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17383,6 +17492,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Clear-Creek": {
     id: "Clear-Creek",
     name: "Clear Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -17425,6 +17535,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Clear-Lake": {
     id: "Clear-Lake",
     name: "Clear Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17448,6 +17559,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Clearwater-River": {
     id: "Clearwater-River",
     name: "Clearwater River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -17567,6 +17679,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Clearwater-River-NB4-Rivers": {
     id: "Clearwater-River-NB4-Rivers",
     name: "Clearwater River",
+    groupExceptionZone: "NB4-Rivers",
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17626,6 +17739,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Cline-River": {
     id: "Cline-River",
     name: "Cline River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -17668,6 +17782,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Coal-Lake": {
     id: "Coal-Lake",
     name: "Coal Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17690,6 +17805,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Cockscomb-Lake": {
     id: "Cockscomb-Lake",
     name: "Cockscomb Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17714,6 +17830,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Cold-Lake": {
     id: "Cold-Lake",
     name: "Cold Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17738,6 +17855,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Colin-Lake": {
     id: "Colin-Lake",
     name: "Colin Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17762,6 +17880,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Collins-Lake": {
     id: "Collins-Lake",
     name: "Collins Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17786,6 +17905,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Commonwealth-Lake": {
     id: "Commonwealth-Lake",
     name: "Commonwealth Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -17812,6 +17932,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Coral-Lake": {
     id: "Coral-Lake",
     name: "Coral Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -17856,6 +17977,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Corner-Lake": {
     id: "Corner-Lake",
     name: "Corner Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17879,6 +18001,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Cornwall-Lake": {
     id: "Cornwall-Lake",
     name: "Cornwall Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17903,6 +18026,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "County-Sportplex-Pond": {
     id: "County-Sportplex-Pond",
     name: "County Sportplex Pond",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17926,6 +18050,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Cow-Lake": {
     id: "Cow-Lake",
     name: "Cow Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait and bait fish allowed",
@@ -17951,6 +18076,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Cow-Lake-NB1-Lakes": {
     id: "Cow-Lake-NB1-Lakes",
     name: "Cow Lake",
+    groupExceptionZone: "NB1-Lakes",
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -17974,6 +18100,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Cowoki-Irrigation-Canal": {
     id: "Cowoki-Irrigation-Canal",
     name: "Cowoki Irrigation Canal",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -18000,6 +18127,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Cowoki-Lake": {
     id: "Cowoki-Lake",
     name: "Cowoki Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18023,6 +18151,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Cowper-Lake": {
     id: "Cowper-Lake",
     name: "Cowper Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18047,6 +18176,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Crane-(Moore)-Lake-": {
     id: "Crane-(Moore)-Lake-",
     name: "Crane (Moore) Lake ",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18070,6 +18200,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Crawling-Valley-Reservoir": {
     id: "Crawling-Valley-Reservoir",
     name: "Crawling Valley Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18112,6 +18243,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Crickett-Lake": {
     id: "Crickett-Lake",
     name: "Crickett Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18135,6 +18267,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Crooked-Lake": {
     id: "Crooked-Lake",
     name: "Crooked Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18158,6 +18291,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Crooked-Lake-NB2-Lakes": {
     id: "Crooked-Lake-NB2-Lakes",
     name: "Crooked Lake",
+    groupExceptionZone: "NB2-Lakes",
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18180,6 +18314,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Cross-Coulee-Reservoir": {
     id: "Cross-Coulee-Reservoir",
     name: "Cross Coulee Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18203,6 +18338,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Crowsnest-Lake": {
     id: "Crowsnest-Lake",
     name: "Crowsnest Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -18269,6 +18405,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Crowsnest-River": {
     id: "Crowsnest-River",
     name: "Crowsnest River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -18332,6 +18469,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Cutbank-River": {
     id: "Cutbank-River",
     name: "Cutbank River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -18353,6 +18491,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Daly-Lake": {
     id: "Daly-Lake",
     name: "Daly Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18377,6 +18516,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Darwin-Lake": {
     id: "Darwin-Lake",
     name: "Darwin Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18401,6 +18541,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Dawson-Lake": {
     id: "Dawson-Lake",
     name: "Dawson Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18425,6 +18566,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Deep-Valley-Creek": {
     id: "Deep-Valley-Creek",
     name: "Deep Valley Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -18446,6 +18588,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Deerlick-Creek": {
     id: "Deerlick-Creek",
     name: "Deerlick Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -18469,6 +18612,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Disappointment-Lake": {
     id: "Disappointment-Lake",
     name: "Disappointment Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18493,6 +18637,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Dismal-Creek": {
     id: "Dismal-Creek",
     name: "Dismal Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -18516,6 +18661,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Dogpound-Creek": {
     id: "Dogpound-Creek",
     name: "Dogpound Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -18573,6 +18719,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Dolberg-Lake": {
     id: "Dolberg-Lake",
     name: "Dolberg Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -18595,6 +18742,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Dormer-Lake": {
     id: "Dormer-Lake",
     name: "Dormer Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -18620,6 +18768,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Driedmeat-Lake": {
     id: "Driedmeat-Lake",
     name: "Driedmeat Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18642,6 +18791,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Drown-Lake": {
     id: "Drown-Lake",
     name: "Drown Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18665,6 +18815,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Eagle-Lake-ES2-Lakes": {
     id: "Eagle-Lake-ES2-Lakes",
     name: "Eagle Lake",
+    groupExceptionZone: "ES2-Lakes",
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -18690,6 +18841,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Eagle-Lake": {
     id: "Eagle-Lake",
     name: "Eagle Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18713,6 +18865,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "East-Prairie-R.,-Strawberry-Ck.,-Travers-Ck.,-West-Prairie-R.": {
     id: "East-Prairie-R.,-Strawberry-Ck.,-Travers-Ck.,-West-Prairie-R.",
     name: "East Prairie R., Strawberry Ck., Travers Ck., West Prairie R.",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18739,6 +18892,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "East-Scarpe-Lake": {
     id: "East-Scarpe-Lake",
     name: "East Scarpe Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -18765,6 +18919,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "East-Twin-Lake": {
     id: "East-Twin-Lake",
     name: "East Twin Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18787,6 +18942,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Elbow-River": {
     id: "Elbow-River",
     name: "Elbow River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -18886,6 +19042,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Elinor-Lake": {
     id: "Elinor-Lake",
     name: "Elinor Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18909,6 +19066,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Elk-Creek": {
     id: "Elk-Creek",
     name: "Elk Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -18932,6 +19090,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Elkwater-Lake": {
     id: "Elkwater-Lake",
     name: "Elkwater Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18955,6 +19114,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Ells-Lake": {
     id: "Ells-Lake",
     name: "Ells Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -18979,6 +19139,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Ells-River": {
     id: "Ells-River",
     name: "Ells River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -19002,6 +19163,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Embarras-Pit-Lakes": {
     id: "Embarras-Pit-Lakes",
     name: "Embarras Pit Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -19026,6 +19188,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Embarras-River": {
     id: "Embarras-River",
     name: "Embarras River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -19049,6 +19212,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Entry-Lake": {
     id: "Entry-Lake",
     name: "Entry Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -19074,6 +19238,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Equisetum-Lake": {
     id: "Equisetum-Lake",
     name: "Equisetum Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19114,6 +19279,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Ethel-(Bear)-Lake": {
     id: "Ethel-(Bear)-Lake",
     name: "Ethel (Bear) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19137,6 +19303,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Eunice-Creek": {
     id: "Eunice-Creek",
     name: "Eunice Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -19160,6 +19327,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Fall-Creek": {
     id: "Fall-Creek",
     name: "Fall Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -19202,6 +19370,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Fallentimber-Creek": {
     id: "Fallentimber-Creek",
     name: "Fallentimber Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -19225,6 +19394,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Fawcett-Lake": {
     id: "Fawcett-Lake",
     name: "Fawcett Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19280,6 +19450,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Fickle-Lake": {
     id: "Fickle-Lake",
     name: "Fickle Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19322,6 +19493,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Fiesta-Lake": {
     id: "Fiesta-Lake",
     name: "Fiesta Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -19347,6 +19519,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Fincastle-Lake": {
     id: "Fincastle-Lake",
     name: "Fincastle Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19370,6 +19543,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Fish-(Jackfish)-Lake": {
     id: "Fish-(Jackfish)-Lake",
     name: "Fish (Jackfish) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19393,6 +19567,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Fishing-Lake": {
     id: "Fishing-Lake",
     name: "Fishing Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19416,6 +19591,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Fletcher-Lake": {
     id: "Fletcher-Lake",
     name: "Fletcher Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19440,6 +19616,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Floatingstone-Lake": {
     id: "Floatingstone-Lake",
     name: "Floatingstone Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19480,6 +19657,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Florence-Lake": {
     id: "Florence-Lake",
     name: "Florence Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19504,6 +19682,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Forestburg-Reservoir": {
     id: "Forestburg-Reservoir",
     name: "Forestburg Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19526,6 +19705,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Fork-Lake": {
     id: "Fork-Lake",
     name: "Fork Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19549,6 +19729,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Fortress-Lake": {
     id: "Fortress-Lake",
     name: "Fortress Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -19575,6 +19756,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Forty-Mile-Coulee-Reservoir": {
     id: "Forty-Mile-Coulee-Reservoir",
     name: "Forty Mile Coulee Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19598,6 +19780,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Francis-Lake": {
     id: "Francis-Lake",
     name: "Francis Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19637,6 +19820,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Freeman-Lake": {
     id: "Freeman-Lake",
     name: "Freeman Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19675,6 +19859,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Freeman-River": {
     id: "Freeman-River",
     name: "Freeman River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -19699,6 +19884,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Frog-Lake": {
     id: "Frog-Lake",
     name: "Frog Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19722,6 +19908,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Galatea-Lakes": {
     id: "Galatea-Lakes",
     name: "Galatea Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -19748,6 +19935,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Gap-Lake": {
     id: "Gap-Lake",
     name: "Gap Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -19774,6 +19962,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Gap-Lake-ES2-Lakes": {
     id: "Gap-Lake-ES2-Lakes",
     name: "Gap Lake",
+    groupExceptionZone: "ES2-Lakes",
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -19799,6 +19988,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Gardiner-Lakes": {
     id: "Gardiner-Lakes",
     name: "Gardiner Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -19841,6 +20031,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Garner-Lake": {
     id: "Garner-Lake",
     name: "Garner Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19864,6 +20055,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Garnier-Lakes": {
     id: "Garnier-Lakes",
     name: "Garnier Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19887,6 +20079,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Ghost-Lake": {
     id: "Ghost-Lake",
     name: "Ghost Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -19909,6 +20102,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Ghost-Reservoir": {
     id: "Ghost-Reservoir",
     name: "Ghost Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait and bait fish allowed",
@@ -19935,6 +20129,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Ghost-River": {
     id: "Ghost-River",
     name: "Ghost River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -19979,6 +20174,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Ghost-River-Wilderness-Area": {
     id: "Ghost-River-Wilderness-Area",
     name: "Ghost River Wilderness Area",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -20003,6 +20199,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Gilroy-Lake": {
     id: "Gilroy-Lake",
     name: "Gilroy Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20025,6 +20222,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Gipsy-Lake": {
     id: "Gipsy-Lake",
     name: "Gipsy Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20049,6 +20247,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Gleniffer-Lake": {
     id: "Gleniffer-Lake",
     name: "Gleniffer Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait and bait fish allowed",
@@ -20074,6 +20273,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Glenmore-Reservoir": {
     id: "Glenmore-Reservoir",
     name: "Glenmore Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -20100,6 +20300,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Glover-(Birch)-Lake": {
     id: "Glover-(Birch)-Lake",
     name: "Glover (Birch) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -20124,6 +20325,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Gods-Lake": {
     id: "Gods-Lake",
     name: "Gods Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20164,6 +20366,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Gold-Creek": {
     id: "Gold-Creek",
     name: "Gold Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -20188,6 +20391,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Goodfish-Lake": {
     id: "Goodfish-Lake",
     name: "Goodfish Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -20228,6 +20432,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Goodwin-Lake": {
     id: "Goodwin-Lake",
     name: "Goodwin Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20251,6 +20456,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Goose-Lake-ES4-Lakes": {
     id: "Goose-Lake-ES4-Lakes",
     name: "Goose Lake",
+    groupExceptionZone: "ES4-Lakes",
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20274,6 +20480,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Goose-Lake": {
     id: "Goose-Lake",
     name: "Goose Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20312,6 +20519,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Gorge-Creek": {
     id: "Gorge-Creek",
     name: "Gorge Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -20336,6 +20544,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Graburn-Creek": {
     id: "Graburn-Creek",
     name: "Graburn Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -20362,6 +20571,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Graham-(Trout)-Lake": {
     id: "Graham-(Trout)-Lake",
     name: "Graham (Trout) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20402,6 +20612,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Graveyard-Lake": {
     id: "Graveyard-Lake",
     name: "Graveyard Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20426,6 +20637,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Greenstreet-Lake": {
     id: "Greenstreet-Lake",
     name: "Greenstreet Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20449,6 +20661,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Gregg-Lake": {
     id: "Gregg-Lake",
     name: "Gregg Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20473,6 +20686,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Gregg-River": {
     id: "Gregg-River",
     name: "Gregg River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -20496,6 +20710,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Gregoire-(Willow)-Lake": {
     id: "Gregoire-(Willow)-Lake",
     name: "Gregoire (Willow) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -20520,6 +20735,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Grist-Lake": {
     id: "Grist-Lake",
     name: "Grist Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -20544,6 +20760,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Grizzly-Creek": {
     id: "Grizzly-Creek",
     name: "Grizzly Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -20565,6 +20782,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Gull-Lake": {
     id: "Gull-Lake",
     name: "Gull Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20603,6 +20821,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Gun-Club-(Cann)-Reservoir": {
     id: "Gun-Club-(Cann)-Reservoir",
     name: "Gun Club (Cann) Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20626,6 +20845,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Haig-Lake": {
     id: "Haig-Lake",
     name: "Haig Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20666,6 +20886,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Halfmoon-Lake": {
     id: "Halfmoon-Lake",
     name: "Halfmoon Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20689,6 +20910,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Hangingstone-River": {
     id: "Hangingstone-River",
     name: "Hangingstone River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20712,6 +20934,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Hanmore-Lake": {
     id: "Hanmore-Lake",
     name: "Hanmore Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20735,6 +20958,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Hay-River": {
     id: "Hay-River",
     name: "Hay River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed in river only",
@@ -20758,6 +20982,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Hays-(Grantham-Reservoir)-Lake": {
     id: "Hays-(Grantham-Reservoir)-Lake",
     name: "Hays (Grantham Reservoir) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20781,6 +21006,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Headwall-Lakes": {
     id: "Headwall-Lakes",
     name: "Headwall Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -20807,6 +21033,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Heart-Lake": {
     id: "Heart-Lake",
     name: "Heart Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20830,6 +21057,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Hebephrenic-(Jackfish)-Lake": {
     id: "Hebephrenic-(Jackfish)-Lake",
     name: "Hebephrenic (Jackfish) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20870,6 +21098,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Henderson-Lake": {
     id: "Henderson-Lake",
     name: "Henderson Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -20893,6 +21122,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Hidden-Creek": {
     id: "Hidden-Creek",
     name: "Hidden Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -20935,6 +21165,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Highwood-River": {
     id: "Highwood-River",
     name: "Highwood River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -21016,6 +21247,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Hilda-Lake": {
     id: "Hilda-Lake",
     name: "Hilda Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21039,6 +21271,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Hogarth-Lakes": {
     id: "Hogarth-Lakes",
     name: "Hogarth Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -21065,6 +21298,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Hooker-Lake": {
     id: "Hooker-Lake",
     name: "Hooker Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -21089,6 +21323,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Hope-Lake": {
     id: "Hope-Lake",
     name: "Hope Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21112,6 +21347,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Horsefly-Lake-Reservoir": {
     id: "Horsefly-Lake-Reservoir",
     name: "Horsefly Lake Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21135,6 +21371,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Horseshoe-Lake": {
     id: "Horseshoe-Lake",
     name: "Horseshoe Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21159,6 +21396,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "House-River": {
     id: "House-River",
     name: "House River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21182,6 +21420,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Hubbles-Lake": {
     id: "Hubbles-Lake",
     name: "Hubbles Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21204,6 +21443,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Hutch-Lake": {
     id: "Hutch-Lake",
     name: "Hutch Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21227,6 +21467,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Ice-Lake": {
     id: "Ice-Lake",
     name: "Ice Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -21252,6 +21493,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Invincible-Lake": {
     id: "Invincible-Lake",
     name: "Invincible Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -21278,6 +21520,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Iosegun-Lake": {
     id: "Iosegun-Lake",
     name: "Iosegun Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21318,6 +21561,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Ironside-Pond": {
     id: "Ironside-Pond",
     name: "Ironside Pond",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -21343,6 +21587,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Ironwood-Lake": {
     id: "Ironwood-Lake",
     name: "Ironwood Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21366,6 +21611,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Island-Lake-NB1-Lakes": {
     id: "Island-Lake-NB1-Lakes",
     name: "Island Lake",
+    groupExceptionZone: "NB1-Lakes",
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21389,6 +21635,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Island-Lake": {
     id: "Island-Lake",
     name: "Island Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21427,6 +21674,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Isle-Lake": {
     id: "Isle-Lake",
     name: "Isle Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21449,6 +21697,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Jack-Fish-Lake": {
     id: "Jack-Fish-Lake",
     name: "Jack Fish Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21471,6 +21720,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Jackfish-Lake": {
     id: "Jackfish-Lake",
     name: "Jackfish Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait and bait fish allowed",
@@ -21497,6 +21747,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "James-River": {
     id: "James-River",
     name: "James River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -21520,6 +21771,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Jamieson-Lake": {
     id: "Jamieson-Lake",
     name: "Jamieson Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21543,6 +21795,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Jarvis-Lake": {
     id: "Jarvis-Lake",
     name: "Jarvis Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21567,6 +21820,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Jenkins-Lake": {
     id: "Jenkins-Lake",
     name: "Jenkins Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21605,6 +21859,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Jensen-Reservoir": {
     id: "Jensen-Reservoir",
     name: "Jensen Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21628,6 +21883,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Job-(Wilson-or-Blue)-Lake": {
     id: "Job-(Wilson-or-Blue)-Lake",
     name: "Job (Wilson or Blue) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -21654,6 +21910,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Johnson-Lake": {
     id: "Johnson-Lake",
     name: "Johnson Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21677,6 +21934,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Joker-Lake": {
     id: "Joker-Lake",
     name: "Joker Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21700,6 +21958,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Jumpingpound-Creek": {
     id: "Jumpingpound-Creek",
     name: "Jumpingpound Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -21742,6 +22001,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Kaduk-Lake": {
     id: "Kaduk-Lake",
     name: "Kaduk Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21765,6 +22025,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Kakwa-River": {
     id: "Kakwa-River",
     name: "Kakwa River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -21786,6 +22047,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Kananaskis-River": {
     id: "Kananaskis-River",
     name: "Kananaskis River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -21867,6 +22129,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Kehiwin-Lake": {
     id: "Kehiwin-Lake",
     name: "Kehiwin Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21890,6 +22153,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Keho-Lake": {
     id: "Keho-Lake",
     name: "Keho Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -21913,6 +22177,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Kerbe's-Pond": {
     id: "Kerbe's-Pond",
     name: "Kerbe's Pond",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -21935,6 +22200,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Kids-Can-Catch-Pond": {
     id: "Kids-Can-Catch-Pond",
     name: "Kids Can Catch Pond",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -21961,6 +22227,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Kimowin-(Hook)-Lake": {
     id: "Kimowin-(Hook)-Lake",
     name: "Kimowin (Hook) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -21985,6 +22252,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Kinglet-Lake": {
     id: "Kinglet-Lake",
     name: "Kinglet Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -22010,6 +22278,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Kirby-(Sterner)-Lake": {
     id: "Kirby-(Sterner)-Lake",
     name: "Kirby (Sterner) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -22034,6 +22303,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Kitsim-Reservoir": {
     id: "Kitsim-Reservoir",
     name: "Kitsim Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22057,6 +22327,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "La-Biche-River": {
     id: "La-Biche-River",
     name: "La Biche River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -22082,6 +22353,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lac-Bellevue": {
     id: "Lac-Bellevue",
     name: "Lac Bellevue",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22105,6 +22377,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lac-Des-Roches": {
     id: "Lac-Des-Roches",
     name: "Lac Des Roches",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -22129,6 +22402,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lac-La-Biche": {
     id: "Lac-La-Biche",
     name: "Lac La Biche",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22170,6 +22444,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lac-La-Biche-Trout-Pond": {
     id: "Lac-La-Biche-Trout-Pond",
     name: "Lac La Biche Trout Pond",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22193,6 +22468,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lac-La-Nonne": {
     id: "Lac-La-Nonne",
     name: "Lac La Nonne",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22215,6 +22491,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lac-Saint-Cyr": {
     id: "Lac-Saint-Cyr",
     name: "Lac Saint Cyr",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22238,6 +22515,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lac-Sante": {
     id: "Lac-Sante",
     name: "Lac Sante",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22278,6 +22556,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lac-Ste.-Anne": {
     id: "Lac-Ste.-Anne",
     name: "Lac Ste. Anne",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22300,6 +22579,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lake-Athabasca": {
     id: "Lake-Athabasca",
     name: "Lake Athabasca",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -22324,6 +22604,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lake-Newell": {
     id: "Lake-Newell",
     name: "Lake Newell",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22348,6 +22629,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lake-Of-Falls": {
     id: "Lake-Of-Falls",
     name: "Lake Of Falls",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -22392,6 +22674,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lake-Of-The-Horns": {
     id: "Lake-Of-The-Horns",
     name: "Lake Of The Horns",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -22418,6 +22701,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lakeland-Provincial-Park": {
     id: "Lakeland-Provincial-Park",
     name: "Lakeland Provincial Park",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22462,6 +22746,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Landslide-Lake": {
     id: "Landslide-Lake",
     name: "Landslide Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -22487,6 +22772,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Laurier-Lake": {
     id: "Laurier-Lake",
     name: "Laurier Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22510,6 +22796,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lawrence-Lake": {
     id: "Lawrence-Lake",
     name: "Lawrence Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22532,6 +22819,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lee-Creek": {
     id: "Lee-Creek",
     name: "Lee Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -22578,6 +22866,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Legend-Lake": {
     id: "Legend-Lake",
     name: "Legend Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22601,6 +22890,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Leggo-Lake": {
     id: "Leggo-Lake",
     name: "Leggo Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -22625,6 +22915,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Leland-Lakes": {
     id: "Leland-Lakes",
     name: "Leland Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -22649,6 +22940,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lessard-Lake": {
     id: "Lessard-Lake",
     name: "Lessard Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22671,6 +22963,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lesser-Slave-Lake": {
     id: "Lesser-Slave-Lake",
     name: "Lesser Slave Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22711,6 +23004,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lesser-Slave-River-and-tributaries-to-Lesser-Slave-Lake": {
     id: "Lesser-Slave-River-and-tributaries-to-Lesser-Slave-Lake",
     name: "Lesser Slave River and tributaries to Lesser Slave Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22736,6 +23030,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lethbridge-University-Pond": {
     id: "Lethbridge-University-Pond",
     name: "Lethbridge University Pond",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22759,6 +23054,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lillian-Lake": {
     id: "Lillian-Lake",
     name: "Lillian Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -22785,6 +23081,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lily-Lake": {
     id: "Lily-Lake",
     name: "Lily Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22807,6 +23104,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Limon-Lake": {
     id: "Limon-Lake",
     name: "Limon Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -22831,6 +23129,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Little-Bear-Lake": {
     id: "Little-Bear-Lake",
     name: "Little Bear Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22854,6 +23153,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Little-Bow-Lake-Reservoir": {
     id: "Little-Bow-Lake-Reservoir",
     name: "Little Bow Lake Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22877,6 +23177,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Little-Bow-River": {
     id: "Little-Bow-River",
     name: "Little Bow River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -22944,6 +23245,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Little-Fish-Lake": {
     id: "Little-Fish-Lake",
     name: "Little Fish Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -22966,6 +23268,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Little-Red-Deer-River": {
     id: "Little-Red-Deer-River",
     name: "Little Red Deer River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -23008,6 +23311,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Little-Sandy-Lake": {
     id: "Little-Sandy-Lake",
     name: "Little Sandy Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23048,6 +23352,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Little-Smoky-River": {
     id: "Little-Smoky-River",
     name: "Little Smoky River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -23099,6 +23404,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Livingstone-River": {
     id: "Livingstone-River",
     name: "Livingstone River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -23123,6 +23429,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lloydminster-Pond": {
     id: "Lloydminster-Pond",
     name: "Lloydminster Pond",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23145,6 +23452,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lobstick-River": {
     id: "Lobstick-River",
     name: "Lobstick River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -23187,6 +23495,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lodge-Lake": {
     id: "Lodge-Lake",
     name: "Lodge Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23210,6 +23519,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Logan-Lake": {
     id: "Logan-Lake",
     name: "Logan Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23233,6 +23543,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lone-Pine-Lake": {
     id: "Lone-Pine-Lake",
     name: "Lone Pine Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23256,6 +23567,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Long-Island-Lake": {
     id: "Long-Island-Lake",
     name: "Long Island Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23278,6 +23590,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Long-Lake-ES3-Lakes": {
     id: "Long-Lake-ES3-Lakes",
     name: "Long Lake",
+    groupExceptionZone: "ES3-Lakes",
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23302,6 +23615,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Long-Lake-ES4-Lakes": {
     id: "Long-Lake-ES4-Lakes",
     name: "Long Lake",
+    groupExceptionZone: "ES4-Lakes",
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23325,6 +23639,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Long-Lake": {
     id: "Long-Lake",
     name: "Long Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23382,6 +23697,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Long-Lake-NB2-Lakes": {
     id: "Long-Lake-NB2-Lakes",
     name: "Long Lake",
+    groupExceptionZone: "NB2-Lakes",
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23404,6 +23720,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Long-Lake-NB3-Lakes": {
     id: "Long-Lake-NB3-Lakes",
     name: "Long Lake",
+    groupExceptionZone: "NB3-Lakes",
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23461,6 +23778,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Loomis-Lake": {
     id: "Loomis-Lake",
     name: "Loomis Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -23487,6 +23805,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Loon-River": {
     id: "Loon-River",
     name: "Loon River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed in river only downstream of Loon Lake",
@@ -23509,6 +23828,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lost-Guide-Lake": {
     id: "Lost-Guide-Lake",
     name: "Lost Guide Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -23534,6 +23854,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lost-Lake": {
     id: "Lost-Lake",
     name: "Lost Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23557,6 +23878,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Loutit-Lake": {
     id: "Loutit-Lake",
     name: "Loutit Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -23581,6 +23903,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lovett-Lake": {
     id: "Lovett-Lake",
     name: "Lovett Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -23605,6 +23928,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lower-Kananaskis-Lake": {
     id: "Lower-Kananaskis-Lake",
     name: "Lower Kananaskis Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -23651,6 +23975,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Luscar-Creek": {
     id: "Luscar-Creek",
     name: "Luscar Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -23674,6 +23999,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lynx-Creek": {
     id: "Lynx-Creek",
     name: "Lynx Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -23712,6 +24038,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Lys-Lake": {
     id: "Lys-Lake",
     name: "Lys Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -23738,6 +24065,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mackenzie-Creek": {
     id: "Mackenzie-Creek",
     name: "Mackenzie Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -23761,6 +24089,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Magee-Lake": {
     id: "Magee-Lake",
     name: "Magee Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23783,6 +24112,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Manatokan-Lake": {
     id: "Manatokan-Lake",
     name: "Manatokan Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23806,6 +24136,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Margaret-Lake": {
     id: "Margaret-Lake",
     name: "Margaret Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -23829,6 +24160,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Marie-Lake": {
     id: "Marie-Lake",
     name: "Marie Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23852,6 +24184,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Marsh-Lake": {
     id: "Marsh-Lake",
     name: "Marsh Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23875,6 +24208,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Martineau-River": {
     id: "Martineau-River",
     name: "Martineau River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23900,6 +24234,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Matchayaw-(Devil's)-Lake": {
     id: "Matchayaw-(Devil's)-Lake",
     name: "Matchayaw (Devil's) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23922,6 +24257,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Maude-Lake": {
     id: "Maude-Lake",
     name: "Maude Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -23948,6 +24284,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "May-Lake": {
     id: "May-Lake",
     name: "May Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23971,6 +24308,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mayatan-Lake": {
     id: "Mayatan-Lake",
     name: "Mayatan Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -23993,6 +24331,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mcclelland-Lake": {
     id: "Mcclelland-Lake",
     name: "Mcclelland Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -24017,6 +24356,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mcgregor-Reservoir": {
     id: "Mcgregor-Reservoir",
     name: "Mcgregor Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24057,6 +24397,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mcleod-River": {
     id: "Mcleod-River",
     name: "Mcleod River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -24115,6 +24456,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mcvinnie-Reservoir": {
     id: "Mcvinnie-Reservoir",
     name: "Mcvinnie Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24138,6 +24480,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Medicine-Lake": {
     id: "Medicine-Lake",
     name: "Medicine Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24160,6 +24503,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Medicine-River": {
     id: "Medicine-River",
     name: "Medicine River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Only maggots allowed",
@@ -24183,6 +24527,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Medley-River": {
     id: "Medley-River",
     name: "Medley River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24208,6 +24553,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Meekwap-Lake": {
     id: "Meekwap-Lake",
     name: "Meekwap Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24231,6 +24577,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Memorial-Lakes": {
     id: "Memorial-Lakes",
     name: "Memorial Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -24257,6 +24604,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mercredi-Lake": {
     id: "Mercredi-Lake",
     name: "Mercredi Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -24281,6 +24629,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mere-Lake": {
     id: "Mere-Lake",
     name: "Mere Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24303,6 +24652,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Meyer-Lake": {
     id: "Meyer-Lake",
     name: "Meyer Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24325,6 +24675,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Michele-(Upper-And-Lower)--Lakes-": {
     id: "Michele-(Upper-And-Lower)--Lakes-",
     name: "Michele (Upper And Lower) \nLakes ",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -24350,6 +24701,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Michele-(Upper-And-Lower)-Lakes-": {
     id: "Michele-(Upper-And-Lower)-Lakes-",
     name: "Michele (Upper And Lower) Lakes ",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -24375,6 +24727,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Michele-Creek-Reservoir": {
     id: "Michele-Creek-Reservoir",
     name: "Michele Creek Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24399,6 +24752,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mikkwa-River": {
     id: "Mikkwa-River",
     name: "Mikkwa River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed in river only",
@@ -24421,6 +24775,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Milk-River-Ridge-Reservoir": {
     id: "Milk-River-Ridge-Reservoir",
     name: "Milk River Ridge Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24445,6 +24800,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mill-Creek": {
     id: "Mill-Creek",
     name: "Mill Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -24488,6 +24844,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Millers-Lake": {
     id: "Millers-Lake",
     name: "Millers Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24512,6 +24869,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mink-Lake": {
     id: "Mink-Lake",
     name: "Mink Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24534,6 +24892,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mink-Lake-#1": {
     id: "Mink-Lake-#1",
     name: "Mink Lake #1",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24557,6 +24916,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Minnie-Lake": {
     id: "Minnie-Lake",
     name: "Minnie Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24580,6 +24940,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Minnow-Lake": {
     id: "Minnow-Lake",
     name: "Minnow Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24622,6 +24983,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mistehae-Lake": {
     id: "Mistehae-Lake",
     name: "Mistehae Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24645,6 +25007,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mitsue-Lake": {
     id: "Mitsue-Lake",
     name: "Mitsue Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24667,6 +25030,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Monday-Creek": {
     id: "Monday-Creek",
     name: "Monday Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24690,6 +25054,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mons-Lake": {
     id: "Mons-Lake",
     name: "Mons Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24713,6 +25078,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Moonshine-Lake": {
     id: "Moonshine-Lake",
     name: "Moonshine Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24736,6 +25102,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Moose-Lake": {
     id: "Moose-Lake",
     name: "Moose Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24778,6 +25145,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Moosehills-Lake": {
     id: "Moosehills-Lake",
     name: "Moosehills Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24801,6 +25169,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mount-Lorette-Ponds": {
     id: "Mount-Lorette-Ponds",
     name: "Mount Lorette Ponds",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -24827,6 +25196,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mud-Lake": {
     id: "Mud-Lake",
     name: "Mud Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -24853,6 +25223,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Muir-Lake": {
     id: "Muir-Lake",
     name: "Muir Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -24875,6 +25246,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Muriel-Lake": {
     id: "Muriel-Lake",
     name: "Muriel Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24898,6 +25270,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Murray-Lake": {
     id: "Murray-Lake",
     name: "Murray Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24921,6 +25294,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Muskeg-River": {
     id: "Muskeg-River",
     name: "Muskeg River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -24942,6 +25316,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Muskiki-Lake": {
     id: "Muskiki-Lake",
     name: "Muskiki Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -24967,6 +25342,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Muskwa-Lake": {
     id: "Muskwa-Lake",
     name: "Muskwa Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -24990,6 +25366,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Muskwa-River": {
     id: "Muskwa-River",
     name: "Muskwa River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -25012,6 +25389,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Myers-Lake": {
     id: "Myers-Lake",
     name: "Myers Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -25036,6 +25414,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Mystery-Lake": {
     id: "Mystery-Lake",
     name: "Mystery Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -25060,6 +25439,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Namur-Lake": {
     id: "Namur-Lake",
     name: "Namur Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -25084,6 +25464,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Narrow-Lake": {
     id: "Narrow-Lake",
     name: "Narrow Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -25106,6 +25487,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Nipisi-Lake": {
     id: "Nipisi-Lake",
     name: "Nipisi Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -25129,6 +25511,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Nipisi-River": {
     id: "Nipisi-River",
     name: "Nipisi River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -25151,6 +25534,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Nordegg-River": {
     id: "Nordegg-River",
     name: "Nordegg River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -25174,6 +25558,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "North-Buck-Lake": {
     id: "North-Buck-Lake",
     name: "North Buck Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -25214,6 +25599,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "North-Ram-River": {
     id: "North-Ram-River",
     name: "North Ram River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -25237,6 +25623,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "North-Raven-River": {
     id: "North-Raven-River",
     name: "North Raven River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -25260,6 +25647,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "North-Saskatchewan--River": {
     id: "North-Saskatchewan--River",
     name: "North Saskatchewan  River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -25355,6 +25743,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "North-Saskatchewan-River": {
     id: "North-Saskatchewan-River",
     name: "North Saskatchewan River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -25397,6 +25786,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "North-Wabasca-Lake": {
     id: "North-Wabasca-Lake",
     name: "North Wabasca Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -25438,6 +25828,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Notikewin-River": {
     id: "Notikewin-River",
     name: "Notikewin River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed in river downstream of hwy. 35 only",
@@ -25460,6 +25851,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Obstruction-Lakes": {
     id: "Obstruction-Lakes",
     name: "Obstruction Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -25485,6 +25877,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Odlum-Lake": {
     id: "Odlum-Lake",
     name: "Odlum Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -25511,6 +25904,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Oldman-Reservoir": {
     id: "Oldman-Reservoir",
     name: "Oldman Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -25538,6 +25932,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Oldman-River": {
     id: "Oldman-River",
     name: "Oldman River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -25784,6 +26179,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "One-Week-Lake": {
     id: "One-Week-Lake",
     name: "One Week Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -25808,6 +26204,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Orloff-Lake": {
     id: "Orloff-Lake",
     name: "Orloff Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -25846,6 +26243,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Outpost-(Police)-Lake": {
     id: "Outpost-(Police)-Lake",
     name: "Outpost (Police) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -25869,6 +26267,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Owl-River": {
     id: "Owl-River",
     name: "Owl River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -25914,6 +26313,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Pans-Lake": {
     id: "Pans-Lake",
     name: "Pans Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -25938,6 +26338,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Park-Lake": {
     id: "Park-Lake",
     name: "Park Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -25961,6 +26362,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Parlby-Creek": {
     id: "Parlby-Creek",
     name: "Parlby Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -25984,6 +26386,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Pastecho-Lake": {
     id: "Pastecho-Lake",
     name: "Pastecho Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -26007,6 +26410,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Paul-Lake": {
     id: "Paul-Lake",
     name: "Paul Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -26029,6 +26433,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Peace-River": {
     id: "Peace-River",
     name: "Peace River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed in river only",
@@ -26068,6 +26473,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Peerless-Lake": {
     id: "Peerless-Lake",
     name: "Peerless Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -26125,6 +26531,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Pembina-River": {
     id: "Pembina-River",
     name: "Pembina River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26185,6 +26592,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Peters-Lake": {
     id: "Peters-Lake",
     name: "Peters Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26209,6 +26617,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Petitot-River": {
     id: "Petitot-River",
     name: "Petitot River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26232,6 +26641,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Phillips-Lake": {
     id: "Phillips-Lake",
     name: "Phillips Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -26258,6 +26668,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Piche-Lake": {
     id: "Piche-Lake",
     name: "Piche Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -26281,6 +26692,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Piche-River": {
     id: "Piche-River",
     name: "Piche River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -26306,6 +26718,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Picklejar-Lakes": {
     id: "Picklejar-Lakes",
     name: "Picklejar Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26333,6 +26746,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Picture-Butte-Reservoir": {
     id: "Picture-Butte-Reservoir",
     name: "Picture Butte Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -26356,6 +26770,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Pierre-Greys-Lakes": {
     id: "Pierre-Greys-Lakes",
     name: "Pierre Greys Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26379,6 +26794,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Pigeon-Lake": {
     id: "Pigeon-Lake",
     name: "Pigeon Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -26401,6 +26817,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Pincher-Creek": {
     id: "Pincher-Creek",
     name: "Pincher Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26443,6 +26860,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Pine-Coulee-Reservoir": {
     id: "Pine-Coulee-Reservoir",
     name: "Pine Coulee Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26469,6 +26887,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Pine-Lake": {
     id: "Pine-Lake",
     name: "Pine Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -26491,6 +26910,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Pinehurst-Lake": {
     id: "Pinehurst-Lake",
     name: "Pinehurst Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26532,6 +26952,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Pinto-Creek": {
     id: "Pinto-Creek",
     name: "Pinto Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26628,6 +27049,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Pinto-Lake": {
     id: "Pinto-Lake",
     name: "Pinto Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26654,6 +27076,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Pit-24-Lake-": {
     id: "Pit-24-Lake-",
     name: "Pit 24 Lake ",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26678,6 +27101,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Pit-35-Lake": {
     id: "Pit-35-Lake",
     name: "Pit 35 Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26702,6 +27126,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Pit-44-Lake-": {
     id: "Pit-44-Lake-",
     name: "Pit 44 Lake ",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26726,6 +27151,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Pit-45-Lake": {
     id: "Pit-45-Lake",
     name: "Pit 45 Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26750,6 +27176,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Pitchimi-Lake": {
     id: "Pitchimi-Lake",
     name: "Pitchimi Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -26773,6 +27200,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Plante-Creek": {
     id: "Plante-Creek",
     name: "Plante Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26796,6 +27224,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Policeman-Creek": {
     id: "Policeman-Creek",
     name: "Policeman Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26820,6 +27249,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Potts-Lake": {
     id: "Potts-Lake",
     name: "Potts Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26844,6 +27274,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Primrose-Lake": {
     id: "Primrose-Lake",
     name: "Primrose Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26867,6 +27298,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Quarry-Lake": {
     id: "Quarry-Lake",
     name: "Quarry Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26893,6 +27325,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Quirk-Creek": {
     id: "Quirk-Creek",
     name: "Quirk Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -26917,6 +27350,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Raft-Lake": {
     id: "Raft-Lake",
     name: "Raft Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -26939,6 +27373,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Rainbow-Lake": {
     id: "Rainbow-Lake",
     name: "Rainbow Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -26962,6 +27397,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Rainy-Ridge-Lake": {
     id: "Rainy-Ridge-Lake",
     name: "Rainy Ridge Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27007,6 +27443,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Ram-River": {
     id: "Ram-River",
     name: "Ram River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27031,6 +27468,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Raspberry-Lake": {
     id: "Raspberry-Lake",
     name: "Raspberry Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -27054,6 +27492,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Rat-Creek": {
     id: "Rat-Creek",
     name: "Rat Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27077,6 +27516,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Rat-Lake": {
     id: "Rat-Lake",
     name: "Rat Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -27099,6 +27539,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Rattlesnake-(Sauder)-Reservoir": {
     id: "Rattlesnake-(Sauder)-Reservoir",
     name: "Rattlesnake (Sauder) Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -27122,6 +27563,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Raven-Brood-TroutStation": {
     id: "Raven-Brood-TroutStation",
     name: "Raven Brood TroutStation",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27145,6 +27587,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Raven-River": {
     id: "Raven-River",
     name: "Raven River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27169,6 +27612,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Rawson-Lake": {
     id: "Rawson-Lake",
     name: "Rawson Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27195,6 +27639,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Raymond-Reservoir": {
     id: "Raymond-Reservoir",
     name: "Raymond Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -27218,6 +27663,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Raymond-Sugar-Factory-Reservoir": {
     id: "Raymond-Sugar-Factory-Reservoir",
     name: "Raymond Sugar Factory Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -27241,6 +27687,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Red-Deer-River": {
     id: "Red-Deer-River",
     name: "Red Deer River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27319,6 +27766,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Redwater-River": {
     id: "Redwater-River",
     name: "Redwater River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -27365,6 +27813,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Reed-Lake": {
     id: "Reed-Lake",
     name: "Reed Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -27388,6 +27837,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Reesor-Lake": {
     id: "Reesor-Lake",
     name: "Reesor Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -27412,6 +27862,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Resolute-Lake": {
     id: "Resolute-Lake",
     name: "Resolute Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27437,6 +27888,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Ribbon-Lake": {
     id: "Ribbon-Lake",
     name: "Ribbon Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -27463,6 +27915,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Richardson-Backcountry": {
     id: "Richardson-Backcountry",
     name: "Richardson Backcountry",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27506,6 +27959,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Richardson-Lake": {
     id: "Richardson-Lake",
     name: "Richardson Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27530,6 +27984,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Richardson-River": {
     id: "Richardson-River",
     name: "Richardson River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -27553,6 +28008,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Rock-Island-Lake": {
     id: "Rock-Island-Lake",
     name: "Rock Island Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -27593,6 +28049,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Rock-Lake-ES3-Lakes": {
     id: "Rock-Lake-ES3-Lakes",
     name: "Rock Lake",
+    groupExceptionZone: "ES3-Lakes",
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27617,6 +28074,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Rock-Lake": {
     id: "Rock-Lake",
     name: "Rock Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -27640,6 +28098,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Roderick-Lake": {
     id: "Roderick-Lake",
     name: "Roderick Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27664,6 +28123,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Rolling-Hills-Lake": {
     id: "Rolling-Hills-Lake",
     name: "Rolling Hills Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -27687,6 +28147,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Ross-Lake": {
     id: "Ross-Lake",
     name: "Ross Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -27710,6 +28171,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Round-Lake": {
     id: "Round-Lake",
     name: "Round Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -27750,6 +28212,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Royemma-Lake": {
     id: "Royemma-Lake",
     name: "Royemma Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27774,6 +28237,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Ruby-Lake": {
     id: "Ruby-Lake",
     name: "Ruby Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27799,6 +28263,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Rummel-Lake": {
     id: "Rummel-Lake",
     name: "Rummel Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27825,6 +28290,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Rundell-Creek": {
     id: "Rundell-Creek",
     name: "Rundell Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27848,6 +28314,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Running-Rain-Lake": {
     id: "Running-Rain-Lake",
     name: "Running Rain Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27874,6 +28341,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Ryan-Lake": {
     id: "Ryan-Lake",
     name: "Ryan Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -27898,6 +28366,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Saddle-Lake": {
     id: "Saddle-Lake",
     name: "Saddle Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -27921,6 +28390,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Sandy-Lake": {
     id: "Sandy-Lake",
     name: "Sandy Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -27997,6 +28467,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Sawn-Lake": {
     id: "Sawn-Lake",
     name: "Sawn Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -28020,6 +28491,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Schuman-Lake": {
     id: "Schuman-Lake",
     name: "Schuman Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -28042,6 +28514,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Seibert-Lake": {
     id: "Seibert-Lake",
     name: "Seibert Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -28065,6 +28538,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Semo-Lake": {
     id: "Semo-Lake",
     name: "Semo Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -28088,6 +28562,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Shark-Lake": {
     id: "Shark-Lake",
     name: "Shark Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -28114,6 +28589,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Shays-Reservoir": {
     id: "Shays-Reservoir",
     name: "Shays Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -28137,6 +28613,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Sheep-River": {
     id: "Sheep-River",
     name: "Sheep River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -28217,6 +28694,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Sherburne-Lake": {
     id: "Sherburne-Lake",
     name: "Sherburne Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -28240,6 +28718,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Shiningbank-Lake": {
     id: "Shiningbank-Lake",
     name: "Shiningbank Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -28282,6 +28761,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Siffleur-River": {
     id: "Siffleur-River",
     name: "Siffleur River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -28306,6 +28786,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Siffleur-Wilderness-Area": {
     id: "Siffleur-Wilderness-Area",
     name: "Siffleur Wilderness Area",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -28331,6 +28812,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Siffleur-WildernessArea": {
     id: "Siffleur-WildernessArea",
     name: "Siffleur WildernessArea",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -28354,6 +28836,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Silkstone-Lake": {
     id: "Silkstone-Lake",
     name: "Silkstone Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -28378,6 +28861,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Silvester-Creek": {
     id: "Silvester-Creek",
     name: "Silvester Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -28402,6 +28886,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Simonette-River": {
     id: "Simonette-River",
     name: "Simonette River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -28440,6 +28925,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Sinclair-Lake": {
     id: "Sinclair-Lake",
     name: "Sinclair Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -28463,6 +28949,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Skeleton-Lake": {
     id: "Skeleton-Lake",
     name: "Skeleton Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -28486,6 +28973,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Smith-Dorrien-Creek": {
     id: "Smith-Dorrien-Creek",
     name: "Smith-Dorrien Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -28510,6 +28998,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Smoke-Lake": {
     id: "Smoke-Lake",
     name: "Smoke Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -28550,6 +29039,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Smoky-River": {
     id: "Smoky-River",
     name: "Smoky River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -28619,6 +29109,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Smuts-Lakes": {
     id: "Smuts-Lakes",
     name: "Smuts Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -28646,6 +29137,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Snake-Reservoir": {
     id: "Snake-Reservoir",
     name: "Snake Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -28669,6 +29161,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Snipe-Lake": {
     id: "Snipe-Lake",
     name: "Snipe Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -28709,6 +29202,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Soars-Lake": {
     id: "Soars-Lake",
     name: "Soars Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -28732,6 +29226,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "South-Castle-River": {
     id: "South-Castle-River",
     name: "South Castle River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -28774,6 +29269,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "South-Heart-River": {
     id: "South-Heart-River",
     name: "South Heart River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -28818,6 +29314,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "South-Saskatchewan-River": {
     id: "South-Saskatchewan-River",
     name: "South Saskatchewan River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -28844,6 +29341,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "South-Wabasca-Lake": {
     id: "South-Wabasca-Lake",
     name: "South Wabasca Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -28903,6 +29401,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Southfork-Lake": {
     id: "Southfork-Lake",
     name: "Southfork Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -28948,6 +29447,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Sparrow's-Egg-Lake": {
     id: "Sparrow's-Egg-Lake",
     name: "Sparrow's Egg Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -28974,6 +29474,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Spawn-Lake": {
     id: "Spawn-Lake",
     name: "Spawn Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29014,6 +29515,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Spencer-Lake": {
     id: "Spencer-Lake",
     name: "Spencer Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29095,6 +29597,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Spotted-Lake": {
     id: "Spotted-Lake",
     name: "Spotted Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29117,6 +29620,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Spray-Lakes-Reservoir": {
     id: "Spray-Lakes-Reservoir",
     name: "Spray Lakes Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -29183,6 +29687,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Spruce-Coulee-Reservoir": {
     id: "Spruce-Coulee-Reservoir",
     name: "Spruce Coulee Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29206,6 +29711,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "St.-Agnes-Lake": {
     id: "St.-Agnes-Lake",
     name: "St. Agnes Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -29230,6 +29736,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "St.-Mary-Reservoir": {
     id: "St.-Mary-Reservoir",
     name: "St. Mary Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29253,6 +29760,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "St.-Mary-River": {
     id: "St.-Mary-River",
     name: "St. Mary River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -29322,6 +29830,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Stafford-Reservoir": {
     id: "Stafford-Reservoir",
     name: "Stafford Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29345,6 +29854,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Steele-(Cross)-Lake": {
     id: "Steele-(Cross)-Lake",
     name: "Steele (Cross) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29367,6 +29877,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Steepbank-Lake": {
     id: "Steepbank-Lake",
     name: "Steepbank Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -29391,6 +29902,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Stenton-Lake": {
     id: "Stenton-Lake",
     name: "Stenton Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -29417,6 +29929,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Stonehill-Lake": {
     id: "Stonehill-Lake",
     name: "Stonehill Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29440,6 +29953,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Stoney-(Siler)-Lake": {
     id: "Stoney-(Siler)-Lake",
     name: "Stoney (Siler) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29463,6 +29977,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Storm-Creek": {
     id: "Storm-Creek",
     name: "Storm Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -29488,6 +30003,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Sturgeon-Lake": {
     id: "Sturgeon-Lake",
     name: "Sturgeon Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29545,6 +30061,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Sturgeon-River": {
     id: "Sturgeon-River",
     name: "Sturgeon River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29604,6 +30121,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Sundance-Lake": {
     id: "Sundance-Lake",
     name: "Sundance Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29628,6 +30146,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Sunday-Creek": {
     id: "Sunday-Creek",
     name: "Sunday Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29651,6 +30170,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Sunday-Lake": {
     id: "Sunday-Lake",
     name: "Sunday Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29674,6 +30194,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Sunken-Lakes": {
     id: "Sunken-Lakes",
     name: "Sunken Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -29700,6 +30221,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Swan-Creek": {
     id: "Swan-Creek",
     name: "Swan Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -29758,6 +30280,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Swan-Lake": {
     id: "Swan-Lake",
     name: "Swan Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -29802,6 +30325,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Sylvan-Creek": {
     id: "Sylvan-Creek",
     name: "Sylvan Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -29825,6 +30349,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Sylvan-Lake": {
     id: "Sylvan-Lake",
     name: "Sylvan Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29847,6 +30372,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Taber-Lake": {
     id: "Taber-Lake",
     name: "Taber Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29870,6 +30396,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Talbot-Lake": {
     id: "Talbot-Lake",
     name: "Talbot Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29893,6 +30420,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Talus-Lake": {
     id: "Talus-Lake",
     name: "Talus Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -29919,6 +30447,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Tay-River": {
     id: "Tay-River",
     name: "Tay River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -29942,6 +30471,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Three-Isle-Lake": {
     id: "Three-Isle-Lake",
     name: "Three Isle Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -29968,6 +30498,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Thunder-Lake": {
     id: "Thunder-Lake",
     name: "Thunder Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -29990,6 +30521,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Thurston-Lake": {
     id: "Thurston-Lake",
     name: "Thurston Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30030,6 +30562,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Tilley-B-Reservoir": {
     id: "Tilley-B-Reservoir",
     name: "Tilley B Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30053,6 +30586,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Timko-Lake-(J-Or-Bantry-Reservoir)": {
     id: "Timko-Lake-(J-Or-Bantry-Reservoir)",
     name: "Timko Lake (J Or Bantry Reservoir)",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30076,6 +30610,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Tombstone-Lakes": {
     id: "Tombstone-Lakes",
     name: "Tombstone Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -30102,6 +30637,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Torrens-River": {
     id: "Torrens-River",
     name: "Torrens River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -30123,6 +30659,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Touchwood-Lake": {
     id: "Touchwood-Lake",
     name: "Touchwood Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30146,6 +30683,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Travers-Reservoir": {
     id: "Travers-Reservoir",
     name: "Travers Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30188,6 +30726,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Treasure-Loch-Lake": {
     id: "Treasure-Loch-Lake",
     name: "Treasure Loch Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -30212,6 +30751,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Tucker-Lake": {
     id: "Tucker-Lake",
     name: "Tucker Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30235,6 +30775,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Tulip-Lake": {
     id: "Tulip-Lake",
     name: "Tulip Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -30259,6 +30800,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Turtle-Lake": {
     id: "Turtle-Lake",
     name: "Turtle Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -30283,6 +30825,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Twelve-Mile-Coulee-Reservoir": {
     id: "Twelve-Mile-Coulee-Reservoir",
     name: "Twelve Mile Coulee Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30306,6 +30849,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Twin-Lakes": {
     id: "Twin-Lakes",
     name: "Twin Lakes",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30329,6 +30873,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Twin-Valley-Reservoir": {
     id: "Twin-Valley-Reservoir",
     name: "Twin Valley Reservoir",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30352,6 +30897,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   Unnamed: {
     id: "Unnamed",
     name: "Unnamed",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -30377,6 +30923,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Unnamed-NB3-Lakes": {
     id: "Unnamed-NB3-Lakes",
     name: "Unnamed",
+    groupExceptionZone: "NB3-Lakes",
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30400,6 +30947,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Unnamed-(Blairmore-Water-Supply-Reservoir)": {
     id: "Unnamed-(Blairmore-Water-Supply-Reservoir)",
     name: "Unnamed (Blairmore Water Supply Reservoir)",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -30425,6 +30973,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Unnamed-(Brodick)-Lake": {
     id: "Unnamed-(Brodick)-Lake",
     name: "Unnamed (Brodick) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30448,6 +30997,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Unnamed-(Burdett)-Lake": {
     id: "Unnamed-(Burdett)-Lake",
     name: "Unnamed (Burdett) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30471,6 +31021,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Unnamed-(Devil'sFork)-Creek": {
     id: "Unnamed-(Devil'sFork)-Creek",
     name: "Unnamed (Devil'sFork) Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -30494,6 +31045,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Unnamed-(Island)-Lake": {
     id: "Unnamed-(Island)-Lake",
     name: "Unnamed (Island) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30517,6 +31069,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Unnamed-(Jumping-Fish)-Lake": {
     id: "Unnamed-(Jumping-Fish)-Lake",
     name: "Unnamed (Jumping Fish) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -30543,6 +31096,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Unnamed-(Little-Perch)-Lake": {
     id: "Unnamed-(Little-Perch)-Lake",
     name: "Unnamed (Little Perch) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30566,6 +31120,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Unnamed-(Lodgepole)-Pond": {
     id: "Unnamed-(Lodgepole)-Pond",
     name: "Unnamed (Lodgepole) Pond",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30590,6 +31145,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Unnamed-(Scope)-Lake": {
     id: "Unnamed-(Scope)-Lake",
     name: "Unnamed (Scope) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30613,6 +31169,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Unnamed-(Sowka)-Lake": {
     id: "Unnamed-(Sowka)-Lake",
     name: "Unnamed (Sowka) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30636,6 +31193,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Unnamed-(Sphinx)-Lake": {
     id: "Unnamed-(Sphinx)-Lake",
     name: "Unnamed (Sphinx) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -30660,6 +31218,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Unnamed-(Whitemud)-Lake": {
     id: "Unnamed-(Whitemud)-Lake",
     name: "Unnamed (Whitemud) Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30683,6 +31242,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Upper-Kananaskis-Lake": {
     id: "Upper-Kananaskis-Lake",
     name: "Upper Kananaskis Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -30730,6 +31290,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Utikuma-Lake": {
     id: "Utikuma-Lake",
     name: "Utikuma Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30753,6 +31314,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Utikumasis-Lake": {
     id: "Utikumasis-Lake",
     name: "Utikumasis Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30776,6 +31338,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Vandersteene-Lake": {
     id: "Vandersteene-Lake",
     name: "Vandersteene Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30816,6 +31379,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Victor-Lake": {
     id: "Victor-Lake",
     name: "Victor Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30839,6 +31403,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Wabamun-Lake": {
     id: "Wabamun-Lake",
     name: "Wabamun Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30861,6 +31426,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Wabasca-River": {
     id: "Wabasca-River",
     name: "Wabasca River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed in river only",
@@ -30901,6 +31467,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Wadlin-Lake": {
     id: "Wadlin-Lake",
     name: "Wadlin Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -30941,6 +31508,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Waiparous-Creek": {
     id: "Waiparous-Creek",
     name: "Waiparous Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -30983,6 +31551,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Wampus-Creek": {
     id: "Wampus-Creek",
     name: "Wampus Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31006,6 +31575,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Wapiti-River": {
     id: "Wapiti-River",
     name: "Wapiti River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31042,6 +31612,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Wappau-Lake": {
     id: "Wappau-Lake",
     name: "Wappau Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31066,6 +31637,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Washout-Creek": {
     id: "Washout-Creek",
     name: "Washout Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31089,6 +31661,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Waterton-River": {
     id: "Waterton-River",
     name: "Waterton River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31207,6 +31780,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Watridge-Lake": {
     id: "Watridge-Lake",
     name: "Watridge Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31233,6 +31807,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Wayetenaw-Lake": {
     id: "Wayetenaw-Lake",
     name: "Wayetenaw Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -31256,6 +31831,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Wedge-Pond": {
     id: "Wedge-Pond",
     name: "Wedge Pond",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31282,6 +31858,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Weekes-Lake": {
     id: "Weekes-Lake",
     name: "Weekes Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31306,6 +31883,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Wentzel-Lake": {
     id: "Wentzel-Lake",
     name: "Wentzel Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -31329,6 +31907,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "West-Castle-River": {
     id: "West-Castle-River",
     name: "West Castle River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31353,6 +31932,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "West-Twin-Lake": {
     id: "West-Twin-Lake",
     name: "West Twin Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -31375,6 +31955,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "White-Goat-Wilderness--Area": {
     id: "White-Goat-Wilderness--Area",
     name: "White Goat Wilderness  Area",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31398,6 +31979,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "White-Goat-Wilderness-Area": {
     id: "White-Goat-Wilderness-Area",
     name: "White Goat Wilderness Area",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31423,6 +32005,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Whitefish-Lake": {
     id: "Whitefish-Lake",
     name: "Whitefish Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -31446,6 +32029,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Whiteridge-Recreation-Area-Pond-(Blueridge-Pit)": {
     id: "Whiteridge-Recreation-Area-Pond-(Blueridge-Pit)",
     name: "Whiteridge Recreation Area Pond (Blueridge Pit)",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31468,6 +32052,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Whitney-Lake": {
     id: "Whitney-Lake",
     name: "Whitney Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -31491,6 +32076,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Wiau-Lake": {
     id: "Wiau-Lake",
     name: "Wiau Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -31514,6 +32100,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Wildhay-River": {
     id: "Wildhay-River",
     name: "Wildhay River",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31537,6 +32124,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Willow-Creek": {
     id: "Willow-Creek",
     name: "Willow Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31637,6 +32225,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Winagami-Lake": {
     id: "Winagami-Lake",
     name: "Winagami Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -31676,6 +32265,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Windfall-Creek": {
     id: "Windfall-Creek",
     name: "Windfall Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31699,6 +32289,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Window-Mountain-Lake": {
     id: "Window-Mountain-Lake",
     name: "Window Mountain Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait except bait fish allowed",
@@ -31725,6 +32316,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Winefred-Lake": {
     id: "Winefred-Lake",
     name: "Winefred Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31750,6 +32342,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Winefred-Lake-Tributaries-and-Outflows-": {
     id: "Winefred-Lake-Tributaries-and-Outflows-",
     name: "Winefred Lake Tributaries and Outflows ",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31774,6 +32367,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Winnifred-Lake": {
     id: "Winnifred-Lake",
     name: "Winnifred Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31798,6 +32392,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Wizard-Lake": {
     id: "Wizard-Lake",
     name: "Wizard Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -31820,6 +32415,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Wolf-Creek": {
     id: "Wolf-Creek",
     name: "Wolf Creek",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31843,6 +32439,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Wolf-Lake": {
     id: "Wolf-Lake",
     name: "Wolf Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -31885,6 +32482,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Wolf-Lake-Complex": {
     id: "Wolf-Lake-Complex",
     name: "Wolf Lake Complex",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",
@@ -31926,6 +32524,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Woodman-Lake": {
     id: "Woodman-Lake",
     name: "Woodman Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31950,6 +32549,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Wylie-Lake": {
     id: "Wylie-Lake",
     name: "Wylie Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait ban",
@@ -31974,6 +32574,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
   "Yellow-Lake": {
     id: "Yellow-Lake",
     name: "Yellow Lake",
+    groupExceptionZone: null,
     waterbodies: [
       {
         bait_ban: "Bait allowed",

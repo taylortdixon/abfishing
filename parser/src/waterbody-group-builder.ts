@@ -42,6 +42,7 @@ export const buildWaterbodyGroups = (
       acc[id] = {
         id: id,
         name: waterbody.waterbody,
+        groupExceptionZone: groupException?.zone || null,
         waterbodies: [],
       };
     }

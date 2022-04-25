@@ -28,6 +28,7 @@ export type Waterbody = {
 export type WaterbodyGroup = {
   id: string;
   name: string;
+  groupExceptionZone: string | null;
   waterbodies: Waterbody[];
 };
 
