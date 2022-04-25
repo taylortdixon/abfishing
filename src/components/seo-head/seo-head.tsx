@@ -26,8 +26,6 @@ export const SeoHead: React.VFC<{
     );
   }
 
-  console.log(waterbodyGroupId);
-
   if (waterbodyGroup) {
     return (
       <Helmet>

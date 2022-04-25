@@ -9,6 +9,7 @@ import {
 import { useHistory } from "react-router";
 import { WaterbodyGroupAccordion } from "./waterbody-group-accordion";
 import { waterbodyGroups } from "../../fishing-regulations";
+import { isMobile } from "react-device-detect";
 
 type WaterbodyGroupModalProps = {
   waterbodyGroupId: string;
@@ -26,8 +27,7 @@ export const WaterbodyGroupModal: React.VFC<WaterbodyGroupModalProps> = ({
 
   return (
     <Dialog
-      maxWidth="sm"
-      fullWidth
+      fullScreen={isMobile}
       scroll="paper"
       onClose={handleClose}
       aria-labelledby="simple-dialog-title"
@@ -44,7 +44,7 @@ export const WaterbodyGroupModal: React.VFC<WaterbodyGroupModalProps> = ({
               </div>
             </Typography>
           </DialogTitle>
-          <DialogContent>
+          <DialogContent dividers>
             <WaterbodyGroupAccordion
               waterbodies={selectedWaterbodyGroup.waterbodies}
             />

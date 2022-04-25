@@ -25,9 +25,7 @@ export const WaterbodyGroupAccordion: React.VFC<
     {}
   );
 
-  const [expandedArea, setExpandedArea] = useState<string | undefined>(
-    Object.keys(waterbodiesByWaterbodyDetail)[0]
-  );
+  const [expandedArea, setExpandedArea] = useState<string | undefined>();
 
   if (Object.keys(waterbodiesByWaterbodyDetail).length === 1) {
     return (

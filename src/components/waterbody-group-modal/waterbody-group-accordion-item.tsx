@@ -7,6 +7,7 @@ import {
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Waterbody } from "../../types/waterbody.type";
 import { WaterbodyGroupAccordionItemDetails } from "./waterbody-group-accordion-item-details";
+import { trackAccordionOpen } from "../../utils/analytics.utils";
 
 type WaterbodyGroupAccordionItemProps = {
   id: string;
@@ -21,6 +22,10 @@ export const WaterbodyGroupAccordionItem: React.VFC<
   const handleChange = () => {
     const newId = expanded ? undefined : id;
     onChange(newId);
+
+    if (newId) {
+      trackAccordionOpen(newId);
+    }
   };
 
   return (

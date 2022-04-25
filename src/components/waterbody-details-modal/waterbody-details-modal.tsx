@@ -118,8 +118,8 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
                 href={`https://albertaregulations.ca/fishingregs/${selectedWaterbody.fish_management_zone}.pdf`}
               >
                 <ListItemText
-                  primary="Use this at your own risk"
-                  secondary="Click here to view the official Alberta regulations."
+                  primary="Alberta Regulations"
+                  secondary="Click to view official page."
                 />
               </ListItem>
               <Divider />
