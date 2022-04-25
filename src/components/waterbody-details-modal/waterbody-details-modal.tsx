@@ -33,7 +33,8 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
 }) => {
   const selectedWaterbody = useSelectedWaterbody(selectedId);
   const associatedGroupId = useAssociatedWaterbodyGroupId(
-    selectedWaterbody?.waterbody
+    selectedWaterbody?.waterbody,
+    selectedWaterbody?.fish_management_zone
   );
 
   const history = useHistory();

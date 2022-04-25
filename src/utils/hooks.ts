@@ -19,10 +19,15 @@ export const useSelectedWaterbody = (
   );
 
 export const useAssociatedWaterbodyGroupId = (
-  waterbodyName: string | undefined
+  waterbodyName: string | undefined,
+  waterbodyZone: string | undefined
 ): string | undefined =>
   React.useMemo(() => {
     return Object.values(waterbodyGroups).find(
-      (group) => group.name === waterbodyName
+      (group) =>
+        group.name === waterbodyName &&
+        group.waterbodies.some(
+          (waterbody) => waterbody.fish_management_zone === waterbodyZone
+        )
     )?.id;
-  }, [waterbodyName]);
+  }, [waterbodyName, waterbodyZone]);
