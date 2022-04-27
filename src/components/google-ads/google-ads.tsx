@@ -33,7 +33,6 @@ export const GoogleAds: React.VFC<GoogleAdsProps> = ({
         data-ad-slot={slot}
         data-ad-format={format}
         data-full-width-responsive={fullWidthResponsive}
-        data-adtest="on"
       ></ins>
     </div>
   );
