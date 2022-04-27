@@ -27,6 +27,7 @@ import {
   trackWaterbodyOfficialRegulations,
 } from "../../utils/analytics.utils";
 import { fishLimitsIconMap } from "../fish-icons/fish-icons";
+import { GoogleAds } from "../google-ads/google-ads";
 
 export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
   selectedId,
@@ -123,6 +124,14 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
                   secondary="Click to view official page."
                 />
               </ListItem>
+              <GoogleAds
+                slot="5811385214"
+                style={{
+                  display: "block",
+                }}
+                fullWidthResponsive
+                format="auto"
+              />
               <Divider />
               {Object.entries(selectedWaterbody.fish_limits || {}).map(
                 ([limitName, limit]) => {
