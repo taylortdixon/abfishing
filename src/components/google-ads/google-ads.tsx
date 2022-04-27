@@ -20,7 +20,7 @@ export const GoogleAds: React.VFC<GoogleAdsProps> = ({
     (adsbygoogle = window.adsbygoogle || []).push({});
   }, []);
 
-  if (process.env.NODE_ENV !== "production") {
+  if (process.env.NODE_ENV !== "test") {
     return null;
   }
 
