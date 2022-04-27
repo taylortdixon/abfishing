@@ -124,14 +124,6 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
                   secondary="Click to view official page."
                 />
               </ListItem>
-              <GoogleAds
-                slot="5811385214"
-                style={{
-                  display: "block",
-                }}
-                fullWidthResponsive
-                format="auto"
-              />
               <Divider />
               {Object.entries(selectedWaterbody.fish_limits || {}).map(
                 ([limitName, limit]) => {
