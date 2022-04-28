@@ -104,6 +104,9 @@ export const FishingRegulationTable: React.VFC<
         // }}
       />
       <Typography display="block" variant="caption" gutterBottom>
+        <Link href="/Privacy-Policy.pdf" target="_blank">
+          Privacy Policy
+        </Link>{" "}
         Updated Apr 28, 2022. See an issue?{" "}
         <Link href="mailto&#58;%&#54;1bfis%68in%67ca&#64;gm%61i&#108;&#46;c&#37;&#54;Fm">
           Reach Out!
