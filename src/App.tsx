@@ -4,7 +4,6 @@ import { lazy } from "react";
 import { useLocation, useParams } from "react-router-dom";
 import "./App.css";
 import { SiteLoader } from "./components/site-loader/site-loader";
-import { WaterbodyGroupModal } from "./components/waterbody-group-modal/waterbody-group-modal";
 import { trackPageview } from "./utils/analytics.utils";
 
 const FishingRegulationTable = lazy(
@@ -13,6 +12,10 @@ const FishingRegulationTable = lazy(
 
 const WaterbodyDetailsModal = lazy(
   () => import("./components/waterbody-details-modal/waterbody-details-modal")
+);
+
+const WaterbodyGroupModal = lazy(
+  () => import("./components/waterbody-group-modal/waterbody-group-modal")
 );
 
 const SeoHead = lazy(() => import("./components/seo-head/seo-head"));

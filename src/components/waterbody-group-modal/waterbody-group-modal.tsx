@@ -59,3 +59,5 @@ export const WaterbodyGroupModal: React.VFC<WaterbodyGroupModalProps> = ({
     </Dialog>
   );
 };
+
+export default WaterbodyGroupModal;
