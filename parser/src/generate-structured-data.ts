@@ -55,5 +55,6 @@ export const generateStructuredData = (
         "csvw:columns": columns,
       },
     },
+    license: "https://creativecommons.org/publicdomain/zero/1.0/",
   };
 };
