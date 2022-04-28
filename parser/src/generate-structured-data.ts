@@ -56,5 +56,15 @@ export const generateStructuredData = (
       },
     },
     license: "https://creativecommons.org/publicdomain/zero/1.0/",
+    creator: {
+      "@type": "Organization",
+      url: "https://albertaregulations.ca/",
+      name: "Alberta Government",
+      contactPoint: {
+        "@type": "ContactPoint",
+        contactType: "Call Center",
+        telephone: "+1-780-427-2711",
+      },
+    },
   };
 };
