@@ -34,7 +34,12 @@ function App() {
 
   return (
     <Container className="Container">
-      <Typography variant="h3" component="h1" gutterBottom>
+      <Typography
+        variant="h3"
+        component="h1"
+        gutterBottom
+        className="App__title"
+      >
         Search for Fishing Regulations
       </Typography>
       <Typography variant="body1">
