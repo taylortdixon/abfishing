@@ -1,9 +1,8 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { MainMenuNav } from "./components/main-menu-nav/main-menu-nav";
-import { WarningModal } from "./components/warning-modal/warning-modal";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import App from "./App";
 import dayjs from "dayjs";
@@ -26,6 +25,10 @@ dayjs.extend(isSameOrBefore);
 
 const theme = createTheme();
 
+const WarningModal = lazy(
+  () => import("./components/warning-modal/warning-modal")
+);
+
 ReactDOM.render(
   <React.StrictMode>
     <MainMenuNav />
@@ -46,7 +49,9 @@ ReactDOM.render(
         </ThemeProvider>
       </StyledEngineProvider>
     </Router>
-    <WarningModal />
+    <Suspense fallback={null}>
+      <WarningModal />
+    </Suspense>
   </React.StrictMode>,
   document.getElementById("root")
 );

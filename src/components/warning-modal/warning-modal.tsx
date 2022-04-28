@@ -58,3 +58,5 @@ export const WarningModal = () => {
     </Dialog>
   );
 };
+
+export default WarningModal;
