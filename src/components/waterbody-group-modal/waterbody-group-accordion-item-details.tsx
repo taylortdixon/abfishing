@@ -58,7 +58,7 @@ export const WaterbodyGroupAccordionItemDetails: React.VFC<
       </Tabs>
 
       {waterbodies.map((waterbody, i) => (
-        <TabPanel value={currentTab} id={buildId(waterbody.season, i)}>
+        <TabPanel key={buildId(waterbody.season, i)} value={currentTab} id={buildId(waterbody.season, i)}>
           <WaterbodyGroupItemInfo
             includeDetail={includeDetail}
             waterbody={waterbody}

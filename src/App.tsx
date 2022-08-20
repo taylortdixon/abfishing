@@ -1,4 +1,4 @@
-import { Container, Typography } from "@mui/material";
+import { Alert, AlertTitle, Container, Link, Typography } from "@mui/material";
 import { Suspense, useEffect } from "react";
 import { lazy } from "react";
 import { useLocation, useParams } from "react-router-dom";
@@ -45,6 +45,9 @@ function App() {
       >
         Search for Fishing Regulations
       </Typography>
+
+      <Alert style={{marginBottom: 10}} severity="warning"><AlertTitle>Warning!</AlertTitle>Time of day angling restrictions are in effect for some rivers and streams. Click <Link target="_blank" href="https://mywildalberta.ca/fishing/advisories-corrections-closures/time-of-day-angling-restrictions.aspx">here</Link> for more information.</Alert>
+
       <Typography variant="body1">
         Look up the fishing regulations for the lakes, rivers, streams,
         resevoirs and tributaries in Alberta. Click on a row to view details.
