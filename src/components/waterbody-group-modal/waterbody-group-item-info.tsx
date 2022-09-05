@@ -1,4 +1,4 @@
-import { Alert, AlertTitle, Link, List, ListItem, ListItemIcon, ListItemText } from "@mui/material";
+import { List, ListItem, ListItemIcon, ListItemText } from "@mui/material";
 import { FISH_LIMIT_LABELS } from "../../constants";
 import { FishLimit, Waterbody } from "../../types/waterbody.type";
 import { trackWaterbodyOfficialRegulations } from "../../utils/analytics.utils";
@@ -19,12 +19,6 @@ export const WaterbodyGroupItemInfo: React.VFC<WaterbodyGroupItemInfoProps> = ({
 }) => {
   return (
     <List dense={true} className="list">
-      <ListItem>
-        <Alert style={{marginBottom: 10}} severity="warning">
-          <AlertTitle>Warning!</AlertTitle>
-          Time of day angling restrictions are in effect for some rivers and streams. Click <Link target="_blank" href="https://mywildalberta.ca/fishing/advisories-corrections-closures/time-of-day-angling-restrictions.aspx">here</Link> for more information.
-        </Alert>
-      </ListItem>
       {includeDetail && (
         <ListItem className="list_item">
           <ListItemText

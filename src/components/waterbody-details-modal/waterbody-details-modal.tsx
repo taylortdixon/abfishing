@@ -1,13 +1,10 @@
 import {
-  Alert,
-  AlertTitle,
   Button,
   Dialog,
   DialogActions,
   DialogContent,
   DialogTitle,
   Divider,
-  Link,
   List,
   ListItem,
   ListItemIcon,
@@ -76,10 +73,10 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
           <DialogContent dividers>
             <List dense={true}>
               <ListItem>
-                <Alert style={{marginBottom: 10}} severity="warning">
-                  <AlertTitle>Warning!</AlertTitle>
-                  Time of day angling restrictions are in effect for some rivers and streams. Click <Link target="_blank" href="https://mywildalberta.ca/fishing/advisories-corrections-closures/time-of-day-angling-restrictions.aspx">here</Link> for more information.
-                </Alert>
+                <ListItemText
+                  primary="Season"
+                  secondary={selectedWaterbody.season}
+                />
               </ListItem>
               <ListItem>
                 <ListItemText
