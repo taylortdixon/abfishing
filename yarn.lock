@@ -1569,14 +1569,14 @@
   resolved "https://registry.yarnpkg.com/@mui/core-downloads-tracker/-/core-downloads-tracker-5.10.13.tgz#34068ede2853392ca4fd82ad16d9c1ca664f69b3"
   integrity sha512-zWkWPV/SaNdsIdxAWiuVGZ+Ue3BkfSIlU/BFIrJmuUcwiIa7gQsbI/DOpj1KzLvqZhdEe2wC1aG4nCHfzgc1Hg==
 
-"@mui/icons-material@^5.6.2":
+"@mui/icons-material@5.10.9":
   version "5.10.9"
   resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.10.9.tgz#f9522c49797caf30146acc576e37ecb4f95bbc38"
   integrity sha512-sqClXdEM39WKQJOQ0ZCPTptaZgqwibhj2EFV9N0v7BU1PO8y4OcX/a2wIQHn4fNuDjIZktJIBrmU23h7aqlGgg==
   dependencies:
     "@babel/runtime" "^7.19.0"
 
-"@mui/lab@^5.0.0-alpha.78":
+"@mui/lab@5.0.0-alpha.107":
   version "5.0.0-alpha.107"
   resolved "https://registry.yarnpkg.com/@mui/lab/-/lab-5.0.0-alpha.107.tgz#1443c3c9a5abd7ada96df73e216dea289701c391"
   integrity sha512-5lq0tSewkjUHBAuuAVikifM+IeOk33jcMSDgS5ouwi0VDXZjgWij+V/Nhz/8vIyBKwYv1bvhQGyDiUcPiCLX+Q==
@@ -1590,7 +1590,7 @@
     prop-types "^15.8.1"
     react-is "^18.2.0"
 
-"@mui/material@^5.6.2":
+"@mui/material@5.10.13":
   version "5.10.13"
   resolved "https://registry.yarnpkg.com/@mui/material/-/material-5.10.13.tgz#49c505ed99bc97e573d0cc15bec074b080aacee1"
   integrity sha512-TkkT1rNc0/hhL4/+zv4gYcA6egNWBH/1Tz+azoTnQIUdZ32fgwFI2pFX2KVJNTt30xnLznxDWtTv7ilmJQ52xw==
@@ -1627,7 +1627,7 @@
     csstype "^3.1.1"
     prop-types "^15.8.1"
 
-"@mui/styles@^5.6.2":
+"@mui/styles@5.10.10":
   version "5.10.10"
   resolved "https://registry.yarnpkg.com/@mui/styles/-/styles-5.10.10.tgz#9b44bfbb89e735b737acd95ba4b8136f116ec30a"
   integrity sha512-utr87q/euocRdc2ekFX7DL1gqTVfogSVeu74Nspr8rtK/afC9QwF3ScP/XThVXWPcQKjBWHMKWtAO9BSVE4KDg==
@@ -1680,7 +1680,7 @@
     prop-types "^15.8.1"
     react-is "^18.2.0"
 
-"@mui/x-data-grid@^5.9.0":
+"@mui/x-data-grid@5.17.11":
   version "5.17.11"
   resolved "https://registry.yarnpkg.com/@mui/x-data-grid/-/x-data-grid-5.17.11.tgz#3a2a9889fb24030d8f11b03319638392d7df8752"
   integrity sha512-9KaAsEHKTho/hXXSboxkewBI5HF9NwmgaHCjX7UCg/av3yP2wcWELui9mAWUjI6qm6+8hvKmKclf20ZZ+aPiNg==
