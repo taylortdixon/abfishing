@@ -15,7 +15,7 @@ import { WaterbodyDetailsModalProps } from "./waterbody-details-modal.props.type
 import "./waterbody-details-modal.css";
 import { FishLimit } from "../../types/waterbody.type";
 import React from "react";
-import { useHistory } from "react-router";
+import { useNavigate } from "react-router-dom";
 import {
   useAssociatedWaterbodyGroupId,
   useSelectedWaterbody,
@@ -37,8 +37,8 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
     selectedWaterbody?.fish_management_zone
   );
 
-  const history = useHistory();
-  const handleClose = () => history.push("/");
+  const navigate = useNavigate();
+  const handleClose = () => navigate("/");
   const handleViewGroup = () => {
     if (!selectedWaterbody || !associatedGroupId) {
       return;
@@ -46,7 +46,7 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
 
     trackGroupOpen(selectedWaterbody.waterbody);
 
-    history.push(`/regulations/${associatedGroupId}`);
+    navigate(`/regulations/${associatedGroupId}`);
   };
 
   return (
@@ -60,14 +60,12 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
     >
       {selectedWaterbody && (
         <>
-          <DialogTitle id="simple-dialog-title">
-            <Typography variant="h4" component="h1">
-              <div className="waterbody_details__dialog_title">
-                <span className="waterbody_details__dialog_title__text">
-                  {selectedWaterbody.waterbody}
-                </span>
-              </div>
-            </Typography>
+          <DialogTitle id="simple-dialog-title" variant="h4" component="h1">
+            <div className="waterbody_details__dialog_title">
+              <span className="waterbody_details__dialog_title__text">
+                {selectedWaterbody.waterbody}
+              </span>
+            </div>
           </DialogTitle>
           <DialogContent dividers>
             <List dense={true}>

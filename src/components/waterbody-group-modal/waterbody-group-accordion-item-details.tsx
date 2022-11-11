@@ -50,15 +50,20 @@ export const WaterbodyGroupAccordionItemDetails: React.VFC<
       <Tabs value={currentTab} onChange={handleTabChange}>
         {waterbodies.map((waterbody, i) => (
           <Tab
-            value={buildId(waterbody.season, i)}
             label={waterbody.season.replace("Open ", "")}
+            key={buildId(waterbody.season, i)}
             id={buildId(waterbody.season, i)}
+            value={buildId(waterbody.season, i)}
           />
         ))}
       </Tabs>
 
       {waterbodies.map((waterbody, i) => (
-        <TabPanel value={currentTab} id={buildId(waterbody.season, i)}>
+        <TabPanel
+          value={currentTab}
+          key={buildId(waterbody.season, i)}
+          id={buildId(waterbody.season, i)}
+        >
           <WaterbodyGroupItemInfo
             includeDetail={includeDetail}
             waterbody={waterbody}

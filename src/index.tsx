@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { MainMenuNav } from "./components/main-menu-nav/main-menu-nav";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import App from "./App";
 import dayjs from "dayjs";
 import isSameOrAfter from "dayjs/plugin/isSameOrAfter";
@@ -35,23 +35,17 @@ const root = createRoot(container!);
 root.render(
   <React.StrictMode>
     <MainMenuNav />
-    <Router>
-      <StyledEngineProvider injectFirst>
-        <ThemeProvider theme={theme}>
-          <Switch>
-            <Route path="/waterbody/:id">
-              <App />
-            </Route>{" "}
-            <Route path="/regulations/:groupId">
-              <App />
-            </Route>
-            <Route path="/">
-              <App />
-            </Route>
-          </Switch>
-        </ThemeProvider>
-      </StyledEngineProvider>
-    </Router>
+    <StyledEngineProvider injectFirst>
+      <ThemeProvider theme={theme}>
+        <Router>
+          <Routes>
+            <Route path="/waterbody/:id" element={<App />}></Route>
+            <Route path="/regulations/:groupId" element={<App />}></Route>
+            <Route path="/" element={<App />}></Route>
+          </Routes>
+        </Router>
+      </ThemeProvider>
+    </StyledEngineProvider>
     <Suspense fallback={null}>
       <WarningModal />
     </Suspense>

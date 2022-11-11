@@ -6,10 +6,10 @@ import {
   DialogTitle,
   Typography,
 } from "@mui/material";
-import { useHistory } from "react-router";
 import { WaterbodyGroupAccordion } from "./waterbody-group-accordion";
 import { waterbodyGroups } from "../../fishing-regulations";
 import { isMobile } from "react-device-detect";
+import { useNavigate } from "react-router-dom";
 
 type WaterbodyGroupModalProps = {
   waterbodyGroupId: string;
@@ -18,12 +18,12 @@ type WaterbodyGroupModalProps = {
 export const WaterbodyGroupModal: React.VFC<WaterbodyGroupModalProps> = ({
   waterbodyGroupId,
 }) => {
+  const navigate = useNavigate();
   const selectedWaterbodyGroup = Object.values(waterbodyGroups).find(
     (group) => group.id === waterbodyGroupId
   );
 
-  const history = useHistory();
-  const handleClose = () => history.push("/");
+  const handleClose = () => navigate("/");
 
   return (
     <Dialog
@@ -35,14 +35,12 @@ export const WaterbodyGroupModal: React.VFC<WaterbodyGroupModalProps> = ({
     >
       {selectedWaterbodyGroup && (
         <>
-          <DialogTitle id="simple-dialog-title">
-            <Typography variant="h4" component="h1">
-              <div className="waterbody_details__dialog_title">
-                <span className="waterbody_details__dialog_title__text">
-                  {selectedWaterbodyGroup.name}
-                </span>
-              </div>
-            </Typography>
+          <DialogTitle component="h1" variant="h4" id="simple-dialog-title">
+            <div className="waterbody_details__dialog_title">
+              <span className="waterbody_details__dialog_title__text">
+                {selectedWaterbodyGroup.name}
+              </span>
+            </div>
           </DialogTitle>
           <DialogContent dividers>
             <WaterbodyGroupAccordion
