@@ -4,7 +4,6 @@ import {
   DialogActions,
   DialogContent,
   DialogTitle,
-  Typography,
 } from "@mui/material";
 import { WaterbodyGroupAccordion } from "./waterbody-group-accordion";
 import { waterbodyGroups } from "../../fishing-regulations";

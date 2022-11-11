@@ -9,7 +9,6 @@ import {
   ListItem,
   ListItemIcon,
   ListItemText,
-  Typography,
 } from "@mui/material";
 import { WaterbodyDetailsModalProps } from "./waterbody-details-modal.props.types";
 import "./waterbody-details-modal.css";
