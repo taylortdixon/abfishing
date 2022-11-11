@@ -27,7 +27,6 @@ import {
   trackWaterbodyOfficialRegulations,
 } from "../../utils/analytics.utils";
 import { fishLimitsIconMap } from "../fish-icons/fish-icons";
-import { GoogleAds } from "../google-ads/google-ads";
 
 export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
   selectedId,
