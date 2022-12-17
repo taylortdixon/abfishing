@@ -14,6 +14,8 @@ import {
   Theme,
   StyledEngineProvider,
 } from "@mui/material";
+import { WaterbodyListPage } from "./pages/waterbody-list/waterbody-list";
+import { WaterbodyGroupDetailsPage } from "./pages/waterbody-group-details/waterbody-group-details";
 
 declare module "@mui/styles/defaultTheme" {
   // eslint-disable-next-line @typescript-eslint/no-empty-interface
@@ -39,9 +41,30 @@ root.render(
       <ThemeProvider theme={theme}>
         <Router>
           <Routes>
-            <Route path="/waterbody/:id" element={<App />}></Route>
-            <Route path="/regulations/:groupId" element={<App />}></Route>
-            <Route path="/" element={<App />}></Route>
+            <Route
+              path="/waterbody/:id"
+              element={
+                <App>
+                  <WaterbodyListPage />
+                </App>
+              }
+            ></Route>
+            <Route
+              path="/regulations/:groupId"
+              element={
+                <App>
+                  <WaterbodyGroupDetailsPage />
+                </App>
+              }
+            ></Route>
+            <Route
+              path="/"
+              element={
+                <App>
+                  <WaterbodyListPage />
+                </App>
+              }
+            ></Route>
           </Routes>
         </Router>
       </ThemeProvider>

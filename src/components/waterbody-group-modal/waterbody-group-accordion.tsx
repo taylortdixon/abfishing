@@ -51,7 +51,8 @@ export const WaterbodyGroupAccordion: React.VFC<
   return (
     <>
       <Typography gutterBottom>
-        Click to expand the waterbody details section below:
+        There are multiple restrictions for the selected waterbody. Click to
+        expand the desired region below:
       </Typography>
       {accordions}
     </>
