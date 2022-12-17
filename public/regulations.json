@@ -3,7 +3,7 @@
   "waterbody_groups": {
     "A-La-Peche-Lake": {
       "id": "A-La-Peche-Lake",
-      "name": "A-La Peche Lake",
+      "name": "A La Peche Lake",
       "groupExceptionZone": null,
       "waterbodies": [
         {
@@ -14,7 +14,7 @@
           "waterbody": "A La Peche Lake",
           "waterbody_detail": "55-6-W5",
           "fish_limits": {
-            "walleye": "abc",
+            "walleye": "",
             "northern_pike": "",
             "yellow_perch": "",
             "lake_whitefish": "",
