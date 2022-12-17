@@ -38,16 +38,16 @@ function App() {
   return (
     <Container className="Container">
       <Typography
-        variant="h3"
+        variant="h4"
         component="h1"
         gutterBottom
         className="App__title"
       >
-        Search for Fishing Regulations
+        Alberta Fishing Regulations
       </Typography>
       <Typography variant="body1">
-        Look up the fishing regulations for the lakes, rivers, streams,
-        resevoirs and tributaries in Alberta. Click on a row to view details.
+        Look up fishing regulations for lakes and rivers in Alberta. Search or
+        filter to find results, and select a row to view details.
       </Typography>
 
       <Suspense fallback={<SiteLoader />}>

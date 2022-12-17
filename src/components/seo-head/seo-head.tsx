@@ -20,7 +20,7 @@ export const SeoHead: React.VFC<{
         <title>Alberta Fishing Regulations | AB Fishing</title>
         <meta
           name="description"
-          content="View Alberta's fishing regulations including catch limits, bait bans, and open seasons for lakes and rivers."
+          content="Search for fishing regulations within Alberta's rivers and lakes. View details on open seasons, catch limits, and bait restrictions."
         />
         <meta
           property="og:title"
@@ -29,7 +29,7 @@ export const SeoHead: React.VFC<{
         />
         <meta
           property="og:description"
-          content="View Alberta's fishing regulations including catch limits, bait bans, and open seasons for lakes and rivers."
+          content="Search for fishing regulations within Alberta's rivers and lakes. View details on open seasons, catch limits, and bait restrictions."
           data-react-helmet="true"
         />
       </Helmet>
@@ -40,8 +40,8 @@ export const SeoHead: React.VFC<{
     const groupExceptionZoneName = waterbodyGroup.groupExceptionZone
       ? ` (${waterbodyGroup.groupExceptionZone.replace("-", " ")}) `
       : "";
-    const title = `${waterbodyGroup.name}${groupExceptionZoneName} Regulations`;
-    const description = `View ${waterbodyGroup.name}${groupExceptionZoneName}, Alberta fishing regulations including catch limits, bait bans, and open seasons.`;
+    const title = `${waterbodyGroup.name}${groupExceptionZoneName} Fishing Regulations`;
+    const description = `Fishing regulations for ${waterbodyGroup.name}${groupExceptionZoneName}. View catch limits, bait restrictions, and open seasons.`;
     return (
       <Helmet>
         <title>{title} | AB Fishing</title>
@@ -62,23 +62,25 @@ export const SeoHead: React.VFC<{
 
   const fishLimits = joinSentence(
     Object.entries(selectedWaterbody.fish_limits || {})
-      .filter(([k, v]) => !!v && (k as FishLimit) !== "trout_total")
-      .map(([k, v]) => FISH_LIMIT_LABELS[k as FishLimit])
+      .filter(([k, v]) => !!v)
+      .map(([k, v]) => {
+        const fishLimit = k as FishLimit;
+
+        if (fishLimit === "trout_total") {
+          return "Trout";
+        }
+
+        return FISH_LIMIT_LABELS[fishLimit];
+      })
   );
 
-  let descriptionContent = `${selectedWaterbody.waterbody} fishing regulations. `;
+  let descriptionContent = `Fishing regulations for ${selectedWaterbody.waterbody}, ${selectedWaterbody.season}. `;
 
   if (fishLimits) {
-    descriptionContent += `Catch limits for ${fishLimits} - `;
+    descriptionContent += `View the catch limits for ${fishLimits}.`;
   }
 
-  descriptionContent += `${selectedWaterbody.season}.`;
-
-  if (selectedWaterbody.waterbody_detail) {
-    descriptionContent += ` ${selectedWaterbody.waterbody_detail}`;
-  }
-
-  const title = `${selectedWaterbody.waterbody} - ${selectedWaterbody.fish_management_zone}`;
+  const title = `${selectedWaterbody.waterbody} Fishing Regulations`;
 
   return (
     <Helmet>
