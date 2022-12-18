@@ -13,12 +13,13 @@ type WaterbodyGroupAccordionItemProps = {
   id: string;
   expanded: boolean;
   waterbodies: Waterbody[];
+  defaultWaterbodySeason?: string;
   onChange: (id: string | undefined) => void;
 };
 
 export const WaterbodyGroupAccordionItem: React.VFC<
   WaterbodyGroupAccordionItemProps
-> = ({ expanded, id, waterbodies, onChange }) => {
+> = ({ expanded, id, waterbodies, defaultWaterbodySeason, onChange }) => {
   const handleChange = () => {
     const newId = expanded ? undefined : id;
     onChange(newId);
@@ -34,7 +35,10 @@ export const WaterbodyGroupAccordionItem: React.VFC<
         <Typography>{id}</Typography>
       </AccordionSummary>
       <AccordionDetails style={{ flexDirection: "column" }}>
-        <WaterbodyGroupAccordionItemDetails waterbodies={waterbodies} />
+        <WaterbodyGroupAccordionItemDetails
+          waterbodies={waterbodies}
+          defaultWaterbodySeason={defaultWaterbodySeason}
+        />
       </AccordionDetails>
     </Accordion>
   );

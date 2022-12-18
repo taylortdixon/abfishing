@@ -16,6 +16,7 @@ import {
 } from "@mui/material";
 import { WaterbodyListPage } from "./pages/waterbody-list/waterbody-list";
 import { WaterbodyGroupDetailsPage } from "./pages/waterbody-group-details/waterbody-group-details";
+import { WaterbodyDetailsPage } from "./pages/waterbody-details/waterbody-details";
 
 declare module "@mui/styles/defaultTheme" {
   // eslint-disable-next-line @typescript-eslint/no-empty-interface
@@ -45,7 +46,7 @@ root.render(
               path="/waterbody/:id"
               element={
                 <App>
-                  <WaterbodyListPage />
+                  <WaterbodyDetailsPage />
                 </App>
               }
             ></Route>

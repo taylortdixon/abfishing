@@ -1,17 +1,23 @@
 import { waterbodyGroups } from "../../fishing-regulations";
 import { Breadcrumbs, Link, Typography } from "@mui/material";
-import { Navigate, Link as RouterLink, useNavigate } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 import { WaterbodyGroupAccordion } from "../../components/waterbody-group-modal/waterbody-group-accordion";
 import "./waterbody-group-details.css";
 import React from "react";
 
 type WaterbodyGroupDetailsContentProps = {
   waterbodyGroupId: string;
+  defaultExpandedWaterbodyDetails?: string;
+  defaultWaterbodySeason?: string;
 };
 
 export const WaterbodyGroupDetailsContent: React.FC<
   WaterbodyGroupDetailsContentProps
-> = ({ waterbodyGroupId }) => {
+> = ({
+  waterbodyGroupId,
+  defaultExpandedWaterbodyDetails,
+  defaultWaterbodySeason,
+}) => {
   const navigate = useNavigate();
   const selectedWaterbodyGroup = Object.values(waterbodyGroups).find(
     (group) => group.id === waterbodyGroupId
@@ -30,7 +36,7 @@ export const WaterbodyGroupDetailsContent: React.FC<
     <>
       <Breadcrumbs aria-label="breadcrumb" className="breadcrumbs">
         <Link color="inherit" href="/" onClick={onNavigateHome}>
-          Regulations
+          Alberta Fishing Regulations
         </Link>
         <Typography color="text.primary">
           {selectedWaterbodyGroup.name}
@@ -48,6 +54,8 @@ export const WaterbodyGroupDetailsContent: React.FC<
 
       <WaterbodyGroupAccordion
         waterbodies={selectedWaterbodyGroup.waterbodies}
+        defaultExpandedWaterbodyDetails={defaultExpandedWaterbodyDetails}
+        defaultWaterbodySeason={defaultWaterbodySeason}
       />
     </>
   );

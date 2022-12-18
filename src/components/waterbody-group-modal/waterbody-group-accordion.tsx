@@ -6,13 +6,19 @@ import { WaterbodyGroupAccordionItemDetails } from "./waterbody-group-accordion-
 
 type WaterbodyGroupAccordionProps = {
   waterbodies: Waterbody[];
+  defaultExpandedWaterbodyDetails?: string;
+  defaultWaterbodySeason?: string;
 };
 
 type WaterbodyDetailMap = Record<string, Waterbody[]>;
 
 export const WaterbodyGroupAccordion: React.VFC<
   WaterbodyGroupAccordionProps
-> = ({ waterbodies }) => {
+> = ({
+  waterbodies,
+  defaultExpandedWaterbodyDetails,
+  defaultWaterbodySeason,
+}) => {
   const waterbodiesByWaterbodyDetail = waterbodies.reduce<WaterbodyDetailMap>(
     (acc, waterbody) => {
       if (!acc[waterbody.waterbody_detail]) {
@@ -25,28 +31,35 @@ export const WaterbodyGroupAccordion: React.VFC<
     {}
   );
 
-  const [expandedArea, setExpandedArea] = useState<string | undefined>();
+  const [expandedArea, setExpandedArea] = useState<string | undefined>(
+    defaultExpandedWaterbodyDetails
+  );
 
   if (Object.keys(waterbodiesByWaterbodyDetail).length === 1) {
     return (
       <WaterbodyGroupAccordionItemDetails
         includeDetail
         waterbodies={waterbodies}
+        defaultWaterbodySeason={defaultWaterbodySeason}
       />
     );
   }
 
-  const accordions = Object.keys(waterbodiesByWaterbodyDetail).map(
-    (waterbodyDetail) => (
+  const accordions = Object.keys(waterbodiesByWaterbodyDetail)
+    // Sort to bring the default to the top if it exists
+    .sort((waterbodyDetail) =>
+      waterbodyDetail === defaultExpandedWaterbodyDetails ? -1 : 1
+    )
+    .map((waterbodyDetail) => (
       <WaterbodyGroupAccordionItem
         key={waterbodyDetail}
         id={waterbodyDetail}
         expanded={expandedArea === waterbodyDetail}
         waterbodies={waterbodiesByWaterbodyDetail[waterbodyDetail]}
+        defaultWaterbodySeason={defaultWaterbodySeason}
         onChange={(id) => setExpandedArea(id)}
       />
-    )
-  );
+    ));
 
   return (
     <>

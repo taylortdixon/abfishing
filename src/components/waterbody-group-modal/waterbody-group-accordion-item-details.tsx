@@ -4,6 +4,7 @@ import { Waterbody } from "../../types/waterbody.type";
 import { WaterbodyGroupItemInfo } from "./waterbody-group-item-info";
 
 type WaterbodyGroupAccordionItemDetailsProps = {
+  defaultWaterbodySeason?: string;
   includeDetail?: boolean;
   waterbodies: Waterbody[];
 };
@@ -22,14 +23,20 @@ const buildId = (season: string, index: number) => `${season}-${index}`;
 
 export const WaterbodyGroupAccordionItemDetails: React.VFC<
   WaterbodyGroupAccordionItemDetailsProps
-> = ({ includeDetail, waterbodies }) => {
+> = ({ includeDetail, waterbodies, defaultWaterbodySeason }) => {
   if (waterbodies.length === 0) {
     throw new Error("Missing waterbodies for accordion item details.");
   }
 
-  const [currentTab, setCurrentTab] = useState<string>(
-    buildId(waterbodies[0].season, 0)
+  const defualtWaterbodySeasonIndex = waterbodies.findIndex(
+    (waterbody) => waterbody.season === defaultWaterbodySeason
   );
+
+  const defaultTab = defaultWaterbodySeason
+    ? buildId(defaultWaterbodySeason, defualtWaterbodySeasonIndex)
+    : buildId(waterbodies[0].season, 0);
+
+  const [currentTab, setCurrentTab] = useState<string>(defaultTab);
 
   const handleTabChange = (event: React.ChangeEvent<{}>, newTab: string) => {
     setCurrentTab(newTab);
