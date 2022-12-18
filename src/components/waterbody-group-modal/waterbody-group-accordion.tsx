@@ -56,7 +56,11 @@ export const WaterbodyGroupAccordion: React.VFC<
         id={waterbodyDetail}
         expanded={expandedArea === waterbodyDetail}
         waterbodies={waterbodiesByWaterbodyDetail[waterbodyDetail]}
-        defaultWaterbodySeason={defaultWaterbodySeason}
+        defaultWaterbodySeason={
+          defaultExpandedWaterbodyDetails === waterbodyDetail
+            ? defaultWaterbodySeason
+            : undefined
+        }
         onChange={(id) => setExpandedArea(id)}
       />
     ));
