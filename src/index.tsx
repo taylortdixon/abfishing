@@ -17,6 +17,7 @@ import {
 import { WaterbodyListPage } from "./pages/waterbody-list/waterbody-list";
 import { WaterbodyGroupDetailsPage } from "./pages/waterbody-group-details/waterbody-group-details";
 import { WaterbodyDetailsPage } from "./pages/waterbody-details/waterbody-details";
+import { FiltersContextProvider } from "./components/filters-context/filters-context";
 
 declare module "@mui/styles/defaultTheme" {
   // eslint-disable-next-line @typescript-eslint/no-empty-interface
@@ -40,34 +41,36 @@ root.render(
     <MainMenuNav />
     <StyledEngineProvider injectFirst>
       <ThemeProvider theme={theme}>
-        <Router>
-          <Routes>
-            <Route
-              path="/waterbody/:id"
-              element={
-                <App>
-                  <WaterbodyDetailsPage />
-                </App>
-              }
-            ></Route>
-            <Route
-              path="/regulations/:groupId"
-              element={
-                <App>
-                  <WaterbodyGroupDetailsPage />
-                </App>
-              }
-            ></Route>
-            <Route
-              path="/"
-              element={
-                <App>
-                  <WaterbodyListPage />
-                </App>
-              }
-            ></Route>
-          </Routes>
-        </Router>
+        <FiltersContextProvider>
+          <Router>
+            <Routes>
+              <Route
+                path="/waterbody/:id"
+                element={
+                  <App>
+                    <WaterbodyDetailsPage />
+                  </App>
+                }
+              ></Route>
+              <Route
+                path="/regulations/:groupId"
+                element={
+                  <App>
+                    <WaterbodyGroupDetailsPage />
+                  </App>
+                }
+              ></Route>
+              <Route
+                path="/"
+                element={
+                  <App>
+                    <WaterbodyListPage />
+                  </App>
+                }
+              ></Route>
+            </Routes>
+          </Router>
+        </FiltersContextProvider>
       </ThemeProvider>
     </StyledEngineProvider>
     <Suspense fallback={null}>

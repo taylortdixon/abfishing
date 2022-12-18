@@ -16,6 +16,7 @@ import { NoResultsRowsOverlay } from "./no-results/no-results";
 import { isMobile } from "react-device-detect";
 import { FishingRegualationTableProps } from "./fishing-regulation-table.props.types";
 import { useNavigate } from "react-router-dom";
+import { useFilterContext } from "../filters-context/filters-context";
 
 const useColumnDefinitions = (): GridColumns => {
   return useMemo(() => {
@@ -58,12 +59,11 @@ export const FishingRegulationTable: React.VFC<
 > = () => {
   const navigate = useNavigate();
   const columns = useColumnDefinitions();
-  const [page, onPageChange] = useState<number>(0);
-  const [filters, setFilters] = useState<GridFilterItem[]>([]);
+  const { filters, onPageChange, page, setFilters } = useFilterContext();
 
   useEffect(() => {
     onPageChange(0);
-  }, [filters]);
+  }, [filters, onPageChange]);
 
   const onRowClick = (params: GridRowParams) => {
     const waterbody = params.row as Waterbody;

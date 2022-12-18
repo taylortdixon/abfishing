@@ -1,6 +1,7 @@
 import { Tab, Tabs } from "@mui/material";
 import { useState } from "react";
 import { Waterbody } from "../../types/waterbody.type";
+import { trackDateToggle } from "../../utils/analytics.utils";
 import { WaterbodyGroupItemInfo } from "./waterbody-group-item-info";
 
 type WaterbodyGroupAccordionItemDetailsProps = {
@@ -40,6 +41,7 @@ export const WaterbodyGroupAccordionItemDetails: React.VFC<
 
   const handleTabChange = (event: React.ChangeEvent<{}>, newTab: string) => {
     setCurrentTab(newTab);
+    trackDateToggle(waterbodies[0].waterbody);
   };
 
   if (waterbodies.length === 1) {

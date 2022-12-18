@@ -58,3 +58,12 @@ export const trackAccordionOpen = (groupName: string) => {
     });
   }
 };
+
+export const trackDateToggle = (groupName: string) => {
+  if ("dataLayer" in window && (window as any).dataLayer.length > 0) {
+    (window as any).gtag("event", "open", {
+      event_category: "groupDateToggle",
+      event_label: groupName,
+    });
+  }
+};
