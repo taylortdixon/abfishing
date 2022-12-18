@@ -1,6 +1,5 @@
 import { Suspense } from "react";
 import { useParams } from "react-router-dom";
-import SeoHead from "../../components/seo-head/seo-head";
 import { SiteLoader } from "../../components/site-loader/site-loader";
 import { WaterbodyDetailsContent } from "./waterbody-details-content";
 
@@ -15,9 +14,6 @@ export const WaterbodyDetailsPage = () => {
     <>
       <Suspense fallback={<SiteLoader />}>
         {params.id && <WaterbodyDetailsContent waterbodyId={params.id} />}
-      </Suspense>
-      <Suspense fallback={<SiteLoader />}>
-        <SeoHead selectedId={params.id} waterbodyGroupId={undefined} />
       </Suspense>
     </>
   );

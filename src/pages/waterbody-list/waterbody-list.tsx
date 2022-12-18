@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import { useParams } from "react-router-dom";
 import "./waterbody-list.css";
 import { SiteLoader } from "../../components/site-loader/site-loader";
+import { SeoHead } from "../../components/seo-head/seo-head";
 
 const FishingRegulationTable = lazy(
   () =>
@@ -19,8 +20,6 @@ const WaterbodyGroupModal = lazy(
   () => import("../../components/waterbody-group-modal/waterbody-group-modal")
 );
 
-const SeoHead = lazy(() => import("../../components/seo-head/seo-head"));
-
 type UrlParams = {
   id?: string;
   groupId?: string;
@@ -31,6 +30,10 @@ export const WaterbodyListPage = () => {
 
   return (
     <>
+      <SeoHead
+        title="Alberta Fishing Regulations"
+        description="Search for fishing regulations within Alberta's rivers and lakes. View details on open seasons, catch limits, and bait restrictions."
+      />
       <Typography
         variant="h4"
         component="h1"
@@ -53,10 +56,6 @@ export const WaterbodyListPage = () => {
         {params.groupId && (
           <WaterbodyGroupModal waterbodyGroupId={params.groupId} />
         )}
-      </Suspense>
-
-      <Suspense fallback={<SiteLoader />}>
-        <SeoHead selectedId={params.id} waterbodyGroupId={params.groupId} />
       </Suspense>
     </>
   );

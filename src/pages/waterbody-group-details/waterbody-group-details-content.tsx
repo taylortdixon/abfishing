@@ -4,6 +4,7 @@ import { Navigate, useNavigate } from "react-router-dom";
 import { WaterbodyGroupAccordion } from "../../components/waterbody-group-modal/waterbody-group-accordion";
 import "./waterbody-group-details.css";
 import React from "react";
+import { WaterbodyGroupDetailsSeoHead } from "./waterbody-group-details-seo-head";
 
 type WaterbodyGroupDetailsContentProps = {
   waterbodyGroupId: string;
@@ -34,6 +35,7 @@ export const WaterbodyGroupDetailsContent: React.FC<
 
   return (
     <>
+      <WaterbodyGroupDetailsSeoHead waterbodyGroup={selectedWaterbodyGroup} />
       <Breadcrumbs aria-label="breadcrumb" className="breadcrumbs">
         <Link color="inherit" href="/" onClick={onNavigateHome}>
           Alberta Fishing Regulations

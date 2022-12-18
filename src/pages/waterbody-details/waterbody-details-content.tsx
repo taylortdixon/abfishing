@@ -1,6 +1,7 @@
 import { Navigate } from "react-router-dom";
 import { regulations, waterbodyGroups } from "../../fishing-regulations";
 import { WaterbodyGroupDetailsContent } from "../waterbody-group-details/waterbody-group-details-content";
+import { WaterbodyDetailsContentSeoHead } from "./waterbody-details-content-seo-head";
 
 type WaterbodyDetailsContentProps = {
   waterbodyId: string;
@@ -28,10 +29,13 @@ export const WaterbodyDetailsContent: React.FC<
   }
 
   return (
-    <WaterbodyGroupDetailsContent
-      waterbodyGroupId={matchingWaterbodyGroupId}
-      defaultExpandedWaterbodyDetails={matchingWaterbody.waterbody_detail}
-      defaultWaterbodySeason={matchingWaterbody.season}
-    />
+    <>
+      <WaterbodyDetailsContentSeoHead selectedWaterbody={matchingWaterbody} />
+      <WaterbodyGroupDetailsContent
+        waterbodyGroupId={matchingWaterbodyGroupId}
+        defaultExpandedWaterbodyDetails={matchingWaterbody.waterbody_detail}
+        defaultWaterbodySeason={matchingWaterbody.season}
+      />
+    </>
   );
 };
