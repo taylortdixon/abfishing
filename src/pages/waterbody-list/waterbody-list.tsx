@@ -33,6 +33,7 @@ export const WaterbodyListPage = () => {
       <SeoHead
         title="Alberta Fishing Regulations"
         description="Search for fishing regulations within Alberta's rivers and lakes. View details on open seasons, catch limits, and bait restrictions."
+        canonicalHref="https://www.abfishing.ca"
       />
       <Typography
         variant="h4"

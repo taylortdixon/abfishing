@@ -1,5 +1,6 @@
 import { SeoHead } from "../../components/seo-head/seo-head";
 import { FISH_LIMIT_LABELS } from "../../constants";
+import { waterbodyGroups } from "../../fishing-regulations";
 import { FishLimit, Waterbody } from "../../types/waterbody.type";
 import { joinSentence } from "../../utils/array.utils";
 
@@ -10,6 +11,13 @@ type WaterbodyDetailsContentSeoHeadProps = {
 export const WaterbodyDetailsContentSeoHead: React.FC<
   WaterbodyDetailsContentSeoHeadProps
 > = ({ selectedWaterbody }) => {
+  const [associatedWaterbodyGroupId] =
+    Object.entries(waterbodyGroups).find(([_k, waterbodyGroup]) =>
+      waterbodyGroup.waterbodies.some(
+        (waterbody) => waterbody.id === selectedWaterbody.id
+      )
+    ) || [];
+
   const availableFishLimits = Object.entries(
     selectedWaterbody.fish_limits || {}
   )
@@ -36,6 +44,10 @@ export const WaterbodyDetailsContentSeoHead: React.FC<
     <SeoHead
       title={`${selectedWaterbody.waterbody} Fishing Regulations`}
       description={description}
+      canonicalHref={
+        associatedWaterbodyGroupId &&
+        `https://www.abfishing.ca/regulations/${associatedWaterbodyGroupId}`
+      }
     />
   );
 };

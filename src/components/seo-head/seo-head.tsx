@@ -3,9 +3,14 @@ import { Helmet } from "react-helmet";
 type SeoHeadProps = {
   title: string;
   description: string;
+  canonicalHref?: string;
 };
 
-export const SeoHead: React.FC<SeoHeadProps> = ({ title, description }) => {
+export const SeoHead: React.FC<SeoHeadProps> = ({
+  canonicalHref,
+  title,
+  description,
+}) => {
   return (
     <Helmet>
       <title>{title} | AB Fishing</title>
@@ -16,6 +21,9 @@ export const SeoHead: React.FC<SeoHeadProps> = ({ title, description }) => {
         content={description}
         data-react-helmet="true"
       />
+      {canonicalHref && (
+        <link rel="canonical" href={canonicalHref} data-react-helmet="true" />
+      )}
     </Helmet>
   );
 };

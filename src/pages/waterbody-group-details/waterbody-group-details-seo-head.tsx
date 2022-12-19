@@ -69,6 +69,7 @@ export const WaterbodyGroupDetailsSeoHead: React.FC<
     <SeoHead
       title={`${waterbodyGroup.name}${groupExceptionZoneName} Fishing Regulations`}
       description={description}
+      canonicalHref={`https://www.abfishing.ca/regulations/${waterbodyGroup.id}`}
     />
   );
 };
