@@ -27,7 +27,16 @@ declare module "@mui/styles/defaultTheme" {
 dayjs.extend(isSameOrAfter);
 dayjs.extend(isSameOrBefore);
 
-const theme = createTheme();
+const theme = createTheme({
+  palette: {
+    primary: {
+      light: "#3381b0",
+      main: "#00629d",
+      dark: "#00446d",
+      contrastText: "#fff",
+    },
+  },
+});
 
 const WarningModal = lazy(
   () => import("./components/warning-modal/warning-modal")
@@ -38,9 +47,9 @@ const root = createRoot(container!);
 
 root.render(
   <React.StrictMode>
-    <MainMenuNav />
     <StyledEngineProvider injectFirst>
       <ThemeProvider theme={theme}>
+        <MainMenuNav />
         <FiltersContextProvider>
           <Router>
             <Routes>
