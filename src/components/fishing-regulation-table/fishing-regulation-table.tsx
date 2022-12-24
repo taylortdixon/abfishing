@@ -1,11 +1,6 @@
 import { Link, Typography } from "@mui/material";
-import {
-  DataGrid,
-  GridColumns,
-  GridFilterItem,
-  GridRowParams,
-} from "@mui/x-data-grid";
-import { useEffect, useMemo, useState } from "react";
+import { DataGrid, GridColumns, GridRowParams } from "@mui/x-data-grid";
+import { useEffect, useMemo } from "react";
 import { regulations } from "../../fishing-regulations";
 import { Waterbody } from "../../types/waterbody.type";
 import { trackWaterbodyOpen } from "../../utils/analytics.utils";

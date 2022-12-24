@@ -18,6 +18,7 @@ import { WaterbodyListPage } from "./pages/waterbody-list/waterbody-list";
 import { WaterbodyGroupDetailsPage } from "./pages/waterbody-group-details/waterbody-group-details";
 import { WaterbodyDetailsPage } from "./pages/waterbody-details/waterbody-details";
 import { FiltersContextProvider } from "./components/filters-context/filters-context";
+import { AppPromotionBanner } from "./components/app-promotion-banner/app-promotion-banner";
 
 declare module "@mui/styles/defaultTheme" {
   // eslint-disable-next-line @typescript-eslint/no-empty-interface
@@ -50,6 +51,7 @@ root.render(
     <StyledEngineProvider injectFirst>
       <ThemeProvider theme={theme}>
         <MainMenuNav />
+        <AppPromotionBanner />
         <FiltersContextProvider>
           <Router>
             <Routes>
