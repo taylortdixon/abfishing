@@ -6,6 +6,7 @@ import InstallMobileIcon from "@mui/icons-material/InstallMobile";
 import AlertTitle from "@mui/material/AlertTitle";
 import React, { useEffect, useState } from "react";
 import Cookies from "js-cookie";
+import { trackAppOpen } from "../../utils/analytics.utils";
 
 const COOKIE_NAME = "dismissed-promotion-cookie";
 const COOKIE_EXPIRY_DAYS = 90;
@@ -30,6 +31,15 @@ export const AppPromotionBanner: React.FC = () => {
     });
   };
 
+  const handleOpen = (e: React.SyntheticEvent) => {
+    handleClose(e);
+
+    trackAppOpen(isAndroid ? "android" : "ios");
+
+    window.location.href =
+      "https://play.google.com/store/apps/details?id=com.abfishing.abfishingapp";
+  };
+
   if (!isAndroid) {
     return null;
   }
@@ -40,10 +50,7 @@ export const AppPromotionBanner: React.FC = () => {
         icon={<InstallMobileIcon fontSize="large" />}
         className="alert"
         severity="info"
-        onClick={() =>
-          (window.location.href =
-            "https://play.google.com/store/apps/details?id=com.abfishing.abfishingapp")
-        }
+        onClick={handleOpen}
         onClose={handleClose}
       >
         Get access to regulations offline.

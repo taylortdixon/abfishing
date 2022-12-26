@@ -67,3 +67,12 @@ export const trackDateToggle = (groupName: string) => {
     });
   }
 };
+
+export const trackAppOpen = (operatingSystem: "ios" | "android") => {
+  if ("dataLayer" in window && (window as any).dataLayer.length > 0) {
+    (window as any).gtag("event", "open", {
+      event_category: "app",
+      event_label: operatingSystem,
+    });
+  }
+};
