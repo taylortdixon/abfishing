@@ -1,6 +1,6 @@
 import { Alert } from "@mui/lab";
 import { Snackbar } from "@mui/material";
-import { isAndroid } from "react-device-detect";
+import { isAndroid, isIOS } from "react-device-detect";
 import "./app-promotion-banner.css";
 import InstallMobileIcon from "@mui/icons-material/InstallMobile";
 import AlertTitle from "@mui/material/AlertTitle";
@@ -36,11 +36,12 @@ export const AppPromotionBanner: React.FC = () => {
 
     trackAppOpen(isAndroid ? "android" : "ios");
 
-    window.location.href =
-      "https://play.google.com/store/apps/details?id=com.abfishing.abfishingapp";
+    window.location.href = isAndroid
+      ? "https://play.google.com/store/apps/details?id=com.abfishing.abfishingapp"
+      : "https://apps.apple.com/us/app/ab-fishing/id1660992625";
   };
 
-  if (!isAndroid) {
+  if (!isAndroid && !isIOS) {
     return null;
   }
 
