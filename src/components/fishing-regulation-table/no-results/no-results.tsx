@@ -21,7 +21,6 @@ export const NoResultsRowsOverlay = () => {
       </Typography>
       <Typography variant="body2">
         Use the default fishing regulations for the management zone
-        <Switch onChange={() => undefined} name="open_season" />
       </Typography>
     </GridOverlay>
   );
