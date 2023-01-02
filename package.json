@@ -19,6 +19,7 @@
     "lodash": "^4.17.21",
     "md5": "^2.3.0",
     "pdf-table-extractor": "^1.0.3",
+    "prettier": "^2.8.1",
     "react": "^18.2.0",
     "react-device-detect": "^1.17.0",
     "react-dom": "^18.2.0",
@@ -35,7 +36,9 @@
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "parse": "tsc parser/index.ts && node parser/index.js"
+    "parse": "yarn parse:generate && yarn parse:format",
+    "parse:generate": "tsc parser/index.ts && node parser/index.js",
+    "parse:format": "prettier --write src/fishing-regulations.ts public/regulations.json public/structured.html"
   },
   "eslintConfig": {
     "extends": [

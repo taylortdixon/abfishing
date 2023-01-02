@@ -5,6 +5,8 @@ import { generateStructuredData } from "./src/generate-structured-data";
 import { Waterbody } from "../src/types/waterbody.type";
 import { generateSitemap } from "./src/generate-sitemap";
 import { buildWaterbodyGroups } from "./src/waterbody-group-builder";
+import { downloadLatestVersion } from "./src/download-latest-version";
+import { exit } from "process";
 
 const REGULATIONS_FOLDER = "./parser/regulations";
 const version = "Jan 2, 2023";
@@ -22,6 +24,12 @@ const validateRegulationIds = (regulations: Waterbody[]) => {
 
 const parseRegulations = async () => {
   const fileNames = readdirSync(`${REGULATIONS_FOLDER}`);
+
+  await Promise.all(
+    fileNames.map((fileName) =>
+      downloadLatestVersion(fileName, REGULATIONS_FOLDER)
+    )
+  );
 
   const mappedRegulations = await Promise.all(
     fileNames.map((fileName) =>
