@@ -1,7 +1,6 @@
 import { startCase, zipObject } from "lodash";
 import { Waterbody } from "../../src/types/waterbody.type";
 import * as pdf_table_extractor from "pdf-table-extractor";
-import { exit } from "node:process";
 
 const md5 = require("md5");
 
@@ -165,9 +164,11 @@ export class RegulationsFileParser {
       return `Not Specified ${this.regulationsId} ${JSON.stringify(waterbody)}`;
     };
 
-    const waterbodyName = waterbody.Waterbody
+    let waterbodyName = waterbody.Waterbody
       ? waterbody.Waterbody
       : previousWaterbodyName;
+
+    waterbodyName = waterbodyName.replace(/\n/g, "").trim();
 
     const waterbodyDetail = waterbody["Waterbody Detail"]
       ? waterbody["Waterbody Detail"]
@@ -192,7 +193,7 @@ export class RegulationsFileParser {
       ),
       season: waterbodySeason,
       waterbody: waterbodyName,
-      waterbody_detail: waterbodyDetail,
+      waterbody_detail: waterbodyDetail.replace(/\n/g, ""),
       fish_limits: {
         walleye: waterbody.WALL,
         northern_pike: waterbody.NRPK,

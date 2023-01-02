@@ -7,7 +7,7 @@ import { generateSitemap } from "./src/generate-sitemap";
 import { buildWaterbodyGroups } from "./src/waterbody-group-builder";
 
 const REGULATIONS_FOLDER = "./parser/regulations";
-const version = "April 10, 2022";
+const version = "Jan 2, 2023";
 
 const validateRegulationIds = (regulations: Waterbody[]) => {
   regulations.forEach((waterbody) => {
