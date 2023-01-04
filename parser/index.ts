@@ -6,7 +6,6 @@ import { Waterbody } from "../src/types/waterbody.type";
 import { generateSitemap } from "./src/generate-sitemap";
 import { buildWaterbodyGroups } from "./src/waterbody-group-builder";
 import { downloadLatestVersion } from "./src/download-latest-version";
-import { exit } from "process";
 
 const REGULATIONS_FOLDER = "./parser/regulations";
 const version = "Jan 2, 2023";

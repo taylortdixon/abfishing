@@ -37,8 +37,8 @@ export const AppPromotionBanner: React.FC = () => {
     trackAppOpen(isAndroid ? "android" : "ios");
 
     window.location.href = isAndroid
-      ? "https://play.google.com/store/apps/details?id=com.abfishing.abfishingapp"
-      : "https://apps.apple.com/us/app/ab-fishing/id1660992625";
+      ? "https://play.google.com/store/apps/details?id=com.abfishing.abfishingapp&utm_source=abfishing&utm_medium=snackbar"
+      : "https://apps.apple.com/app/apple-store/id1660992625?pt=125913340&ct=web&mt=8";
   };
 
   if (!isAndroid && !isIOS) {
