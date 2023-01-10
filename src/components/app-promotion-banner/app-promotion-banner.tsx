@@ -54,8 +54,8 @@ export const AppPromotionBanner: React.FC = () => {
         onClick={handleOpen}
         onClose={handleClose}
       >
-        Get access to regulations offline.
-        <AlertTitle>Use the app</AlertTitle>
+        Want access to regulations offline?
+        <AlertTitle>Get the free app, it's way better!</AlertTitle>
       </Alert>
     </Snackbar>
   );
