@@ -39,10 +39,8 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -50,9 +48,11 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][public/product_screenshot.png]](https://example.com)
+![Product Image](public/product_screenshot.png)
 
 There are many lakes and rivers in Alberta to fish in. Each waterbody has it's own disinct rules on when to fish, what can be kept, and what kind of bait to use.
+
+![Details Image](public/details_screenshot.png)
 
 These regulations are set and published by the [Alberta Government](https://albertaregulations.ca/fishingregs/). However, the format that it's published is a pdf version of a printed magazine, which is not very friendly to a user reading on a screen or phone. Furthermore, trip planning or comparing one lake to another is a real pain.
 
@@ -112,6 +112,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Taylor Dixon - abfishinca@gmail.com
+Taylor Dixon - <a href="mailto:%61bfis%68in%67ca@gm%61il.c%6Fm">Email Me</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
