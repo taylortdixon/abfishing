@@ -1,46 +1,117 @@
-# Getting Started with Create React App
+    <a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://www.abfishing.ca">
+    <img src="public/icon.png" alt="Logo" height="80">
+  </a>
 
-## Available Scripts
+  <h3 align="center">AB Fishing</h3>
 
-In the project directory, you can run:
+  <p align="center">
+    A website dedicated to providing up to date information on the fishing regulations for rivers and lakes in Alberta.
+    <br />
+    <br />
+    <a href="https://www.abfishing.ca">View site</a>
+    ·
+    <a href="mailto:%61bfis%68in%67ca@gm%61il.c%6Fm">Report an Issue</a>
+    
+  </p>
+</div>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- ABOUT THE PROJECT -->
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About The Project
 
-### `npm test`
+[![Product Name Screen Shot][public/product_screenshot.png]](https://example.com)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+There are many lakes and rivers in Alberta to fish in. Each waterbody has it's own disinct rules on when to fish, what can be kept, and what kind of bait to use.
 
-### `npm run build`
+These regulations are set and published by the [Alberta Government](https://albertaregulations.ca/fishingregs/). However, the format that it's published is a pdf version of a printed magazine, which is not very friendly to a user reading on a screen or phone. Furthermore, trip planning or comparing one lake to another is a real pain.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+AB Fishing was created with this in mind:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- It should be very easy for a user to find a waterbody they are looking for.
+- Fishing regulations should be presented in an easy to digest format that is accessible for the amateur angler.
+- The published regulations from the Alberta Government are the absolute source of truth. This is key. The data served to the client can be completely replaced upon updating from the province regulations.
+- Where possible, try to link back to the section on the official government site so the user can view the official regulations if they need to.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run eject`
+<!-- GETTING STARTED -->
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Getting Started
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get a local copy up and running follow these simple example steps.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Prerequisites
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This is an example of how to list things you need to use the software and how to install them.
 
-## Learn More
+```sh
+yarn install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Fetching Latest Regulations
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The parsing of government regulations is automated and can be run with the following steps:
+
+1. Install local dependencies
+2. Run `yarn parse`, which fetches latest regulations from the remote site, parses the info from the PDFs, then writes to local regulations file.
+3. Review changes to ensure they make sense
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ROADMAP -->
+
+## Roadmap
+
+- [ ] Setup regulations parser to run on interval and notify automatically when changes exist
+- [ ] Migrate to emotion js
+- [ ] Investigate migrating table to list component since most users are mobile
+- [ ] Add favorite waterbody feature
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+Taylor Dixon - abfishinca@gmail.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
