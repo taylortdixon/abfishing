@@ -8,7 +8,7 @@ import React, { useEffect, useState } from "react";
 import Cookies from "js-cookie";
 import { trackAppOpen } from "../../utils/analytics.utils";
 
-const COOKIE_NAME = "dismissed-promotion-cookie";
+const COOKIE_NAME = "dismissed-promotion-cookie-fixed";
 const COOKIE_EXPIRY_DAYS = 90;
 const PROMOTION_TIMEOUT_MS = 1000;
 const DISMISSED_COOKIE_VALUE = "accepted";
@@ -46,7 +46,11 @@ export const AppPromotionBanner: React.FC = () => {
   }
 
   return (
-    <Snackbar open={isOpen} onClose={() => setIsOpen(false)}>
+    <Snackbar
+      open={isOpen}
+      onClose={() => setIsOpen(false)}
+      ClickAwayListenerProps={{ onClickAway: (e) => e.stopPropagation() }}
+    >
       <Alert
         icon={<InstallMobileIcon fontSize="large" />}
         className="alert"
