@@ -43,7 +43,7 @@ export class RegulationsFileParser {
   };
 
   private parseSuccess = (result: ExtractorResponse): Waterbody[] => {
-    let regulations = [];
+    let regulations: Waterbody[] = [];
 
     result.pageTables.forEach((page) => {
       const [ignoreHeader, rowHeader, ...waterbodies] = page.tables;
@@ -78,7 +78,7 @@ export class RegulationsFileParser {
       regulations = [...regulations, ...mapped];
     });
 
-    return regulations;
+    return regulations.filter((regulation) => !!regulation.waterbody);
   };
 
   private parseFailure = (err) => {

@@ -188,7 +188,7 @@ export const regulations: Waterbody[] = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "",
-      northern_pike: "1 over 63 cm",
+      northern_pike: "1 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
       lake_whitefish: "",
@@ -404,7 +404,7 @@ export const regulations: Waterbody[] = [
     waterbody: "Badger Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "0 fish",
+      walleye: "1 fish 50-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
@@ -2796,6 +2796,23 @@ export const regulations: Waterbody[] = [
   },
   {
     bait_ban: "Bait allowed",
+    fish_management_zone: "NB1-Lakes",
+    id: "clyde-lake-eaf70",
+    season: "Open May 15 to Mar 31",
+    waterbody: "Clyde Lake",
+    waterbody_detail: "",
+    fish_limits: {
+      walleye: "",
+      northern_pike: "1 fish",
+      yellow_perch: "15 fish",
+      lake_trout: "",
+      lake_whitefish: "",
+      burbot: "",
+      trout_total: "",
+    },
+  },
+  {
+    bait_ban: "Bait allowed",
     fish_management_zone: "PP2-Lakes",
     id: "coal-lake-2b706",
     season: "Open May 15 to Mar 31",
@@ -3569,7 +3586,7 @@ export const regulations: Waterbody[] = [
     fish_limits: {
       walleye: "",
       northern_pike: "1 fish",
-      yellow_perch: "",
+      yellow_perch: "15 fish",
       lake_trout: "",
       lake_whitefish: "",
       burbot: "",
@@ -3879,6 +3896,26 @@ export const regulations: Waterbody[] = [
       burbot: "",
       goldeye: "",
       rainbow_trout: "0 fish",
+    },
+  },
+  {
+    bait_ban: "Bait except bait fish allowed",
+    fish_management_zone: "ES1-Lakes",
+    id: "emerald-hart-lake-b7b30",
+    season: "Open All Year",
+    waterbody: "Emerald (Hart) Lake",
+    waterbody_detail: "SE-8-8-5-W5",
+    fish_limits: {
+      walleye: "",
+      northern_pike: "",
+      yellow_perch: "",
+      lake_trout: "3 fish",
+      mountain_whitefish: "3 over 30 cm",
+      cutthroat_trout: "",
+      brook_trout: "",
+      dolly_varden: "",
+      rainbow_trout: "",
+      trout_total: "5 trout",
     },
   },
   {
@@ -4712,9 +4749,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "glover-birch-lake-427c1",
+    id: "glover-birch-lake-fe107",
     season: "Open May 15 to Mar 31",
     waterbody: "Glover (Birch) Lake",
     waterbody_detail: "79-5-W4",
@@ -5024,14 +5061,14 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "gregoire-willow-lake-59f4e",
+    id: "gregoire-willow-lake-f0be4",
     season: "Open May 15 to Mar 31",
     waterbody: "Gregoire (Willow) Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "",
+      walleye: "0 or SHL tags",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
@@ -5042,16 +5079,16 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "grist-lake-59f4e",
+    id: "grist-lake-f0be4",
     season: "Open May 15 to Mar 31",
     waterbody: "Grist Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "",
+      walleye: "0 fish",
       northern_pike: "0 fish",
-      yellow_perch: "0 fish",
+      yellow_perch: "",
       lake_trout: "1 fish 60-70 cm",
       lake_whitefish: "10 fish",
       burbot: "",
@@ -5478,9 +5515,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "hooker-lake-c4c40",
+    id: "hooker-lake-a2fec",
     season: "Open All Year",
     waterbody: "Hooker Lake",
     waterbody_detail: "",
@@ -6177,9 +6214,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "kimowin-hook-lake-59f4e",
+    id: "kimowin-hook-lake-f0be4",
     season: "Open May 15 to Mar 31",
     waterbody: "Kimowin (Hook) Lake",
     waterbody_detail: "",
@@ -6214,9 +6251,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "kirby-sterner-lake-686aa",
+    id: "kirby-sterner-lake-948c5",
     season: "Open May 15 to Mar 31",
     waterbody: "Kirby (Sterner) Lake",
     waterbody_detail: "75-5-W4",
@@ -6438,14 +6475,14 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "lake-athabasca-c4c40",
+    id: "lake-athabasca-a2fec",
     season: "Open All Year",
     waterbody: "Lake Athabasca",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "",
+      walleye: "3 over 43 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
@@ -6486,7 +6523,7 @@ export const regulations: Waterbody[] = [
       yellow_perch: "",
       lake_trout: "",
       mountain_whitefish: "",
-      cutthroat_trout: "2 fish",
+      cutthroat_trout: "",
       burbot: "",
       rainbow_trout: "",
       trout_total: "2 trout",
@@ -6505,7 +6542,7 @@ export const regulations: Waterbody[] = [
       yellow_perch: "",
       lake_trout: "",
       mountain_whitefish: "",
-      cutthroat_trout: "2 fish ",
+      cutthroat_trout: " ",
       burbot: "",
       rainbow_trout: "",
       trout_total: "2 trout",
@@ -6679,9 +6716,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "leggo-lake-c4c40",
+    id: "leggo-lake-a2fec",
     season: "Open All Year",
     waterbody: "Leggo Lake",
     waterbody_detail: "",
@@ -6697,14 +6734,14 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "leland-lakes-c4c40",
+    id: "leland-lakes-a2fec",
     season: "Open All Year",
     waterbody: "Leland Lakes",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "",
+      walleye: "3 over 43 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
@@ -6837,14 +6874,14 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "limon-lake-a3c42",
+    id: "limon-lake-381b4",
     season: "Open May 15 to Mar 31",
     waterbody: "Limon Lake",
     waterbody_detail: "Includes outlet",
     fish_limits: {
-      walleye: "",
+      walleye: "3 over 43 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
@@ -6879,7 +6916,7 @@ export const regulations: Waterbody[] = [
     waterbody: "Little Bow Lake Reservoir",
     waterbody_detail: "Includes inlet canal",
     fish_limits: {
-      walleye: "0 fish",
+      walleye: "1 fish 50-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
@@ -7442,14 +7479,14 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "loutit-lake-c4c40",
+    id: "loutit-lake-a2fec",
     season: "Open All Year",
     waterbody: "Loutit Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "",
+      walleye: "3 over 43 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
@@ -7777,14 +7814,14 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "mcclelland-lake-c4c40",
+    id: "mcclelland-lake-a2fec",
     season: "Open All Year",
     waterbody: "Mcclelland Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "",
+      walleye: "3 over 43 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "3 fish",
@@ -7802,7 +7839,7 @@ export const regulations: Waterbody[] = [
     waterbody: "Mcgregor Reservoir",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "0 fish",
+      walleye: "1 fish 50-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
@@ -7819,7 +7856,7 @@ export const regulations: Waterbody[] = [
     waterbody: "Mcgregor Reservoir",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "0 fish",
+      walleye: "1 fish 50-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
@@ -7986,9 +8023,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "mercredi-lake-c4c40",
+    id: "mercredi-lake-a2fec",
     season: "Open All Year",
     waterbody: "Mercredi Lake",
     waterbody_detail: "",
@@ -8468,7 +8505,7 @@ export const regulations: Waterbody[] = [
     waterbody_detail: "Includes tributaries and outlet for 1 km",
     fish_limits: {
       walleye: "0 fish",
-      northern_pike: "0 fish",
+      northern_pike: "1 fish",
       yellow_perch: "0 fish",
       lake_trout: "",
       lake_whitefish: "0 fish",
@@ -8561,14 +8598,14 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "myers-lake-c4c40",
+    id: "myers-lake-a2fec",
     season: "Open All Year",
     waterbody: "Myers Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "",
+      walleye: "3 over 43 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
@@ -9233,9 +9270,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "one-week-lake-c4c40",
+    id: "one-week-lake-a2fec",
     season: "Open All Year",
     waterbody: "One Week Lake",
     waterbody_detail: "",
@@ -9338,9 +9375,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "pans-lake-c4c40",
+    id: "pans-lake-a2fec",
     season: "Open All Year",
     waterbody: "Pans Lake",
     waterbody_detail: "",
@@ -9561,9 +9598,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "peters-lake-c4c40",
+    id: "peters-lake-a2fec",
     season: "Open All Year",
     waterbody: "Peters Lake",
     waterbody_detail: "",
@@ -9992,9 +10029,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "potts-lake-c4c40",
+    id: "potts-lake-a2fec",
     season: "Open All Year",
     waterbody: "Potts Lake",
     waterbody_detail: "",
@@ -10577,15 +10614,15 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "richardson-backcountry-3d681",
+    id: "richardson-backcountry-71df9",
     season: "Open May 15 to Mar 31",
     waterbody: "Richardson Backcountry",
     waterbody_detail:
       "All water within area between Twp. 103 and 107, and Rge 01-W4 and Rge 08-W4; Locally known as Richardson Backcountry",
     fish_limits: {
-      walleye: "",
+      walleye: "1 over 50 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
@@ -10614,14 +10651,14 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "richardson-lake-4bd79",
+    id: "richardson-lake-ff5cd",
     season: "Open May 15 to Mar 31",
     waterbody: "Richardson Lake",
     waterbody_detail: "Includes outlet (Jackfish Channel)",
     fish_limits: {
-      walleye: "",
+      walleye: "3 over 43 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
@@ -10718,9 +10755,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "roderick-lake-c4c40",
+    id: "roderick-lake-a2fec",
     season: "Open All Year",
     waterbody: "Roderick Lake",
     waterbody_detail: "",
@@ -10804,9 +10841,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "royemma-lake-0b13f",
+    id: "royemma-lake-22151",
     season: "Open May 15 to Mar 31",
     waterbody: "Royemma Lake",
     waterbody_detail: "75-1-W4",
@@ -10899,14 +10936,14 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "ryan-lake-c4c40",
+    id: "ryan-lake-a2fec",
     season: "Open All Year",
     waterbody: "Ryan Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "",
+      walleye: "3 over 43 cm",
       northern_pike: "3 over 63 cm",
       yellow_perch: "15 fish",
       lake_trout: "",
@@ -10914,23 +10951,6 @@ export const regulations: Waterbody[] = [
       burbot: "",
       cisco: "",
       goldeye: "",
-    },
-  },
-  {
-    bait_ban: "Bait allowed",
-    fish_management_zone: "NB1-Lakes",
-    id: "saddle-lake-89293",
-    season: "Open All Year",
-    waterbody: "Saddle Lake",
-    waterbody_detail: "",
-    fish_limits: {
-      walleye: "3 over 50 cm",
-      northern_pike: "3 over 63 cm",
-      yellow_perch: "15 fish",
-      lake_trout: "",
-      lake_whitefish: "10 fish",
-      burbot: "10 fish",
-      trout_total: "",
     },
   },
   {
@@ -11552,7 +11572,7 @@ export const regulations: Waterbody[] = [
     waterbody_detail: "",
     fish_limits: {
       walleye: "1 over 50 cm",
-      northern_pike: "0 fish",
+      northern_pike: "1 fish 63-70 cm",
       yellow_perch: "5 fish",
       lake_whitefish: "10 fish",
       burbot: "10 fish",
@@ -11569,7 +11589,7 @@ export const regulations: Waterbody[] = [
     waterbody_detail: "Tributaries and outlet 1 km downstream ",
     fish_limits: {
       walleye: "1 over 50 cm",
-      northern_pike: "0 fish",
+      northern_pike: "1 fish 63-70 cm",
       yellow_perch: "5 fish",
       lake_whitefish: "10 fish",
       burbot: "10 fish",
@@ -12003,9 +12023,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "st.-agnes-lake-c4c40",
+    id: "st.-agnes-lake-a2fec",
     season: "Open All Year",
     waterbody: "St. Agnes Lake",
     waterbody_detail: "",
@@ -12134,9 +12154,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "steepbank-lake-59f4e",
+    id: "steepbank-lake-f0be4",
     season: "Open May 15 to Mar 31",
     waterbody: "Steepbank Lake",
     waterbody_detail: "",
@@ -12208,10 +12228,11 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait ban",
     fish_management_zone: "ES1-Rivers",
-    id: "storm-creek-56fa5",
+    id: "storm-creek-94e2d",
     season: "Closed All Year",
     waterbody: "Storm Creek",
-    waterbody_detail: "Upstream of Mist Creek confluence; Includes tributaries",
+    waterbody_detail:
+      "Upstream of Mist Creek confluence; Includes tributaries (18-7-W5)",
     fish_limits: {
       walleye: "",
       northern_pike: "",
@@ -12641,8 +12662,8 @@ export const regulations: Waterbody[] = [
     waterbody: "Thurston Lake",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "0 fish",
-      northern_pike: "1 fish 63-70 cm",
+      walleye: "1 fish 50-55 cm",
+      northern_pike: "1 fish 65-80 cm",
       yellow_perch: "",
       lake_trout: "",
       lake_whitefish: "10 fish",
@@ -12658,8 +12679,8 @@ export const regulations: Waterbody[] = [
     waterbody: "Thurston Lake",
     waterbody_detail: "Tributaries and outlet for 1 km",
     fish_limits: {
-      walleye: "0 fish",
-      northern_pike: "1 fish 63-70 cm",
+      walleye: "1 fish 50-55 cm",
+      northern_pike: "1 fish 65-80 cm",
       yellow_perch: "",
       lake_trout: "",
       lake_whitefish: "10 fish",
@@ -12762,7 +12783,7 @@ export const regulations: Waterbody[] = [
     waterbody_detail:
       "Portion west of SW 2-15-22-W4 (North of a line from the farm building to Little Bow Provincial Park pumphouse on the east); no fishing within 100 m of the Canal inlet structure",
     fish_limits: {
-      walleye: "0 fish",
+      walleye: "1 fish 50-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
@@ -12780,7 +12801,7 @@ export const regulations: Waterbody[] = [
     waterbody_detail:
       "The remainder of the Reservoir including the canal between Travers and McGregor reservoirs; no fishing within 100m of the canal inlet structure",
     fish_limits: {
-      walleye: "0 fish",
+      walleye: "1 fish 50-55 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       mountain_whitefish: "",
@@ -12790,9 +12811,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "treasure-loch-lake-c4c40",
+    id: "treasure-loch-lake-a2fec",
     season: "Open All Year",
     waterbody: "Treasure Loch Lake",
     waterbody_detail: "",
@@ -12825,9 +12846,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "tulip-lake-c4c40",
+    id: "tulip-lake-a2fec",
     season: "Open All Year",
     waterbody: "Tulip Lake",
     waterbody_detail: "",
@@ -12843,9 +12864,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "turtle-lake-c4c40",
+    id: "turtle-lake-a2fec",
     season: "Open All Year",
     waterbody: "Turtle Lake",
     waterbody_detail: "",
@@ -12902,7 +12923,7 @@ export const regulations: Waterbody[] = [
     waterbody: "Twin Valley Reservoir",
     waterbody_detail: "",
     fish_limits: {
-      walleye: "",
+      walleye: "0 fish",
       northern_pike: "1 over 63 cm",
       yellow_perch: "",
       mountain_whitefish: "",
@@ -13453,9 +13474,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "wappau-lake-590f5",
+    id: "wappau-lake-d36a2",
     season: "Open May 15 to Mar 31",
     waterbody: "Wappau Lake",
     waterbody_detail: "14-75-11-W4",
@@ -13658,9 +13679,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "weekes-lake-c4c40",
+    id: "weekes-lake-a2fec",
     season: "Open All Year",
     waterbody: "Weekes Lake",
     waterbody_detail: "",
@@ -13949,7 +13970,7 @@ export const regulations: Waterbody[] = [
     waterbody: "Winagami Lake",
     waterbody_detail: "Includes Boone's Slough and South Heart Reservoir",
     fish_limits: {
-      walleye: "1 over 60 cm",
+      walleye: "1 over 55 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_whitefish: "10 fish",
@@ -13966,7 +13987,7 @@ export const regulations: Waterbody[] = [
     waterbody_detail:
       "Tributaries, inlet canal, outlet stream, and outlet canal",
     fish_limits: {
-      walleye: "1 over 60 cm",
+      walleye: "1 over 55 cm",
       northern_pike: "0 fish",
       yellow_perch: "",
       lake_whitefish: "10 fish",
@@ -14020,7 +14041,7 @@ export const regulations: Waterbody[] = [
     waterbody_detail:
       "For lake only.  For flowing water see Winefred Lake Tributaries and Outflows.",
     fish_limits: {
-      walleye: "",
+      walleye: "1 fish 45-50 cm",
       northern_pike: "0 fish",
       yellow_perch: "15 fish",
       lake_trout: "",
@@ -14049,9 +14070,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "winnifred-lake-74a9a",
+    id: "winnifred-lake-0999b",
     season: "Open All Year",
     waterbody: "Winnifred Lake",
     waterbody_detail: "118-3-W4",
@@ -14172,9 +14193,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "woodman-lake-c4c40",
+    id: "woodman-lake-a2fec",
     season: "Open All Year",
     waterbody: "Woodman Lake",
     waterbody_detail: "",
@@ -14190,9 +14211,9 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: "Bait allowed",
     fish_management_zone: "NB4-Lakes",
-    id: "wylie-lake-c4c40",
+    id: "wylie-lake-a2fec",
     season: "Open All Year",
     waterbody: "Wylie Lake",
     waterbody_detail: "",
@@ -14475,7 +14496,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         waterbody_detail: "Angling Lake",
         fish_limits: {
           walleye: "",
-          northern_pike: "1 over 63 cm",
+          northern_pike: "1 fish",
           yellow_perch: "15 fish",
           lake_trout: "",
           lake_whitefish: "",
@@ -14734,7 +14755,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         waterbody: "Badger Lake",
         waterbody_detail: "Badger Lake",
         fish_limits: {
-          walleye: "0 fish",
+          walleye: "1 fish 50-55 cm",
           northern_pike: "0 fish",
           yellow_perch: "15 fish",
           mountain_whitefish: "",
@@ -17824,6 +17845,30 @@ export const waterbodyGroups: WaterbodyGroupMap = {
       },
     ],
   },
+  "Clyde-Lake": {
+    id: "Clyde-Lake",
+    name: "Clyde Lake",
+    groupExceptionZone: null,
+    waterbodies: [
+      {
+        bait_ban: "Bait allowed",
+        fish_management_zone: "NB1-Lakes",
+        id: "clyde-lake-eaf70",
+        season: "Open May 15 to Mar 31",
+        waterbody: "Clyde Lake",
+        waterbody_detail: "Clyde Lake",
+        fish_limits: {
+          walleye: "",
+          northern_pike: "1 fish",
+          yellow_perch: "15 fish",
+          lake_trout: "",
+          lake_whitefish: "",
+          burbot: "",
+          trout_total: "",
+        },
+      },
+    ],
+  },
   "Coal-Lake": {
     id: "Coal-Lake",
     name: "Coal Lake",
@@ -18851,7 +18896,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         fish_limits: {
           walleye: "",
           northern_pike: "1 fish",
-          yellow_perch: "",
+          yellow_perch: "15 fish",
           lake_trout: "",
           lake_whitefish: "",
           burbot: "",
@@ -19254,6 +19299,33 @@ export const waterbodyGroups: WaterbodyGroupMap = {
           burbot: "",
           goldeye: "",
           rainbow_trout: "0 fish",
+        },
+      },
+    ],
+  },
+  "Emerald-(Hart)-Lake": {
+    id: "Emerald-(Hart)-Lake",
+    name: "Emerald (Hart) Lake",
+    groupExceptionZone: null,
+    waterbodies: [
+      {
+        bait_ban: "Bait except bait fish allowed",
+        fish_management_zone: "ES1-Lakes",
+        id: "emerald-hart-lake-b7b30",
+        season: "Open All Year",
+        waterbody: "Emerald (Hart) Lake",
+        waterbody_detail: "SE-8-8-5-W5",
+        fish_limits: {
+          walleye: "",
+          northern_pike: "",
+          yellow_perch: "",
+          lake_trout: "3 fish",
+          mountain_whitefish: "3 over 30 cm",
+          cutthroat_trout: "",
+          brook_trout: "",
+          dolly_varden: "",
+          rainbow_trout: "",
+          trout_total: "5 trout",
         },
       },
     ],
@@ -20355,9 +20427,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "glover-birch-lake-427c1",
+        id: "glover-birch-lake-fe107",
         season: "Open May 15 to Mar 31",
         waterbody: "Glover (Birch) Lake",
         waterbody_detail: "79-5-W4",
@@ -20765,14 +20837,14 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "gregoire-willow-lake-59f4e",
+        id: "gregoire-willow-lake-f0be4",
         season: "Open May 15 to Mar 31",
         waterbody: "Gregoire (Willow) Lake",
         waterbody_detail: "Gregoire (Willow) Lake",
         fish_limits: {
-          walleye: "",
+          walleye: "0 or SHL tags",
           northern_pike: "0 fish",
           yellow_perch: "15 fish",
           lake_trout: "",
@@ -20790,16 +20862,16 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "grist-lake-59f4e",
+        id: "grist-lake-f0be4",
         season: "Open May 15 to Mar 31",
         waterbody: "Grist Lake",
         waterbody_detail: "Grist Lake",
         fish_limits: {
-          walleye: "",
+          walleye: "0 fish",
           northern_pike: "0 fish",
-          yellow_perch: "0 fish",
+          yellow_perch: "",
           lake_trout: "1 fish 60-70 cm",
           lake_whitefish: "10 fish",
           burbot: "",
@@ -21353,9 +21425,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "hooker-lake-c4c40",
+        id: "hooker-lake-a2fec",
         season: "Open All Year",
         waterbody: "Hooker Lake",
         waterbody_detail: "Hooker Lake",
@@ -22283,9 +22355,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "kimowin-hook-lake-59f4e",
+        id: "kimowin-hook-lake-f0be4",
         season: "Open May 15 to Mar 31",
         waterbody: "Kimowin (Hook) Lake",
         waterbody_detail: "Kimowin (Hook) Lake",
@@ -22334,9 +22406,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "kirby-sterner-lake-686aa",
+        id: "kirby-sterner-lake-948c5",
         season: "Open May 15 to Mar 31",
         waterbody: "Kirby (Sterner) Lake",
         waterbody_detail: "75-5-W4",
@@ -22635,14 +22707,14 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "lake-athabasca-c4c40",
+        id: "lake-athabasca-a2fec",
         season: "Open All Year",
         waterbody: "Lake Athabasca",
         waterbody_detail: "Lake Athabasca",
         fish_limits: {
-          walleye: "",
+          walleye: "3 over 43 cm",
           northern_pike: "3 over 63 cm",
           yellow_perch: "15 fish",
           lake_trout: "3 fish",
@@ -22697,7 +22769,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
           yellow_perch: "",
           lake_trout: "",
           mountain_whitefish: "",
-          cutthroat_trout: "2 fish",
+          cutthroat_trout: "",
           burbot: "",
           rainbow_trout: "",
           trout_total: "2 trout",
@@ -22716,7 +22788,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
           yellow_perch: "",
           lake_trout: "",
           mountain_whitefish: "",
-          cutthroat_trout: "2 fish ",
+          cutthroat_trout: " ",
           burbot: "",
           rainbow_trout: "",
           trout_total: "2 trout",
@@ -22946,9 +23018,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "leggo-lake-c4c40",
+        id: "leggo-lake-a2fec",
         season: "Open All Year",
         waterbody: "Leggo Lake",
         waterbody_detail: "Leggo Lake",
@@ -22971,14 +23043,14 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "leland-lakes-c4c40",
+        id: "leland-lakes-a2fec",
         season: "Open All Year",
         waterbody: "Leland Lakes",
         waterbody_detail: "Leland Lakes",
         fish_limits: {
-          walleye: "",
+          walleye: "3 over 43 cm",
           northern_pike: "3 over 63 cm",
           yellow_perch: "15 fish",
           lake_trout: "3 fish",
@@ -23160,14 +23232,14 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "limon-lake-a3c42",
+        id: "limon-lake-381b4",
         season: "Open May 15 to Mar 31",
         waterbody: "Limon Lake",
         waterbody_detail: "Includes outlet",
         fish_limits: {
-          walleye: "",
+          walleye: "3 over 43 cm",
           northern_pike: "3 over 63 cm",
           yellow_perch: "15 fish",
           lake_trout: "",
@@ -23216,7 +23288,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         waterbody: "Little Bow Lake Reservoir",
         waterbody_detail: "Includes inlet canal",
         fish_limits: {
-          walleye: "0 fish",
+          walleye: "1 fish 50-55 cm",
           northern_pike: "0 fish",
           yellow_perch: "15 fish",
           mountain_whitefish: "",
@@ -23935,14 +24007,14 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "loutit-lake-c4c40",
+        id: "loutit-lake-a2fec",
         season: "Open All Year",
         waterbody: "Loutit Lake",
         waterbody_detail: "Loutit Lake",
         fish_limits: {
-          walleye: "",
+          walleye: "3 over 43 cm",
           northern_pike: "3 over 63 cm",
           yellow_perch: "15 fish",
           lake_trout: "",
@@ -24389,14 +24461,14 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "mcclelland-lake-c4c40",
+        id: "mcclelland-lake-a2fec",
         season: "Open All Year",
         waterbody: "Mcclelland Lake",
         waterbody_detail: "Mcclelland Lake",
         fish_limits: {
-          walleye: "",
+          walleye: "3 over 43 cm",
           northern_pike: "3 over 63 cm",
           yellow_perch: "15 fish",
           lake_trout: "3 fish",
@@ -24421,7 +24493,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         waterbody: "Mcgregor Reservoir",
         waterbody_detail: "Mcgregor Reservoir",
         fish_limits: {
-          walleye: "0 fish",
+          walleye: "1 fish 50-55 cm",
           northern_pike: "0 fish",
           yellow_perch: "15 fish",
           mountain_whitefish: "",
@@ -24438,7 +24510,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         waterbody: "Mcgregor Reservoir",
         waterbody_detail: "Mcgregor Reservoir",
         fish_limits: {
-          walleye: "0 fish",
+          walleye: "1 fish 50-55 cm",
           northern_pike: "0 fish",
           yellow_perch: "15 fish",
           mountain_whitefish: "",
@@ -24662,9 +24734,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "mercredi-lake-c4c40",
+        id: "mercredi-lake-a2fec",
         season: "Open All Year",
         waterbody: "Mercredi Lake",
         waterbody_detail: "Mercredi Lake",
@@ -25305,7 +25377,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         waterbody_detail: "Includes tributaries and outlet for 1 km",
         fish_limits: {
           walleye: "0 fish",
-          northern_pike: "0 fish",
+          northern_pike: "1 fish",
           yellow_perch: "0 fish",
           lake_trout: "",
           lake_whitefish: "0 fish",
@@ -25440,14 +25512,14 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "myers-lake-c4c40",
+        id: "myers-lake-a2fec",
         season: "Open All Year",
         waterbody: "Myers Lake",
         waterbody_detail: "Myers Lake",
         fish_limits: {
-          walleye: "",
+          walleye: "3 over 43 cm",
           northern_pike: "3 over 63 cm",
           yellow_perch: "15 fish",
           lake_trout: "",
@@ -26231,9 +26303,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "one-week-lake-c4c40",
+        id: "one-week-lake-a2fec",
         season: "Open All Year",
         waterbody: "One Week Lake",
         waterbody_detail: "One Week Lake",
@@ -26365,9 +26437,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "pans-lake-c4c40",
+        id: "pans-lake-a2fec",
         season: "Open All Year",
         waterbody: "Pans Lake",
         waterbody_detail: "Pans Lake",
@@ -26644,9 +26716,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "peters-lake-c4c40",
+        id: "peters-lake-a2fec",
         season: "Open All Year",
         waterbody: "Peters Lake",
         waterbody_detail: "Peters Lake",
@@ -27230,9 +27302,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "potts-lake-c4c40",
+        id: "potts-lake-a2fec",
         season: "Open All Year",
         waterbody: "Potts Lake",
         waterbody_detail: "Potts Lake",
@@ -27984,15 +28056,15 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "richardson-backcountry-3d681",
+        id: "richardson-backcountry-71df9",
         season: "Open May 15 to Mar 31",
         waterbody: "Richardson Backcountry",
         waterbody_detail:
           "All water within area between Twp. 103 and 107, and Rge 01-W4 and Rge 08-W4; Locally known as Richardson Backcountry",
         fish_limits: {
-          walleye: "",
+          walleye: "1 over 50 cm",
           northern_pike: "3 over 63 cm",
           yellow_perch: "15 fish",
           lake_trout: "",
@@ -28028,14 +28100,14 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "richardson-lake-4bd79",
+        id: "richardson-lake-ff5cd",
         season: "Open May 15 to Mar 31",
         waterbody: "Richardson Lake",
         waterbody_detail: "Includes outlet (Jackfish Channel)",
         fish_limits: {
-          walleye: "",
+          walleye: "3 over 43 cm",
           northern_pike: "3 over 63 cm",
           yellow_perch: "15 fish",
           lake_trout: "",
@@ -28167,9 +28239,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "roderick-lake-c4c40",
+        id: "roderick-lake-a2fec",
         season: "Open All Year",
         waterbody: "Roderick Lake",
         waterbody_detail: "Roderick Lake",
@@ -28281,9 +28353,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "royemma-lake-0b13f",
+        id: "royemma-lake-22151",
         season: "Open May 15 to Mar 31",
         waterbody: "Royemma Lake",
         waterbody_detail: "75-1-W4",
@@ -28411,14 +28483,14 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "ryan-lake-c4c40",
+        id: "ryan-lake-a2fec",
         season: "Open All Year",
         waterbody: "Ryan Lake",
         waterbody_detail: "Ryan Lake",
         fish_limits: {
-          walleye: "",
+          walleye: "3 over 43 cm",
           northern_pike: "3 over 63 cm",
           yellow_perch: "15 fish",
           lake_trout: "",
@@ -28426,30 +28498,6 @@ export const waterbodyGroups: WaterbodyGroupMap = {
           burbot: "",
           cisco: "",
           goldeye: "",
-        },
-      },
-    ],
-  },
-  "Saddle-Lake": {
-    id: "Saddle-Lake",
-    name: "Saddle Lake",
-    groupExceptionZone: null,
-    waterbodies: [
-      {
-        bait_ban: "Bait allowed",
-        fish_management_zone: "NB1-Lakes",
-        id: "saddle-lake-89293",
-        season: "Open All Year",
-        waterbody: "Saddle Lake",
-        waterbody_detail: "Saddle Lake",
-        fish_limits: {
-          walleye: "3 over 50 cm",
-          northern_pike: "3 over 63 cm",
-          yellow_perch: "15 fish",
-          lake_trout: "",
-          lake_whitefish: "10 fish",
-          burbot: "10 fish",
-          trout_total: "",
         },
       },
     ],
@@ -29234,7 +29282,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         waterbody_detail: "Snipe Lake",
         fish_limits: {
           walleye: "1 over 50 cm",
-          northern_pike: "0 fish",
+          northern_pike: "1 fish 63-70 cm",
           yellow_perch: "5 fish",
           lake_whitefish: "10 fish",
           burbot: "10 fish",
@@ -29251,7 +29299,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         waterbody_detail: "Tributaries and outlet 1 km downstream ",
         fish_limits: {
           walleye: "1 over 50 cm",
-          northern_pike: "0 fish",
+          northern_pike: "1 fish 63-70 cm",
           yellow_perch: "5 fish",
           lake_whitefish: "10 fish",
           burbot: "10 fish",
@@ -29776,9 +29824,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "st.-agnes-lake-c4c40",
+        id: "st.-agnes-lake-a2fec",
         season: "Open All Year",
         waterbody: "St. Agnes Lake",
         waterbody_detail: "St. Agnes Lake",
@@ -29942,9 +29990,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "steepbank-lake-59f4e",
+        id: "steepbank-lake-f0be4",
         season: "Open May 15 to Mar 31",
         waterbody: "Steepbank Lake",
         waterbody_detail: "Steepbank Lake",
@@ -30044,11 +30092,11 @@ export const waterbodyGroups: WaterbodyGroupMap = {
       {
         bait_ban: "Bait ban",
         fish_management_zone: "ES1-Rivers",
-        id: "storm-creek-56fa5",
+        id: "storm-creek-94e2d",
         season: "Closed All Year",
         waterbody: "Storm Creek",
         waterbody_detail:
-          "Upstream of Mist Creek confluence; Includes tributaries",
+          "Upstream of Mist Creek confluence; Includes tributaries (18-7-W5)",
         fish_limits: {
           walleye: "",
           northern_pike: "",
@@ -30597,8 +30645,8 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         waterbody: "Thurston Lake",
         waterbody_detail: "Thurston Lake",
         fish_limits: {
-          walleye: "0 fish",
-          northern_pike: "1 fish 63-70 cm",
+          walleye: "1 fish 50-55 cm",
+          northern_pike: "1 fish 65-80 cm",
           yellow_perch: "",
           lake_trout: "",
           lake_whitefish: "10 fish",
@@ -30614,8 +30662,8 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         waterbody: "Thurston Lake",
         waterbody_detail: "Tributaries and outlet for 1 km",
         fish_limits: {
-          walleye: "0 fish",
-          northern_pike: "1 fish 63-70 cm",
+          walleye: "1 fish 50-55 cm",
+          northern_pike: "1 fish 65-80 cm",
           yellow_perch: "",
           lake_trout: "",
           lake_whitefish: "10 fish",
@@ -30760,7 +30808,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         waterbody_detail:
           "Portion west of SW 2-15-22-W4 (North of a line from the farm building to Little Bow Provincial Park pumphouse on the east); no fishing within 100 m of the Canal inlet structure",
         fish_limits: {
-          walleye: "0 fish",
+          walleye: "1 fish 50-55 cm",
           northern_pike: "0 fish",
           yellow_perch: "15 fish",
           mountain_whitefish: "",
@@ -30778,7 +30826,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         waterbody_detail:
           "The remainder of the Reservoir including the canal between Travers and McGregor reservoirs; no fishing within 100m of the canal inlet structure",
         fish_limits: {
-          walleye: "0 fish",
+          walleye: "1 fish 50-55 cm",
           northern_pike: "0 fish",
           yellow_perch: "15 fish",
           mountain_whitefish: "",
@@ -30795,9 +30843,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "treasure-loch-lake-c4c40",
+        id: "treasure-loch-lake-a2fec",
         season: "Open All Year",
         waterbody: "Treasure Loch Lake",
         waterbody_detail: "Treasure Loch Lake",
@@ -30844,9 +30892,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "tulip-lake-c4c40",
+        id: "tulip-lake-a2fec",
         season: "Open All Year",
         waterbody: "Tulip Lake",
         waterbody_detail: "Tulip Lake",
@@ -30869,9 +30917,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "turtle-lake-c4c40",
+        id: "turtle-lake-a2fec",
         season: "Open All Year",
         waterbody: "Turtle Lake",
         waterbody_detail: "Turtle Lake",
@@ -30949,7 +30997,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         waterbody: "Twin Valley Reservoir",
         waterbody_detail: "Twin Valley Reservoir",
         fish_limits: {
-          walleye: "",
+          walleye: "0 fish",
           northern_pike: "1 over 63 cm",
           yellow_perch: "",
           mountain_whitefish: "",
@@ -31682,9 +31730,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "wappau-lake-590f5",
+        id: "wappau-lake-d36a2",
         season: "Open May 15 to Mar 31",
         waterbody: "Wappau Lake",
         waterbody_detail: "14-75-11-W4",
@@ -31929,9 +31977,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "weekes-lake-c4c40",
+        id: "weekes-lake-a2fec",
         season: "Open All Year",
         waterbody: "Weekes Lake",
         waterbody_detail: "Weekes Lake",
@@ -32297,7 +32345,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         waterbody: "Winagami Lake",
         waterbody_detail: "Includes Boone's Slough and South Heart Reservoir",
         fish_limits: {
-          walleye: "1 over 60 cm",
+          walleye: "1 over 55 cm",
           northern_pike: "0 fish",
           yellow_perch: "15 fish",
           lake_whitefish: "10 fish",
@@ -32314,7 +32362,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         waterbody_detail:
           "Tributaries, inlet canal, outlet stream, and outlet canal",
         fish_limits: {
-          walleye: "1 over 60 cm",
+          walleye: "1 over 55 cm",
           northern_pike: "0 fish",
           yellow_perch: "",
           lake_whitefish: "10 fish",
@@ -32389,7 +32437,7 @@ export const waterbodyGroups: WaterbodyGroupMap = {
         waterbody_detail:
           "For lake only.  For flowing water see Winefred Lake Tributaries and Outflows.",
         fish_limits: {
-          walleye: "",
+          walleye: "1 fish 45-50 cm",
           northern_pike: "0 fish",
           yellow_perch: "15 fish",
           lake_trout: "",
@@ -32432,9 +32480,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "winnifred-lake-74a9a",
+        id: "winnifred-lake-0999b",
         season: "Open All Year",
         waterbody: "Winnifred Lake",
         waterbody_detail: "118-3-W4",
@@ -32590,9 +32638,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "woodman-lake-c4c40",
+        id: "woodman-lake-a2fec",
         season: "Open All Year",
         waterbody: "Woodman Lake",
         waterbody_detail: "Woodman Lake",
@@ -32615,9 +32663,9 @@ export const waterbodyGroups: WaterbodyGroupMap = {
     groupExceptionZone: null,
     waterbodies: [
       {
-        bait_ban: "Bait ban",
+        bait_ban: "Bait allowed",
         fish_management_zone: "NB4-Lakes",
-        id: "wylie-lake-c4c40",
+        id: "wylie-lake-a2fec",
         season: "Open All Year",
         waterbody: "Wylie Lake",
         waterbody_detail: "Wylie Lake",
