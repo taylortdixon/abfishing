@@ -1,20 +1,19 @@
+import { useRouter } from "next/router";
 import { Suspense } from "react";
 import { useParams } from "react-router-dom";
+import App from "../../components/app/app";
 import { SiteLoader } from "../../components/site-loader/site-loader";
 import { WaterbodyDetailsContent } from "./waterbody-details-content";
 
-type UrlParams = {
-  id?: string;
-};
-
-export const WaterbodyDetailsPage = () => {
-  const params = useParams<UrlParams>();
+export default () => {
+  const router = useRouter();
+  const id = router.query.id as string;
 
   return (
-    <>
+    <App>
       <Suspense fallback={<SiteLoader />}>
-        {params.id && <WaterbodyDetailsContent waterbodyId={params.id} />}
+        {id && <WaterbodyDetailsContent waterbodyId={id} />}
       </Suspense>
-    </>
+    </App>
   );
 };

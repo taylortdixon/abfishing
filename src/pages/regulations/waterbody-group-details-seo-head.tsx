@@ -1,6 +1,6 @@
 import { FishLimit, WaterbodyGroup } from "../../types/waterbody.type";
 import { SeoHead } from "../../components/seo-head/seo-head";
-import { WaterbodyDetailsContentSeoHead } from "../waterbody-details/waterbody-details-content-seo-head";
+import { WaterbodyDetailsContentSeoHead } from "../waterbody/waterbody-details-content-seo-head";
 import { FISH_LIMIT_LABELS } from "../../constants";
 import { joinSentence } from "../../utils/array.utils";
 
