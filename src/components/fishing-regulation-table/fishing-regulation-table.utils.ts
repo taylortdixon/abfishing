@@ -1,6 +1,11 @@
 import { GridFilterItem } from "@mui/x-data-grid";
 import dayjs from "dayjs";
 import { Waterbody } from "../../types/waterbody.type";
+import isSameOrAfter from "dayjs/plugin/isSameOrAfter";
+import isSameOrBefore from "dayjs/plugin/isSameOrBefore";
+
+dayjs.extend(isSameOrAfter);
+dayjs.extend(isSameOrBefore);
 
 const REGULATIONS_CUTOFF_MONTH_INDEX = 2; // March
 const TODAY = dayjs();

@@ -10,6 +10,12 @@ import { FiltersContextProvider } from "../components/filters-context/filters-co
 import { MainMenuNav } from "../components/main-menu-nav/main-menu-nav";
 import WarningModal from "../components/warning-modal/warning-modal";
 import "./_app.css";
+import { Theme } from "@mui/material/styles";
+
+declare module "@mui/styles/defaultTheme" {
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface (remove this line if you don't have the rule enabled)
+  interface DefaultTheme extends Theme {}
+}
 
 const theme = createTheme({
   palette: {

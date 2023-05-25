@@ -73,3 +73,5 @@ export const WaterbodyGroupDetailsSeoHead: React.FC<
     />
   );
 };
+
+export default WaterbodyGroupDetailsSeoHead;

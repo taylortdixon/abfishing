@@ -2,7 +2,7 @@ import { waterbodyGroups } from "../../fishing-regulations";
 import { Breadcrumbs, Link, Typography } from "@mui/material";
 import { WaterbodyGroupAccordion } from "../../components/waterbody-group-modal/waterbody-group-accordion";
 import styles from "./waterbody-group-details.module.css";
-import React from "react";
+import React, { useEffect } from "react";
 import { WaterbodyGroupDetailsSeoHead } from "./waterbody-group-details-seo-head";
 import { useRouter } from "next/router";
 import { Navigate } from "react-router-dom";
@@ -25,13 +25,18 @@ export const WaterbodyGroupDetailsContent: React.FC<
     (group) => group.id === waterbodyGroupId
   );
 
+  useEffect(() => {
+    if (!selectedWaterbodyGroup) {
+      router.replace("/");
+    }
+  }, [selectedWaterbodyGroup]);
+
   const onNavigateHome = (e: React.MouseEvent) => {
     e.preventDefault();
     router.push("/");
   };
 
   if (!selectedWaterbodyGroup) {
-    router.replace("/");
     return null;
   }
 
@@ -64,3 +69,5 @@ export const WaterbodyGroupDetailsContent: React.FC<
     </>
   );
 };
+
+export default WaterbodyGroupDetailsContent;

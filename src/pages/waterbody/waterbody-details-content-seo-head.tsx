@@ -51,3 +51,5 @@ export const WaterbodyDetailsContentSeoHead: React.FC<
     />
   );
 };
+
+export default WaterbodyDetailsContentSeoHead;

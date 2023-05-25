@@ -11,11 +11,6 @@ const FishingRegulationTable = lazy(
     import("../../components/fishing-regulation-table/fishing-regulation-table")
 );
 
-const WaterbodyDetailsModal = lazy(
-  () =>
-    import("../../components/waterbody-details-modal/waterbody-details-modal")
-);
-
 const WaterbodyGroupModal = lazy(
   () => import("../../components/waterbody-group-modal/waterbody-group-modal")
 );
@@ -53,7 +48,6 @@ export const WaterbodyListPage = () => {
       </Suspense>
 
       <Suspense fallback={<SiteLoader />}>
-        {params.id && <WaterbodyDetailsModal selectedId={params.id} />}
         {params.groupId && (
           <WaterbodyGroupModal waterbodyGroupId={params.groupId} />
         )}
@@ -61,3 +55,5 @@ export const WaterbodyListPage = () => {
     </>
   );
 };
+
+export default WaterbodyListPage;
