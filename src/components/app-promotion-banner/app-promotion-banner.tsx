@@ -1,7 +1,7 @@
 import { Alert } from "@mui/lab";
 import { Snackbar } from "@mui/material";
 import { isAndroid, isIOS } from "react-device-detect";
-import "./app-promotion-banner.css";
+import styles from "./app-promotion-banner.module.css";
 import InstallMobileIcon from "@mui/icons-material/InstallMobile";
 import AlertTitle from "@mui/material/AlertTitle";
 import React, { useEffect, useState } from "react";
@@ -53,7 +53,7 @@ export const AppPromotionBanner: React.FC = () => {
     >
       <Alert
         icon={<InstallMobileIcon fontSize="large" />}
-        className="alert"
+        className={styles.alert}
         severity="info"
         onClick={handleOpen}
         onClose={handleClose}

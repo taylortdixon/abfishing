@@ -2,7 +2,7 @@ import { lazy } from "react";
 import { Typography } from "@mui/material";
 import { Suspense } from "react";
 import { useParams } from "react-router-dom";
-import "./waterbody-list.css";
+import styles from "./waterbody-list.module.css";
 import { SiteLoader } from "../../components/site-loader/site-loader";
 import { SeoHead } from "../../components/seo-head/seo-head";
 
@@ -39,7 +39,7 @@ export const WaterbodyListPage = () => {
         variant="h4"
         component="h1"
         gutterBottom
-        className="App__title"
+        className={styles.App__title}
       >
         Alberta Fishing Regulations
       </Typography>

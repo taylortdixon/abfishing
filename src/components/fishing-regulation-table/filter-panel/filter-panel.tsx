@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import React from "react";
 import { FilterPanelProps } from "./filter-panel.types.props";
-import "./filter-panel.css";
+import styles from "./filter-panel.module.css";
 import uniq from "lodash/uniq";
 import findIndex from "lodash/findIndex";
 import { GridFilterItem } from "@mui/x-data-grid";
@@ -65,7 +65,7 @@ export const FilterPanel: React.VFC<FilterPanelProps> = ({
   };
 
   return (
-    <FormGroup className="filter_panel" row>
+    <FormGroup className={styles.filter_panel} row>
       <FormControl>
         <TextField
           id="filled-search"

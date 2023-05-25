@@ -11,7 +11,7 @@ import {
   ListItemText,
 } from "@mui/material";
 import { WaterbodyDetailsModalProps } from "./waterbody-details-modal.props.types";
-import "./waterbody-details-modal.css";
+import styles from "./waterbody-details-modal.module.css";
 import { FishLimit } from "../../types/waterbody.type";
 import React from "react";
 import { useNavigate } from "react-router-dom";
@@ -60,8 +60,8 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
       {selectedWaterbody && (
         <>
           <DialogTitle id="simple-dialog-title" variant="h4" component="h1">
-            <div className="waterbody_details__dialog_title">
-              <span className="waterbody_details__dialog_title__text">
+            <div className={styles.waterbody_details__dialog_title}>
+              <span className={styles.waterbody_details__dialog_title__text}>
                 {selectedWaterbody.waterbody}
               </span>
             </div>
@@ -132,7 +132,7 @@ export const WaterbodyDetailsModal: React.VFC<WaterbodyDetailsModalProps> = ({
                   return (
                     <ListItem key={limitName}>
                       <ListItemIcon>
-                        <Icon className="svg" />
+                        <Icon className={styles.svg} />
                       </ListItemIcon>
                       <ListItemText
                         primary={FISH_LIMIT_LABELS[limitName as FishLimit]}

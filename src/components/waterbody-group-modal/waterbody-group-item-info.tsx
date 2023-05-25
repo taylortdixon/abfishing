@@ -3,8 +3,7 @@ import { FISH_LIMIT_LABELS } from "../../constants";
 import { FishLimit, Waterbody } from "../../types/waterbody.type";
 import { trackWaterbodyOfficialRegulations } from "../../utils/analytics.utils";
 import { fishLimitsIconMap } from "../fish-icons/fish-icons";
-
-import "./waterbody-group-item-info.css";
+import styles from "./waterbody-group-item-info.module.css";
 
 type WaterbodyGroupItemInfoProps = {
   includeDetail?: boolean;
@@ -18,9 +17,9 @@ export const WaterbodyGroupItemInfo: React.VFC<WaterbodyGroupItemInfoProps> = ({
   waterbody,
 }) => {
   return (
-    <List dense={true} className="list">
+    <List dense={true} className={styles.list}>
       {includeDetail && (
-        <ListItem className="list_item">
+        <ListItem className={styles.list_item}>
           <ListItemText
             primary="Waterbody Details"
             secondary={waterbody.waterbody_detail}
@@ -28,14 +27,14 @@ export const WaterbodyGroupItemInfo: React.VFC<WaterbodyGroupItemInfoProps> = ({
         </ListItem>
       )}
       {includeSeason && (
-        <ListItem className="list_item">
+        <ListItem className={styles.list_item}>
           <ListItemText primary="Open Season" secondary={waterbody.season} />
         </ListItem>
       )}
-      <ListItem className="list_item">
+      <ListItem className={styles.list_item}>
         <ListItemText primary="Bait Ban" secondary={waterbody.bait_ban} />
       </ListItem>
-      <ListItem className="list_item">
+      <ListItem className={styles.list_item}>
         <ListItemText
           primary="Zone"
           secondary={waterbody.fish_management_zone}
@@ -43,7 +42,7 @@ export const WaterbodyGroupItemInfo: React.VFC<WaterbodyGroupItemInfoProps> = ({
       </ListItem>
       <ListItem
         button
-        className="list_item"
+        className={styles.list_item}
         component="a"
         target="_blank"
         onClick={() => trackWaterbodyOfficialRegulations(waterbody.waterbody)}
@@ -63,9 +62,9 @@ export const WaterbodyGroupItemInfo: React.VFC<WaterbodyGroupItemInfoProps> = ({
         const Icon = fishLimitsIconMap[limitName as FishLimit];
 
         return (
-          <ListItem key={limitName} className="list_item">
+          <ListItem key={limitName} className={styles.list_item}>
             <ListItemIcon>
-              <Icon className="svg" />
+              <Icon className={styles.svg} />
             </ListItemIcon>
             <ListItemText
               primary={FISH_LIMIT_LABELS[limitName as FishLimit]}

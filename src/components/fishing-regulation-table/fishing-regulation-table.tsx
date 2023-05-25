@@ -5,13 +5,14 @@ import { regulations } from "../../fishing-regulations";
 import { Waterbody } from "../../types/waterbody.type";
 import { trackWaterbodyOpen } from "../../utils/analytics.utils";
 import { FilterPanel } from "./filter-panel/filter-panel";
-import "./fishing-regulation-table.css";
+import styles from "./fishing-regulation-table.module.css";
 import { filterRegulations } from "./fishing-regulation-table.utils";
 import { NoResultsRowsOverlay } from "./no-results/no-results";
 import { isMobile } from "react-device-detect";
 import { FishingRegualationTableProps } from "./fishing-regulation-table.props.types";
 import { useNavigate } from "react-router-dom";
 import { useFilterContext } from "../filters-context/filters-context";
+import { useRouter } from "next/router";
 
 const useColumnDefinitions = (): GridColumns => {
   return useMemo(() => {
@@ -23,7 +24,7 @@ const useColumnDefinitions = (): GridColumns => {
         renderCell: (params) => {
           const row = params.row as Waterbody;
           return (
-            <div className="fishing_regulation_table__name_cell">
+            <div className={styles.fishing_regulation_table__name_cell}>
               <Typography variant="body1" gutterBottom>
                 {row.waterbody}
               </Typography>
@@ -52,7 +53,7 @@ const useColumnDefinitions = (): GridColumns => {
 export const FishingRegulationTable: React.VFC<
   FishingRegualationTableProps
 > = () => {
-  const navigate = useNavigate();
+  const router = useRouter();
   const columns = useColumnDefinitions();
   const { filters, onPageChange, page, setFilters } = useFilterContext();
 
@@ -63,7 +64,7 @@ export const FishingRegulationTable: React.VFC<
   const onRowClick = (params: GridRowParams) => {
     const waterbody = params.row as Waterbody;
     trackWaterbodyOpen(waterbody.waterbody);
-    navigate(`/waterbody/${waterbody.id}`);
+    router.push(`/waterbody/${waterbody.id}`);
   };
 
   const filteredRegulations = filterRegulations(
@@ -79,7 +80,7 @@ export const FishingRegulationTable: React.VFC<
       />
       <DataGrid
         columns={columns}
-        className="fishing_regulation_table"
+        className={styles.fishing_regulation_table}
         rows={filteredRegulations}
         onRowClick={onRowClick}
         pagination

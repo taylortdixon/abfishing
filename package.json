@@ -18,6 +18,7 @@
     "js-cookie": "^2.2.1",
     "lodash": "^4.17.21",
     "md5": "^2.3.0",
+    "next": "^13.4.3",
     "pdf-table-extractor": "^1.0.3",
     "prettier": "^2.8.1",
     "react": "^18.2.0",
@@ -25,17 +26,15 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^6.4.3",
-    "react-scripts": "5.0.1",
     "source-map-explorer": "^2.5.2",
     "typescript": "4.8.4",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "parse": "yarn parse:generate && yarn parse:format",
     "parse:generate": "tsc parser/index.ts && node parser/index.js",
     "parse:format": "prettier --write src/fishing-regulations.ts public/regulations.json public/structured.html"
