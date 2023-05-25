@@ -1,20 +1,14 @@
-import { ReactComponent as TroutIcon } from "../../static/trout.svg";
-import { ReactComponent as WalleyeIcon } from "../../static/walleye.svg";
-import { ReactComponent as PerchIcon } from "../../static/perch.svg";
-import { ReactComponent as PikeIcon } from "../../static/pike.svg";
-import { ReactComponent as BurbotIcon } from "../../static/burbot.svg";
-import { ReactComponent as FishIcon } from "../../static/fish.svg";
-import { ReactComponent as WhitefishIcon } from "../../static/whitefish.svg";
 import { FishLimit } from "../../types/waterbody.type";
 
-export const fishLimitsIconMap: Record<
-  FishLimit,
-  React.FunctionComponent<
-    React.SVGProps<SVGSVGElement> & {
-      title?: string | undefined;
-    }
-  >
-> = {
+const TroutIcon = "/fish-icons/trout.svg";
+const WalleyeIcon = "/fish-icons/walleye.svg";
+const PerchIcon = "/fish-icons/perch.svg";
+const PikeIcon = "/fish-icons/pike.svg";
+const BurbotIcon = "/fish-icons/burbot.svg";
+const FishIcon = "/fish-icons/fish.svg";
+const WhitefishIcon = "/fish-icons/whitefish.svg";
+
+export const fishLimitsIconMap: Record<FishLimit, string> = {
   brook_trout: TroutIcon,
   burbot: BurbotIcon,
   cisco: FishIcon,

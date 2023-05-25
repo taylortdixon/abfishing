@@ -1,10 +1,11 @@
 import { waterbodyGroups } from "../../fishing-regulations";
 import { Breadcrumbs, Link, Typography } from "@mui/material";
-import { Navigate, useNavigate } from "react-router-dom";
 import { WaterbodyGroupAccordion } from "../../components/waterbody-group-modal/waterbody-group-accordion";
-import "./waterbody-group-details.css";
+import styles from "./waterbody-group-details.module.css";
 import React from "react";
 import { WaterbodyGroupDetailsSeoHead } from "./waterbody-group-details-seo-head";
+import { useRouter } from "next/router";
+import { Navigate } from "react-router-dom";
 
 type WaterbodyGroupDetailsContentProps = {
   waterbodyGroupId: string;
@@ -19,24 +20,25 @@ export const WaterbodyGroupDetailsContent: React.FC<
   defaultExpandedWaterbodyDetails,
   defaultWaterbodySeason,
 }) => {
-  const navigate = useNavigate();
+  const router = useRouter();
   const selectedWaterbodyGroup = Object.values(waterbodyGroups).find(
     (group) => group.id === waterbodyGroupId
   );
 
   const onNavigateHome = (e: React.MouseEvent) => {
     e.preventDefault();
-    navigate("/");
+    router.push("/");
   };
 
   if (!selectedWaterbodyGroup) {
-    return <Navigate to="/" replace />;
+    router.replace("/");
+    return null;
   }
 
   return (
     <>
       <WaterbodyGroupDetailsSeoHead waterbodyGroup={selectedWaterbodyGroup} />
-      <Breadcrumbs aria-label="breadcrumb" className="breadcrumbs">
+      <Breadcrumbs aria-label="breadcrumb" className={styles.breadcrumbs}>
         <Link color="inherit" href="/" onClick={onNavigateHome}>
           Alberta Fishing Regulations
         </Link>

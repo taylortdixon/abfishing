@@ -1,6 +1,6 @@
 import { Navigate } from "react-router-dom";
 import { regulations, waterbodyGroups } from "../../fishing-regulations";
-import { WaterbodyGroupDetailsContent } from "../waterbody-group-details/waterbody-group-details-content";
+import { WaterbodyGroupDetailsContent } from "../regulations/waterbody-group-details-content";
 import { WaterbodyDetailsContentSeoHead } from "./waterbody-details-content-seo-head";
 
 type WaterbodyDetailsContentProps = {

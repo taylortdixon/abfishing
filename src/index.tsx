@@ -15,7 +15,7 @@ import {
   StyledEngineProvider,
 } from "@mui/material";
 import { WaterbodyListPage } from "./pages/waterbody-list/waterbody-list";
-import { WaterbodyGroupDetailsPage } from "./pages/waterbody-group-details/waterbody-group-details";
+import { WaterbodyGroupDetailsPage } from "./pages/regulations/[groupId]";
 import { WaterbodyDetailsPage } from "./pages/waterbody-details/waterbody-details";
 import { FiltersContextProvider } from "./components/filters-context/filters-context";
 import { AppPromotionBanner } from "./components/app-promotion-banner/app-promotion-banner";

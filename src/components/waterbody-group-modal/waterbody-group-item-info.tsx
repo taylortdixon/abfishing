@@ -1,4 +1,5 @@
 import { List, ListItem, ListItemIcon, ListItemText } from "@mui/material";
+import Image from "next/image";
 import { FISH_LIMIT_LABELS } from "../../constants";
 import { FishLimit, Waterbody } from "../../types/waterbody.type";
 import { trackWaterbodyOfficialRegulations } from "../../utils/analytics.utils";
@@ -12,8 +13,8 @@ type WaterbodyGroupItemInfoProps = {
 };
 
 export const WaterbodyGroupItemInfo: React.VFC<WaterbodyGroupItemInfoProps> = ({
-  includeDetail,
-  includeSeason,
+  includeDetail = false,
+  includeSeason = false,
   waterbody,
 }) => {
   return (
@@ -59,12 +60,19 @@ export const WaterbodyGroupItemInfo: React.VFC<WaterbodyGroupItemInfoProps> = ({
           return null;
         }
 
-        const Icon = fishLimitsIconMap[limitName as FishLimit];
+        const iconPath = fishLimitsIconMap[limitName as FishLimit];
+        console.log(limitName, iconPath);
 
         return (
           <ListItem key={limitName} className={styles.list_item}>
             <ListItemIcon>
-              <Icon className={styles.svg} />
+              <Image
+                src={iconPath}
+                alt={`${limitName} icon`}
+                className={styles.svg}
+                height={35}
+                width={56}
+              />
             </ListItemIcon>
             <ListItemText
               primary={FISH_LIMIT_LABELS[limitName as FishLimit]}
