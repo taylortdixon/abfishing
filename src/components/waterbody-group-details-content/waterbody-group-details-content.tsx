@@ -1,16 +1,23 @@
 import { waterbodyGroups } from "../../fishing-regulations";
 import { Breadcrumbs, Link, Typography } from "@mui/material";
-import { WaterbodyGroupAccordion } from "../waterbody-group-modal/waterbody-group-accordion";
 import styles from "./waterbody-group-details.module.css";
 import React, { useEffect } from "react";
 import { WaterbodyGroupDetailsSeoHead } from "./waterbody-group-details-seo-head";
 import { useRouter } from "next/router";
+import dynamic from "next/dynamic";
 
 type WaterbodyGroupDetailsContentProps = {
   waterbodyGroupId: string;
   defaultExpandedWaterbodyDetails?: string;
   defaultWaterbodySeason?: string;
 };
+
+const DynamicWaterbodyGroupAccordion = dynamic(
+  () => import("../waterbody-group-modal/waterbody-group-accordion"),
+  {
+    loading: () => null,
+  }
+);
 
 export const WaterbodyGroupDetailsContent: React.FC<
   WaterbodyGroupDetailsContentProps
@@ -60,7 +67,7 @@ export const WaterbodyGroupDetailsContent: React.FC<
         {selectedWaterbodyGroup.name}
       </Typography>
 
-      <WaterbodyGroupAccordion
+      <DynamicWaterbodyGroupAccordion
         waterbodies={selectedWaterbodyGroup.waterbodies}
         defaultExpandedWaterbodyDetails={defaultExpandedWaterbodyDetails}
         defaultWaterbodySeason={defaultWaterbodySeason}

@@ -75,3 +75,5 @@ export const WaterbodyGroupAccordion: React.VFC<
     </>
   );
 };
+
+export default WaterbodyGroupAccordion;

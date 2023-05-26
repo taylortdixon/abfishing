@@ -1,7 +1,6 @@
 import { lazy } from "react";
 import { Typography } from "@mui/material";
 import { Suspense } from "react";
-import { useParams } from "react-router-dom";
 import styles from "./waterbody-list.module.css";
 import { SiteLoader } from "../site-loader/site-loader";
 import { SeoHead } from "../seo-head/seo-head";
@@ -10,18 +9,7 @@ const FishingRegulationTable = lazy(
   () => import("../fishing-regulation-table/fishing-regulation-table")
 );
 
-const WaterbodyGroupModal = lazy(
-  () => import("../waterbody-group-modal/waterbody-group-modal")
-);
-
-type UrlParams = {
-  id?: string;
-  groupId?: string;
-};
-
 export const WaterbodyListPage = () => {
-  const params = useParams<UrlParams>();
-
   return (
     <>
       <SeoHead
@@ -44,12 +32,6 @@ export const WaterbodyListPage = () => {
 
       <Suspense fallback={<SiteLoader />}>
         <FishingRegulationTable />
-      </Suspense>
-
-      <Suspense fallback={<SiteLoader />}>
-        {params.groupId && (
-          <WaterbodyGroupModal waterbodyGroupId={params.groupId} />
-        )}
       </Suspense>
     </>
   );

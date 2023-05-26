@@ -1,8 +1,4 @@
-import {
-  createTheme,
-  StyledEngineProvider,
-  ThemeProvider,
-} from "@mui/material";
+import { ThemeProvider } from "@mui/material";
 import { AppProps } from "next/app";
 import React, { Suspense } from "react";
 import { AppPromotionBanner } from "../components/app-promotion-banner/app-promotion-banner";

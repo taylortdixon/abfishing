@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { Helmet } from "react-helmet";
 
 type SeoHeadProps = {
   title: string;
