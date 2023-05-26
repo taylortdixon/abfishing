@@ -21,6 +21,27 @@ export default function MyDocument({ emotionStyleTags }: MyDocumentProps) {
   return (
     <Html lang="en" className={roboto.className}>
       <Head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-1PWBEMSEZ7"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag() {
+                dataLayer.push(arguments);
+              }
+              if ("${process.env.NODE_ENV}" === "production") {
+                gtag("js", new Date());
+        
+                gtag("config", "G-1PWBEMSEZ7", {
+                  send_page_view: false,
+                });
+              }
+      `,
+          }}
+        ></script>
         {/* PWA primary color */}
         <meta name="theme-color" content={theme.palette.primary.main} />
         <link rel="shortcut icon" href="/favicon.ico" />
