@@ -1,6 +1,6 @@
 import { Navigate } from "react-router-dom";
 import { regulations, waterbodyGroups } from "../../fishing-regulations";
-import { WaterbodyGroupDetailsContent } from "../regulations/waterbody-group-details-content";
+import { WaterbodyGroupDetailsContent } from "../../components/waterbody-group-details-content/waterbody-group-details-content";
 import { WaterbodyDetailsContentSeoHead } from "./waterbody-details-content-seo-head";
 
 type WaterbodyDetailsContentProps = {
@@ -39,5 +39,3 @@ export const WaterbodyDetailsContent: React.FC<
     </>
   );
 };
-
-export default WaterbodyDetailsContent;

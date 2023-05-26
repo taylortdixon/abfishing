@@ -1,5 +1,5 @@
 import App from "../components/app/app";
-import { WaterbodyListPage } from "./waterbody-list/waterbody-list";
+import { WaterbodyListPage } from "../components/waterbody-list/waterbody-list";
 
 export default () => (
   <App>

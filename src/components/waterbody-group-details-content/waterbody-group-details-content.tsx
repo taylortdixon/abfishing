@@ -1,6 +1,6 @@
 import { waterbodyGroups } from "../../fishing-regulations";
 import { Breadcrumbs, Link, Typography } from "@mui/material";
-import { WaterbodyGroupAccordion } from "../../components/waterbody-group-modal/waterbody-group-accordion";
+import { WaterbodyGroupAccordion } from "../waterbody-group-modal/waterbody-group-accordion";
 import styles from "./waterbody-group-details.module.css";
 import React, { useEffect } from "react";
 import { WaterbodyGroupDetailsSeoHead } from "./waterbody-group-details-seo-head";
@@ -69,5 +69,3 @@ export const WaterbodyGroupDetailsContent: React.FC<
     </>
   );
 };
-
-export default WaterbodyGroupDetailsContent;

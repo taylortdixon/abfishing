@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Helmet } from "react-helmet";
 
 type SeoHeadProps = {
@@ -11,19 +12,14 @@ export const SeoHead: React.FC<SeoHeadProps> = ({
   title,
   description,
 }) => {
+  const fullTitle = `${title} | AB Fishing`;
   return (
-    <Helmet>
-      <title>{title} | AB Fishing</title>
+    <Head>
+      <title>{fullTitle}</title>
       <meta name="description" content={description} />
-      <meta property="og:title" content={title} data-react-helmet="true" />
-      <meta
-        property="og:description"
-        content={description}
-        data-react-helmet="true"
-      />
-      {canonicalHref && (
-        <link rel="canonical" href={canonicalHref} data-react-helmet="true" />
-      )}
-    </Helmet>
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      {canonicalHref && <link rel="canonical" href={canonicalHref} />}
+    </Head>
   );
 };

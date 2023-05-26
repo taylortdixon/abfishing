@@ -3,16 +3,15 @@ import { Typography } from "@mui/material";
 import { Suspense } from "react";
 import { useParams } from "react-router-dom";
 import styles from "./waterbody-list.module.css";
-import { SiteLoader } from "../../components/site-loader/site-loader";
-import { SeoHead } from "../../components/seo-head/seo-head";
+import { SiteLoader } from "../site-loader/site-loader";
+import { SeoHead } from "../seo-head/seo-head";
 
 const FishingRegulationTable = lazy(
-  () =>
-    import("../../components/fishing-regulation-table/fishing-regulation-table")
+  () => import("../fishing-regulation-table/fishing-regulation-table")
 );
 
 const WaterbodyGroupModal = lazy(
-  () => import("../../components/waterbody-group-modal/waterbody-group-modal")
+  () => import("../waterbody-group-modal/waterbody-group-modal")
 );
 
 type UrlParams = {
@@ -55,5 +54,3 @@ export const WaterbodyListPage = () => {
     </>
   );
 };
-
-export default WaterbodyListPage;

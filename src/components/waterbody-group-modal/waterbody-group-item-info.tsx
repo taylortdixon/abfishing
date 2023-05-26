@@ -61,7 +61,6 @@ export const WaterbodyGroupItemInfo: React.VFC<WaterbodyGroupItemInfoProps> = ({
         }
 
         const iconPath = fishLimitsIconMap[limitName as FishLimit];
-        console.log(limitName, iconPath);
 
         return (
           <ListItem key={limitName} className={styles.list_item}>

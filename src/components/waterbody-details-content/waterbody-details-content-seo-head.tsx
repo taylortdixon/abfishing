@@ -1,4 +1,4 @@
-import { SeoHead } from "../../components/seo-head/seo-head";
+import { SeoHead } from "../seo-head/seo-head";
 import { FISH_LIMIT_LABELS } from "../../constants";
 import { waterbodyGroups } from "../../fishing-regulations";
 import { FishLimit, Waterbody } from "../../types/waterbody.type";
@@ -52,4 +52,4 @@ export const WaterbodyDetailsContentSeoHead: React.FC<
   );
 };
 
-export default WaterbodyDetailsContentSeoHead;
+export default () => null;

@@ -10,28 +10,26 @@ import { FiltersContextProvider } from "../components/filters-context/filters-co
 import { MainMenuNav } from "../components/main-menu-nav/main-menu-nav";
 import WarningModal from "../components/warning-modal/warning-modal";
 import "./_app.css";
-import { Theme } from "@mui/material/styles";
+import theme from "../theme";
+import { EmotionCache } from "@emotion/cache";
+import createEmotionCache from "../createEmotionCache";
+import { CacheProvider } from "@emotion/react";
 
-declare module "@mui/styles/defaultTheme" {
-  // eslint-disable-next-line @typescript-eslint/no-empty-interface (remove this line if you don't have the rule enabled)
-  interface DefaultTheme extends Theme {}
+// Client-side cache, shared for the whole session of the user in the browser.
+const clientSideEmotionCache = createEmotionCache();
+
+export interface MyAppProps extends AppProps {
+  emotionCache?: EmotionCache;
 }
 
-const theme = createTheme({
-  palette: {
-    primary: {
-      light: "#3381b0",
-      main: "#00629d",
-      dark: "#00446d",
-      contrastText: "#fff",
-    },
-  },
-});
-
-export default function MyApp({ Component, pageProps }: AppProps) {
+export default function MyApp({
+  Component,
+  pageProps,
+  emotionCache = clientSideEmotionCache,
+}: MyAppProps) {
   return (
     <React.StrictMode>
-      <StyledEngineProvider injectFirst>
+      <CacheProvider value={emotionCache}>
         <ThemeProvider theme={theme}>
           <MainMenuNav />
           <AppPromotionBanner />
@@ -39,10 +37,10 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <Component {...pageProps} />
           </FiltersContextProvider>
         </ThemeProvider>
-      </StyledEngineProvider>
-      <Suspense fallback={null}>
-        <WarningModal />
-      </Suspense>
+        <Suspense fallback={null}>
+          <WarningModal />
+        </Suspense>
+      </CacheProvider>
     </React.StrictMode>
   );
 }
