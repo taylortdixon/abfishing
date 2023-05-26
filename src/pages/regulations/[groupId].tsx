@@ -1,9 +1,17 @@
 import { useRouter } from "next/router";
-import { Suspense } from "react";
 import App from "../../components/app/app";
-import { SiteLoader } from "../../components/site-loader/site-loader";
-import { WaterbodyGroupDetailsContent } from "../../components/waterbody-group-details-content/waterbody-group-details-content";
-import { waterbodyGroups } from "../../fishing-regulations";
+import { waterbodyGroupIds } from "../../waterbody-group-ids";
+import dynamic from "next/dynamic";
+
+const DynamicWaterbodyGroupDetailsContent = dynamic(
+  () =>
+    import(
+      "../../components/waterbody-group-details-content/waterbody-group-details-content"
+    ),
+  {
+    loading: () => null,
+  }
+);
 
 export default () => {
   const router = useRouter();
@@ -11,18 +19,16 @@ export default () => {
 
   return (
     <App>
-      <Suspense fallback={<SiteLoader />}>
-        {groupId && <WaterbodyGroupDetailsContent waterbodyGroupId={groupId} />}
-      </Suspense>
+      {groupId && (
+        <DynamicWaterbodyGroupDetailsContent waterbodyGroupId={groupId} />
+      )}
     </App>
   );
 };
 
 // This function gets called at build time
 export async function getStaticPaths() {
-  const groupIds = Object.keys(waterbodyGroups);
-
-  const paths = groupIds.map((groupId) => ({ params: { groupId } }));
+  const paths = waterbodyGroupIds.map((groupId) => ({ params: { groupId } }));
 
   // We'll pre-render only these paths at build time.
   // { fallback: false } means other routes should 404.

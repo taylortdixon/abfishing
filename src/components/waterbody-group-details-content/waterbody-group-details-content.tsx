@@ -5,7 +5,6 @@ import styles from "./waterbody-group-details.module.css";
 import React, { useEffect } from "react";
 import { WaterbodyGroupDetailsSeoHead } from "./waterbody-group-details-seo-head";
 import { useRouter } from "next/router";
-import { Navigate } from "react-router-dom";
 
 type WaterbodyGroupDetailsContentProps = {
   waterbodyGroupId: string;
@@ -69,3 +68,5 @@ export const WaterbodyGroupDetailsContent: React.FC<
     </>
   );
 };
+
+export default WaterbodyGroupDetailsContent;

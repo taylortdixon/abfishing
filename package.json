@@ -39,7 +39,7 @@
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "parse": "yarn parse:generate && yarn parse:format",
     "parse:generate": "tsc parser/index.ts && node parser/index.js",
-    "parse:format": "prettier --write src/fishing-regulations.ts public/regulations.json public/structured.html"
+    "parse:format": "prettier --write src/fishing-regulations.ts src/waterbody-ids.ts src/waterbody-group-ids.ts public/regulations.json public/structured.html"
   },
   "eslintConfig": {
     "extends": [

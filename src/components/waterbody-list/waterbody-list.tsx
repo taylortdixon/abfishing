@@ -54,3 +54,5 @@ export const WaterbodyListPage = () => {
     </>
   );
 };
+
+export default WaterbodyListPage;

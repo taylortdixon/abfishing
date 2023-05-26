@@ -39,3 +39,5 @@ export const WaterbodyDetailsContent: React.FC<
     </>
   );
 };
+
+export default WaterbodyDetailsContent;

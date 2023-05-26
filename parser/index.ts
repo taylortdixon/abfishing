@@ -79,6 +79,23 @@ const parseRegulations = async () => {
     "./public/regulations.json",
     JSON.stringify(appRegulationGroups)
   );
+
+  const waterbodyIds = regulations.map((regulation) => regulation.id);
+  const waterbodyGroupIds = Object.keys(waterbodyGroups);
+
+  writeFileSync(
+    "./src/waterbody-ids.ts",
+    `
+    export const waterbodyIds = ${JSON.stringify(waterbodyIds)};
+    export const waterbodyGroupIds = ${JSON.stringify(waterbodyGroupIds)};
+  `
+  );
+  writeFileSync(
+    "./src/waterbody-group-ids.ts",
+    `
+    export const waterbodyGroupIds = ${JSON.stringify(waterbodyGroupIds)};
+  `
+  );
 };
 
 parseRegulations();

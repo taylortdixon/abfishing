@@ -1,28 +1,27 @@
 import { useRouter } from "next/router";
-import { Suspense } from "react";
-import { useParams } from "react-router-dom";
 import App from "../../components/app/app";
-import { SiteLoader } from "../../components/site-loader/site-loader";
-import { WaterbodyDetailsContent } from "../../components/waterbody-details-content/waterbody-details-content";
-import { regulations } from "../../fishing-regulations";
+import { waterbodyIds } from "../../waterbody-ids";
+import dynamic from "next/dynamic";
+
+const DynamicWaterbodyDetailsContent = dynamic(
+  () =>
+    import(
+      "../../components/waterbody-details-content/waterbody-details-content"
+    ),
+  {
+    loading: () => null,
+  }
+);
 
 export default () => {
   const router = useRouter();
   const id = router.query.id as string;
 
-  return (
-    <App>
-      <Suspense fallback={<SiteLoader />}>
-        {id && <WaterbodyDetailsContent waterbodyId={id} />}
-      </Suspense>
-    </App>
-  );
+  return <App>{id && <DynamicWaterbodyDetailsContent waterbodyId={id} />}</App>;
 };
 
 // This function gets called at build time
 export async function getStaticPaths() {
-  const waterbodyIds = regulations.map((regulation) => regulation.id);
-
   const paths = waterbodyIds.map((id) => ({ params: { id } }));
 
   // We'll pre-render only these paths at build time.
