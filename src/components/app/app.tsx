@@ -1,7 +1,7 @@
 import { Container } from "@mui/material";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
-import styles from "./App.module.css";
+import styles from "./app.module.css";
 import { trackPageview } from "../../utils/analytics.utils";
 
 const App: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
