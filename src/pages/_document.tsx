@@ -26,12 +26,13 @@ export default function MyDocument({ emotionStyleTags }: MyDocumentProps) {
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="emotion-insertion-point" content="" />
         {emotionStyleTags}
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
       </Head>
       <body>
         <Main />
         <NextScript />
         <script
-          async
           src="https://www.googletagmanager.com/gtag/js?id=G-1PWBEMSEZ7"
           defer
         ></script>
