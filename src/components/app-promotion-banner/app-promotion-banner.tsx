@@ -14,7 +14,7 @@ const PROMOTION_TIMEOUT_MS = 4000;
 const DISMISSED_COOKIE_VALUE = "accepted";
 
 export const AppPromotionBanner: React.FC = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
