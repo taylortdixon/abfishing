@@ -7,11 +7,11 @@ import WarningModal from "../warning-modal/warning-modal";
 export const AllProviders: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(true);
 
-  useEffect(() => {
-    setTimeout(() => setShowModal(true), 3000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => setShowModal(true), 3000);
+  // }, []);
 
   return (
     <>
