@@ -52,6 +52,12 @@ const parseRegulations = async () => {
     "./src/fishing-regulations.ts",
     `import { Waterbody, WaterbodyGroupMap } from "./types/waterbody.type";
     export const regulations: Waterbody[] = ${JSON.stringify(regulations)};
+    `
+  );
+
+  writeFileSync(
+    "./src/fishing-waterbody-groups.ts",
+    `import { WaterbodyGroupMap } from "./types/waterbody.type";
     export const waterbodyGroups: WaterbodyGroupMap = ${JSON.stringify(
       waterbodyGroups
     )};`

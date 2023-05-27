@@ -1,10 +1,10 @@
-import { waterbodyGroups } from "../../fishing-regulations";
 import { Breadcrumbs, Link, Typography } from "@mui/material";
 import styles from "./waterbody-group-details.module.css";
 import React, { useEffect } from "react";
 import { WaterbodyGroupDetailsSeoHead } from "./waterbody-group-details-seo-head";
 import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
+import { waterbodyGroups } from "../../fishing-waterbody-groups";
 
 type WaterbodyGroupDetailsContentProps = {
   waterbodyGroupId: string;

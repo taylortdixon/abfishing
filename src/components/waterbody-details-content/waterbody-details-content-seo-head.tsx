@@ -1,8 +1,8 @@
 import { SeoHead } from "../seo-head/seo-head";
 import { FISH_LIMIT_LABELS } from "../../constants";
-import { waterbodyGroups } from "../../fishing-regulations";
 import { FishLimit, Waterbody } from "../../types/waterbody.type";
 import { joinSentence } from "../../utils/array.utils";
+import { waterbodyGroups } from "../../fishing-waterbody-groups";
 
 type WaterbodyDetailsContentSeoHeadProps = {
   selectedWaterbody: Waterbody;

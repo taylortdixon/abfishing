@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
-import { regulations, waterbodyGroups } from "../fishing-regulations";
+import { regulations } from "../fishing-regulations";
 import { Waterbody } from "../types/waterbody.type";
+import { waterbodyGroups } from "../fishing-waterbody-groups";
 
 export function usePrevious<T>(value: T): T | undefined {
   const ref = useRef<T>();
