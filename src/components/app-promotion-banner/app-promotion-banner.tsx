@@ -10,11 +10,11 @@ import { trackAppOpen } from "../../utils/analytics.utils";
 
 const COOKIE_NAME = "dismissed-promotion-cookie-fixed";
 const COOKIE_EXPIRY_DAYS = 90;
-const PROMOTION_TIMEOUT_MS = 4000;
+const PROMOTION_TIMEOUT_MS = 4500;
 const DISMISSED_COOKIE_VALUE = "accepted";
 
 export const AppPromotionBanner: React.FC = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
