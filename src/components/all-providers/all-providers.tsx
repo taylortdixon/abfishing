@@ -10,7 +10,7 @@ export const AllProviders: React.FC<{ children: React.ReactNode }> = ({
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setShowModal(true), 1500);
+    // setTimeout(() => setShowModal(true), 1500);
   }, []);
 
   return (
