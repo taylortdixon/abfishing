@@ -18,9 +18,7 @@ export const WarningModal = () => {
   const [visible, setVisible] = React.useState(false);
 
   useEffect(() => {
-    setTimeout(() => {
-      setVisible(Cookies.get(COOKIE_NAME) !== ACCEPTED_COOKIE_VALUE);
-    }, 500);
+    setVisible(Cookies.get(COOKIE_NAME) !== ACCEPTED_COOKIE_VALUE);
   }, []);
 
   const handleClose = () => {
