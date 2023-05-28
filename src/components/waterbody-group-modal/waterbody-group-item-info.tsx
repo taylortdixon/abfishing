@@ -87,7 +87,7 @@ export const WaterbodyGroupItemInfo: React.VFC<WaterbodyGroupItemInfoProps> = ({
                 alt={`${limitName} icon`}
                 height={35}
                 width={56}
-                style={{ width: 56, height: "auto", marginRight: 10 }}
+                style={{ width: 56, height: "auto", marginRight: "10px" }}
               />
             </ListItemIcon>
             <ListItemText
@@ -97,7 +97,7 @@ export const WaterbodyGroupItemInfo: React.VFC<WaterbodyGroupItemInfoProps> = ({
           </ListItem>
         );
       })}
-      <ListItem sx={{ marginTop: 12 }}>
+      <ListItem sx={{ marginTop: "12px" }}>
         <ListItemText
           primary="Disclaimer"
           secondary={
