@@ -18,8 +18,6 @@ type Props = {
 };
 
 export default (props: Props) => {
-  const router = useRouter();
-
   return (
     <App>
       {props.waterbodyGroup && (
