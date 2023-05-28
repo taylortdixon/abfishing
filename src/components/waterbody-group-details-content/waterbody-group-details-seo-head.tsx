@@ -14,10 +14,6 @@ const MAX_FISH_LIMIT_COUNT = 3;
 export const WaterbodyGroupDetailsSeoHead: React.FC<
   WaterbodyGroupDetailsSeoHeadProps
 > = ({ waterbodyGroup }) => {
-  if (waterbodyGroup.waterbodies.length === 1) {
-    return null; // TODO
-  }
-
   const availableFishLimits =
     waterbodyGroup.waterbodies.reduce<WaterbodyGroupFishLimitsLabelMap>(
       (acc, waterbody) => {
