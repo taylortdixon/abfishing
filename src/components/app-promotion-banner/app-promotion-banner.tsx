@@ -14,6 +14,7 @@ const DISMISSED_COOKIE_VALUE = "accepted";
 
 export const AppPromotionBanner: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [hasDismissed, setHasDismissed] = useState(false);
 
   const shouldOpenBanner = useMemo(() => {
     if (!isAndroid && !isIOS) {
@@ -24,7 +25,7 @@ export const AppPromotionBanner: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    if (!shouldOpenBanner) {
+    if (!shouldOpenBanner || hasDismissed) {
       return;
     }
 
@@ -32,12 +33,13 @@ export const AppPromotionBanner: React.FC = () => {
     window.addEventListener("click", onWindowInteraction);
 
     return () => window.removeEventListener("click", onWindowInteraction);
-  }, [shouldOpenBanner]);
+  }, [shouldOpenBanner, hasDismissed]);
 
   const handleClose = (e: React.SyntheticEvent) => {
     e.preventDefault();
     e.stopPropagation();
     setIsOpen(false);
+    setHasDismissed(true);
     Cookies.set(COOKIE_NAME, DISMISSED_COOKIE_VALUE, {
       expires: COOKIE_EXPIRY_DAYS,
     });

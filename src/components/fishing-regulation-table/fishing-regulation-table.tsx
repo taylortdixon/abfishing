@@ -100,10 +100,19 @@ export const FishingRegulationTable: React.VFC<
         // }}
       />
       <Typography display="block" variant="caption" gutterBottom>
-        <Link href="/PrivacyPolicy.pdf" target="_blank">
+        {/* <Link href="/PrivacyPolicy.pdf" target="_blank">
           Privacy Policy
-        </Link>{" "}
-        Updated Apr 28, 2022. See an issue?{" "}
+        </Link> */}
+        Updated May 25, 2023. This website is frequently updated and verified,
+        but it is not an official government page. For official Alberta
+        regulations,{" "}
+        <Link
+          href="https://albertaregulations.ca/fishingregs/"
+          rel="noreferrer"
+        >
+          click here
+        </Link>
+        . See an issue?{" "}
         <Link href="mailto&#58;%&#54;1bfis%68in%67ca&#64;gm%61i&#108;&#46;c&#37;&#54;Fm">
           Reach Out!
         </Link>

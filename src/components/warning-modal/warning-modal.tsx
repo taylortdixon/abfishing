@@ -13,7 +13,7 @@ import React, { useEffect, useMemo } from "react";
 const COOKIE_NAME = "accepted-disclaimer-cookie";
 const COOKIE_EXPIRY_DAYS = 90;
 const ACCEPTED_COOKIE_VALUE = "accepted";
-const WARNING_MODAL_TIMEOUT_MS = 5000;
+const WARNING_MODAL_TIMEOUT_MS = 0;
 
 export const WarningModal: React.FC = () => {
   const [visible, setVisible] = React.useState(false);

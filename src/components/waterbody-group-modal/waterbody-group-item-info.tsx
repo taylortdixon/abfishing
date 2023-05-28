@@ -1,4 +1,10 @@
-import { List, ListItem, ListItemIcon, ListItemText } from "@mui/material";
+import {
+  Link,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+} from "@mui/material";
 import Image from "next/image";
 import { FISH_LIMIT_LABELS } from "../../constants";
 import { FishLimit, Waterbody } from "../../types/waterbody.type";
@@ -64,7 +70,7 @@ export const WaterbodyGroupItemInfo: React.VFC<WaterbodyGroupItemInfoProps> = ({
 
         return (
           <ListItem key={limitName} className={styles.list_item}>
-            <ListItemIcon>
+            <ListItemIcon className={styles.icon_container}>
               <Image
                 src={iconPath}
                 alt={`${limitName} icon`}
@@ -80,6 +86,24 @@ export const WaterbodyGroupItemInfo: React.VFC<WaterbodyGroupItemInfoProps> = ({
           </ListItem>
         );
       })}
+      <ListItem className={styles.disclaimer_row}>
+        <ListItemText
+          primary="Disclaimer"
+          secondary={
+            <>
+              This website is frequently updated and verified, but it is not an
+              official government page. For official Alberta regulations,{" "}
+              <Link
+                href="https://albertaregulations.ca/fishingregs/"
+                rel="noreferrer"
+              >
+                click here
+              </Link>
+              .
+            </>
+          }
+        />
+      </ListItem>
     </List>
   );
 };
