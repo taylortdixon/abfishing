@@ -1,5 +1,4 @@
 import { Breadcrumbs, Link, Typography } from "@mui/material";
-import styles from "./waterbody-group-details.module.css";
 import React, { useEffect } from "react";
 import { WaterbodyGroupDetailsSeoHead } from "./waterbody-group-details-seo-head";
 import { useRouter } from "next/router";
@@ -46,7 +45,7 @@ export const WaterbodyGroupDetailsContent: React.FC<
   return (
     <>
       <WaterbodyGroupDetailsSeoHead waterbodyGroup={waterbodyGroup} />
-      <Breadcrumbs aria-label="breadcrumb" className={styles.breadcrumbs}>
+      <Breadcrumbs aria-label="breadcrumb" style={{ marginBottom: 16 }}>
         <Link color="inherit" href="/" onClick={onNavigateHome}>
           Alberta Fishing Regulations
         </Link>
