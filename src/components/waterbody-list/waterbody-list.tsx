@@ -1,7 +1,6 @@
 import { lazy } from "react";
 import { Typography } from "@mui/material";
 import { Suspense } from "react";
-import styles from "./waterbody-list.module.css";
 import { SiteLoader } from "../site-loader/site-loader";
 import { SeoHead } from "../seo-head/seo-head";
 
@@ -21,7 +20,11 @@ export const WaterbodyListPage = () => {
         variant="h4"
         component="h1"
         gutterBottom
-        className={styles.App__title}
+        sx={{
+          "@media only screen and (max-width: 600px)": {
+            fontSize: "2em",
+          },
+        }}
       >
         Alberta Fishing Regulations
       </Typography>

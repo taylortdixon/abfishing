@@ -1,16 +1,8 @@
-import dynamic from "next/dynamic";
 import App from "../components/app/app";
-import { SiteLoader } from "../components/site-loader/site-loader";
-
-const DynamicWaterbodyListPage = dynamic(
-  () => import("../components/waterbody-list/waterbody-list"),
-  {
-    loading: SiteLoader,
-  }
-);
+import { WaterbodyListPage } from "../components/waterbody-list/waterbody-list";
 
 export default () => (
   <App>
-    <DynamicWaterbodyListPage />
+    <WaterbodyListPage />
   </App>
 );

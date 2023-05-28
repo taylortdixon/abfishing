@@ -5,12 +5,10 @@ import { regulations } from "../../fishing-regulations";
 import { Waterbody } from "../../types/waterbody.type";
 import { trackWaterbodyOpen } from "../../utils/analytics.utils";
 import { FilterPanel } from "./filter-panel/filter-panel";
-import styles from "./fishing-regulation-table.module.css";
 import { filterRegulations } from "./fishing-regulation-table.utils";
 import { NoResultsRowsOverlay } from "./no-results/no-results";
 import { isMobile } from "react-device-detect";
 import { FishingRegualationTableProps } from "./fishing-regulation-table.props.types";
-import { useNavigate } from "react-router-dom";
 import { useFilterContext } from "../filters-context/filters-context";
 import { useRouter } from "next/router";
 
@@ -24,7 +22,7 @@ const useColumnDefinitions = (): GridColumns => {
         renderCell: (params) => {
           const row = params.row as Waterbody;
           return (
-            <div className={styles.fishing_regulation_table__name_cell}>
+            <div style={{ width: "100%" }}>
               <Typography variant="body1" gutterBottom>
                 {row.waterbody}
               </Typography>
@@ -80,7 +78,6 @@ export const FishingRegulationTable: React.VFC<
       />
       <DataGrid
         columns={columns}
-        className={styles.fishing_regulation_table}
         rows={filteredRegulations}
         onRowClick={onRowClick}
         pagination
@@ -89,6 +86,10 @@ export const FishingRegulationTable: React.VFC<
         onPageChange={(page) => onPageChange(page)}
         components={{
           NoRowsOverlay: NoResultsRowsOverlay,
+        }}
+        sx={{
+          marginBottom: "0.35em",
+          minHeight: "300px",
         }}
         // This fixes an annoying issue where the grid re-steals focus on rerendering.
         // state={{

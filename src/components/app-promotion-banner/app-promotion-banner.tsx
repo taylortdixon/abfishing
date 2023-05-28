@@ -1,7 +1,6 @@
 import { Alert } from "@mui/lab";
 import { Snackbar } from "@mui/material";
 import { isAndroid, isIOS } from "react-device-detect";
-import styles from "./app-promotion-banner.module.css";
 import InstallMobileIcon from "@mui/icons-material/InstallMobile";
 import AlertTitle from "@mui/material/AlertTitle";
 import React, { useEffect, useMemo, useState } from "react";
@@ -67,10 +66,13 @@ export const AppPromotionBanner: React.FC = () => {
     >
       <Alert
         icon={<InstallMobileIcon fontSize="large" />}
-        className={styles.alert}
         severity="info"
         onClick={handleOpen}
         onClose={handleClose}
+        sx={{
+          alignItems: "center",
+          width: "100%",
+        }}
       >
         Get access to regulations offline.
         <AlertTitle>Try the free app</AlertTitle>
