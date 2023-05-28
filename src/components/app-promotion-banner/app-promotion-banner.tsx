@@ -18,7 +18,7 @@ export const AppPromotionBanner: React.FC = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      setIsOpen(Cookies.get(COOKIE_NAME) !== DISMISSED_COOKIE_VALUE);
+      // setIsOpen(Cookies.get(COOKIE_NAME) !== DISMISSED_COOKIE_VALUE);
     }, PROMOTION_TIMEOUT_MS);
   }, []);
 
