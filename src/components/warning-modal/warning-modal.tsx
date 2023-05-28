@@ -8,18 +8,27 @@ import {
   Link,
 } from "@mui/material";
 import Cookies from "js-cookie";
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
 
 const COOKIE_NAME = "accepted-disclaimer-cookie";
 const COOKIE_EXPIRY_DAYS = 90;
 const ACCEPTED_COOKIE_VALUE = "accepted";
+const WARNING_MODAL_TIMEOUT_MS = 5000;
 
-export const WarningModal = () => {
+export const WarningModal: React.FC = () => {
   const [visible, setVisible] = React.useState(false);
+  const shouldShowWarningModal = useMemo(
+    () => Cookies.get(COOKIE_NAME) !== ACCEPTED_COOKIE_VALUE,
+    []
+  );
 
   useEffect(() => {
-    setVisible(Cookies.get(COOKIE_NAME) !== ACCEPTED_COOKIE_VALUE);
-  }, []);
+    if (!shouldShowWarningModal) {
+      return;
+    }
+
+    setTimeout(() => setVisible(true), WARNING_MODAL_TIMEOUT_MS);
+  }, [shouldShowWarningModal]);
 
   const handleClose = () => {
     setVisible(false);
@@ -27,6 +36,10 @@ export const WarningModal = () => {
       expires: COOKIE_EXPIRY_DAYS,
     });
   };
+
+  if (!shouldShowWarningModal) {
+    return null;
+  }
 
   return (
     <Dialog open={visible} onClose={handleClose}>
