@@ -4,10 +4,10 @@ import React, { useEffect } from "react";
 import { WaterbodyGroupDetailsSeoHead } from "./waterbody-group-details-seo-head";
 import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
-import { waterbodyGroups } from "../../fishing-waterbody-groups";
+import { WaterbodyGroup } from "../../types/waterbody.type";
 
 type WaterbodyGroupDetailsContentProps = {
-  waterbodyGroupId: string;
+  waterbodyGroup: WaterbodyGroup;
   defaultExpandedWaterbodyDetails?: string;
   defaultWaterbodySeason?: string;
 };
@@ -22,40 +22,35 @@ const DynamicWaterbodyGroupAccordion = dynamic(
 export const WaterbodyGroupDetailsContent: React.FC<
   WaterbodyGroupDetailsContentProps
 > = ({
-  waterbodyGroupId,
+  waterbodyGroup,
   defaultExpandedWaterbodyDetails,
   defaultWaterbodySeason,
 }) => {
   const router = useRouter();
-  const selectedWaterbodyGroup = Object.values(waterbodyGroups).find(
-    (group) => group.id === waterbodyGroupId
-  );
 
   useEffect(() => {
-    if (!selectedWaterbodyGroup) {
+    if (!waterbodyGroup) {
       router.replace("/");
     }
-  }, [selectedWaterbodyGroup]);
+  }, [waterbodyGroup]);
 
   const onNavigateHome = (e: React.MouseEvent) => {
     e.preventDefault();
     router.push("/");
   };
 
-  if (!selectedWaterbodyGroup) {
+  if (!waterbodyGroup) {
     return null;
   }
 
   return (
     <>
-      <WaterbodyGroupDetailsSeoHead waterbodyGroup={selectedWaterbodyGroup} />
+      <WaterbodyGroupDetailsSeoHead waterbodyGroup={waterbodyGroup} />
       <Breadcrumbs aria-label="breadcrumb" className={styles.breadcrumbs}>
         <Link color="inherit" href="/" onClick={onNavigateHome}>
           Alberta Fishing Regulations
         </Link>
-        <Typography color="text.primary">
-          {selectedWaterbodyGroup.name}
-        </Typography>
+        <Typography color="text.primary">{waterbodyGroup.name}</Typography>
       </Breadcrumbs>
 
       <Typography
@@ -64,11 +59,11 @@ export const WaterbodyGroupDetailsContent: React.FC<
         gutterBottom
         className="App__title"
       >
-        {selectedWaterbodyGroup.name}
+        {waterbodyGroup.name}
       </Typography>
 
       <DynamicWaterbodyGroupAccordion
-        waterbodies={selectedWaterbodyGroup.waterbodies}
+        waterbodies={waterbodyGroup.waterbodies}
         defaultExpandedWaterbodyDetails={defaultExpandedWaterbodyDetails}
         defaultWaterbodySeason={defaultWaterbodySeason}
       />

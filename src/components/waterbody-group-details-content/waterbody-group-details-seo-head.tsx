@@ -2,7 +2,6 @@ import { FishLimit, WaterbodyGroup } from "../../types/waterbody.type";
 import { SeoHead } from "../../components/seo-head/seo-head";
 import { FISH_LIMIT_LABELS } from "../../constants";
 import { joinSentence } from "../../utils/array.utils";
-import { WaterbodyDetailsContentSeoHead } from "../waterbody-details-content/waterbody-details-content-seo-head";
 
 type WaterbodyGroupDetailsSeoHeadProps = {
   waterbodyGroup: WaterbodyGroup;
@@ -16,11 +15,7 @@ export const WaterbodyGroupDetailsSeoHead: React.FC<
   WaterbodyGroupDetailsSeoHeadProps
 > = ({ waterbodyGroup }) => {
   if (waterbodyGroup.waterbodies.length === 1) {
-    return (
-      <WaterbodyDetailsContentSeoHead
-        selectedWaterbody={waterbodyGroup.waterbodies[0]}
-      />
-    );
+    return null; // TODO
   }
 
   const availableFishLimits =

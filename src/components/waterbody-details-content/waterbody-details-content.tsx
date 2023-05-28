@@ -13,7 +13,7 @@ export const WaterbodyDetailsContent: React.FC<
   WaterbodyDetailsContentProps
 > = ({ waterbodyId }) => {
   // Find the matching waterbody group by searching within each waterbody groups waterbody for a matching id.
-  const [matchingWaterbodyGroupId] =
+  const [_, matchingWaterbodyGroup] =
     Object.entries(waterbodyGroups).find(
       ([_waterbodyGroupId, waterbodyGroup]) =>
         waterbodyGroup.waterbodies.some(
@@ -25,7 +25,7 @@ export const WaterbodyDetailsContent: React.FC<
     (waterbody) => waterbody.id === waterbodyId
   );
 
-  if (!matchingWaterbodyGroupId || !matchingWaterbody) {
+  if (!matchingWaterbodyGroup || !matchingWaterbody) {
     return <Navigate to="/" replace />;
   }
 
@@ -33,7 +33,7 @@ export const WaterbodyDetailsContent: React.FC<
     <>
       <WaterbodyDetailsContentSeoHead selectedWaterbody={matchingWaterbody} />
       <WaterbodyGroupDetailsContent
-        waterbodyGroupId={matchingWaterbodyGroupId}
+        waterbodyGroup={matchingWaterbodyGroup}
         defaultExpandedWaterbodyDetails={matchingWaterbody.waterbody_detail}
         defaultWaterbodySeason={matchingWaterbody.season}
       />
