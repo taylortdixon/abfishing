@@ -4,23 +4,35 @@ import { isAndroid, isIOS } from "react-device-detect";
 import styles from "./app-promotion-banner.module.css";
 import InstallMobileIcon from "@mui/icons-material/InstallMobile";
 import AlertTitle from "@mui/material/AlertTitle";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Cookies from "js-cookie";
 import { trackAppOpen } from "../../utils/analytics.utils";
 
 const COOKIE_NAME = "dismissed-promotion-cookie-fixed";
-const COOKIE_EXPIRY_DAYS = 90;
-const PROMOTION_TIMEOUT_MS = 4500;
+const COOKIE_EXPIRY_DAYS = 45;
 const DISMISSED_COOKIE_VALUE = "accepted";
 
 export const AppPromotionBanner: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => {
-      // setIsOpen(Cookies.get(COOKIE_NAME) !== DISMISSED_COOKIE_VALUE);
-    }, PROMOTION_TIMEOUT_MS);
+  const shouldOpenBanner = useMemo(() => {
+    if (!isAndroid && !isIOS) {
+      return false;
+    }
+
+    return Cookies.get(COOKIE_NAME) !== DISMISSED_COOKIE_VALUE;
   }, []);
+
+  useEffect(() => {
+    if (!shouldOpenBanner) {
+      return;
+    }
+
+    const onWindowInteraction = () => setIsOpen(true);
+    window.addEventListener("click", onWindowInteraction);
+
+    return () => window.removeEventListener("click", onWindowInteraction);
+  }, [shouldOpenBanner]);
 
   const handleClose = (e: React.SyntheticEvent) => {
     e.preventDefault();
@@ -41,7 +53,7 @@ export const AppPromotionBanner: React.FC = () => {
       : "https://apps.apple.com/app/apple-store/id1660992625?pt=125913340&ct=web&mt=8";
   };
 
-  if (!isAndroid && !isIOS) {
+  if (!shouldOpenBanner) {
     return null;
   }
 
@@ -58,8 +70,8 @@ export const AppPromotionBanner: React.FC = () => {
         onClick={handleOpen}
         onClose={handleClose}
       >
-        Want access to regulations offline?
-        <AlertTitle>Get the free app, it's way better!</AlertTitle>
+        Get access to regulations offline.
+        <AlertTitle>Try the free app</AlertTitle>
       </Alert>
     </Snackbar>
   );
