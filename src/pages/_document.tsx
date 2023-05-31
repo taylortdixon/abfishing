@@ -17,6 +17,15 @@ interface MyDocumentProps extends DocumentProps {
   emotionStyleTags: JSX.Element[];
 }
 
+const bodyStyles: React.CSSProperties = {
+  margin: 0,
+  fontFamily: `-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif`,
+  WebkitFontSmoothing: "antialiased",
+  MozOsxFontSmoothing: "grayscale",
+};
+
 export default function MyDocument({ emotionStyleTags }: MyDocumentProps) {
   return (
     <Html lang="en" className={roboto.className}>
@@ -29,7 +38,7 @@ export default function MyDocument({ emotionStyleTags }: MyDocumentProps) {
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.google-analytics.com" />
       </Head>
-      <body>
+      <body style={bodyStyles}>
         <Main />
         <NextScript />
         <script

@@ -2,7 +2,6 @@ import { ThemeProvider } from "@mui/material";
 import { AppProps } from "next/app";
 import React from "react";
 import theme from "../theme";
-import "./_app.css";
 import { EmotionCache } from "@emotion/cache";
 import createEmotionCache from "../createEmotionCache";
 import { CacheProvider } from "@emotion/react";
