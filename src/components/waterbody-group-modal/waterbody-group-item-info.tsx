@@ -87,7 +87,7 @@ export const WaterbodyGroupItemInfo: React.VFC<WaterbodyGroupItemInfoProps> = ({
                 alt={`${limitName} icon`}
                 height={35}
                 width={56}
-                style={{ width: 56, height: "auto", marginRight: "10px" }}
+                style={{ width: 56, height: 35, marginRight: "10px" }}
               />
             </ListItemIcon>
             <ListItemText
