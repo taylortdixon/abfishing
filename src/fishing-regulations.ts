@@ -2219,8 +2219,9 @@ export const regulations: Waterbody[] = [
   {
     bait_ban: "Bait allowed",
     fish_management_zone: "PP1-Rivers",
-    id: "carseland-bow-river-headwater-096a0",
-    season: "Open May 8 to Sept 30 and Dec 1 to Mar 15",
+    id: "carseland-bow-river-headwater-589f4",
+    season:
+      "Open May 8 to Nov 30 Between Sunrise and Sunset and Open Dec 1 to Mar 15 All Day",
     waterbody: "Carseland-Bow River Headwater Canal",
     waterbody_detail:
       "Between McGregor Lk and the drop structure 1 km upstream of Sec. Rd. 542",
@@ -2233,7 +2234,7 @@ export const regulations: Waterbody[] = [
       burbot: "10 fish",
       goldeye: "",
       rainbow_trout: "",
-      walleye_sauger: "0 fish",
+      walleye_sauger: "1 fish 50- 55 cm",
       trout_total: "",
     },
   },
@@ -6194,10 +6195,10 @@ export const regulations: Waterbody[] = [
     },
   },
   {
-    bait_ban: "Bait ban",
+    bait_ban: " ",
     fish_management_zone: "ES1-Lakes",
-    id: "kids-can-catch-3965e",
-    season: "Open May 1 to Sept 30",
+    id: "kids-can-catch-42925",
+    season: "Closed For The 2023 Season",
     waterbody: "Kids Can Catch Pond",
     waterbody_detail: "13-24-1-W5",
     fish_limits: {
@@ -6210,7 +6211,7 @@ export const regulations: Waterbody[] = [
       brook_trout: "",
       dolly_varden: "",
       rainbow_trout: "",
-      trout_total: "0 trout",
+      trout_total: " ",
     },
   },
   {
