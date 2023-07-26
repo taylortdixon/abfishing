@@ -1,5 +1,5 @@
 import { lazy } from "react";
-import { Typography } from "@mui/material";
+import { Alert, AlertTitle, Link, Typography } from "@mui/material";
 import { Suspense } from "react";
 import { SiteLoader } from "../site-loader/site-loader";
 import { SeoHead } from "../seo-head/seo-head";
@@ -32,6 +32,18 @@ export const WaterbodyListPage = () => {
         Look up fishing regulations for lakes and rivers in Alberta. Search or
         filter to find results, and select a row to view details.
       </Typography>
+
+      <Alert style={{ marginBottom: 10 }} severity="warning">
+        <AlertTitle>Warning!</AlertTitle>Time of day angling restrictions are in
+        effect for some rivers and streams. Click{" "}
+        <Link
+          target="_blank"
+          href="https://mywildalberta.ca/fishing/advisories-corrections-closures/time-of-day-angling-restrictions.aspx"
+        >
+          here
+        </Link>{" "}
+        for more information.
+      </Alert>
 
       <Suspense fallback={<SiteLoader />}>
         <FishingRegulationTable />
