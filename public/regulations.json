@@ -1,5 +1,6 @@
 {
   "version": "April 1, 2023",
+  "message": "Time of day angling restrictions are in effect for some waterbodies, including all of ES1. Check official government site for up to date info.",
   "waterbody_groups": {
     "A-La-Peche-Lake": {
       "id": "A-La-Peche-Lake",
