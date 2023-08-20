@@ -21,17 +21,6 @@ export const WaterbodyDetailsContent: React.FC<
 
   return (
     <>
-      <Alert style={{ marginBottom: 10 }} severity="warning">
-        <AlertTitle>Warning!</AlertTitle>Time of day angling restrictions are in
-        effect for some rivers and streams. Click{" "}
-        <Link
-          target="_blank"
-          href="https://mywildalberta.ca/fishing/advisories-corrections-closures/time-of-day-angling-restrictions.aspx"
-        >
-          here
-        </Link>{" "}
-        for more information.
-      </Alert>
       <WaterbodyDetailsContentSeoHead
         selectedWaterbody={waterbody}
         selectedWaterbodyGroup={waterbodyGroup}
