@@ -33,7 +33,7 @@ export const WaterbodyListPage = () => {
         filter to find results, and select a row to view details.
       </Typography>
 
-      <Alert style={{ marginBottom: 10 }} severity="warning">
+      {/* <Alert style={{ marginBottom: 10 }} severity="warning">
         <AlertTitle>Warning!</AlertTitle>Time of day angling restrictions are in
         effect for some rivers and streams. Click{" "}
         <Link
@@ -43,7 +43,7 @@ export const WaterbodyListPage = () => {
           here
         </Link>{" "}
         for more information.
-      </Alert>
+      </Alert> */}
 
       <Suspense fallback={<SiteLoader />}>
         <FishingRegulationTable />
