@@ -307,6 +307,30 @@
         }
       ]
     },
+    "Artisinn-(unnamed)-Lake": {
+      "id": "Artisinn-(unnamed)-Lake",
+      "name": "Artisinn (unnamed) Lake",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait allowed",
+          "fish_management_zone": "NB3-Lakes",
+          "id": "artisinn-unnamed-lake-37b37",
+          "season": "Open May 15 to Mar 31",
+          "waterbody": "Artisinn (unnamed) Lake",
+          "waterbody_detail": " ",
+          "fish_limits": {
+            "walleye": "",
+            "northern_pike": "2 fish",
+            "yellow_perch": "15 fish",
+            "lake_trout": "",
+            "lake_whitefish": "",
+            "burbot": "",
+            "trout_total": ""
+          }
+        }
+      ]
+    },
     "Ashton-Lake": {
       "id": "Ashton-Lake",
       "name": "Ashton Lake",
@@ -502,7 +526,7 @@
           "waterbody_detail": "Badger Lake",
           "fish_limits": {
             "walleye": "1 fish 50-55 cm",
-            "northern_pike": "0 fish",
+            "northern_pike": "1 fish 63-70 cm",
             "yellow_perch": "15 fish",
             "mountain_whitefish": "",
             "lake_whitefish": "10 fish",
@@ -744,7 +768,7 @@
           "waterbody": "Battle Lake",
           "waterbody_detail": "Portion west of the west boundary of section 22-46-2-W5; Includes tributaries and outlet downstream to Sec. Rd. 771",
           "fish_limits": {
-            "walleye": "0 fish",
+            "walleye": "1 fish 50-55 cm",
             "northern_pike": "0 fish",
             "yellow_perch": "5 fish",
             "lake_whitefish": "10 fish",
@@ -760,7 +784,7 @@
           "waterbody": "Battle Lake",
           "waterbody_detail": "Remainder of the lake",
           "fish_limits": {
-            "walleye": "0 fish",
+            "walleye": "1 fish 50-55 cm",
             "northern_pike": "0 fish",
             "yellow_perch": "5 fish",
             "lake_whitefish": "10 fish",
@@ -1096,7 +1120,7 @@
           "waterbody": "Beaver Lake",
           "waterbody_detail": "Beaver Lake",
           "fish_limits": {
-            "walleye": "0 fish",
+            "walleye": "1 fish 50-55 cm",
             "northern_pike": "0 fish",
             "yellow_perch": "15 fish",
             "lake_trout": "",
@@ -1468,8 +1492,8 @@
           "waterbody": "Big Lake",
           "waterbody_detail": "Includes tributaries",
           "fish_limits": {
-            "walleye": "0 fish",
-            "northern_pike": "3 over 63 cm",
+            "walleye": "1 fish",
+            "northern_pike": "3 fish",
             "yellow_perch": "15 fish",
             "lake_whitefish": "",
             "burbot": "",
@@ -1711,6 +1735,32 @@
             "goldeye": "",
             "rainbow_trout": "",
             "trout_total": "0 trout"
+          }
+        }
+      ]
+    },
+    "Blairmore-Water-Supply-(Unnamed)-Reservoir": {
+      "id": "Blairmore-Water-Supply-(Unnamed)-Reservoir",
+      "name": "Blairmore Water Supply (Unnamed) Reservoir",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait ban",
+          "fish_management_zone": "ES1-Lakes",
+          "id": "blairmore-water-supply-bf276",
+          "season": "Closed All Year",
+          "waterbody": "Blairmore Water Supply (Unnamed) Reservoir",
+          "waterbody_detail": "34-7-4-W5",
+          "fish_limits": {
+            "walleye": "",
+            "northern_pike": "",
+            "yellow_perch": "",
+            "lake_trout": "",
+            "mountain_whitefish": "",
+            "cutthroat_trout": "",
+            "brook_trout": "",
+            "dolly_varden": "",
+            "rainbow_trout": ""
           }
         }
       ]
@@ -2200,6 +2250,30 @@
         }
       ]
     },
+    "Brodrick-(Unnamed)-Lake": {
+      "id": "Brodrick-(Unnamed)-Lake",
+      "name": "Brodrick (Unnamed) Lake",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait allowed",
+          "fish_management_zone": "NB1-Lakes",
+          "id": "brodrick-unnamed-lake-e5059",
+          "season": "Open May 15 to Mar 31",
+          "waterbody": "Brodrick (Unnamed) Lake",
+          "waterbody_detail": "60-17-W4",
+          "fish_limits": {
+            "walleye": "",
+            "northern_pike": "1 over 63 cm",
+            "yellow_perch": "10 fish",
+            "lake_trout": "",
+            "lake_whitefish": "",
+            "burbot": "",
+            "trout_total": ""
+          }
+        }
+      ]
+    },
     "Bryant-Lake": {
       "id": "Bryant-Lake",
       "name": "Bryant Lake",
@@ -2306,6 +2380,30 @@
             "lake_trout": "",
             "lake_whitefish": "",
             "burbot": "",
+            "trout_total": ""
+          }
+        }
+      ]
+    },
+    "Burdett-(Unnamed)-Lake": {
+      "id": "Burdett-(Unnamed)-Lake",
+      "name": "Burdett (Unnamed) Lake",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait allowed",
+          "fish_management_zone": "PP1-Lakes",
+          "id": "burdett-unnamed-lake-4c235",
+          "season": "Open All Year",
+          "waterbody": "Burdett (Unnamed) Lake",
+          "waterbody_detail": "10-12-W4",
+          "fish_limits": {
+            "walleye": "3 over 50 cm",
+            "northern_pike": "3 fish",
+            "yellow_perch": "15 fish",
+            "mountain_whitefish": "",
+            "lake_whitefish": "10 fish",
+            "burbot": "10 fish",
             "trout_total": ""
           }
         }
@@ -3263,7 +3361,7 @@
           "waterbody": "Clear (Barnes) Lake",
           "waterbody_detail": "Includes tributaries upstream 1 km and outlet downstream 1 km; 44-5-W4",
           "fish_limits": {
-            "walleye": "0 fish",
+            "walleye": "1 fish 50-55 cm",
             "northern_pike": "0 fish",
             "yellow_perch": "15 fish",
             "lake_whitefish": "",
@@ -3330,7 +3428,7 @@
           "waterbody_detail": "14-25-W4",
           "fish_limits": {
             "walleye": "",
-            "northern_pike": "0 fish",
+            "northern_pike": "1 fish 63-70 cm",
             "yellow_perch": "",
             "mountain_whitefish": "",
             "lake_whitefish": "",
@@ -3644,7 +3742,7 @@
             "walleye": "3 over 50 cm",
             "northern_pike": "1 over 63 cm",
             "yellow_perch": "15 fish",
-            "lake_trout": "1 fish over 75 cm from May 15-Sept. 14 and Nov. 16-Mar. 31; 0 from Sept. 15-Nov. 15",
+            "lake_trout": "1 fish 65-70 cm from May 15-Sept. 14 and Nov. 16- Mar. 31; 0 from Sept. 15-Nov. 15",
             "lake_whitefish": "10 fish",
             "burbot": "10 fish",
             "trout_total": ""
@@ -3910,7 +4008,7 @@
           "waterbody": "Cowoki Irrigation Canal",
           "waterbody_detail": "Between Cowoki Lake and Tilley B Reservoir",
           "fish_limits": {
-            "northern_pike": "0 fish",
+            "northern_pike": "1 fish 63-70 cm",
             "yellow_perch": "15 fish",
             "mountain_whitefish": "",
             "lake_whitefish": "10 fish",
@@ -3938,7 +4036,7 @@
           "waterbody_detail": "Cowoki Lake",
           "fish_limits": {
             "walleye": "",
-            "northern_pike": "0 fish",
+            "northern_pike": "1 fish 63-70 cm",
             "yellow_perch": "15 fish",
             "mountain_whitefish": "",
             "lake_whitefish": "10 fish",
@@ -4011,7 +4109,7 @@
           "waterbody_detail": "3-21-18-W4; Includes inlet canal downstream of canal headworks",
           "fish_limits": {
             "walleye": "0 or SHL tags",
-            "northern_pike": "0 fish",
+            "northern_pike": "1 fish 63-70 cm",
             "yellow_perch": "15 fish",
             "mountain_whitefish": "",
             "lake_whitefish": "10 fish",
@@ -4028,7 +4126,7 @@
           "waterbody_detail": "3-21-18-W4; Includes inlet canal downstream of canal headworks",
           "fish_limits": {
             "walleye": "0 or SHL tags",
-            "northern_pike": "0 fish",
+            "northern_pike": "1 fish 63-70 cm",
             "yellow_perch": "15 fish",
             "mountain_whitefish": "",
             "lake_whitefish": "10 fish",
@@ -4234,10 +4332,10 @@
             "walleye": "",
             "northern_pike": "",
             "mountain_whitefish": "5 over 30 cm",
-            "cutthroat_trout": "",
+            "cutthroat_trout": "0 fish",
             "brook_trout": "1 or 2 fish",
             "burbot": "",
-            "rainbow_trout": "",
+            "rainbow_trout": "0 fish",
             "trout_total": "2 trout"
           }
         },
@@ -4400,6 +4498,31 @@
             "burbot": "",
             "goldeye": "",
             "rainbow_trout": ""
+          }
+        }
+      ]
+    },
+    "Devil’s-Fork-(Unnamed)-Creek": {
+      "id": "Devil’s-Fork-(Unnamed)-Creek",
+      "name": "Devil’s Fork (Unnamed) Creek",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait ban",
+          "fish_management_zone": "ES2-Rivers",
+          "id": "devil’s-fork-unnamed-473be",
+          "season": "Closed All Year",
+          "waterbody": "Devil’s Fork (Unnamed) Creek",
+          "waterbody_detail": "4-45-16-W5; Tributary to Brazeau River",
+          "fish_limits": {
+            "walleye": "",
+            "northern_pike": "",
+            "mountain_whitefish": "",
+            "cutthroat_trout": "",
+            "burbot": "",
+            "goldeye": "",
+            "rainbow_trout": "",
+            "trout_total": ""
           }
         }
       ]
@@ -5514,7 +5637,7 @@
           "waterbody_detail": "Includes the Battle River upstream to Sec. Rd. 855",
           "fish_limits": {
             "walleye": "0 fish",
-            "northern_pike": "0 fish",
+            "northern_pike": "1 fish 63-70 cm",
             "yellow_perch": "",
             "lake_whitefish": "",
             "burbot": "2 fish; but limit is 0 from Feb. 1 to Mar. 31",
@@ -5612,7 +5735,7 @@
           "waterbody_detail": "69-11-W4",
           "fish_limits": {
             "walleye": "0 fish",
-            "northern_pike": "0 fish",
+            "northern_pike": "1 fish 63-70 cm",
             "yellow_perch": "15 fish",
             "lake_trout": "",
             "lake_whitefish": "",
@@ -6861,7 +6984,7 @@
           "waterbody": "Heart Lake",
           "waterbody_detail": "Heart Lake",
           "fish_limits": {
-            "walleye": "0 fish",
+            "walleye": "1 fish 50-55 cm",
             "northern_pike": "0 fish",
             "yellow_perch": "15 fish",
             "lake_trout": "",
@@ -7013,12 +7136,12 @@
           "fish_limits": {
             "walleye": "",
             "northern_pike": "",
-            "mountain_whitefish": "5 over 30 cm",
+            "mountain_whitefish": "0 fish",
             "cutthroat_trout": "",
-            "brook_trout": "",
+            "brook_trout": "2 fish",
             "burbot": "",
             "rainbow_trout": "",
-            "trout_total": "0 trout"
+            "trout_total": "Other trout 0"
           }
         },
         {
@@ -7305,6 +7428,31 @@
         }
       ]
     },
+    "Inglewood-Bird-Sanctuary": {
+      "id": "Inglewood-Bird-Sanctuary",
+      "name": "Inglewood Bird Sanctuary",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait ban",
+          "fish_management_zone": "ES1-Rivers",
+          "id": "inglewood-bird-sanctuary-81a74",
+          "season": "Closed All Year",
+          "waterbody": "Inglewood Bird Sanctuary",
+          "waterbody_detail": "SE 12-24-1-W5; All water within sanctuary except the Bow River main channel",
+          "fish_limits": {
+            "walleye": "",
+            "northern_pike": "",
+            "mountain_whitefish": "",
+            "cutthroat_trout": "",
+            "brook_trout": "",
+            "burbot": "",
+            "rainbow_trout": "",
+            "trout_total": ""
+          }
+        }
+      ]
+    },
     "Invincible-Lake": {
       "id": "Invincible-Lake",
       "name": "Invincible Lake",
@@ -7423,6 +7571,30 @@
         }
       ]
     },
+    "Island-(Unnamed)-Lake": {
+      "id": "Island-(Unnamed)-Lake",
+      "name": "Island (Unnamed) Lake",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait allowed",
+          "fish_management_zone": "NB1-Lakes",
+          "id": "island-unnamed-lake-52573",
+          "season": "Open May 15 to Mar 31",
+          "waterbody": "Island (Unnamed) Lake",
+          "waterbody_detail": "57-1-W4",
+          "fish_limits": {
+            "walleye": "",
+            "northern_pike": "1 over 63 cm",
+            "yellow_perch": "",
+            "lake_trout": "",
+            "lake_whitefish": "",
+            "burbot": "",
+            "trout_total": ""
+          }
+        }
+      ]
+    },
     "Island-Lake-NB1-Lakes": {
       "id": "Island-Lake-NB1-Lakes",
       "name": "Island Lake",
@@ -7522,7 +7694,7 @@
           "waterbody": "Jack Fish Lake",
           "waterbody_detail": "52-2-W5",
           "fish_limits": {
-            "walleye": "0 fish",
+            "walleye": "1 fish 50-55 cm",
             "northern_pike": "0 fish",
             "yellow_perch": "0 fish",
             "lake_whitefish": "0 fish",
@@ -7764,6 +7936,32 @@
             "lake_trout": "",
             "lake_whitefish": "",
             "burbot": "",
+            "trout_total": ""
+          }
+        }
+      ]
+    },
+    "Jumping-Fish-(Unnamed)-Lake": {
+      "id": "Jumping-Fish-(Unnamed)-Lake",
+      "name": "Jumping Fish (Unnamed) Lake",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait ban",
+          "fish_management_zone": "ES2-Lakes",
+          "id": "jumping-fish-unnamed-fdb24",
+          "season": "Closed All Year",
+          "waterbody": "Jumping Fish (Unnamed) Lake",
+          "waterbody_detail": "And inlets, outlet and tributaries to outlet in NE 30 & SE 31-44-17-W5 (tributary to Brown Creek) ",
+          "fish_limits": {
+            "walleye": "",
+            "northern_pike": "",
+            "yellow_perch": "",
+            "lake_trout": "",
+            "mountain_whitefish": "",
+            "cutthroat_trout": "",
+            "burbot": "",
+            "rainbow_trout": "",
             "trout_total": ""
           }
         }
@@ -8014,10 +8212,10 @@
       "groupExceptionZone": null,
       "waterbodies": [
         {
-          "bait_ban": " ",
+          "bait_ban": "Bait ban ",
           "fish_management_zone": "ES1-Lakes",
-          "id": "kids-can-catch-42925",
-          "season": "Closed For The 2023 Season",
+          "id": "kids-can-catch-e964c",
+          "season": "Open May 1 to Sept 30",
           "waterbody": "Kids Can Catch Pond",
           "waterbody_detail": "13-24-1-W5",
           "fish_limits": {
@@ -8030,7 +8228,7 @@
             "brook_trout": "",
             "dolly_varden": "",
             "rainbow_trout": "",
-            "trout_total": " "
+            "trout_total": " 0 trout"
           }
         }
       ]
@@ -8670,6 +8868,30 @@
         }
       ]
     },
+    "Legal-Reservoir": {
+      "id": "Legal-Reservoir",
+      "name": "Legal Reservoir",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait allowed",
+          "fish_management_zone": "NB1-Lakes",
+          "id": "legal-reservoir-e09eb",
+          "season": "Open All Year",
+          "waterbody": "Legal Reservoir",
+          "waterbody_detail": "24-57-25-W4",
+          "fish_limits": {
+            "walleye": "",
+            "northern_pike": "3 fish",
+            "yellow_perch": "2 fish",
+            "lake_trout": "",
+            "lake_whitefish": "",
+            "burbot": "",
+            "trout_total": "5 fish"
+          }
+        }
+      ]
+    },
     "Legend-Lake": {
       "id": "Legend-Lake",
       "name": "Legend Lake",
@@ -9068,6 +9290,30 @@
         }
       ]
     },
+    "Little-Perch-(Unnamed)-Lake": {
+      "id": "Little-Perch-(Unnamed)-Lake",
+      "name": "Little Perch (Unnamed) Lake",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait allowed",
+          "fish_management_zone": "NB1-Lakes",
+          "id": "little-perch-unnamed-a2c9c",
+          "season": "Open May 15 to Mar 31",
+          "waterbody": "Little Perch (Unnamed) Lake",
+          "waterbody_detail": "56-9-W4",
+          "fish_limits": {
+            "walleye": "",
+            "northern_pike": "1 over 63 cm",
+            "yellow_perch": "",
+            "lake_trout": "",
+            "lake_whitefish": "",
+            "burbot": "",
+            "trout_total": ""
+          }
+        }
+      ]
+    },
     "Little-Red-Deer-River": {
       "id": "Little-Red-Deer-River",
       "name": "Little Red Deer River",
@@ -9316,6 +9562,31 @@
         }
       ]
     },
+    "Lodgepole-(Unnamed)-Pond": {
+      "id": "Lodgepole-(Unnamed)-Pond",
+      "name": "Lodgepole (Unnamed) Pond",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait allowed",
+          "fish_management_zone": "ES3-Lakes",
+          "id": "lodgepole-unnamed-pond-f9827",
+          "season": "Open All Year",
+          "waterbody": "Lodgepole (Unnamed) Pond",
+          "waterbody_detail": "NE-01-48-10-W5",
+          "fish_limits": {
+            "walleye": "",
+            "northern_pike": "",
+            "yellow_perch": "",
+            "lake_trout": "",
+            "lake_whitefish": "",
+            "burbot": "",
+            "rainbow_trout": "",
+            "trout_total": "2 trout"
+          }
+        }
+      ]
+    },
     "Logan-Lake": {
       "id": "Logan-Lake",
       "name": "Logan Lake",
@@ -9330,7 +9601,7 @@
           "waterbody_detail": "Logan Lake",
           "fish_limits": {
             "walleye": "0 fish",
-            "northern_pike": "0 fish",
+            "northern_pike": "1 fish 63-70 cm",
             "yellow_perch": "15 fish",
             "lake_trout": "",
             "lake_whitefish": "",
@@ -9467,7 +9738,7 @@
           "waterbody_detail": "Boyle area; 63-19-W4",
           "fish_limits": {
             "walleye": "0 or SHL tags",
-            "northern_pike": "0 fish",
+            "northern_pike": "1 fish 63-70 cm",
             "yellow_perch": "10 fish",
             "lake_trout": "",
             "lake_whitefish": "10 fish",
@@ -9484,7 +9755,7 @@
           "waterbody_detail": "Boyle area; tributaries",
           "fish_limits": {
             "walleye": "0 or SHL tags",
-            "northern_pike": "0 fish",
+            "northern_pike": "1 fish 63-70 cm",
             "yellow_perch": "10 fish",
             "lake_trout": "",
             "lake_whitefish": "10 fish",
@@ -10119,7 +10390,7 @@
           "waterbody_detail": "Mayatan Lake",
           "fish_limits": {
             "walleye": "",
-            "northern_pike": "3 over 63 cm",
+            "northern_pike": "3 fish",
             "yellow_perch": "15 fish",
             "lake_whitefish": "",
             "burbot": "",
@@ -10807,7 +11078,7 @@
           "waterbody_detail": "Mitsue Lake",
           "fish_limits": {
             "walleye": "0 fish",
-            "northern_pike": "2 over 63 cm",
+            "northern_pike": "3 fish",
             "yellow_perch": "0 fish",
             "lake_whitefish": "",
             "burbot": "",
@@ -11219,6 +11490,29 @@
             "burbot": "",
             "rainbow_trout": "",
             "trout_total": "0 trout"
+          }
+        }
+      ]
+    },
+    "Nakamun-Lake": {
+      "id": "Nakamun-Lake",
+      "name": "Nakamun Lake",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait allowed",
+          "fish_management_zone": "NB2-Lakes",
+          "id": "nakamun-lake-5a29a",
+          "season": "Open May 15 to Mar 31",
+          "waterbody": "Nakamun Lake",
+          "waterbody_detail": "Nakamun Lake",
+          "fish_limits": {
+            "walleye": "",
+            "northern_pike": "3 fish",
+            "yellow_perch": "",
+            "lake_whitefish": "",
+            "burbot": "",
+            "trout_total": ""
           }
         }
       ]
@@ -13787,7 +14081,7 @@
           "waterbody": "Rock Island Lake",
           "waterbody_detail": "Rock Island Lake",
           "fish_limits": {
-            "walleye": "0 fish",
+            "walleye": "1 fish 50-55 cm",
             "northern_pike": "0 fish",
             "yellow_perch": "15 fish",
             "lake_trout": "",
@@ -13804,7 +14098,7 @@
           "waterbody": "Rock Island Lake",
           "waterbody_detail": "Tributaries and outlet for 1 km",
           "fish_limits": {
-            "walleye": "0 fish",
+            "walleye": "1 fish 50-55 cm",
             "northern_pike": "0 fish",
             "yellow_perch": "15 fish",
             "lake_trout": "",
@@ -13902,7 +14196,7 @@
           "waterbody": "Rolling Hills Lake",
           "waterbody_detail": "Rolling Hills Lake",
           "fish_limits": {
-            "walleye": "0 fish",
+            "walleye": "1 fish 50-55 cm",
             "northern_pike": "0 fish",
             "yellow_perch": "15 fish",
             "mountain_whitefish": "",
@@ -14255,6 +14549,30 @@
         }
       ]
     },
+    "Scope-(Unnamed)-Lake": {
+      "id": "Scope-(Unnamed)-Lake",
+      "name": "Scope (Unnamed) Lake",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait allowed",
+          "fish_management_zone": "PP1-Lakes",
+          "id": "scope-unnamed-lake-7b197",
+          "season": "Open May 8 to Mar 15",
+          "waterbody": "Scope (Unnamed) Lake",
+          "waterbody_detail": "Scope Reservoir ; 13-14-W4",
+          "fish_limits": {
+            "walleye": "3 over 50 cm",
+            "northern_pike": "3 over 63 cm",
+            "yellow_perch": "15 fish",
+            "mountain_whitefish": "",
+            "lake_whitefish": "10 fish",
+            "burbot": "",
+            "trout_total": ""
+          }
+        }
+      ]
+    },
     "Seibert-Lake": {
       "id": "Seibert-Lake",
       "name": "Seibert Lake",
@@ -14447,7 +14765,7 @@
           "waterbody_detail": "Sherburne Reservoir",
           "fish_limits": {
             "walleye": "1 over 50 cm",
-            "northern_pike": "0 fish",
+            "northern_pike": "1 fish 63-70 cm",
             "yellow_perch": "15 fish",
             "mountain_whitefish": "",
             "lake_whitefish": "10 fish",
@@ -14742,7 +15060,7 @@
           "waterbody": "Smoke Lake",
           "waterbody_detail": "Smoke Lake",
           "fish_limits": {
-            "walleye": "0 fish",
+            "walleye": "1 fish 50-55 cm",
             "northern_pike": "0 fish",
             "yellow_perch": "15 fish",
             "lake_whitefish": "0 fish",
@@ -14759,7 +15077,7 @@
           "waterbody": "Smoke Lake",
           "waterbody_detail": "Tributaries",
           "fish_limits": {
-            "walleye": "0 fish",
+            "walleye": "1 fish 50-55 cm",
             "northern_pike": "0 fish",
             "yellow_perch": "",
             "lake_whitefish": "0 fish",
@@ -14997,6 +15315,29 @@
         }
       ]
     },
+    "South-Heart-Reservoir": {
+      "id": "South-Heart-Reservoir",
+      "name": "South Heart Reservoir",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait allowed",
+          "fish_management_zone": "NB2-Lakes",
+          "id": "south-heart-reservoir-5a29a",
+          "season": "Open May 15 to Mar 31",
+          "waterbody": "South Heart Reservoir",
+          "waterbody_detail": "South Heart Reservoir",
+          "fish_limits": {
+            "walleye": "1 over 55 cm",
+            "northern_pike": "1 fish 63-70 cm",
+            "yellow_perch": "15 fish",
+            "lake_whitefish": "10 fish",
+            "burbot": "10 fish",
+            "trout_total": ""
+          }
+        }
+      ]
+    },
     "South-Heart-River": {
       "id": "South-Heart-River",
       "name": "South Heart River",
@@ -15171,6 +15512,30 @@
         }
       ]
     },
+    "Sowka-(Unnamed)-Lake": {
+      "id": "Sowka-(Unnamed)-Lake",
+      "name": "Sowka (Unnamed) Lake",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait allowed",
+          "fish_management_zone": "NB1-Lakes",
+          "id": "sowka-unnamed-lake-a4f30",
+          "season": "Open May 15 to Mar 31",
+          "waterbody": "Sowka (Unnamed) Lake",
+          "waterbody_detail": "10-18-W4",
+          "fish_limits": {
+            "walleye": "",
+            "northern_pike": "2 fish",
+            "yellow_perch": "",
+            "lake_trout": "",
+            "lake_whitefish": "",
+            "burbot": "",
+            "trout_total": ""
+          }
+        }
+      ]
+    },
     "Sparrow's-Egg-Lake": {
       "id": "Sparrow's-Egg-Lake",
       "name": "Sparrow's Egg Lake",
@@ -15309,6 +15674,31 @@
             "lake_trout": "",
             "lake_whitefish": "10 fish",
             "burbot": "10 fish",
+            "trout_total": ""
+          }
+        }
+      ]
+    },
+    "Sphinx-(Unnamed)-Lake": {
+      "id": "Sphinx-(Unnamed)-Lake",
+      "name": "Sphinx (Unnamed) Lake",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait ban",
+          "fish_management_zone": "ES3-Lakes",
+          "id": "sphinx-unnamed-lake-03382",
+          "season": "Closed All Year",
+          "waterbody": "Sphinx (Unnamed) Lake",
+          "waterbody_detail": "NE-6-48-24-W5",
+          "fish_limits": {
+            "walleye": "",
+            "northern_pike": "",
+            "yellow_perch": "",
+            "lake_trout": "",
+            "lake_whitefish": "",
+            "burbot": "",
+            "rainbow_trout": "",
             "trout_total": ""
           }
         }
@@ -15558,7 +15948,7 @@
           "waterbody_detail": "Stafford Reservoir",
           "fish_limits": {
             "walleye": "1 fish 50-55 cm",
-            "northern_pike": "0 fish",
+            "northern_pike": "1 fish 63-70 cm",
             "yellow_perch": "",
             "mountain_whitefish": "",
             "lake_whitefish": "10 fish",
@@ -15826,7 +16216,7 @@
             "mountain_whitefish": "",
             "burbot": "2 fish, but limit is 0 from Feb. 1 to Mar. 31",
             "goldeye": "10 fish",
-            "walleye_sauger": "0 WALL all year; 0 SAUG from apr. 1 to may 14; 3 SAUG from may 15 to mar. 31",
+            "walleye_sauger": "0 WALL all year; 0 SAUG from Apr. 1 to May 14; 3 SAUG from May 15 to Mar. 31",
             "trout_total": ""
           }
         }
@@ -16226,7 +16616,7 @@
           "waterbody_detail": "Thunder Lake",
           "fish_limits": {
             "walleye": "",
-            "northern_pike": "0 fish",
+            "northern_pike": "3 fish",
             "yellow_perch": "0 fish",
             "lake_whitefish": "",
             "burbot": "",
@@ -16290,7 +16680,7 @@
           "waterbody_detail": "Tilley B Reservoir",
           "fish_limits": {
             "walleye": "",
-            "northern_pike": "0 fish",
+            "northern_pike": "1 fish 63-70 cm",
             "yellow_perch": "15 fish",
             "mountain_whitefish": "",
             "lake_whitefish": "10 fish",
@@ -16609,350 +16999,6 @@
         }
       ]
     },
-    "Unnamed": {
-      "id": "Unnamed",
-      "name": "Unnamed",
-      "groupExceptionZone": null,
-      "waterbodies": [
-        {
-          "bait_ban": "Bait ban",
-          "fish_management_zone": "ES1-Rivers",
-          "id": "unnamed-0f9f2",
-          "season": "Closed All Year",
-          "waterbody": "Unnamed",
-          "waterbody_detail": "INGLEWOOD BIRD SANCTUARY; SE 12-24-1-W5; All water within sanctuary except the Bow River main channel",
-          "fish_limits": {
-            "walleye": "",
-            "northern_pike": "",
-            "mountain_whitefish": "",
-            "cutthroat_trout": "",
-            "brook_trout": "",
-            "burbot": "",
-            "rainbow_trout": "",
-            "trout_total": ""
-          }
-        }
-      ]
-    },
-    "Unnamed-NB3-Lakes": {
-      "id": "Unnamed-NB3-Lakes",
-      "name": "Unnamed",
-      "groupExceptionZone": "NB3-Lakes",
-      "waterbodies": [
-        {
-          "bait_ban": "Bait allowed",
-          "fish_management_zone": "NB3-Lakes",
-          "id": "unnamed-5d25b",
-          "season": "Open May 15 to Mar 31",
-          "waterbody": "Unnamed",
-          "waterbody_detail": "Artisinn Lake",
-          "fish_limits": {
-            "walleye": "",
-            "northern_pike": "2 fish",
-            "yellow_perch": "15 fish",
-            "lake_trout": "",
-            "lake_whitefish": "",
-            "burbot": "",
-            "trout_total": ""
-          }
-        }
-      ]
-    },
-    "Unnamed-(Blairmore-Water-Supply-Reservoir)": {
-      "id": "Unnamed-(Blairmore-Water-Supply-Reservoir)",
-      "name": "Unnamed (Blairmore Water Supply Reservoir)",
-      "groupExceptionZone": null,
-      "waterbodies": [
-        {
-          "bait_ban": "Bait ban",
-          "fish_management_zone": "ES1-Lakes",
-          "id": "unnamed-blairmore-water-bf276",
-          "season": "Closed All Year",
-          "waterbody": "Unnamed (Blairmore Water Supply Reservoir)",
-          "waterbody_detail": "34-7-4-W5",
-          "fish_limits": {
-            "walleye": "",
-            "northern_pike": "",
-            "yellow_perch": "",
-            "lake_trout": "",
-            "mountain_whitefish": "",
-            "cutthroat_trout": "",
-            "brook_trout": "",
-            "dolly_varden": "",
-            "rainbow_trout": ""
-          }
-        }
-      ]
-    },
-    "Unnamed-(Brodick)-Lake": {
-      "id": "Unnamed-(Brodick)-Lake",
-      "name": "Unnamed (Brodick) Lake",
-      "groupExceptionZone": null,
-      "waterbodies": [
-        {
-          "bait_ban": "Bait allowed",
-          "fish_management_zone": "NB1-Lakes",
-          "id": "unnamed-brodick-lake-e5059",
-          "season": "Open May 15 to Mar 31",
-          "waterbody": "Unnamed (Brodick) Lake",
-          "waterbody_detail": "60-17-W4",
-          "fish_limits": {
-            "walleye": "",
-            "northern_pike": "1 over 63 cm",
-            "yellow_perch": "10 fish",
-            "lake_trout": "",
-            "lake_whitefish": "",
-            "burbot": "",
-            "trout_total": ""
-          }
-        }
-      ]
-    },
-    "Unnamed-(Burdett)-Lake": {
-      "id": "Unnamed-(Burdett)-Lake",
-      "name": "Unnamed (Burdett) Lake",
-      "groupExceptionZone": null,
-      "waterbodies": [
-        {
-          "bait_ban": "Bait allowed",
-          "fish_management_zone": "PP1-Lakes",
-          "id": "unnamed-burdett-lake-4c235",
-          "season": "Open All Year",
-          "waterbody": "Unnamed (Burdett) Lake",
-          "waterbody_detail": "10-12-W4",
-          "fish_limits": {
-            "walleye": "3 over 50 cm",
-            "northern_pike": "3 fish",
-            "yellow_perch": "15 fish",
-            "mountain_whitefish": "",
-            "lake_whitefish": "10 fish",
-            "burbot": "10 fish",
-            "trout_total": ""
-          }
-        }
-      ]
-    },
-    "Unnamed-(Devil's-Fork)-Creek": {
-      "id": "Unnamed-(Devil's-Fork)-Creek",
-      "name": "Unnamed (Devil's Fork) Creek",
-      "groupExceptionZone": null,
-      "waterbodies": [
-        {
-          "bait_ban": "Bait ban",
-          "fish_management_zone": "ES2-Rivers",
-          "id": "unnamed-devils-fork-473be",
-          "season": "Closed All Year",
-          "waterbody": "Unnamed (Devil's Fork) Creek",
-          "waterbody_detail": "4-45-16-W5; Tributary to Brazeau River",
-          "fish_limits": {
-            "walleye": "",
-            "northern_pike": "",
-            "mountain_whitefish": "",
-            "cutthroat_trout": "",
-            "burbot": "",
-            "goldeye": "",
-            "rainbow_trout": "",
-            "trout_total": ""
-          }
-        }
-      ]
-    },
-    "Unnamed-(Island)-Lake": {
-      "id": "Unnamed-(Island)-Lake",
-      "name": "Unnamed (Island) Lake",
-      "groupExceptionZone": null,
-      "waterbodies": [
-        {
-          "bait_ban": "Bait allowed",
-          "fish_management_zone": "NB1-Lakes",
-          "id": "unnamed-island-lake-52573",
-          "season": "Open May 15 to Mar 31",
-          "waterbody": "Unnamed (Island) Lake",
-          "waterbody_detail": "57-1-W4",
-          "fish_limits": {
-            "walleye": "",
-            "northern_pike": "1 over 63 cm",
-            "yellow_perch": "",
-            "lake_trout": "",
-            "lake_whitefish": "",
-            "burbot": "",
-            "trout_total": ""
-          }
-        }
-      ]
-    },
-    "Unnamed-(Jumping-Fish)-Lake": {
-      "id": "Unnamed-(Jumping-Fish)-Lake",
-      "name": "Unnamed (Jumping Fish) Lake",
-      "groupExceptionZone": null,
-      "waterbodies": [
-        {
-          "bait_ban": "Bait ban",
-          "fish_management_zone": "ES2-Lakes",
-          "id": "unnamed-jumping-fish-fdb24",
-          "season": "Closed All Year",
-          "waterbody": "Unnamed (Jumping Fish) Lake",
-          "waterbody_detail": "And inlets, outlet and tributaries to outlet in NE 30 & SE 31-44-17-W5 (tributary to Brown Creek) ",
-          "fish_limits": {
-            "walleye": "",
-            "northern_pike": "",
-            "yellow_perch": "",
-            "lake_trout": "",
-            "mountain_whitefish": "",
-            "cutthroat_trout": "",
-            "burbot": "",
-            "rainbow_trout": "",
-            "trout_total": ""
-          }
-        }
-      ]
-    },
-    "Unnamed-(Little-Perch)-Lake": {
-      "id": "Unnamed-(Little-Perch)-Lake",
-      "name": "Unnamed (Little Perch) Lake",
-      "groupExceptionZone": null,
-      "waterbodies": [
-        {
-          "bait_ban": "Bait allowed",
-          "fish_management_zone": "NB1-Lakes",
-          "id": "unnamed-little-perch-a2c9c",
-          "season": "Open May 15 to Mar 31",
-          "waterbody": "Unnamed (Little Perch) Lake",
-          "waterbody_detail": "56-9-W4",
-          "fish_limits": {
-            "walleye": "",
-            "northern_pike": "1 over 63 cm",
-            "yellow_perch": "",
-            "lake_trout": "",
-            "lake_whitefish": "",
-            "burbot": "",
-            "trout_total": ""
-          }
-        }
-      ]
-    },
-    "Unnamed-(Lodgepole)-Pond": {
-      "id": "Unnamed-(Lodgepole)-Pond",
-      "name": "Unnamed (Lodgepole) Pond",
-      "groupExceptionZone": null,
-      "waterbodies": [
-        {
-          "bait_ban": "Bait allowed",
-          "fish_management_zone": "ES3-Lakes",
-          "id": "unnamed-lodgepole-pond-f9827",
-          "season": "Open All Year",
-          "waterbody": "Unnamed (Lodgepole) Pond",
-          "waterbody_detail": "NE-01-48-10-W5",
-          "fish_limits": {
-            "walleye": "",
-            "northern_pike": "",
-            "yellow_perch": "",
-            "lake_trout": "",
-            "lake_whitefish": "",
-            "burbot": "",
-            "rainbow_trout": "",
-            "trout_total": "2 trout"
-          }
-        }
-      ]
-    },
-    "Unnamed-(Scope)-Lake": {
-      "id": "Unnamed-(Scope)-Lake",
-      "name": "Unnamed (Scope) Lake",
-      "groupExceptionZone": null,
-      "waterbodies": [
-        {
-          "bait_ban": "Bait allowed",
-          "fish_management_zone": "PP1-Lakes",
-          "id": "unnamed-scope-lake-7b197",
-          "season": "Open May 8 to Mar 15",
-          "waterbody": "Unnamed (Scope) Lake",
-          "waterbody_detail": "Scope Reservoir ; 13-14-W4",
-          "fish_limits": {
-            "walleye": "3 over 50 cm",
-            "northern_pike": "3 over 63 cm",
-            "yellow_perch": "15 fish",
-            "mountain_whitefish": "",
-            "lake_whitefish": "10 fish",
-            "burbot": "",
-            "trout_total": ""
-          }
-        }
-      ]
-    },
-    "Unnamed-(Sowka)-Lake": {
-      "id": "Unnamed-(Sowka)-Lake",
-      "name": "Unnamed (Sowka) Lake",
-      "groupExceptionZone": null,
-      "waterbodies": [
-        {
-          "bait_ban": "Bait allowed",
-          "fish_management_zone": "NB1-Lakes",
-          "id": "unnamed-sowka-lake-a4f30",
-          "season": "Open May 15 to Mar 31",
-          "waterbody": "Unnamed (Sowka) Lake",
-          "waterbody_detail": "10-18-W4",
-          "fish_limits": {
-            "walleye": "",
-            "northern_pike": "2 fish",
-            "yellow_perch": "",
-            "lake_trout": "",
-            "lake_whitefish": "",
-            "burbot": "",
-            "trout_total": ""
-          }
-        }
-      ]
-    },
-    "Unnamed-(Sphinx)-Lake": {
-      "id": "Unnamed-(Sphinx)-Lake",
-      "name": "Unnamed (Sphinx) Lake",
-      "groupExceptionZone": null,
-      "waterbodies": [
-        {
-          "bait_ban": "Bait ban",
-          "fish_management_zone": "ES3-Lakes",
-          "id": "unnamed-sphinx-lake-03382",
-          "season": "Closed All Year",
-          "waterbody": "Unnamed (Sphinx) Lake",
-          "waterbody_detail": "NE-6-48-24-W5",
-          "fish_limits": {
-            "walleye": "",
-            "northern_pike": "",
-            "yellow_perch": "",
-            "lake_trout": "",
-            "lake_whitefish": "",
-            "burbot": "",
-            "rainbow_trout": "",
-            "trout_total": ""
-          }
-        }
-      ]
-    },
-    "Unnamed-(Whitemud)-Lake": {
-      "id": "Unnamed-(Whitemud)-Lake",
-      "name": "Unnamed (Whitemud) Lake",
-      "groupExceptionZone": null,
-      "waterbodies": [
-        {
-          "bait_ban": "Bait allowed",
-          "fish_management_zone": "NB1-Lakes",
-          "id": "unnamed-whitemud-lake-3aa08",
-          "season": "Open May 15 to Mar 31",
-          "waterbody": "Unnamed (Whitemud) Lake",
-          "waterbody_detail": "62-19-W4",
-          "fish_limits": {
-            "walleye": "",
-            "northern_pike": "2 fish",
-            "yellow_perch": "",
-            "lake_trout": "",
-            "lake_whitefish": "",
-            "burbot": "",
-            "trout_total": ""
-          }
-        }
-      ]
-    },
     "Upper-Kananaskis-Lake": {
       "id": "Upper-Kananaskis-Lake",
       "name": "Upper Kananaskis Lake",
@@ -17126,7 +17172,7 @@
           "waterbody": "Wabamun Lake",
           "waterbody_detail": "Includes tributaries, outlet and canals",
           "fish_limits": {
-            "walleye": "0 or SHL tags",
+            "walleye": "SHL tags or 1 fish 50-55 cm",
             "northern_pike": "0 fish",
             "yellow_perch": "0 fish",
             "lake_whitefish": "5 fish",
@@ -17728,6 +17774,30 @@
         }
       ]
     },
+    "Whitemud-(Unnamed)-Lake": {
+      "id": "Whitemud-(Unnamed)-Lake",
+      "name": "Whitemud (Unnamed) Lake",
+      "groupExceptionZone": null,
+      "waterbodies": [
+        {
+          "bait_ban": "Bait allowed",
+          "fish_management_zone": "NB1-Lakes",
+          "id": "whitemud-unnamed-lake-3aa08",
+          "season": "Open May 15 to Mar 31",
+          "waterbody": "Whitemud (Unnamed) Lake",
+          "waterbody_detail": "62-19-W4",
+          "fish_limits": {
+            "walleye": "",
+            "northern_pike": "2 fish",
+            "yellow_perch": "",
+            "lake_trout": "",
+            "lake_whitefish": "",
+            "burbot": "",
+            "trout_total": ""
+          }
+        }
+      ]
+    },
     "Whiteridge-Recreation-Area-Pond-(Blueridge-Pit)": {
       "id": "Whiteridge-Recreation-Area-Pond-(Blueridge-Pit)",
       "name": "Whiteridge Recreation Area Pond (Blueridge Pit)",
@@ -17831,10 +17901,10 @@
         {
           "bait_ban": "Bait ban",
           "fish_management_zone": "ES1-Rivers",
-          "id": "willow-creek-6645f",
+          "id": "willow-creek-348e0",
           "season": "Open June 16 to Oct 31",
           "waterbody": "Willow Creek",
-          "waterbody_detail": "Mainstem and tributaries upstream of Hwy. 532",
+          "waterbody_detail": "Mainstream and tributaries upstream of Pine Coulee Reservoir Diversion Headpond.",
           "fish_limits": {
             "walleye": "",
             "northern_pike": "",
@@ -17844,24 +17914,6 @@
             "burbot": "",
             "rainbow_trout": "0 fish",
             "trout_total": "2 trout"
-          }
-        },
-        {
-          "bait_ban": "Bait ban",
-          "fish_management_zone": "ES1-Rivers",
-          "id": "willow-creek-b83db",
-          "season": "Open June 16 to Oct 31",
-          "waterbody": "Willow Creek",
-          "waterbody_detail": "Mainstem and tributaries from Hwy. 532 downstream to Pine Coulee Reservoir Diversion Headpond",
-          "fish_limits": {
-            "walleye": "",
-            "northern_pike": "",
-            "mountain_whitefish": "5 over 30 cm",
-            "cutthroat_trout": "0 fish",
-            "brook_trout": "",
-            "burbot": "",
-            "rainbow_trout": "0 fish",
-            "trout_total": "Other trout 2"
           }
         },
         {
@@ -17928,10 +17980,10 @@
         {
           "bait_ban": "Bait allowed",
           "fish_management_zone": "NB2-Lakes",
-          "id": "winagami-lake-bdaac",
+          "id": "winagami-lake-293f1",
           "season": "Open May 15 to Mar 31",
           "waterbody": "Winagami Lake",
-          "waterbody_detail": "Includes Boone's Slough and South Heart Reservoir",
+          "waterbody_detail": "Includes Boone's Slough",
           "fish_limits": {
             "walleye": "1 over 55 cm",
             "northern_pike": "0 fish",

@@ -104,7 +104,7 @@ export const FishingRegulationTable: React.VFC<
         {/* <Link href="/PrivacyPolicy.pdf" target="_blank">
           Privacy Policy
         </Link> */}
-        Updated May 25, 2023. This website is frequently updated and verified,
+        Updated June 6, 2025. This website is frequently updated and verified,
         but it is not an official government page. For official Alberta
         regulations,{" "}
         <Link

@@ -8,7 +8,7 @@ import { buildWaterbodyGroups } from "./src/waterbody-group-builder";
 import { downloadLatestVersion } from "./src/download-latest-version";
 
 const REGULATIONS_FOLDER = "./parser/regulations";
-const version = "May 17, 2024";
+const version = "June 6, 2025";
 
 const validateRegulationIds = (regulations: Waterbody[]) => {
   regulations.forEach((waterbody) => {
